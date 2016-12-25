@@ -1,0 +1,53 @@
+-;CAS;-;-;-;-;-;-
+-;Name;-;-;-;-;-;-
+-;SMILES;-;-;-;-;-;-
+CONSTANTS;MolMass;REAL;Molar mass                                ; (g/mol);UFZ;-;MW
+CONSTANTS;Delho;REAL;default reaction enthalpy                 ; (J/mol);SU;-;-
+CONSTANTS;bp;REAL;boiling point                                 ; (C);LMC;Boiling point;-
+CONSTANTS;mp;REAL;melting point                                 ; (C);LMC;Melting point;-
+CONSTANTS;pv;REAL;vapour pressure                              ; (Pa);UFZ;Vapor pressure;-
+CONSTANTS;ks;REAL;water solubility                         ; (mol/m3);UFZ;Water solubility;-
+CONSTANTS;tos;REAL;ref.temp.(water solubility k)                 ; (C);UFZ;25;-
+CONSTANTS;Delhs;REAL;enthalpy (water solubility)               ; (J/mol);SU;-;-
+CONSTANTS;pka1;REAL;-log 10 acid dissociation constant 1          ; (-);UFZ;-;pKa1
+CONSTANTS;toa1;REAL;ref.temp.(acid diss. constant 1)              ; (C);UFZ;-;-
+CONSTANTS;Delha1;REAL;enthalpy (acid diss. 1)                   ; (J/mol);SU;-;-
+CONSTANTS;pka2;REAL;-log 10acid dissociation constant 2           ; (-);UFZ;-;pKa2
+CONSTANTS;toa2;REAL;ref.temp.(acid diss. constant 2)              ; (C);UFZ;-;-
+CONSTANTS;Delha2;REAL;enthalpy (acid diss. 2)                   ; (J/mol);SU;-;-
+CONSTANTS;pkb1;REAL;-log10 base dissociation constant 1           ; (-);UFZ;-;pKb1
+CONSTANTS;tob1;REAL;ref.temp.(base diss. constant 1)              ; (C);UFZ;-;-
+CONSTANTS;Delhb1;REAL;enthalpy (base diss. 1)                   ; (J/mol);SU;-;-
+CONSTANTS;pkb2;REAL;- log10 base dissociation constant 2          ; (-);UFZ;-;pKb2
+CONSTANTS;tob2;REAL;ref.temp.(base diss. constant 2)              ; (C);UFZ;-;-
+CONSTANTS;Delhb2;REAL;enthalpy (base diss. 2)                   ; (J/mol);SU;-;-
+CONSTANTS;kac;REAL;acid catalysed hydrolysis rate constant     ; (1/s);LMC and UFZ;Hydrolysis half life Ka pH 7;-
+CONSTANTS;toac;REAL;ref.temp. (acid catalysed hydrolysis k)       ;(C);LMC and UFZ;-;-
+CONSTANTS;Delhac;REAL;enthalpy  (acid catalysed hydrolysis)     ;(J/mol);LMC and UFZ;-;-
+CONSTANTS;kba;REAL;base catalysed hydrolysis rate constant     ; (1/s);LMC and UFZ;Hydrolysis half-life Kb pH 8;-
+CONSTANTS;toba;REAL;ref.temp. (base catalysed hydrolysis k)       ; (C);LMC and UFZ;-;-
+CONSTANTS;Delhba;REAL;enthalpy  (base catalysed hydrolysis)     ; (J/mol);LMC and UFZ;-;-
+CONSTANTS;kn;REAL;neutral hydrolysis rate constant            ; (1/s);LMC and UFZ;neutral hydrolysis rate constant;HL neutral hydrolysis
+CONSTANTS;ton;REAL;ref.temp. (neutral hydrolysis k)              ; (C);LMC and UFZ;25;-
+CONSTANTS;Delhn;REAL;enthalpy  (neutral hydrolysis)            ; (J/mol);LMC and UFZ;-;-
+CONSTANTS;kp;REAL;direct photolysis rate at surface           ; (1/s);SU;-;-
+CONSTANTS;top;REAL;ref.temp. (photolysis k)                      ; (C);SU;-;-
+CONSTANTS;Delhp;REAL;enthalpy  (photolysis)                    ; (J/mol);SU;-;-
+CONSTANTS;kds;REAL;half-life degradation rate in sediment      ; (1/s);LMC;-;HL in sediment
+CONSTANTS;tods;REAL;ref.temp. (mic. deg. sediment k)              ;(C);LMC;-;-
+CONSTANTS;kde;REAL;half-life l degradation rate in soil        ; (1/s);LMC;-;HL in soil
+CONSTANTS;tode;REAL;ref.temp. (mic. deg. soil k)                  ;(C);LMC;-;-
+CONSTANTS;kdw;REAL;half-life degradation rate in water         ; (1/s);LMC;Half-life in water;HL in water
+CONSTANTS;todw;REAL;ref.temp. (mic. deg. water k)                 ; (C);LMC;-;25
+CONSTANTS;kow0;REAL;log10 Part coeff octanol water at ref T       ;(-);UFZ;log Kow;-
+CONSTANTS;kaw0;REAL;log10 Part coeff air water at ref T           ; (-);UFZ;-;log Kaw
+CONSTANTS;koa0;REAL;log10 Part coeff octanol air at ref T         ; (-);UFZ;Koa;-
+CONSTANTS;dhow;REAL;enthalpy of phase change o-w              ; (J/mol);SU;-;-
+CONSTANTS;dhaw;REAL;enthalpy of phase change a-w              ; (J/mol);UFZ;-;deltaH (air/water)
+CONSTANTS;dhoa;REAL;enthalpy of phase change o-a              ; (J/mol);SU;-;-
+CONSTANTS;X1water;REAL;Karickhoff par. POC water comp.               ; (-);SU;-;-
+CONSTANTS;X1soil;REAL;Karickhoff par. POC soil and groundw comp     ;(-);SU;-;-
+CONSTANTS;X1sedim;REAL;Karickhoff par. POC aquatic sediments         ; (-);SU;-;-
+CONSTANTS;X2water;REAL;Karickhoff par. DOC water comp.               ; (-);SU;-;-
+CONSTANTS;X2soil;REAL;Karickhoff par. DOC soil and groundw comp     ;(-);SU;-;-
+CONSTANTS;X2sedim;REAL; Karickhoff par. DOC aquatic sediments          ; (-);SU; - ; - 

@@ -1,0 +1,119 @@
+#	CAS	Name	SMILES	MW	pKa1	pKa2	pKb1	pKb2	HL neutral hydrolysis [h]	HL acid hydrolysis [h] at pH 7	HL basic hydrolysis [h] at pH 7	Total HL hydrolysis [h] at pH 7	deltaH (air/water)	HL in water [h]	HL in soil [h]	HL in sed [h]	log Kaw	Density [g/cm^3]	dipole moment [D]
+1	15972-60-8	Alachlor	CCc1cccc(CC)c1N(COC)C(=O)CCl	269.77									92273	550	1700	5500	-5.33	1.12	
+2	120-12-7	Anthracene	c1cccc2cc3ccccc3cc12	178.23									50961	550	5500	17000	-3.14	1.13	
+3	1912-24-9	Atrazine	CCNc1nc(NC(C)C)nc(Cl)n1	215.69			12.3	16.56	1494.6	4715500	14273000	1494	139000	1700	1700	1700	-8.32	1.27	
+4	71-43-2	Benzene	c1ccccc1	78.114									30439	550	1700	5500	-0.57	0.87	0
+5	93703-48-1	3,3',4,4'-Tetrabromodiphenyl ether	Brc1ccc(Oc2ccc(Br)c(Br)c2)cc1Br	485.82									67425	550	1700	5500	-3.65	2.16	
+6	32534-81-9	1,2,4-tribromo-5-(2,4-dibromophenoxy)benzene	Brc1ccc(Oc2cc(Br)c(Br)cc2Br)c(Br)c1	564.72									71426	550	1700	5500	-3.15	2.34	
+7	36483-60-0	1,2,3-tribromo-4-(2,3,5-tribromophenoxy)benzene	Brc1ccc(Oc2cc(Br)cc(Br)c2Br)c(Br)c1Br	643.62									83754	550	550	1700	-3.62	2.5	
+8	68928-80-3	1,2,3,4,5-pentabromo-6-(2,3-dibromophenoxy)benzene	Brc1cccc(Oc2c(Br)c(Br)c(Br)c(Br)c2Br)c1Br	722.52									96083	550	550	1700	-3.68	2.64	
+9	470-90-6	Chlorfenvinphos	CCOP(=O)(OCC)OC(=CCl)c1ccc(Cl)cc1Cl	359.57							1141600	1141600		550	1700	5500	-6.06	1.37	
+10	2921-88-2	Chlorpyrifos (Chlorpyrifos-ethyl)	CCOP(=S)(OCC)Oc1c(Cl)cc(Cl)c(Cl)n1	350.59					1537.9		15650	1400.3		550	550	1700	-2.64	1.48	
+11	107-06-2	1,2-dichloroethane	ClCCCl	98.96					366880		146060000	365960	25193	1700	1700	5500	-1.65	1.17	
+12	75-09-2	Dichloromethane	ClCCl	84.933					271970		1.06E+11	271970	22322	1700	5500	17000	-0.95	1.25	
+13	117-81-7	Di(2-ethylhexyl)phthalate (DEHP)	CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC	390.56					24453	8804900	3636800	24222	133000	170	550	1700	-3.61	0.98	
+14	330-54-1	Diuron	CN(C)C(=O)Nc1ccc(Cl)c(Cl)c1	233.1	13.76		15.63	16.48	10581			10581	82510	550	1700	5500	-8.02	1.37	
+15	115-29-7	Endosulfan	O=S1OCC2C(CO1)C1(Cl)C(Cl)=C(Cl)C2(Cl)C1(Cl)Cl	406.93									24447	5500	5500	17000	0.3	1.95	
+16	206-44-0	Fluoranthene	c1cccc2c1c1cccc3cccc2c13	202.26									39743	550	5500	17000	-3.35	1.25	
+17	118-74-1	Hexachlorobenzene	Clc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl	284.78									50655	5500	17000	17000	-1.98	1.77	9.48
+18	87-68-3	Hexachlorobutadiene	ClC(Cl)=C(Cl)C(Cl)=C(Cl)Cl	260.76									41236	550	1700	5500	-1.08	1.75	
+19	608-73-1	Hexachlorocyclohexane	ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl	290.83					15294	249190	46188	10983	56168	5500	17000	55000	-3.77	1.59	
+20	34123-59-6	Isoproturon	CC(C)c1ccc(NC(=O)N(C)C)cc1	206.29	14.3		13.9	16.35					87162	550	1700	5500	-7.34	1.05	
+21	91-20-3	Naphthalene	c1cccc2ccccc12	128.17									40700	170	1700	5500	-1.86	1.04	0
+22	608-93-5	Pentachlorobenzene	Clc1cc(Cl)c(Cl)c(Cl)c1Cl	250.34									44509	5500	17000	17000	-1.69	1.68	7.9
+23	87-86-5	Pentachlorophenol	Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl	266.34	4.49								62734	1700	5500	5500	-3.97	1.8	9.5
+24	208-96-8	acenaphthylene	C1=Cc2cccc3cccc1c23	152.2									44203	550	5500	17000	-2.98	1.19	
+25	83-32-9	acenaphthene	C1Cc2cccc3cccc1c23	154.21									43074	170	1700	5500	-2.47	1.14	
+26	86-73-7	fluorene	C1c2ccccc2-c2ccccc12	166.22									39685	550	5500	5500	-2.54	1.12	
+27	85-01-8	phenantrene	c1cccc2ccc3ccccc3c12	178.23									37637	550	5500	17000	-2.78	1.13	
+28	129-00-0	pyrene	c1ccc2ccc3cccc4ccc1c2c34	202.26									41083	1700	17000	55000	-3.69	1.25	
+29	56-55-3	benz[a]anthracene	c1cccc2ccc3cc4ccccc4cc3c12	228.29									47898	1700	17000	55000	-4.07	1.19	
+30	218-01-9	chrysene benzophenanthrene	c1cccc2ccc3c4ccccc4ccc3c12	228.29									34574	1700	17000	55000	-3.7	1.19	
+31	205-99-2	benzo[b]fluoranthene	c1cccc2cc3c4ccccc4c4cccc(c12)c34	252.32									36680	1700	17000	55000	-4.27	1.29	
+32	207-08-9	benzo[k]fluoranthene	c1cccc2cc3c4cccc5cccc(c3cc12)c45	252.32									50004	1700	17000	55000	-4.64	1.29	
+33	50-32-8	benzo[a]pyrene	c1cccc2cc3ccc4cccc5ccc(c12)c3c45	252.32									38020	1700	17000	55000	-4.62	1.29	
+34	215-58-7	dibenz[a,c]anthracene	c1cccc2cc3c4ccccc4c4ccccc4c3cc12	278.35									31511	1700	17000	55000	-4.62	1.23	
+35	191-24-2	benzo[ghi]perylene	c1ccc2ccc3ccc4ccc5cccc6c1c2c3c4c56	276.34									28141	1700	17000	55000	-5.17	1.38	
+36	205-82-3	benzo[j]fluoranthene	c1cccc2ccc3c4cccc5cccc(c3c12)c45	252.32									50004	1700	17000	55000	-4.64	1.29	
+37	205-12-9	benzo[c]fluorene	C1c2ccccc2-c2c1ccc1ccccc21	216.28									49946	550	5500	17000	-3.82	1.19	
+38	27208-37-3	cyclopenta[cd]-pyrene	C1=Cc2ccc3ccc4cccc5cc1c2c3c45	226.28									44586	1700	17000	55000	-4.82	1.36	
+39	53-70-3	benzo[k]tetraphene	c1cccc2ccc3cc4c5ccccc5ccc4cc3c12	278.35									44835	1700	17000	55000	-4.99	1.23	
+40	192-65-4	dibenzo[a,e]pyrene	c1cccc2cc3c4ccccc4c4cccc5ccc(c12)c3c45	302.38									21633	1700	17000	55000	-5.18	1.31	
+41	189-64-0	dibenzo[a,h]pyrene	c1cccc2cc3ccc4c5ccccc5cc5ccc(c12)c3c45	302.38									34957	1700	17000	55000	-5.54	1.31	
+42	189-55-9	dibenzo[a,i]pyrene	c1cccc2cc3ccc4cc5ccccc5c5ccc(c12)c3c45	302.38									34957	1700	17000	55000	-5.54	1.31	
+43	191-30-0	dibenzo[def,p]chrysene	c1cccc2cc3ccc4cccc5c4c3c(c12)c1ccccc51	302.38									28295	1700	17000	55000	-5.36	1.31	
+44	3697-24-3	5-methylchrysene	Cc1cc2ccccc2c2ccc3ccccc3c12	242.32									37445	1700	17000	55000	-3.7	1.16	
+45	193-39-5	indeno[1,2,3-cd]pyrene	c1cccc2c1c1ccc3ccc4cccc5cc2c1c3c45	276.34									40125	1700	17000	55000	-5.19	1.38	
+46	122-34-9	Simazine	CCNc1nc(NCC)nc(Cl)n1	201.67			12.3	17.56					136000	1700	550	1700	-8.46	1.32	
+47	56-35-9	Tributyltin oxide	CCCC[Sn](CCCC)(CCCC)O[Sn](CCCC)(CCCC)CCCC	596.08										170	550	1700	1.31		
+48	4342-36-3	Tributyltin benzoate	CCCC[Sn](CCCC)(CCCC)OC(=O)c1ccccc1	411.15										170	550	1700	-1.54		
+49	1461-22-9	Tributyltin Chloride	CCCC[Sn](Cl)(CCCC)CCCC	325.49										550	1700	5500	-1.13		
+50	1983-10-4	Tributyltin Fluoride	CCCC[Sn](F)(CCCC)CCCC	309.04										550	1700	5500	-0.75		
+51	24124-25-2	Tributyltin linoleate	CCCCCC=CCC=CCCCCCCCC(=O)O[Sn](CCCC)(CCCC)CCCC	569.48										170	550	1700	0.11		
+52	2155-70-6	Tributyltin methacrylate	CCCC[Sn](CCCC)(CCCC)OC(=O)C(C)=C	375.12										550	1700	5500	-0.43		
+53	36643-28-4	Tributyltin-cation	CCCC[Sn+](CCCC)CCCC	290.04										550	1700	5500	0.24		
+54	12002-48-1	Trichlorobenzenes	Clc1cc(Cl)cc(Cl)c1	181.45									32219	1700	5500	17000	-1.11	1.45	4.74
+55	67-66-3	Trichloromethane (chloroform)	ClC(Cl)Cl	119.38					10340000		96499000	9339400	25366	1700	5500	17000	-0.73	1.5	
+56	1582-09-8	Trifluralin	CCCN(CCC)c1c(N(=O)=O)cc(C(F)(F)F)cc1N(=O)=O	335.29					86.01		221070	85.97	39360	550	1700	5500	-1.46	1.34	
+57	115-32-2	Dicofol	OC(c1ccc(Cl)cc1)(c1ccc(Cl)cc1)C(Cl)(Cl)Cl	370.49	9.69						21.11	21.11	96351	17000	17000	55000	-5.87	1.53	
+58	1763-23-1	Perfluorooctane sulfonic acid	OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	500.12	-5.74								63672	55	170	550	-7.26	1.84	
+59	2795-39-3	1-octanesulfonic acid, 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-, potassium salt (1:1)	O=S(=O)(C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)[O-].[K+]	538.22	-5.74									55	55	170		1.84	
+59.1	 	 	OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	500.12	-5.74								63672	55	170	550	-7.26	1.84	
+59.2	 	 	[O-].[K+]	56.107										55	55	170			
+60	29457-72-5	lithium heptadecafluorooctanesulphonate (LPOS) 	[Li+].[O-]S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	506.06	-5.74									55	55	170		1.84	
+60.1	 	 	OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	500.12	-5.74								63672	55	170	550	-7.26	1.84	
+60.2	 	 	[Li+].[O-]S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	506.06	-5.74									55	55	170		1.84	
+61	29081-56-9	1-octanesulfonic acid, 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-, ammonium salt	[N+].[O-]S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	517.15	-5.74								70105	55	55	170		1.84	
+61.1	 	 	OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	500.12	-5.74								63672	55	170	550	-7.26	1.84	
+61.2	 	 	[N+].[O-]S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	517.15	-5.74								70105	55	55	170		1.84	
+62	70225-14-8	1-octanesulfonic acid, 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-, compd. with 2,2’-iminobis[ethanol] (1:1)	OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	500.12	-5.74								63672	55	170	550	-7.26	1.84	
+63	307-35-7	heptadecafluorooctanesulphonyl fluoride	O=S(=O)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	502.11									55862	55	170	550	-4.89	1.79	
+64	56773-42-3	"ethanaminium, n,n,n-triethyl-, salt with 1,1,2,2;ethanaminium, n,n,n-triethyl-, salt with 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-1-octanesulfonic acid (1:1)"	CC[N+](CC)(CC)(CC).[O-]S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	629.37									96006	170	170	1700	-7.51		
+64.1	 	 	OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	500.12	-5.74								63672	55	170	550	-7.26	1.84	
+64.2	 	 	CC[N+](CC)(CC)CC	130.26									60437	55	170	550	-1.41		
+65	124495-18-7	Quinoxyfen	Fc1ccc(Oc2ccnc3cc(Cl)cc(Cl)c23)cc1	308.14			11.77			291420		291420	61030	170	1700	5500	-5.88	1.43	
+66	1746-01-6	2,3,7,8-T4CDD	Clc1cc2c(cc1Cl)Oc1cc(Cl)c(Cl)cc1O2	321.97									13094	550	17000	55000	-3.25	1.64	
+67	40321-76-4	1,2,3,7,8-P5CDD	Clc1cc2c(cc1Cl)Oc1cc(Cl)c(Cl)c(Cl)c1O2	356.42									66965	550	17000	55000	-3.48	1.71	
+68	39227-28-6	1,2,3,4,7,8-H6CDD	Clc1ccc2c(c1Cl)Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	390.86									70334	1700	55000	55000	-3.72	1.78	
+69	57653-85-7	1,2,3,6,7,8-H6CDD	Clc1cc2c(c(Cl)c1Cl)Oc1cc(Cl)c(Cl)c(Cl)c1O2	390.86									70334	1700	55000	55000	-3.72	1.78	
+70	19408-74-3	1,2,3,7,8,9-H6CDD	Clc1cc2c(c(Cl)c1Cl)Oc1c(cc(Cl)c(Cl)c1Cl)O2	390.86									70334	1700	55000	55000	-3.72	1.78	
+71	35822-46-9	1,2,3,4,6,7,8-H7CDD	Clc1cc2c(c(Cl)c1Cl)Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	425.31									73704	1700	55000	55000	-3.95	1.83	
+72	3268-87-9	1,2,3,4,6,7,8,9-O8CDD	Clc1c(Cl)c(Cl)c(Cl)c2c1Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	459.75									77073	1700	55000	55000	-4.19	1.89	
+73	51207-31-9	2,3,7,8-T4CDF	Clc1cc2c(cc1Cl)-c1cc(Cl)c(Cl)cc1O2	305.98									48357	550	17000	55000	-3.6	1.63	6.32
+74	57117-41-6	1,2,3,7,8-P5CDF	Clc1cc2c(cc1Cl)-c1c(cc(Cl)c(Cl)c1Cl)O2	340.42									51727	550	17000	55000	-3.72	1.7	7.9
+75	57117-31-4	2,3,4,7,8-P5CDF	Clc1cc2c(cc1Cl)-c1cc(Cl)c(Cl)c(Cl)c1O2	340.42									102000	550	17000	55000	-3.72	1.7	7.9
+76	70648-26-9	1,2,3,4,7,8-H6CDF	Clc1cc2c(cc1Cl)-c1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	374.87									106000	1700	17000	55000	-3.83	1.77	9.48
+77	57117-44-9	1,2,3,6,7,8-H6CDF	Clc1cc2c(c(Cl)c1Cl)-c1cc(Cl)c(Cl)c(Cl)c1O2	374.87									106000	1700	17000	55000	-3.83	1.77	9.48
+78	72918-21-9	1,2,3,7,8,9-H6CDF	Clc1cc2c(c(Cl)c1Cl)-c1c(cc(Cl)c(Cl)c1Cl)O2	374.87									55096	1700	17000	55000	-3.83	1.77	9.48
+79	60851-34-5	2,3,4,6,7,8-H6CDF	Clc1cc2c(c(Cl)c1Cl)Oc1c-2cc(Cl)c(Cl)c1Cl	374.87									106000	1700	17000	55000	-3.83	1.77	9.48
+80	67562-39-4	1,2,3,4,6,7,8-H7CDF	Clc1cc2c(c(Cl)c1Cl)Oc1c-2c(Cl)c(Cl)c(Cl)c1Cl	409.31									109000	1700	17000	55000	-3.94	1.83	11.06
+81	55673-89-7	1,2,3,4,7,8,9-H7CDF	Clc1cc2c(c(Cl)c1Cl)-c1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	409.31									109000	1700	17000	55000	-3.94	1.83	11.06
+82	39001-02-0	1,2,3,4,6,7,8,9-O8CDF	Clc1c(Cl)c(Cl)c(Cl)c2c1-c1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	443.76									112000	5500	55000	55000	-4.06	1.88	12.64
+83	32598-13-3	3,3’,4,4’-T4CB	Clc1ccc(-c2ccc(Cl)c(Cl)c2)cc1Cl	291.99									48108	55000	55000	55000	-2.71	1.44	
+84	70362-50-4	3,3’,4’,5-T4CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2)cc1	291.99									48108	55000	55000	55000	-2.71	1.44	
+85	32598-14-4	2,3,3',4,4'-P5CB	Clc1ccc(-c2ccc(Cl)c(Cl)c2Cl)cc1Cl	326.44									46539	55000	55000	55000	-2.43	1.52	
+86	74472-37-0	2,3,4,4',5-P5CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2Cl)cc1	326.44									46539	55000	55000	55000	-2.43	1.52	
+87	31508-00-6	2,3',4,4',5-P5CB	Clc1ccc(-c2cc(Cl)c(Cl)cc2Cl)cc1Cl	326.44									43763	55000	55000	55000	-2.38	1.52	
+88	65510-44-3	2,3',4,4',5'-P5CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2)c(Cl)c1	326.44									43763	55000	55000	55000	-2.38	1.52	
+89	57465-28-8	3,3’,4,4’,5-P5CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2)cc1Cl	326.44									51478	55000	55000	55000	-2.94	1.52	
+90	38380-08-4	2,3,3',4,4',5-H6CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2Cl)cc1Cl	360.88									49908	55000	55000	55000	-2.67	1.59	
+91	69782-90-7	2,3,3',4,4',5'-H6CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2)c(Cl)c1Cl	360.88									49908	55000	55000	55000	-2.67	1.59	
+92	52663-72-6	2,3',4,4',5,5'-H6CB	Clc1cc(-c2cc(Cl)c(Cl)cc2Cl)cc(Cl)c1Cl	360.88									47132	55000	55000	55000	-2.61	1.59	
+93	32774-16-6	3,3’,4,4’,5,5’-H6CB	Clc1cc(-c2cc(Cl)c(Cl)c(Cl)c2)cc(Cl)c1Cl	360.88									54847	55000	55000	55000	-3.18	1.59	
+94	39635-31-9	2,3,3',4,4',5,5'-H7CB	Clc1cc(-c2cc(Cl)c(Cl)c(Cl)c2Cl)cc(Cl)c1Cl	395.33									53277	55000	55000	55000	-2.9	1.66	
+95	74070-46-5	Aclonifen	Nc1c(N(=O)=O)ccc(Oc2ccccc2)c1Cl	264.67									39532	550	1700	5500	-4.05	1.42	
+96	42576-02-3	Bifenox	COC(=O)c1cc(Oc2ccc(Cl)cc2Cl)ccc1N(=O)=O	342.13							141980	141980	50329	170	1700	5500	-6.37	1.46	
+97	28159-98-0	Cybutryne	CC(C)(C)Nc1nc(NC2CC2)nc(SC)n1	253.38			9.9	16.55		4715500		4715500	147000	1700	1700	5500	-9.51	1.2	
+98	52315-07-8	Cypermethrin	CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1	416.31					1529.4		7665.2	1275	90187	550	550	1700	-4.56	1.33	
+99	67375-30-8	Alpha cypermethrin	CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1	416.31					1529.4		7665.2	1275	90187	550	550	1700	-4.56	1.33	
+100	62-73-7	Dichlorvos	COP(=O)(OC)OC=C(Cl)Cl	220.98					1246.6			1246.6		550	1700	5500	-4.45	1.44	
+101	76-44-8	Heptachlor	ClC1C=CC2C1C1(Cl)C(Cl)=C(Cl)C2(Cl)C1(Cl)Cl	373.32					23149			23149	66620	5500	5500	17000	-2.35	1.8	
+102	1024-57-3	Heptachlor epoxide	ClC1C2C(C3C1C1(Cl)C(Cl)=C(Cl)C3(Cl)C1(Cl)Cl)O2	389.32									71732	5500	5500	17000	-4.53	1.92	
+103	886-50-0	Terbutryn	CCNc1nc(NC(C)(C)C)nc(SC)n1	241.37			9.9	15.95		4715500		4715500	148000	1700	1700	5500	-9.02	1.13	
+104	57-63-6	17alpha-ethinylestradiol	CC12CCC3C(CCc4cc(O)ccc34)C1CCC2(O)C#C	296.41	10	13.12							105000	170	550	1700	-9.83	1.21	
+105	50-28-2	17beta-estradiol	CC12CCC3C(CCc4cc(O)ccc34)C1CCC2O	272.39	10	15.09							106000	170	170	550	-9.55	1.17	
+106	15307-79-6	Diclofenac	O=C(Cc1ccccc1Nc1c(Cl)cccc1Cl)[O-].[Na+]	318.14	4.35									1700	5500	17000		1.43	
+106.1	15307-86-5	 	OC(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl	296.15	4.35								103000	170	1700	1700	-7.66	1.43	
+106.2	 	 	[O-].[Na+]	39.998										55	55	170			
+107	25637-99-4	1,3,5,7,9,11-Hexabromocyclododecane	BrC1CC(Br)CC(Br)CC(Br)CC(Br)CC(Br)C1	641.74									111000	550	550	1700	-5.7	2.15	
+108	3194-55-6	1,2,5,6,9,10- Hexabromocyclododecane	BrC1CCC(Br)C(Br)CCC(Br)C(Br)CCC1Br	641.74									111000	550	550	1700	-4.85	2.15	

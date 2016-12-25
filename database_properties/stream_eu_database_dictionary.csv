@@ -1,0 +1,48 @@
+MW;MolMass;1
+Molecular weight;MolMass;1
+Boiling Point;bp;1
+Boiling Point(min);bp;1
+Boiling Point(max);bp;1
+Mean Melting Point;mp;1
+Mean Melting Point(min);mp;1
+Mean Melting Point(max);mp;1
+Melting Point (Gold and Ogle Method);mp;1
+Melting Point (Gold and Ogle Method)(min);mp;1
+Melting Point (Gold and Ogle Method)(max);mp;1
+Vapor Pressure (Antoine Method);pv;1
+Vapor Pressure (Antoine Method)(min);pv;1
+Vapor Pressure (Antoine Method)(max);pv;1
+Vapor Pressure (Modified Grain Method);pv;1
+Vapor Pressure (Modified Grain Method)(min);pv;1
+Vapor Pressure (Modified Grain Method)(max);pv;1
+Vapor Pressure (Mackay Method);pv;1
+Vapor Pressure (Mackay Method)(min);pv;1
+Vapor Pressure (Mackay Method)(max);pv;1
+Water solubility (FR);ks;1000
+Water Solubility (fragments);ks;1000
+Water Solubility (fragments)(min);ks;1000
+Water Solubility (fragments)(max);ks;1000
+Water Solubility;ks;1000
+Water Solubility(min);ks;1000
+Water Solubility(max);ks;1000
+pka1;pka1;1
+pka2;pka2;1
+pKb1;pkb1;1
+pKb2;pkb2;1
+HL acid hydrolysis [h] at pH 7;kac;-3600
+HL basic hydrolysis [h] at pH 7;kba;-3600
+HL neutral hydrolysis [h];kn;-3600
+HL in sed;kds;-3600
+HL in soil;kde;-3600
+HL in water;kdw;-3600
+log Kow;kow0;1
+log Kow(min);kow0;1
+log Kow(max);kow0;1
+log Kaw;kaw0;1
+Log Koa (Airwater partition coefficient model);koa0;1
+Log Koa (Airwater partition coefficient model)(min);koa0;1
+Log Koa (Airwater partition coefficient model)(max);koa0;1
+Log Koa (Henry's law constant model);koa0;1
+Log Koa (Henry's law constant model)(min);koa0;1
+Log Koa (Henry's law constant model)(max);koa0;1
+deltaH (air/water);dhaw;1

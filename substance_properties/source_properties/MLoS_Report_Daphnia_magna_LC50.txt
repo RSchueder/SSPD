@@ -1,0 +1,935 @@
+#	Name	CAS RN	Substance type	SMILES	Daphnia magna mode of action	Daphnia magna_Observed	Daphnia magna_StructCalcValue_Toxicity mg/l	Daphnia magna_Confidence	Daphnia magnaParameter ranges	Daphnia magna_Correct fragments Structural domain	Daphnia magna_Incorrect fragments Structural domain	Daphnia magna_Unknown fragments Structural domain	Daphnia magna_Total Structural domain	Daphnia magnaParametric coverage	Daphnia magnaTotal Domain
+1	2,2'-oxydiethanol	111-46-6	mono constituent substance	OCCOCCO	basesurface narcotics	no data	109884.4688	from 57433.383 to 210236.531	In domain	100.00%	0.00%	0.00%	In domain	5.22%	In domain
+2	tetrasodium ethylenediaminetetraacetate	64-02-8	mono constituent substance	O=C(CN(CCN(CC(=O)O{-}.[Na]{+})CC(=O)O{-}.[Na]{+})CC(=O)O{-}.[Na]{+})O{-}.[Na]{+}	Reactive unspecified	no data	<=27970056.0000*	from 9428115.000 to 82977776.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+3	trisodium nitrilotriacetate	5064-31-3	mono constituent substance	O=C(CN(CC(=O)O{-}.[Na]{+})CC(=O)O{-}.[Na]{+})O{-}.[Na]{+}	Reactive unspecified	no data	<=16308506.0000*	from 5510655.000 to 48264200.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+4	3,5,5-trimethylhexanoic acid	3302-10-1	mono constituent substance	CC(CC(O)=O)CC(C)(C)C	Reactive unspecified	no data	<=5.4594	from  4.177 to  7.136	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+5	"dinoseb (ISO); 6-sec-butyl-2,4-dinitrophenol"	88-85-7	mono constituent substance	CCC(C)c1cc(N(=O)=O)cc(N(=O)=O)c1O	Reactive unspecified	0.2402	<=2.3726	from  1.632 to  3.449	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+6	tetrabromobisphenol A (TBBP-A)	79-94-7	mono constituent substance	CC(C)(c1cc(Br)c(O)c(Br)c1)c1cc(Br)c(O)c(Br)c1	Reactive unspecified	no data	<=0.0683	from  0.042 to  0.111	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+7	ziram	137-30-4	mono constituent substance	CN(C)C(=S)S{-}.[Zn]{2+}.S{-}C(=S)N(C)C	Reactive unspecified	no data	<=658.9136	from 405.231 to 1071.406	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+8	hydrogen cyanide	74-90-8	mono constituent substance	C#N	Reactive unspecified	no data	<=no data	± 0.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+9	diallyl phthalate	131-17-9	mono constituent substance	C=CCOC(=O)c1ccccc1C(=O)OCC=C	Reactive unspecified	no data	<=5.5723	from  4.201 to  7.390	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+10	pentane-2,4-dione	123-54-6	mono constituent substance	CC(=O)CC(C)=O	Reactive unspecified	47.9162	<=2816.3430	from 1720.323 to 4610.640	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+11	acetonitrile	75-05-8	mono constituent substance	CC#N	basesurface narcotics	3575.3672	2298.45	from 1430.150 to 3693.928	In domain	100.00%	0.00%	0.00%	In domain	12.23%	In domain
+12	glycerol trinitrate	55-63-0	mono constituent substance	O=N(=O)OCC(CON(=O)=O)ON(=O)=O	Reactive unspecified	32.0761	<=228.5357	from 147.308 to 354.552	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+13	tert-butyl hydroperoxide	75-91-2	mono constituent substance	CC(C)(C)OO	Reactive unspecified	no data	<=621.0724	from 413.327 to 933.233	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+14	peracetic acid	79-21-0	mono constituent substance	CC(=O)OO	Reactive unspecified	no data	<=23746.6895	from 12541.113 to 44964.523	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+15	bis(a,a-dimethylbenzyl) peroxide	80-43-3	mono constituent substance	CC(C)(c1ccccc1)OOC(C)(C)c1ccccc1	Reactive unspecified	no data	<=0.0536	from  0.032 to  0.088	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+16	di-tert-butyl peroxide	110-05-4	mono constituent substance	CC(C)(C)OOC(C)(C)C	Reactive unspecified	no data	<=5.1077	from  3.371 to  7.739	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+17	2-furaldehyde	98-01-1	mono constituent substance	O=CC1=CC=CO1	Reactive unspecified	no data	<=455.4368	from 290.495 to 714.031	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+18	formaldehyde	50-00-0	mono constituent substance	C=O	Reactive unspecified	no data	<=501.2633	from 327.631 to 766.915	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+19	isobutyraldehyde	78-84-2	mono constituent substance	CC(C)C=O	Reactive unspecified	no data	<=540.8594	from 373.117 to 784.014	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+20	2-ethylhexanal	123-05-7	mono constituent substance	CCCCC(CC)C=O	Reactive unspecified	no data	<=16.0133	from 12.752 to 20.108	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+21	glutaral	111-30-8	mono constituent substance	O=CCCCC=O	Reactive unspecified	no data	<=4820.4155	from 2890.998 to 8037.504	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+22	benzaldehyde	100-52-7	mono constituent substance	O=Cc1ccccc1	Reactive unspecified	no data	<=80.8696	from 57.500 to 113.737	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+23	quinoline	91-22-5	mono constituent substance	c1cccc2cccnc12	basesurface narcotics	38.1155	39.6843	from 29.364 to 53.631	In domain	100.00%	0.00%	0.00%	In domain	50.72%	In domain
+24	2,3,6-trimethylphenol	2416-94-6	mono constituent substance	Cc1ccc(C)c(C)c1O	Reactive unspecified	no data	<=6.0139	from  4.832 to  7.485	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+25	"4,4'-diaminodiphenylmethane; 4,4'-methylenedianiline"	101-77-9	mono constituent substance	Nc1ccc(Cc2ccc(N)cc2)cc1	Reactive unspecified	no data	<=68.9358	from 54.541 to 87.130	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+26	sulphanilic acid	121-57-3	mono constituent substance	Nc1ccc(S(O)(=O)=O)cc1	Reactive unspecified	no data	<=352075.4063	from 146474.063 to 846273.250	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+27	4,4'-isopropylidenediphenol	80-05-7	mono constituent substance	CC(C)(c1ccc(O)cc1)c1ccc(O)cc1	Reactive unspecified	no data	<=3.6154	from  2.827 to  4.623	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+28	4-tert-butylphenol	98-54-4	mono constituent substance	CC(C)(C)c1ccc(O)cc1	Reactive unspecified	4.2335	<=3.8606	from  3.054 to  4.880	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+29	pyrocatechol	120-80-9	mono constituent substance	Oc1ccccc1O	Reactive unspecified	no data	<=400.1463	from 278.882 to 574.139	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+30	2,6-di-tert-butyl-p-cresol	128-37-0	mono constituent substance	Cc1cc(C(C)(C)C)c(O)c(C(C)(C)C)c1	Reactive unspecified	no data	<=0.2040	from  0.137 to  0.305	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+31	propylenediamine	78-90-0	mono constituent substance	CC(N)CN	Reactive unspecified	no data	<=51946.4414	from 27290.346 to 98878.656	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+32	m-phenylenediamine	108-45-2	mono constituent substance	Nc1cccc(N)c1	Reactive unspecified	no data	<=8416.2168	from 4956.838 to 14289.897	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+33	thymol	89-83-8	mono constituent substance	CC(C)c1ccc(C)cc1O	Reactive unspecified	no data	<=3.1217	from  2.461 to  3.959	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+34	melamine	108-78-1	mono constituent substance	Nc1nc(N)nc(N)n1	Reactive unspecified	no data	<=9141.7988*	from 5316.390 to 15719.784	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+35	resorcinol	108-46-3	mono constituent substance	Oc1cccc(O)c1	Reactive unspecified	no data	<=402.1340	from 280.690 to 576.122	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+36	octylphenol	140-66-9	mono constituent substance	CC(C)(C)CC(C)(C)c1ccc(O)cc1	Reactive unspecified	0.0901	<=0.1194	from  0.077 to  0.185	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+37	nitrobenzene	98-95-3	mono constituent substance	O=N(=O)c1ccccc1	basesurface narcotics	33.134	66.9426	from 44.738 to 100.169	In domain	100.00%	0.00%	0.00%	In domain	30.97%	In domain
+38	6,6'-di-tert-butyl-2,2'-methylenedi-p-cresol	119-47-1	mono constituent substance	Cc1cc(Cc2cc(C)cc(C(C)(C)C)c2O)c(O)c(C(C)(C)C)c1	Reactive unspecified	no data	<=0.1660*	from  0.109 to  0.254	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+39	aniline	62-53-3	mono constituent substance	Nc1ccccc1	Reactive unspecified	0.4356	<=331.2305	from 236.122 to 464.648	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+40	N-(4-aminophenyl)aniline	101-54-2	mono constituent substance	Nc1ccc(Nc2ccccc2)cc1	Reactive unspecified	no data	<=127.8786	from 97.409 to 167.879	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+41	phenol	108-95-2	mono constituent substance	Oc1ccccc1	Reactive unspecified	26.5228	<=128.1548	from 95.090 to 172.718	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+42	4-aminophenol	123-30-8	mono constituent substance	Nc1ccc(O)cc1	Reactive unspecified	no data	<=2112.9375	from 1337.699 to 3337.451	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+43	p-cresol	106-44-5	mono constituent substance	Cc1ccc(O)cc1	Reactive unspecified	17.1378	<=47.3531	from 37.059 to 60.506	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+44	N-methylaniline	100-61-8	mono constituent substance	CNc1ccccc1	basesurface narcotics	0.1738	122.2988	from 92.663 to 161.412	In domain	0.00%	100.00%	0.00%	Out of domain	35.58%	Out of Domain
+45	m-cresol	108-39-4	mono constituent substance	Cc1cccc(O)c1	Reactive unspecified	18.7912	<=46.7845	from 36.541 to 59.899	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+46	mequinol	150-76-5	mono constituent substance	COc1ccc(O)cc1	Reactive unspecified	no data	<=138.9893	from 103.308 to 186.994	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+47	2,6-xylenol	576-26-1	mono constituent substance	Cc1cccc(C)c1O	Reactive unspecified	11.1409	<=16.9389	from 13.637 to 21.040	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+48	2,4,6-tribromophenol	118-79-6	mono constituent substance	Oc1c(Br)cc(Br)cc1Br	Reactive unspecified	no data	<=1.4040	from  1.046 to  1.885	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+49	o-cresol	95-48-7	mono constituent substance	Cc1ccccc1O	Reactive unspecified	14.5866	<=46.7376	from 36.498 to 59.850	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+50	dimethylammonium 2,4-dichlorophenoxyacetate	2008-39-1	mono constituent substance	CN{+}(C).O{-}C(=O)COc1ccc(Cl)cc1Cl	Reactive unspecified	no data	<=24.5489	from 18.559 to 32.473	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+51	ametryn	834-12-8	mono constituent substance	CCNc1nc(NC(C)C)nc(SC)n1	basesurface narcotics	no data	6.7876	from  5.425 to  8.492	In domain	80.00%	0.00%	20.00%	Out of domain	81.24%	Out of Domain
+52	N,N''-(isobutylidene)diurea	6104-30-9	mono constituent substance	CC(C)C(NC(N)=O)NC(N)=O	basesurface narcotics	no data	206570.0156	from 101311.781 to 421186.656	In domain	16.67%	0.00%	83.33%	Out of domain	Out of domain	Out of Domain
+53	isopropylamine	75-31-0	mono constituent substance	CC(C)N	Reactive unspecified	no data	<=2063.8352	from 1186.457 to 3590.028	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+54	ethanethiol	75-08-1	mono constituent substance	CCS	Reactive unspecified	0.1711	<=154.2101	from 112.987 to 210.474	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+55	"trichloroethylene; trichloroethene"	79-01-6	mono constituent substance	ClC=C(Cl)Cl	basesurface narcotics	16.5406	21.9885	from 17.277 to 27.985	In domain	100.00%	0.00%	0.00%	In domain	68.31%	In domain
+56	pivalic acid	75-98-9	mono constituent substance	CC(C)(C)C(O)=O	Reactive unspecified	no data	<=183.7731	from 137.180 to 246.192	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+57	linalool	78-70-6	mono constituent substance	CC(C)=CCCC(C)(O)C=C	basesurface narcotics	no data	4.8124	from  3.693 to  6.271	In domain	27.27%	0.00%	72.73%	Out of domain	18.60%	Out of Domain
+58	3-aminopropyldimethylamine	109-55-7	mono constituent substance	CN(C)CCCN	Reactive unspecified	no data	<=13734.7012	from 7965.287 to 23683.016	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+59	2-butoxyethanol	111-76-2	mono constituent substance	CCCCOCCO	basesurface narcotics	no data	1824.0233	from 1170.449 to 2842.550	In domain	100.00%	0.00%	0.00%	In domain	5.53%	In domain
+60	2-methylbut-3-yn-2-ol	115-19-5	mono constituent substance	CC(C)(O)C#C	basesurface narcotics	no data	1364.1908	from 910.632 to 2043.654	In domain	50.00%	0.00%	50.00%	Out of domain	Out of domain	Out of Domain
+61	"2-methoxyethanol; ethylene glycol monomethyl ether"	109-86-4	mono constituent substance	COCCO	basesurface narcotics	no data	25927.8164	from 14400.830 to 46681.457	In domain	80.00%	0.00%	20.00%	Out of domain	11%	Out of Domain
+62	1,4-dichlorobenzene	106-46-7	mono constituent substance	Clc1ccc(Cl)cc1	basesurface narcotics	9.9383	4.4116	from  3.495 to  5.568	In domain	100.00%	0.00%	0.00%	In domain	97.16%	In domain
+63	propylidynetrimethanol	77-99-6	mono constituent substance	CCC(CO)(CO)CO	basesurface narcotics	no data	4771.7788	from 2924.499 to 7785.906	In domain	77.78%	0.00%	22.22%	Out of domain	8.75%	Out of Domain
+64	2,2',2''-nitrilotriethanol	102-71-6	mono constituent substance	OCCN(CCO)CCO	Reactive unspecified	no data	<=1204067.7500*	from 548987.875 to 2640822.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+65	decan-1-ol	112-30-1	mono constituent substance	CCCCCCCCCCO	basesurface narcotics	no data	3.435	from  1.864 to  6.329	In domain	100.00%	0.00%	0.00%	In domain	8.67%	In domain
+66	carbon tetrachloride	56-23-5	mono constituent substance	ClC(Cl)(Cl)Cl	basesurface narcotics	35.2386	22.1865	from 15.602 to 31.550	In domain	100.00%	0.00%	0.00%	In domain	65.34%	In domain
+67	1,1-dichloroethylene	75-35-4	mono constituent substance	C=C(Cl)Cl	basesurface narcotics	50.8758	37.3879	from 29.331 to 47.658	In domain	100.00%	0.00%	0.00%	In domain	60.58%	In domain
+68	hexadecan-1-ol	36653-82-4	mono constituent substance	CCCCCCCCCCCCCCCCO	basesurface narcotics	no data	0.0473	from  0.020 to  0.112	Out of domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+69	cyclohexylamine	108-91-8	mono constituent substance	NC1CCCCC1	Reactive unspecified	no data	<=196.0390	from 118.364 to 324.688	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+70	2-(1,3-dihydro-3-oxo-2H-indol-2-ylidene)-1,2-dihydro-3H-indol-3-one	482-89-3	mono constituent substance	O=C1c2ccccc2NC1=C1C(=O)c2ccccc2N1	Reactive unspecified	no data	<=8.9817	from  6.412 to 12.582	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+71	1,4-dioxane	123-91-1	mono constituent substance	C1COCCO1	basesurface narcotics	no data	8619.8242	from 5124.473 to 14499.318	In domain	100.00%	0.00%	0.00%	In domain	10.05%	In domain
+72	styrene	100-42-5	mono constituent substance	C=Cc1ccccc1	basesurface narcotics	40.5164	7.4095	from  5.950 to  9.228	In domain	100.00%	0.00%	0.00%	In domain	89.36%	In domain
+73	1,2,4-triazole	288-88-0	mono constituent substance	C1NC=NN=1	Reactive unspecified	no data	<=11087.3076	from 6106.762 to 20129.879	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+74	isobutyl vinyl ether	109-53-5	mono constituent substance	CC(C)COC=C	basesurface narcotics	no data	88.5457	from 66.991 to 117.035	In domain	42.86%	0.00%	57.14%	Out of domain	13.43%	Out of Domain
+75	cyclohexane	110-82-7	mono constituent substance	C1CCCCC1	basesurface narcotics	3.8026	6.8824	from  3.781 to 12.527	In domain	100.00%	0.00%	0.00%	In domain	23.25%	In domain
+76	chloroethane	75-00-3	mono constituent substance	CCCl	basesurface narcotics	no data	95.8768	from 71.335 to 128.862	In domain	66.67%	0.00%	33.33%	Out of domain	13.01%	Out of Domain
+77	2-pyrrolidone	616-45-5	mono constituent substance	O=C1CCCN1	basesurface narcotics	no data	6607.3579	from 4019.248 to 10862.026	In domain	16.67%	0.00%	83.33%	Out of domain	15.36%	Out of Domain
+78	bis(pentabromophenyl) ether	1163-19-5	mono constituent substance	Brc1c(Br)c(Br)c(Br)c(Br)c1Oc1c(Br)c(Br)c(Br)c(Br)c1Br	basesurface narcotics	no data	1801.7466*	from 1084.730 to 2992.719	Out of domain	0.00%	0.00%	100.00%	Out of domain	Out of domain	Out of Domain
+79	1,1,1-trichloroethane	71-55-6	mono constituent substance	CC(Cl)(Cl)Cl	basesurface narcotics	58.2324	13.937	from 10.906 to 17.810	In domain	100.00%	0.00%	0.00%	In domain	79.08%	In domain
+80	naphthalene	91-20-3	mono constituent substance	c1cccc2ccccc12	basesurface narcotics	6.804	4.8199	from  3.813 to  6.093	In domain	100.00%	0.00%	0.00%	In domain	97.57%	In domain
+81	2,2-bis(allyloxymethyl)butan-1-ol	682-09-7	mono constituent substance	CCC(CO)(COCC=C)COCC=C	Reactive unspecified	no data	<=152.7417	from 118.344 to 197.137	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+82	benzoic acid	65-85-0	mono constituent substance	OC(=O)c1ccccc1	Reactive unspecified	no data	<=64.4027	from 45.979 to 90.209	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+83	3-methylbut-3-en-1-ol	763-32-6	mono constituent substance	CC(=C)CCO	Reactive unspecified	no data	<=228.8265	from 167.679 to 312.272	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+84	benzothiazole-2-thiol	149-30-4	mono constituent substance	SC1=Nc2ccccc2S1	Reactive unspecified	no data	<=11.0159	from  8.376 to 14.488	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+85	2-(2-(2-ethoxyethoxy)ethoxy)ethanol	112-50-5	mono constituent substance	CCOCCOCCOCCO	basesurface narcotics	no data	59181.8125	from 33126.355 to 105731.133	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+86	1,2,3-Trichloropropane	96-18-4	mono constituent substance	ClCC(Cl)CCl	basesurface narcotics	31.5196	24.9569	from 19.987 to 31.163	In domain	100.00%	0.00%	0.00%	In domain	60.93%	In domain
+87	salicylic acid	69-72-7	mono constituent substance	Oc1ccccc1C(O)=O	Reactive unspecified	no data	<=33.4373	from 24.634 to 45.386	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+88	biphenyl	92-52-4	mono constituent substance	c1ccccc1-c1ccccc1	basesurface narcotics	1.919	1.7713	from  1.380 to  2.274	In domain	100.00%	0.00%	0.00%	In domain	80.07%	In domain
+89	diisopropyl ether	108-20-3	mono constituent substance	CC(C)OC(C)C	basesurface narcotics	no data	105.1365	from 68.828 to 160.599	In domain	57.14%	0.00%	42.86%	Out of domain	Out of domain	Out of Domain
+90	tetrachloroethylene	127-18-4	mono constituent substance	ClC(Cl)=C(Cl)Cl	basesurface narcotics	15.1241	9.2102	from  7.179 to 11.815	In domain	100.00%	0.00%	0.00%	In domain	83.07%	In domain
+91	dicyclohexylamine	101-83-7	mono constituent substance	C1CCCCC1NC1CCCCC1	Reactive unspecified	no data	<=1.1016	from  0.595 to  2.041	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+92	imidazole	288-32-4	mono constituent substance	C1=CNC=N1	Reactive unspecified	no data	<=2166.7510	from 1370.752 to 3424.989	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+93	octadecylamine	124-30-1	mono constituent substance	CCCCCCCCCCCCCCCCCCN	Reactive unspecified	no data	<=0.1584*	from  0.071 to  0.353	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+94	1,3,5-trioxane	110-88-3	mono constituent substance	C1OCOCO1	basesurface narcotics	no data	13093.2051	from 7704.951 to 22249.594	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+95	2-ethylhexyl nitrate	27247-96-7	mono constituent substance	CCCCC(CC)CON(=O)=O	Reactive unspecified	no data	<=0.9422	from  0.713 to  1.246	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+96	triphenyl phosphate	115-86-6	mono constituent substance	O=P(Oc1ccccc1)(Oc1ccccc1)Oc1ccccc1	Reactive unspecified	1.0083	<=0.5040	from  0.360 to  0.706	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+97	2,2-dimethylpropane-1,3-diol	126-30-7	mono constituent substance	CC(C)(CO)CO	basesurface narcotics	no data	4154.7275	from 2480.006 to 6960.369	In domain	85.71%	0.00%	14.29%	Out of domain	14.81%	Out of Domain
+98	edetic acid	60-00-4	mono constituent substance	OC(=O)CN(CCN(CC(O)=O)CC(O)=O)CC(O)=O	Reactive unspecified	no data	<=27970056.0000*	from 9428115.000 to 82977776.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+99	cumene	98-82-8	mono constituent substance	CC(C)c1ccccc1	basesurface narcotics	2.041	2.9705	from  2.338 to  3.774	In domain	100.00%	0.00%	0.00%	In domain	51.44%	In domain
+100	tributylamine	102-82-9	mono constituent substance	CCCCN(CCCC)CCCC	Reactive unspecified	no data	<=0.8879	from  0.491 to  1.607	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+101	2-piperazin-1-ylethylamine	140-31-8	mono constituent substance	NCCN1CCNCC1	Reactive unspecified	no data	<=168887.2031	from 87019.742 to 327774.938	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+102	2-(2-(2-butoxyethoxy)ethoxy)ethanol	143-22-6	mono constituent substance	CCCCOCCOCCOCCO	basesurface narcotics	no data	8851.9619	from 5583.113 to 14034.685	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+103	2-dimethylaminoethanol	108-01-0	mono constituent substance	CN(C)CCO	Reactive unspecified	no data	<=32679.5684	from 18045.209 to 59182.141	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+104	1,2-dichloropropane	78-87-5	mono constituent substance	CC(Cl)CCl	basesurface narcotics	48.1964	35.0793	from 27.872 to 44.150	In domain	100.00%	0.00%	0.00%	In domain	50.20%	In domain
+105	di(benzothiazol-2-yl) disulphide	120-78-5	mono constituent substance	c1cccc2c1N=C(SSC1=Nc3ccccc3S1)S2	Reactive unspecified	no data	<=0.3544*	from  0.216 to  0.583	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+106	4-methylanisole	104-93-8	mono constituent substance	Cc1ccc(OC)cc1	basesurface narcotics	no data	16.2097	from 13.040 to 20.149	In domain	50.00%	0.00%	50.00%	Out of domain	62.88%	Out of Domain
+107	N-isopropyl-N'-phenyl-p-phenylenediamine	101-72-4	mono constituent substance	CC(C)Nc1ccc(Nc2ccccc2)cc1	basesurface narcotics	no data	7.2987	from  5.842 to  9.118	In domain	28.57%	14.29%	57.14%	Out of domain	81.49%	Out of Domain
+108	1-vinyl-2-pyrrolidone	88-12-0	mono constituent substance	C=CN1CCCC1=O	basesurface narcotics	no data	2305.3921	from 1487.885 to 3572.071	In domain	12.50%	0.00%	87.50%	Out of domain	Out of domain	Out of Domain
+109	"N-methyl-2-pyrrolidone; 1-methyl-2-pyrrolidone"	872-50-4	mono constituent substance	CN1CCCC1=O	basesurface narcotics	no data	4908.7666	from 3068.096 to 7853.728	In domain	14.29%	0.00%	85.71%	Out of domain	13.97%	Out of Domain
+110	2-amino-2-methylpropanol	124-68-5	mono constituent substance	CC(C)(N)CO	Reactive unspecified	no data	<=23860.0449	from 13135.390 to 43341.063	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+111	1,2-dichlorobenzene	95-50-1	mono constituent substance	Clc1ccccc1Cl	basesurface narcotics	2.7372	4.4778	from  3.560 to  5.633	In domain	100.00%	0.00%	0.00%	In domain	96.33%	In domain
+112	diphenyl ether	101-84-8	mono constituent substance	c1ccccc1Oc1ccccc1	basesurface narcotics	0.5901	1.1119	from  0.844 to  1.465	In domain	100.00%	0.00%	0.00%	In domain	51.37%	In domain
+113	tetradecanol 	112-72-1	mono constituent substance	CCCCCCCCCCCCCCO	basesurface narcotics	no data	0.0953	from  0.042 to  0.215	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+114	ethyldimethylamine	598-56-1	mono constituent substance	CCN(C)C	Reactive unspecified	no data	<=1324.3932	from 817.741 to 2144.956	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+115	2,2'-[(3,3'-dichloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[3-oxo-N-phenylbutyramide]	6358-85-6	mono constituent substance	CC(=O)C(C(=O)Nc1ccccc1)N=Nc1ccc(-c2ccc(N=NC(C(C)=O)C(=O)Nc3ccccc3)c(Cl)c2)cc1Cl	Reactive unspecified	no data	<=0.0563*	from  0.034 to  0.092	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+116	4-(dimethylbutylamino)diphenylamin (6PPD)	793-24-8	mono constituent substance	CC(C)CC(C)Nc1ccc(Nc2ccccc2)cc1	basesurface narcotics	no data	0.4768	from  0.338 to  0.673	In domain	40.00%	10.00%	50.00%	Out of domain	19%	Out of Domain
+117	itaconic acid	97-65-4	mono constituent substance	C=C(CC(O)=O)C(O)=O	Reactive unspecified	no data	<=7271.1357	from 3969.219 to 13319.855	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+118	decane	124-18-5	mono constituent substance	CCCCCCCCCC	basesurface narcotics	0.0287	0.1616*	from  0.073 to  0.357	In domain	100.00%	0.00%	0.00%	In domain	6%	In domain
+119	3-aminomethyl-3,5,5-trimethylcyclohexylamine	2855-13-2	mono constituent substance	CC1(C)CC(N)CC(C)(CN)C1	Reactive unspecified	no data	<=183.6137	from 113.567 to 296.865	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+120	2,2'-(ethylenedioxy)diethanol	112-27-6	mono constituent substance	OCCOCCOCCO	basesurface narcotics	52068.293	258923.7813	from 130482.438 to 513797.313	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+121	dodecan-1-ol	112-53-8	mono constituent substance	CCCCCCCCCCCCO	basesurface narcotics	no data	0.5307	from  0.261 to  1.079	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+122	ethane-1,2-diol	107-21-1	mono constituent substance	OCCO	basesurface narcotics	32199.5313	42207.3438	from 22324.734 to 79797.586	In domain	100.00%	0.00%	0.00%	In domain	8.46%	In domain
+123	2-(2-(2-methoxyethoxy)ethoxy)ethanol	112-35-6	mono constituent substance	COCCOCCOCCO	basesurface narcotics	no data	152562.3594	from 79999.820 to 290941.594	In domain	90.91%	0.00%	9.09%	Out of domain	Out of domain	Out of Domain
+124	pin-2(3)-ene	80-56-8	mono constituent substance	CC1=CCC2CC1C2(C)C	basesurface narcotics	no data	0.6966	from  0.481 to  1.008	In domain	20.00%	0.00%	80.00%	Out of domain	Out of domain	Out of Domain
+125	2-(2-ethoxyethoxy)ethanol	111-90-0	mono constituent substance	CCOCCOCCO	basesurface narcotics	3959.5669	26274.0215	from 15185.563 to 45459.242	In domain	100.00%	0.00%	0.00%	In domain	6%	In domain
+126	octanoic acid	124-07-2	mono constituent substance	CCCCCCCC(O)=O	Reactive unspecified	no data	<=9.4047	from  7.339 to 12.052	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+127	2-mercaptoethanol	60-24-2	mono constituent substance	OCCS	Reactive unspecified	no data	<=4006.3247	from 2417.264 to 6640.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+128	p-(dimethoxymethyl)anisole	2186-92-7	mono constituent substance	COC(c1ccc(OC)cc1)OC	basesurface narcotics	no data	234.3796	from 172.052 to 319.286	In domain	37.50%	0.00%	62.50%	Out of domain	28.10%	Out of Domain
+129	diphenyl carbonate	102-09-0	mono constituent substance	O=C(Oc1ccccc1)Oc1ccccc1	esters	no data	24.2243*	from  4.789 to 122.523	In domain	0	0	1	Out of domain	13%	Out of Domain
+130	"2-(2-aminoethylamino)ethanol; (AEEA)"	111-41-1	mono constituent substance	NCCNCCO	Reactive unspecified	no data	<=451553.0000	from 216038.500 to 943813.750	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+131	terphenyl	26140-60-3	mono constituent substance	c1ccccc1-c1ccc(-c2ccccc2)cc1	basesurface narcotics	no data	0.0710*	from  0.046 to  0.109	In domain	66.67%	0.00%	33.33%	Out of domain	32.15%	Out of Domain
+132	N-cyclohexylbenzothiazole-2-sulfenamide	95-33-0	mono constituent substance	C1CCCCC1NSC1=Nc2ccccc2S1	Reactive unspecified	no data	<=4.8572	from  3.712 to  6.355	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+133	2-methylpropan-2-ol	75-65-0	mono constituent substance	CC(C)(C)O	basesurface narcotics	no data	956.4952	from 571.942 to 1599.608	In domain	80.00%	0.00%	20.00%	Out of domain	21.32%	Out of Domain
+134	tert-butyl methyl ether	1634-04-4	mono constituent substance	CC(C)(C)OC	basesurface narcotics	no data	240.7457	from 154.809 to 374.388	In domain	66.67%	0.00%	33.33%	Out of domain	Out of domain	Out of Domain
+135	3,6,9,12-tetraoxotridecanol	23783-42-8	mono constituent substance	COCCOCCOCCOCCO	basesurface narcotics	no data	334034.5625	from 168459.219 to 662350.750	In domain	92.86%	0.00%	7.14%	Out of domain	Out of domain	Out of Domain
+136	4-chlorotoluene	106-43-4	mono constituent substance	Cc1ccc(Cl)cc1	basesurface narcotics	3.5675	4.994	from  4.009 to  6.220	In domain	100.00%	0.00%	0.00%	In domain	84.56%	In domain
+137	3-methylbut-2-en-1-ol	556-82-1	mono constituent substance	CC(C)=CCO	Reactive unspecified	no data	<=260.1804	from 188.661 to 358.812	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+138	2-diethylaminoethanol	100-37-8	mono constituent substance	CCN(CC)CCO	Reactive unspecified	no data	<=5338.3843	from 3286.887 to 8670.315	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+139	2,2'-iminodi(ethylamine)	111-40-0	mono constituent substance	NCCNCCN	Reactive unspecified	no data	<=463588.5625	from 221285.891 to 971206.688	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+140	4-hydroxy-4-methylpentan-2-one	123-42-2	mono constituent substance	CC(=O)CC(C)(C)O	basesurface narcotics	no data	7891.085	from 4654.093 to 13379.455	In domain	75.00%	0.00%	25.00%	Out of domain	7.03%	Out of Domain
+141	1-methoxypropan-2-ol	107-98-2	mono constituent substance	CC(O)COC	basesurface narcotics	no data	12774.3623	from 7432.171 to 21956.480	In domain	66.67%	0.00%	33.33%	Out of domain	12.47%	Out of Domain
+142	2,2'-iminodiethanol	111-42-2	mono constituent substance	OCCNCCO	Reactive unspecified	123.5192	<=190863.4688	from 96355.547 to 378067.125	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+143	3a,4,7,7a-tetrahydro-4,7-methanoindene	77-73-6	mono constituent substance	C1C=CC2C1C1CC2C=C1	basesurface narcotics	no data	6.6659	from  5.127 to  8.667	In domain	10.00%	0.00%	90.00%	Out of domain	13.18%	Out of Domain
+144	chloroform	67-66-3	mono constituent substance	ClC(Cl)Cl	basesurface narcotics	114.0041	138.6903	from 97.817 to 196.642	In domain	100.00%	0.00%	0.00%	In domain	23.47%	In domain
+145	N-butylbenzenesulphonamide	3622-84-2	mono constituent substance	CCCCNS(=O)(=O)c1ccccc1	Reactive unspecified	no data	<=44.7438	from 32.996 to 60.674	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+146	cyclohexyldimethylamine	98-94-2	mono constituent substance	CN(C)C1CCCCC1	Reactive unspecified	no data	<=55.6550	from 35.398 to 87.504	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+147	hexane-1,6-diol	629-11-8	mono constituent substance	OCCCCCCO	basesurface narcotics	no data	1364.3724	from 834.585 to 2230.465	In domain	100.00%	0.00%	0.00%	In domain	22.67%	In domain
+148	methacrylamide	79-39-0	mono constituent substance	CC(=C)C(N)=O	Reactive unspecified	no data	<=4710.1880	from 2774.141 to 7997.383	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+149	2-ethylhexanoic acid	149-57-5	mono constituent substance	CCCCC(CC)C(O)=O	Reactive unspecified	no data	<=10.9972	from  8.600 to 14.063	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+150	methacrylic acid	79-41-4	mono constituent substance	CC(=C)C(O)=O	Reactive unspecified	no data	<=319.8609	from 216.236 to 473.145	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+151	ethylbenzene	100-41-4	mono constituent substance	CCc1ccccc1	basesurface narcotics	4.634	6.246	from  5.022 to  7.769	In domain	100.00%	0.00%	0.00%	In domain	58.76%	In domain
+152	butane-1,4-diol	110-63-4	mono constituent substance	OCCCCO	basesurface narcotics	no data	8107.2124	from 4666.840 to 14083.811	In domain	100.00%	0.00%	0.00%	In domain	9.33%	In domain
+153	toluene	108-88-3	mono constituent substance	Cc1ccccc1	basesurface narcotics	22.616	15.0727	from 12.120 to 18.744	In domain	100.00%	0.00%	0.00%	In domain	52.78%	In domain
+154	"1,2-dichloroethane; ethylene dichloride"	107-06-2	mono constituent substance	ClCCCl	basesurface narcotics	507.5154	73.4521	from 56.736 to 95.093	In domain	100.00%	0.00%	0.00%	In domain	44.92%	In domain
+155	dichloromethane	75-09-2	mono constituent substance	ClCCl	basesurface narcotics	158.1504	172.4523	from 126.580 to 234.949	In domain	100.00%	0.00%	0.00%	In domain	22.04%	In domain
+156	l-(+)-lactic acid	79-33-4	mono constituent substance	CC(O)C(O)=O	Reactive unspecified	no data	<=12081.8877	from 6867.375 to 21255.867	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+157	chlorobenzene	108-90-7	mono constituent substance	Clc1ccccc1	basesurface narcotics	14.1695	13.9628	from 11.185 to 17.431	In domain	100.00%	0.00%	0.00%	In domain	71.46%	In domain
+158	5-methylhexan-2-one	110-12-3	mono constituent substance	CC(C)CCC(C)=O	basesurface narcotics	no data	127.2101	from 96.896 to 167.007	In domain	75.00%	0.00%	25.00%	Out of domain	30.49%	Out of Domain
+159	adipic acid	124-04-9	mono constituent substance	OC(=O)CCCCC(O)=O	Reactive unspecified	no data	<=2920.5662	from 1842.680 to 4628.969	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+160	2,6-dimethylheptan-4-one	108-83-8	mono constituent substance	CC(C)CC(=O)CC(C)C	basesurface narcotics	no data	23.8957	from 19.041 to 29.989	In domain	70.00%	0.00%	30.00%	Out of domain	29.55%	Out of Domain
+161	dodecane-12-lactam	947-04-6	mono constituent substance	O=C1CCCCCCCCCCCN1	basesurface narcotics	no data	4.0822	from  2.973 to  5.606	In domain	64.29%	0.00%	35.71%	Out of domain	Out of domain	Out of Domain
+162	urea	57-13-6	mono constituent substance	NC(N)=O	basesurface narcotics	no data	62496.5625	from 32091.102 to 121710.383	In domain	0.00%	0.00%	100.00%	Out of domain	Out of domain	Out of Domain
+163	ethyl vinyl ether	109-92-2	mono constituent substance	CCOC=C	basesurface narcotics	no data	424.2633	from 298.970 to 602.065	In domain	20.00%	0.00%	80.00%	Out of domain	5.45%	Out of Domain
+164	toluene-4-sulphonic acid	104-15-4	mono constituent substance	Cc1ccc(S(O)(=O)=O)cc1	Reactive unspecified	no data	<=15394.8428	from 7683.145 to 30846.898	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+165	3-dimethylaminopropiononitrile	1738-25-6	mono constituent substance	CN(C)CCC#N	Reactive unspecified	no data	<=10225.1260	from 6119.190 to 17086.117	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+166	4-hydroxybenzoic acid	99-96-7	mono constituent substance	Oc1ccc(C(O)=O)cc1	Reactive unspecified	no data	<=197.6815	from 133.559 to 292.590	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+167	thiodiglycol	111-48-8	mono constituent substance	OCCSCCO	basesurface narcotics	no data	14143.6123	from 7861.582 to 25445.486	In domain	57.14%	0.00%	42.86%	Out of domain	Out of domain	Out of Domain
+168	hexamethylenediamine	124-09-4	mono constituent substance	NCCCCCCN	Reactive unspecified	no data	<=3271.8503	from 1944.053 to 5506.539	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+169	7-methyl-3-methyleneocta-1,6-diene	123-35-3	mono constituent substance	CC(C)=CCCC(=C)C=C	basesurface narcotics	no data	0.1726	from  0.117 to  0.254	In domain	0.00%	0.00%	100.00%	Out of domain	Out of domain	Out of Domain
+170	2-ethylhexan-1-ol	104-76-7	mono constituent substance	CCCCC(CC)CO	basesurface narcotics	no data	25.4903	from 15.002 to 43.312	In domain	88.89%	0.00%	11.11%	Out of domain	19.30%	Out of Domain
+171	dimethyl ether	115-10-6	mono constituent substance	COC	basesurface narcotics	no data	2281.4502	from 1343.107 to 3875.353	In domain	66.67%	0.00%	33.33%	Out of domain	13.93%	Out of Domain
+172	1,1'-iminodipropan-2-ol	110-97-4	mono constituent substance	CC(O)CNCC(C)O	Reactive unspecified	no data	<=42540.4883	from 23727.631 to 76269.430	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+173	2-(2-methoxyethoxy)ethanol	111-77-3	mono constituent substance	COCCOCCO	basesurface narcotics	no data	65917.8281	from 35819.383 to 121307.508	In domain	87.50%	0.00%	12.50%	Out of domain	Out of domain	Out of Domain
+174	"vinyl chloride; chloroethylene"	75-01-4	mono constituent substance	C=CCl	basesurface narcotics	no data	74.1431	from 56.310 to 97.624	In domain	0.00%	0.00%	100.00%	Out of domain	30.18%	Out of Domain
+175	methenamine	100-97-0	mono constituent substance	C1N2CN3CN1CN(C2)C3	Reactive unspecified	no data	<=39052424.0000*	from 14037873.000 to 108641224.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+176	e-caprolactam	105-60-2	mono constituent substance	O=C1CCCCCN1	basesurface narcotics	no data	990.7876	from 676.051 to 1452.051	In domain	37.50%	0.00%	62.50%	Out of domain	Out of domain	Out of Domain
+177	2-methylpentane-2,4-diol	107-41-5	mono constituent substance	CC(O)CC(C)(C)O	basesurface narcotics	7120.3613	1940.3278	from 1197.077 to 3145.054	In domain	100.00%	0.00%	0.00%	In domain	21.13%	In domain
+178	isobutyric acid	79-31-2	mono constituent substance	CC(C)C(O)=O	Reactive unspecified	no data	<=407.6115	from 290.647 to 571.646	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+179	camphene	79-92-5	mono constituent substance	CC1(C)C2CCC(C2)C1=C	basesurface narcotics	no data	0.6223	from  0.415 to  0.933	In domain	40.00%	0.00%	60.00%	Out of domain	Out of domain	Out of Domain
+180	bis(2-methoxyethyl) ether	111-96-6	mono constituent substance	COCCOCCOC	basesurface narcotics	no data	16871.8164	from 10006.338 to 28447.791	In domain	77.78%	0.00%	22.22%	Out of domain	5%	Out of Domain
+181	propan-1-ol	71-23-8	mono constituent substance	CCCO	basesurface narcotics	7060.2178	1768.7122	from 1023.171 to 3057.497	In domain	100.00%	0.00%	0.00%	In domain	17.72%	In domain
+182	butyric acid	107-92-6	mono constituent substance	CCCC(O)=O	Reactive unspecified	60.9511	<=343.1278	from 246.544 to 477.549	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+183	terephthalic acid	100-21-0	mono constituent substance	OC(=O)c1ccc(C(O)=O)cc1	Reactive unspecified	no data	<=94.0472	from 59.577 to 148.460	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+184	3,5,5-trimethylcyclohex-2-enone	78-59-1	mono constituent substance	CC1CC(C)(C)CC(=O)C=1	Reactive unspecified	120.3668	<=17.2437	from 13.686 to 21.726	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+185	butanone oxime	96-29-7	mono constituent substance	CCC(C)=NO	Reactive unspecified	no data	<=93.2835	from 71.125 to 122.346	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+186	propane-1,2-diol	57-55-6	mono constituent substance	CC(O)CO	basesurface narcotics	no data	21979.291	from 12086.882 to 39968.063	In domain	100.00%	0.00%	0.00%	In domain	6.20%	In domain
+187	benzene	71-43-2	mono constituent substance	c1ccccc1	basesurface narcotics	63.4881	40.311	from 31.479 to 51.621	In domain	100.00%	0.00%	0.00%	In domain	56.19%	In domain
+188	2-aminoethanol	141-43-5	mono constituent substance	NCCO	Reactive unspecified	no data	<=100990.5859	from 50732.840 to 201035.469	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+189	2-(2-butoxyethoxy)ethanol	112-34-5	mono constituent substance	CCCCOCCOCCO	basesurface narcotics	no data	4082.6919	from 2630.050 to 6337.666	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+190	octadecan-1-ol	112-92-5	mono constituent substance	CCCCCCCCCCCCCCCCCCO	basesurface narcotics	no data	0.1583*	from  0.072 to  0.349	Out of domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+191	mesitylene	108-67-8	mono constituent substance	Cc1cc(C)cc(C)c1	basesurface narcotics	5.9546	2.0268	from  1.571 to  2.615	In domain	100.00%	0.00%	0.00%	In domain	42.73%	In domain
+192	diisopropylamine	108-18-9	mono constituent substance	CC(C)NC(C)C	Reactive unspecified	451.9791	<=180.7425	from 114.548 to 285.188	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+193	benzophenone	119-61-9	mono constituent substance	O=C(c1ccccc1)c1ccccc1	basesurface narcotics	no data	6.8828	from  5.367 to  8.826	In domain	25.00%	0.00%	75.00%	Out of domain	83.16%	Out of Domain
+194	p-xylene	106-42-3	mono constituent substance	Cc1ccc(C)cc1	basesurface narcotics	13.9945	5.5092	from  4.427 to  6.856	In domain	100.00%	0.00%	0.00%	In domain	62.31%	In domain
+195	acetone	67-64-1	mono constituent substance	CC(C)=O	basesurface narcotics	9204.4893	3325.5898	from 2010.802 to 5500.067	In domain	100.00%	0.00%	0.00%	In domain	10.01%	In domain
+196	m-xylene	108-38-3	mono constituent substance	Cc1cccc(C)c1	basesurface narcotics	14.9954	5.5453	from  4.452 to  6.907	In domain	100.00%	0.00%	0.00%	In domain	59.86%	In domain
+197	2-chlorotoluene	95-49-8	mono constituent substance	Cc1ccccc1Cl	basesurface narcotics	no data	5.0415	from  4.050 to  6.276	In domain	66.67%	0.00%	33.33%	Out of domain	81.36%	Out of Domain
+198	pin-2(10)-ene	127-91-3	mono constituent substance	CC1(C)C2CCC(=C)C1C2	basesurface narcotics	no data	0.6069	from  0.410 to  0.898	In domain	30.00%	0.00%	70.00%	Out of domain	Out of domain	Out of Domain
+199	acetophenone	98-86-2	mono constituent substance	CC(=O)c1ccccc1	basesurface narcotics	no data	100.8279	from 72.113 to 140.978	In domain	50.00%	0.00%	50.00%	Out of domain	29.05%	Out of Domain
+200	2-methylpropan-1-ol	78-83-1	mono constituent substance	CC(C)CO	basesurface narcotics	1121.8212	886.6174	from 530.057 to 1483.029	In domain	100.00%	0.00%	0.00%	In domain	20.43%	In domain
+201	propan-2-ol	67-63-0	mono constituent substance	CC(C)O	basesurface narcotics	no data	2019.7056	from 1176.658 to 3466.778	In domain	75.00%	0.00%	25.00%	Out of domain	18.92%	Out of Domain
+202	o-xylene	95-47-6	mono constituent substance	Cc1ccccc1C	basesurface narcotics	5.8339	5.5486	from  4.454 to  6.912	In domain	100.00%	0.00%	0.00%	In domain	59.63%	In domain
+203	octan-1-ol	111-87-5	mono constituent substance	CCCCCCCCO	basesurface narcotics	no data	22.0318	from 12.838 to 37.809	In domain	100.00%	0.00%	0.00%	In domain	20.85%	In domain
+204	ethanol	64-17-5	mono constituent substance	CCO	basesurface narcotics	8005.4229	3821.0542	from 2138.433 to 6827.642	In domain	100.00%	0.00%	0.00%	In domain	10.10%	In domain
+205	dimethoxymethane	109-87-5	mono constituent substance	COCOC	basesurface narcotics	no data	5958.3662	from 3548.604 to 10004.535	In domain	60.00%	0.00%	40.00%	Out of domain	9%	Out of Domain
+206	sodium 2,4-dichlorophenoxyacetate	2702-72-9	mono constituent substance	O=C(COc1ccc(Cl)cc1Cl)O{-}.[Na]{+}	Reactive unspecified	no data	<=24.5489	from 18.559 to 32.473	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+207	diuron	330-54-1	mono constituent substance	CN(C)C(=O)Nc1ccc(Cl)c(Cl)c1	basesurface narcotics	no data	23.2013	from 17.649 to 30.500	In domain	77.78%	0.00%	22.22%	Out of domain	62.76%	Out of Domain
+208	xylene	1330-20-7	multi constituent substance	Cc1ccc(C)cc1	basesurface narcotics	13.9945	5.5092	from  4.427 to  6.856	In domain	100.00%	0.00%	0.00%	In domain	62.31%	In domain
+			multi constituent substance	Cc1cccc(C)c1	basesurface narcotics	14.9954	5.5453	from  4.452 to  6.907	In domain	100.00%	0.00%	0.00%	In domain	59.86%	In domain
+			multi constituent substance	Cc1ccccc1C	basesurface narcotics	5.8339	5.5486	from  4.454 to  6.912	In domain	100.00%	0.00%	0.00%	In domain	59.63%	In domain
+			multi constituent substance	CCc1ccccc1	basesurface narcotics	4.634	6.246	from  5.022 to  7.769	In domain	100.00%	0.00%	0.00%	In domain	58.76%	In domain
+209	N-(2,6-difluorophenyl)-5-methyl[1,2,4]triazolo[1,5-a]pyrimidine-2-sulfonamide	98967-40-9	mono constituent substance	CC1C=CN2C(N=1)=NC(S(=O)(=O)Nc1c(F)cccc1F)=N2	Reactive unspecified	no data	<=325.0126	from 205.229 to 514.708	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+210	tris(2-chloro-1-methylethyl) phosphate	13674-84-5	mono constituent substance	CC(CCl)OP(=O)(OC(C)CCl)OC(C)CCl	Reactive unspecified	no data	<=23.1686	from 18.505 to 29.007	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+211	2-ethylhexyl diphenyl phosphate	1241-94-7	mono constituent substance	CCCCC(CC)COP(=O)(Oc1ccccc1)Oc1ccccc1	Reactive unspecified	no data	<=0.0393	from  0.024 to  0.065	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+212	tributyl phosphate	126-73-8	mono constituent substance	CCCCOP(=O)(OCCCC)OCCCC	Reactive unspecified	3.676	<=3.0389	from  2.323 to  3.976	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+213	triethyl phosphate	78-40-0	mono constituent substance	CCOP(=O)(OCC)OCC	Reactive unspecified	no data	<=968.3706	from 669.476 to 1400.709	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+214	butyl methacrylate	97-88-1	mono constituent substance	CCCCOC(=O)C(C)=C	Reactive unspecified	no data	<=13.2053	from 10.462 to 16.669	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+215	2-(2-butoxyethoxy)ethyl acetate	124-17-4	mono constituent substance	CCCCOCCOCCOC(C)=O	esters	no data	530.6747	from 87.600 to 3214.773	In domain	0.5714	0	0.4286	Out of domain	65%	Out of Domain
+216	isopropyl myristate	110-27-0	mono constituent substance	CCCCCCCCCCCCCC(=O)OC(C)C	esters	no data	3.5793*	from  0.007 to 1820.732	Out of domain	0.7368	0	0.2632	Out of domain	Out of domain	Out of Domain
+217	2-butoxyethyl acetate	112-07-2	mono constituent substance	CCCCOCCOC(C)=O	esters	no data	305.3835	from 47.515 to 1962.744	In domain	0.7273	0	0.2727	Out of domain	53%	Out of Domain
+218	2-methoxy-1-methylethyl acetate	108-65-6	mono constituent substance	CC(COC)OC(C)=O	esters	no data	909.8477	from 115.745 to 7152.100	Out of domain	0.3333	0	0.6667	Out of domain	50%	Out of Domain
+219	methyl salicylate	119-36-8	mono constituent substance	COC(=O)c1ccccc1O	Reactive unspecified	no data	<=17.6523	from 13.438 to 23.188	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+220	2-ethylhexyl acetate	103-09-3	mono constituent substance	CCCCC(CC)COC(C)=O	esters	no data	27.8291	from  0.677 to 1144.460	In domain	0.6667	0	0.3333	Out of domain	Out of domain	Out of Domain
+221	3-methoxybutyl acetate	4435-53-4	mono constituent substance	CC(CCOC(C)=O)OC	esters	no data	556.0916	from 85.264 to 3626.824	In domain	0.5	0	0.5	Out of domain	73%	Out of Domain
+222	2-hydroxyethyl methacrylate	868-77-9	mono constituent substance	CC(=C)C(=O)OCCO	Reactive unspecified	no data	<=1994.9688	from 1220.845 to 3259.955	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+223	3-hydroxy-2,2-dimethylpropyl 3-hydroxy-2,2-dimethylpropionate	1115-20-4	mono constituent substance	CC(C)(CO)COC(=O)C(C)(C)CO	esters	no data	566.7278	from 110.558 to 2905.083	In domain	0.1429	0	0.8571	Out of domain	31%	Out of Domain
+224	methyl methacrylate	80-62-6	mono constituent substance	CC(=C)C(=O)OC	Reactive unspecified	no data	<=208.9192	from 147.583 to 295.748	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+225	exo-1,7,7-trimethylbicyclo[2.2.1]hept-2-yl acetate	125-12-2	mono constituent substance	CC(=O)OC1CC2CCC1(C)C2(C)C	esters	no data	28.475	from  0.572 to 1417.659	In domain	0.2143	0	0.7857	Out of domain	Out of domain	Out of Domain
+226	¿-butyrolactone	96-48-0	mono constituent substance	O=C1CCCO1	Reactive unspecified	no data	<=6014.3970	from 3634.469 to 9952.751	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+227	hexan-6-olide	502-44-3	mono constituent substance	O=C1CCCCCO1	esters	no data	516.3983	from 80.422 to 3315.848	Out of domain	0.875	0	0.125	Out of domain	29%	Out of Domain
+228	methyl decanoate	110-42-9	mono constituent substance	CCCCCCCCCC(=O)OC	esters	no data	15.5573*	from  0.205 to 1177.916	In domain	0.9231	0	0.0769	Out of domain	Out of domain	Out of Domain
+229	isobutyl methacrylate	97-86-9	mono constituent substance	CC(C)COC(=O)C(C)=C	Reactive unspecified	no data	<=15.4770	from 12.248 to 19.557	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+230	2-dimethylaminoethyl methacrylate	2867-47-2	mono constituent substance	CC(=C)C(=O)OCCN(C)C	Reactive unspecified	no data	<=611.9180	from 414.792 to 902.725	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+231	2-ethylhexyl mercaptoacetate	7659-86-1	mono constituent substance	CCCCC(CC)COC(=O)CS	Reactive unspecified	no data	<=2.7037	from  2.114 to  3.458	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+232	isobutyl acetate	110-19-0	mono constituent substance	CC(C)COC(C)=O	esters	no data	193.4177	from 23.394 to 1599.129	In domain	0.5	0	0.5	Out of domain	46%	Out of Domain
+233	butyl glycollate	7397-62-8	mono constituent substance	CCCCOC(=O)CO	Reactive unspecified	no data	<=2056.7766	from 1348.900 to 3136.134	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+234	methyl acetate	79-20-9	mono constituent substance	CC(=O)OC	esters	no data	625.2726	from 72.017 to 5428.835	Out of domain	1	0	0	In domain	42%	Out of Domain
+235	vinyl acetate	108-05-4	mono constituent substance	CC(=O)OC=C	esters	no data	306.8098	from 49.786 to 1890.751	Out of domain	0	0	1	Out of domain	10%	Out of Domain
+236	ethyl acetate	141-78-6	mono constituent substance	CCOC(C)=O	esters	716.1135	431.7776	from 58.311 to 3197.194	In domain	1	0	0	In domain	74%	In domain
+237	2-(2-butoxyethoxy)ethyl 6-propylpiperonyl ether	51-03-6	mono constituent substance	CCCCOCCOCCOCc1cc2c(cc1CCC)OCO2	basesurface narcotics	no data	1.2953*	from  0.963 to  1.742	Out of domain	73.68%	0.00%	26.32%	Out of domain	54.55%	Out of Domain
+238	thiram	137-26-8	mono constituent substance	CN(C)C(=S)SSC(=S)N(C)C	Reactive unspecified	0.2094	<=146.2928	from 89.889 to 238.090	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+239	Benzyl butyl phthalate (BBP)	85-68-7	mono constituent substance	CCCCOC(=O)c1ccccc1C(=O)OCc1ccccc1	esters	2.0167	3.1348*	from  0.177 to 55.496	Out of domain	0.8462	0	0.1538	Out of domain	75%	Out of Domain
+240	"bis(2-ethylhexyl) phthalate; di-(2-ethylhexyl) phthalate; DEHP"	117-81-7	mono constituent substance	CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC	esters	no data	3.6271*	from  0.193 to 68.165	Out of domain	0.6522	0	0.3478	Out of domain	72%	Out of Domain
+241	Dibutyl phthalate (DBP)	84-74-2	mono constituent substance	CCCCOC(=O)c1ccccc1C(=O)OCCCC	esters	3.6691	4.208	from  0.278 to 63.737	In domain	1	0	0	In domain	84%	In domain
+242	Diisobutyl phthalate	84-69-5	mono constituent substance	CC(C)COC(=O)c1ccccc1C(=O)OCC(C)C	esters	no data	4.302	from  0.352 to 52.588	In domain	0.4667	0	0.5333	Out of domain	71%	Out of Domain
+243	dimethyl succinate	106-65-0	mono constituent substance	COC(=O)CCC(=O)OC	esters	no data	864.1628	from 109.944 to 6792.314	Out of domain	0.8	0	0.2	Out of domain	16%	Out of Domain
+244	dimethyl phthalate	131-11-3	mono constituent substance	COC(=O)c1ccccc1C(=O)OC	esters	32.9756	78.5037	from  7.949 to 775.307	In domain	1	0	0	In domain	69%	In domain
+245	di-''isononyl'' phthalate	28553-12-0	mono constituent substance	CC(C)CCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCC(C)C	esters	no data	12.2517*	from  1.582 to 94.863	Out of domain	0.68	0	0.32	Out of domain	38%	Out of Domain
+246	triacetin	102-76-1	mono constituent substance	CC(=O)OCC(COC(C)=O)OC(C)=O	esters	no data	1217.3221	from 144.596 to 10248.343	Out of domain	0.7333	0	0.2667	Out of domain	7%	Out of Domain
+247	diundecyl phthalate	3648-20-2	mono constituent substance	CCCCCCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCCCCCC	esters	no data	177.3427*	from 24.416 to 1288.125	Out of domain	1	0	0	In domain	91%	Out of Domain
+248	diethyl phthalate	84-66-2	mono constituent substance	CCOC(=O)c1ccccc1C(=O)OCC	esters	54.5502	29.3519	from  5.690 to 151.407	In domain	1	0	0	In domain	59%	In domain
+249	TCA	650-51-1	mono constituent substance	O=C(C(Cl)(Cl)Cl)O{-}.[Na]{+}	Reactive unspecified	no data	<=201.3289	from 133.115 to 304.498	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+250	cresol	1319-77-3	multi constituent substance	Cc1ccc(O)cc1	Reactive unspecified	17.1378	<=47.3531	from 37.059 to 60.506	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	Cc1cccc(O)c1	Reactive unspecified	18.7912	<=46.7845	from 36.541 to 59.899	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	Cc1ccccc1O	Reactive unspecified	14.5866	<=46.7376	from 36.498 to 59.850	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+251	"ethyleneimine; aziridine"	151-56-4	mono constituent substance	C1CN1	Reactive unspecified	no data	<=4302.4248	from 2496.191 to 7415.644	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+252	but-2-yne-1,4-diol	110-65-6	mono constituent substance	OCC#CCO	Reactive unspecified	no data	<=22335.2129	from 12364.748 to 40345.488	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+253	acrylic acid	79-10-7	mono constituent substance	C=CC(O)=O	Reactive unspecified	no data	<=825.9807	from 515.706 to 1322.932	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+254	1,2-epoxybutane	106-88-7	mono constituent substance	CCC1CO1	Reactive unspecified	no data	<=598.1132	from 391.389 to 914.025	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+255	chloroacetic acid	79-11-8	mono constituent substance	OC(=O)CCl	Reactive unspecified	no data	<=1407.7910	from 884.866 to 2239.748	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+256	1,2,3,6-tetrahydrophthalic anhydride	85-43-8	mono constituent substance	O=C1C2CC=CCC2C(=O)O1	Reactive unspecified	no data	<=77.9396	from 59.714 to 101.729	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+257	"chloroprene (stabilised); 2-chlorobuta-1,3-diene (stabilised)"	126-99-8	mono constituent substance	C=CC(=C)Cl	basesurface narcotics	no data	13.774	from 10.964 to 17.303	In domain	0.00%	0.00%	100.00%	Out of domain	67.48%	Out of Domain
+258	"1-chloro-2,3-epoxypropane; epichlorhydrin"	106-89-8	mono constituent substance	ClCC1CO1	Reactive unspecified	24.3356	<=925.3768	from 631.989 to 1354.964	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+259	acrylonitrile	107-13-1	mono constituent substance	C=CC#N	Reactive unspecified	8.8059	<=1022.4907	from 626.904 to 1667.699	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+260	"propylene oxide; 1,2-epoxypropane; methyloxirane"	75-56-9	mono constituent substance	CC1CO1	Reactive unspecified	no data	<=1342.3651	from 849.626 to 2120.867	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+261	dimethyl sulphate	77-78-1	mono constituent substance	COS(=O)(=O)OC	Reactive unspecified	no data	<=2306.7231	from 1309.109 to 4064.577	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+262	hydroquinone	123-31-9	mono constituent substance	Oc1ccc(O)cc1	Reactive unspecified	no data	<=395.0456	from 274.207 to 569.136	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+263	cyclohexane-1,2-dicarboxylic anhydride	85-42-7	mono constituent substance	O=C1C2CCCCC2C(=O)O1	Reactive unspecified	no data	<=51.1909	from 40.091 to 65.363	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+264	"acrylamide; prop-2-enamide"	79-06-1	mono constituent substance	C=CC(N)=O	Reactive unspecified	159.1182	<=11697.1133	from 6249.686 to 21892.691	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+265	acrylaldehyde	107-02-8	mono constituent substance	C=CC=O	Reactive unspecified	0.0561	<=1085.3096	from 653.376 to 1802.786	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+266	2-ethylhexyl acrylate	103-11-7	mono constituent substance	CCCCC(CC)COC(=O)C=C	Reactive unspecified	no data	<=1.0669	from  0.809 to  1.408	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+267	tert-butyl acrylate	1663-39-4	mono constituent substance	CC(C)(C)OC(=O)C=C	Reactive unspecified	no data	<=48.3981	from 37.160 to 63.034	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+268	2-(dimethylamino)ethyl acrylate	2439-35-2	mono constituent substance	CN(C)CCOC(=O)C=C	Reactive unspecified	no data	<=1708.4070	from 1066.800 to 2735.896	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+269	dibutyl maleate	105-76-0	mono constituent substance	CCCCOC(=O)C=CC(=O)OCCCC	Reactive unspecified	no data	<=0.9476	from  0.693 to  1.295	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+270	2-ethyl-2-[[(1-oxoallyl)oxy]methyl]-1,3-propanediyl diacrylate	15625-89-5	mono constituent substance	CCC(COC(=O)C=C)(COC(=O)C=C)COC(=O)C=C	Reactive unspecified	no data	<=20.9356	from 16.447 to 26.649	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+271	butyl acrylate	141-32-2	mono constituent substance	CCCCOC(=O)C=C	Reactive unspecified	no data	<=38.3813	from 29.740 to 49.534	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+272	2-ethylhexyl 10-ethyl-4,4-dimethyl-7-oxo-8-oxa-3,5-dithia-4-stannatetradecanoate	57583-35-4	mono constituent substance	CCCCC(CC)COC(=O)CS[Sn](C)(C)SCC(=O)OCC(CC)CCCC	Reactive unspecified	no data	<=no data	± 0.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+273	pyridine	110-86-1	mono constituent substance	c1ccccn1	basesurface narcotics	1343.2513	448.0811	from 299.974 to 669.313	In domain	100.00%	0.00%	0.00%	In domain	9.86%	In domain
+274	4,11-dichloro-5,12-dihydroquino[2,3-b]acridine-7,14-dione	3089-16-5	mono constituent substance	O=C1c2cccc(Cl)c2Nc2cc3c(cc12)Nc1c(Cl)cccc1C3=O	Reactive unspecified	no data	<=34.0249*	from 24.106 to 48.025	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+275	dioctyl ether	629-82-3	mono constituent substance	CCCCCCCCOCCCCCCCC	basesurface narcotics	no data	0.0467	from  0.021 to  0.103	Out of domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+276	butan-1-ol	71-36-3	mono constituent substance	CCCCO	basesurface narcotics	no data	755.4755	from 454.476 to 1255.826	In domain	100.00%	0.00%	0.00%	In domain	19.44%	In domain
+277	propionic acid	79-09-4	mono constituent substance	CCC(O)=O	Reactive unspecified	50.0811	<=809.6325	from 549.135 to 1193.704	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+278	2-decyltetradecanol	58670-89-6	mono constituent substance	CCCCCCCCCCCCC(CCCCCCCCCC)CO	basesurface narcotics	no data	71.3287*	from 42.611 to 119.399	Out of domain	96.00%	0.00%	4.00%	Out of domain	16.37%	Out of Domain
+279	ammonium carbamate	1111-78-0	mono constituent substance	N{+}.O{-}C(N)=O	Reactive unspecified	no data	<=121389.9141	from 59354.066 to 248264.547	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+280	"phenyl glycidyl ether; 2,3-epoxypropyl phenyl ether; 1,2-epoxy-3-phenoxypropane"	122-60-1	mono constituent substance	C(C1CO1)Oc1ccccc1	Reactive unspecified	no data	<=158.9406	from 117.871 to 214.319	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+281	methanethiol	74-93-1	mono constituent substance	CS	Reactive unspecified	no data	<=335.4427	from 232.268 to 484.448	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+282	1-ethoxypropan-2-ol	1569-02-4	mono constituent substance	CCOCC(C)O	basesurface narcotics	no data	5267.1689	from 3219.587 to 8616.965	In domain	85.71%	0.00%	14.29%	Out of domain	5.83%	Out of Domain
+283	diethylamine	109-89-7	mono constituent substance	CCNCC	Reactive unspecified	55.4777	<=765.7914	from 470.340 to 1246.836	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+284	tetramethylsilane	75-76-3	mono constituent substance	C[Si](C)(C)C	Reactive unspecified	no data	<=13.3085	from  9.575 to 18.497	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+285	1,1-difluoroethylene	75-38-7	mono constituent substance	C=C(F)F	basesurface narcotics	no data	152.7839	from 109.625 to 212.935	In domain	0.00%	0.00%	100.00%	Out of domain	17.45%	Out of Domain
+286	methanol	67-56-1	mono constituent substance	CO	basesurface narcotics	no data	7596.7212	from 4060.536 to 14212.452	Out of domain	0.00%	0.00%	100.00%	Out of domain	Out of domain	Out of Domain
+287	octane	111-65-9	mono constituent substance	CCCCCCCC	basesurface narcotics	0.3826	0.9573*	from  0.478 to  1.918	In domain	100.00%	0.00%	0.00%	In domain	7.97%	In domain
+288	pentane-1,5-diol	111-29-5	mono constituent substance	OCCCCCO	basesurface narcotics	no data	3311.978	from 1986.852 to 5520.895	In domain	100.00%	0.00%	0.00%	In domain	18.09%	In domain
+289	phthalic acid	88-99-3	mono constituent substance	OC(=O)c1ccccc1C(O)=O	Reactive unspecified	no data	<=422.6162	from 259.473 to 688.336	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+290	3-methyl-2-butenal	107-86-8	mono constituent substance	CC(C)=CC=O	Reactive unspecified	no data	<=219.5806	from 150.257 to 320.888	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+291	4-[(morpholinothio)thioxomethyl]morpholine	13752-51-7	mono constituent substance	S=C(N1CCOCC1)SN1CCOCC1	Reactive unspecified	no data	<=38524.3906	from 19433.131 to 76371.047	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+292	2,2'-[(3,3'-dichloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[N-(2-methoxyphenyl)-3-oxobutyramide]	4531-49-1	mono constituent substance	CC(=O)C(C(=O)Nc1ccccc1OC)N=Nc1ccc(-c2ccc(N=NC(C(C)=O)C(=O)Nc3ccccc3OC)c(Cl)c2)cc1Cl	Reactive unspecified	no data	<=0.0721*	from  0.044 to  0.117	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+293	vanillin	121-33-5	mono constituent substance	COc1cc(C=O)ccc1O	Reactive unspecified	no data	<=446.8315	from 291.231 to 685.567	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+294	oxydipropanol	25265-71-8	mono constituent substance	CCC(O)OC(O)CC	Reactive unspecified	no data	<=24743.0117	from 14300.956 to 42809.488	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+295	undecan-1-ol	112-42-5	mono constituent substance	CCCCCCCCCCCO	basesurface narcotics	no data	1.3478	from  0.698 to  2.604	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+296	3-aminopropan-1-ol	156-87-6	mono constituent substance	NCCCO	Reactive unspecified	no data	<=44793.1289	from 23696.801 to 84670.688	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+297	nonene	27215-95-8	multi constituent substance	CCCCCCCC=C	basesurface narcotics	no data	0.3218	from  0.209 to  0.496	In domain	77.78%	0.00%	22.22%	Out of domain	Out of domain	Out of Domain
+			multi constituent substance	CCCCCCC=CC	basesurface narcotics	no data	0.3714	from  0.246 to  0.562	In domain	77.78%	0.00%	22.22%	Out of domain	Out of domain	Out of Domain
+298	2-ethylhexyl 10-ethyl-4-[[2-[(2-ethylhexyl)oxy]-2-oxoethyl]thio]-4-octyl-7-oxo-8-oxa-3,5-dithia-4-stannatetradecanoate	27107-89-7	mono constituent substance	CCCCCCCC[Sn](SCC(=O)OCC(CC)CCCC)(SCC(=O)OCC(CC)CCCC)SCC(=O)OCC(CC)CCCC	Reactive unspecified	no data	<=no data	± 0.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+299	1-(2-butoxy-1-methylethoxy)propan-2-ol	29911-28-2	mono constituent substance	CCCCOCC(C)OCC(C)O	basesurface narcotics	no data	847.2411	from 580.426 to 1236.709	In domain	69.23%	0.00%	30.77%	Out of domain	Out of domain	Out of Domain
+300	a,a,a-trifluoro-p-toluidine	455-14-1	mono constituent substance	Nc1ccc(C(F)(F)F)cc1	Reactive unspecified	no data	<=66.0265	from 50.005 to 87.181	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+301	xylenesulphonic acid	25321-41-9	UVCB	Cc1ccc(S(O)(=O)=O)c(C)c1											
+302	hexahydro-4-methylphthalic anhydride	19438-60-9	mono constituent substance	CC1CCC2C(C1)C(=O)OC2=O	Reactive unspecified	no data	<=23.3992	from 18.767 to 29.174	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+303	propane-2-thiol	75-33-2	mono constituent substance	CC(C)S	Reactive unspecified	no data	<=79.5611	from 60.755 to 104.188	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+304	icosan-1-ol	629-96-9	mono constituent substance	CCCCCCCCCCCCCCCCCCCCO	basesurface narcotics	no data	1.1956*	from  0.601 to  2.380	Out of domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+305	sulphur hexafluoride	2551-62-4	inorganic	FS(F)(F)(F)(F)F											
+306	diethylmethylbenzenediamine	68479-98-1	multi constituent substance	CCc1cc(C)c(N)c(CC)c1N	Reactive unspecified	no data	<=57.6527	from 45.758 to 72.639	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	CCc1c(C)cc(N)c(CC)c1N	Reactive unspecified	no data	<=56.8805	from 45.163 to 71.638	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+307	neodecanoyl chloride	40292-82-8	UVCB	CCC(C)(C)CCC(C)C(=O)Cl											
+308	tetraethyl orthosilicate	78-10-4	mono constituent substance	CCO[Si](OCC)(OCC)OCC	Reactive unspecified	no data	<=6967.5210	from 4396.510 to 11042.021	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+309	bis(2-chloroethoxy)methane	111-91-1	mono constituent substance	ClCCOCOCCCl	basesurface narcotics	198.6684	413.0105	from 303.884 to 561.325	In domain	100.00%	0.00%	0.00%	In domain	18.10%	In domain
+310	nitrilotriacetic acid	139-13-9	mono constituent substance	OC(=O)CN(CC(O)=O)CC(O)=O	Reactive unspecified	no data	<=16308506.0000*	from 5510655.000 to 48264200.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+311	ethyl 3-ethoxypropionate	763-69-9	mono constituent substance	CCOCCC(=O)OCC	esters	no data	517.3002	from 78.762 to 3397.576	In domain	0.7	0	0.3	Out of domain	75%	Out of Domain
+312	2-(morpholinothio)benzothiazole	102-77-2	mono constituent substance	C1CN(SC2=Nc3ccccc3S2)CCO1	Reactive unspecified	no data	<=744.6039	from 468.457 to 1183.534	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+313	diisodecyl azelate	28472-97-1	UVCB	CC(C)CCCCCCCOC(=O)CCCCCCCC(=O)OCCCCCCCC(C)C											
+314	3-methoxybutan-1-ol	2517-43-3	mono constituent substance	CC(CCO)OC	basesurface narcotics	no data	5291.9722	from 3230.051 to 8670.132	In domain	71.43%	0.00%	28.57%	Out of domain	6.05%	Out of Domain
+315	disodium 4,4'-bis[[4-anilino-6-[(2-hydroxyethyl)amino]-1,3,5-triazin-2-yl]amino]stilbene-2,2'-disulphonate	17958-73-5	mono constituent substance	OCCNc1nc(Nc2ccccc2)nc(Nc2ccc(C=Cc3ccc(Nc4nc(NCCO)nc(Nc5ccccc5)n4)cc3S(=O)(=O)O{-}.[Na]{+})c(S(=O)(=O)O{-}.[Na]{+})c2)n1	Reactive unspecified	no data	<=3.6050*	from  2.520 to  5.158	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+316	1,2-Benzenedicarboxylic acid, benzyl C7-9-branched and linear alkyl esters	68515-40-2	UVCB	CCCCCCCCOC(=O)c1ccccc1C(=O)OCc1ccccc1											
+317	nonan-1-ol	143-08-8	mono constituent substance	CCCCCCCCCO	basesurface narcotics	no data	8.7357	from  4.932 to 15.473	In domain	100.00%	0.00%	0.00%	In domain	17.79%	In domain
+318	N,N'-bis(2,2,6,6-tetramethylpiperidin-4-yl)hexane-1,6-diamine	61260-55-7	mono constituent substance	CC1(C)CC(NCCCCCCNC2CC(C)(C)NC(C)(C)C2)CC(C)(C)N1	Reactive unspecified	no data	<=2.0337	from  1.122 to  3.686	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+319	bis(2,2,6,6-tetramethyl-4-piperidyl) sebacate	52829-07-9	mono constituent substance	CC1(C)CC(OC(=O)CCCCCCCCC(=O)OC2CC(C)(C)NC(C)(C)C2)CC(C)(C)N1	esters	no data	4.0221*	from  0.011 to 1418.811	Out of domain	0.2941	0	0.7059	Out of domain	Out of domain	Out of Domain
+320	2,2-bis[[(2-ethyl-1-oxohexyl)oxy]methyl]propane-1,3-diyl bis(2-ethylhexanoate)	7299-99-2	mono constituent substance	CCCCC(CC)C(=O)OCC(COC(=O)C(CC)CCCC)(COC(=O)C(CC)CCCC)COC(=O)C(CC)CCCC	esters	no data	2070.5244*	from 379.267 to 11303.567	Out of domain	0.5333	0	0.4667	Out of domain	35%	Out of Domain
+321	nonane	111-84-2	mono constituent substance	CCCCCCCCC	basesurface narcotics	no data	0.3891*	from  0.185 to  0.817	In domain	100.00%	0.00%	0.00%	In domain	5%	In domain
+322	sodium toluene-4-sulphonate	657-84-1	mono constituent substance	Cc1ccc(S(=O)(=O)O{-}.[Na]{+})cc1	Reactive unspecified	no data	<=15394.8428	from 7683.145 to 30846.898	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+323	ethyl (S)-2-hydroxypropionate	687-47-8	mono constituent substance	CCOC(=O)C(C)O	Reactive unspecified	no data	<=5682.3208	from 3404.711 to 9483.557	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+324	(E)-4-(2,6,6-trimethyl-1-cyclohexen-1-yl)-3-buten-2-one	79-77-6	mono constituent substance	CC1CCCC(C)(C)C=1C=CC(C)=O	Reactive unspecified	no data	<=0.5411	from  0.398 to  0.737	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+325	2-aminoethanol, monoester with boric acid	10377-81-8	UVCB	NCCOB(O)O											
+326	isooctadecanoic acid	30399-84-9	UVCB	CC(C)CCCCCCCCCCCCCCC(O)=O											
+327	1-isopropyl-2,2-dimethyltrimethylene diisobutyrate	6846-50-0	mono constituent substance	CC(C)C(C(C)(C)COC(=O)C(C)C)OC(=O)C(C)C	esters	no data	8.4944	from  0.105 to 687.198	Out of domain	0.15	0	0.85	Out of domain	Out of domain	Out of Domain
+328	vinyltoluene	25013-15-4	multi constituent substance	Cc1ccccc1C=C	basesurface narcotics	no data	2.7247	from  2.166 to  3.428	In domain	50.00%	0.00%	50.00%	Out of domain	72.65%	Out of Domain
+			multi constituent substance	Cc1cccc(C=C)c1	basesurface narcotics	no data	2.7139	from  2.157 to  3.414	In domain	50.00%	0.00%	50.00%	Out of domain	74.04%	Out of Domain
+			multi constituent substance	Cc1ccc(C=C)cc1	basesurface narcotics	no data	2.6803	from  2.130 to  3.373	In domain	50.00%	0.00%	50.00%	Out of domain	78.58%	Out of Domain
+329	isopentyl p-methoxycinnamate	71617-10-2	mono constituent substance	CC(C)CCOC(=O)C=Cc1ccc(OC)cc1	esters	no data	4.8964	from  0.441 to 54.375	In domain	0	0	1	Out of domain	71%	Out of Domain
+330	butane-1,3-diol	107-88-0	mono constituent substance	CC(O)CCO	basesurface narcotics	no data	9314.3047	from 5359.532 to 16187.287	In domain	100.00%	0.00%	0.00%	In domain	8%	In domain
+331	n-butyl acetate	123-86-4	mono constituent substance	CCCCOC(C)=O	esters	no data	177.6191	from 20.687 to 1525.068	In domain	1	0	0	In domain	41%	In domain
+332	propylamine	107-10-8	mono constituent substance	CCCN	Reactive unspecified	no data	<=1760.2550	from 1018.640 to 3041.798	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+333	stearoyl chloride	112-76-5	mono constituent substance	CCCCCCCCCCCCCCCCCC(=O)Cl	Reactive unspecified	no data	<=0.0556*	from  0.034 to  0.091	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+334	2-ethylhexylamine	104-75-6	mono constituent substance	CCCCC(CC)CN	Reactive unspecified	no data	<=25.9203	from 15.131 to 44.402	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+335	disodium molybdate	7631-95-0	inorganic	O=[Mo](=O)(O{-}.[Na]{+})O{-}.[Na]{+}											
+336	tetradec-1-ene	1120-36-1	mono constituent substance	CCCCCCCCCCCCC=C	basesurface narcotics	no data	0.0313*	from  0.017 to  0.058	Out of domain	85.71%	0.00%	14.29%	Out of domain	Out of domain	Out of Domain
+337	sodium acetate	127-09-3	mono constituent substance	CC(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=1800.4454	from 1143.200 to 2835.552	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+338	tetrasodium pyrophosphate	7722-88-5	inorganic	O=P(OP(=O)(O{-}.[Na]{+})O{-}.[Na]{+})(O{-}.[Na]{+})O{-}.[Na]{+}											
+339	2-(2H-benzotriazol-2-yl)-p-cresol	2440-22-4	mono constituent substance	Cc1ccc(O)c(N2N=C3C=CC=CC3=N2)c1	Reactive unspecified	no data	<=10.6687	from  7.962 to 14.296	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+340	"1,2-bis(2-methoxyethoxy)ethane; TEGDME; triethylene glycol dimethyl ether; triglyme"	112-49-2	mono constituent substance	COCCOCCOCCOC	basesurface narcotics	no data	38251.1602	from 21994.076 to 66524.789	In domain	83.33%	0.00%	16.67%	Out of domain	Out of domain	Out of Domain
+341	(Z)-N-9-octadecenylpropane-1,3-diamine	7173-62-8	mono constituent substance	CCCCCCCCC=CCCCCCCCCNCCCN	Reactive unspecified	no data	<=0.0822	from  0.047 to  0.144	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+342	hexamethyldisiloxane	107-46-0	mono constituent substance	C[Si](C)(C)O[Si](C)(C)C	Reactive unspecified	no data	<=0.3084	from  0.198 to  0.480	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+343	isopropyl acetate	108-21-4	mono constituent substance	CC(C)OC(C)=O	esters	no data	316.6536	from 41.219 to 2432.626	In domain	0.4286	0	0.5714	Out of domain	77%	Out of Domain
+344	ethyl acrylate	140-88-5	mono constituent substance	CCOC(=O)C=C	Reactive unspecified	no data	<=229.8321	from 159.869 to 330.414	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+345	dodecane	112-40-3	mono constituent substance	CCCCCCCCCCCC	basesurface narcotics	no data	0.0415*	from  0.017 to  0.100	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+346	3-methylpyridine	108-99-6	mono constituent substance	Cc1cccnc1	basesurface narcotics	no data	168.0829	from 120.485 to 234.485	In domain	0.00%	0.00%	100.00%	Out of domain	19.17%	Out of Domain
+347	8,9,10-trinorborn-2-ene	498-66-8	mono constituent substance	C1CC2CC1C=C2	basesurface narcotics	no data	9.4163	from  7.262 to 12.209	In domain	28.57%	0.00%	71.43%	Out of domain	12.20%	Out of Domain
+348	sodium prop-2-enesulphonate	2495-39-8	mono constituent substance	C=CCS(=O)(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=75370.6250	from 33179.559 to 171211.797	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+349	disodium hydrogenorthophosphate	7558-79-4	inorganic	OP(=O)(O{-}.[Na]{+})O{-}.[Na]{+}											
+350	4-hydroxybenzenesulphonic acid	98-67-9	mono constituent substance	Oc1ccc(S(O)(=O)=O)cc1	Reactive unspecified	no data	<=132833.6250	from 57083.609 to 309104.031	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+351	tricarbonyl(methylcyclopentadienyl)manganese	12108-13-3	mono constituent substance	C{-}#O{+}_C{-}#O{+}_C{-}#O{+}_CC1=CC{-}(.[Mn]{+})C=C1	Reactive unspecified	no data	<=no data	± 0.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+352	dec-1-ene	872-05-9	mono constituent substance	CCCCCCCCC=C	basesurface narcotics	no data	0.1326	from  0.081 to  0.217	In domain	80.00%	0.00%	20.00%	Out of domain	Out of domain	Out of Domain
+353	disodium [[N,N'-ethylenebis[N-(carboxymethyl)glycinato]](4-)-N,N',O,O',ON,ON']manganate(2-)	15375-84-5	mono constituent substance	O=C1CN(CC(=O)O{-}.[Na]{+})CCN(CC(=O)O{-}.[Na]{+})CC(=O)O{-}.[Mn]{2+}.O{-}1	Reactive unspecified	no data	<=27970056.0000*	from 9428115.000 to 82977776.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+354	1,2-dibromoethane	106-93-4	mono constituent substance	BrCCBr	basesurface narcotics	no data	83.5757	from 63.678 to 109.690	In domain	0.00%	0.00%	100.00%	Out of domain	49.35%	Out of Domain
+355	triethylamine	121-44-8	mono constituent substance	CCN(CC)CC	Reactive unspecified	no data	<=227.8684	from 148.513 to 349.626	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+356	fumaric acid	110-17-8	mono constituent substance	OC(=O)C=CC(O)=O	Reactive unspecified	no data	<=2352.8420	from 1232.399 to 4491.942	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+357	3-trimethoxysilylpropyl methacrylate	2530-85-0	mono constituent substance	CC(=C)C(=O)OCCC[Si](OC)(OC)OC	Reactive unspecified	no data	<=1526.9336	from 1005.718 to 2318.271	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+358	4-tert-butylcyclohexyl chloroformate	42125-46-2	mono constituent substance	CC(C)(C)C1CCC(OC(=O)Cl)CC1	Reactive unspecified	no data	<=1.0386	from  0.780 to  1.382	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+359	triphenyl phosphite	101-02-0	mono constituent substance	c1ccccc1OP(Oc1ccccc1)Oc1ccccc1	Reactive unspecified	no data	<=0.0300*	from  0.018 to  0.051	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+360	2-methylbutane	78-78-4	mono constituent substance	CCC(C)C	basesurface narcotics	no data	15.4666	from  8.620 to 27.750	In domain	100.00%	0.00%	0.00%	In domain	22.34%	In domain
+361	D-gluconic acid	526-95-4	mono constituent substance	OCC(O)C(O)C(O)C(O)C(O)=O	Reactive unspecified	no data	<=301316.8750	from 138735.391 to 654424.563	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+362	2-phenylpropene	98-83-9	mono constituent substance	CC(=C)c1ccccc1	basesurface narcotics	no data	2.7453	from  2.182 to  3.454	In domain	0.00%	0.00%	100.00%	Out of domain	70.17%	Out of Domain
+363	2-ethylhexyl chloroformate	24468-13-1	mono constituent substance	CCCCC(CC)COC(=O)Cl	Reactive unspecified	no data	<=3.7707	from  2.981 to  4.769	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+364	4,4,13,13-tetraethoxy-3,14-dioxa-8,9-dithia-4,13-disilahexadecane	56706-10-6	mono constituent substance	CCO[Si](CCCSSCCC[Si](OCC)(OCC)OCC)(OCC)OCC	Reactive unspecified	no data	<=3.8736	from  2.703 to  5.551	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+365	dodecanedioic acid	693-23-2	mono constituent substance	OC(=O)CCCCCCCCCCC(O)=O	Reactive unspecified	no data	<=10.0520	from  8.041 to 12.566	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+366	4,4'-methylenedicyclohexyl diisocyanate	5124-30-1	mono constituent substance	O=C=NC1CCC(CC2CCC(N=C=O)CC2)CC1	Reactive unspecified	no data	<=0.0391	from  0.023 to  0.066	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+367	palmitic acid	57-10-3	mono constituent substance	CCCCCCCCCCCCCCCC(O)=O	Reactive unspecified	no data	<=0.0344	from  0.019 to  0.062	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+368	oxydipropyl dibenzoate	27138-31-4	multi constituent substance	O=C(c1ccccc1)OCCCOCCCOC(=O)c1ccccc1	esters	no data	11.0471*	from  1.252 to 97.479	Out of domain	0.5333	0	0.4667	Out of domain	47%	Out of Domain
+			multi constituent substance	CC(COC(=O)c1ccccc1)OC(C)COC(=O)c1ccccc1	esters	no data	12.9359	from  1.691 to 98.988	Out of domain	0.2667	0	0.7333	Out of domain	39%	Out of Domain
+			multi constituent substance	CCC(OC(CC)OC(=O)c1ccccc1)OC(=O)c1ccccc1	esters	no data	11.5861	from  1.555 to 86.330	Out of domain	0.2667	0	0.7333	Out of domain	40%	Out of Domain
+369	1-aminopropan-2-ol	78-96-6	mono constituent substance	CC(O)CN	Reactive unspecified	no data	<=51783.2344	from 27245.729 to 98419.219	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+370	2-methyl-1-(4-methylthiophenyl)-2-morpholinopropan-1-one	71868-10-5	mono constituent substance	CC(C)(C(=O)c1ccc(SC)cc1)N1CCOCC1	Reactive unspecified	no data	<=25.9470	from 20.189 to 33.347	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+371	2-ethoxy-2-methylpropane	637-92-3	mono constituent substance	CCOC(C)(C)C	basesurface narcotics	no data	98.3024	from 64.007 to 150.973	In domain	71.43%	0.00%	28.57%	Out of domain	Out of domain	Out of Domain
+372	citronellal	106-23-0	mono constituent substance	CC(CCC=C(C)C)CC=O	Reactive unspecified	no data	<=3.4380	from  2.634 to  4.487	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+373	ammonium thiocyanate	1762-95-4	inorganic	N{+}.S{-}C#N											
+374	3-hydroxy-2-(hydroxymethyl)-2-methylpropionaldehyde	18516-18-2	mono constituent substance	CC(CO)(CO)C=O	Reactive unspecified	no data	<=60007.1836	from 30136.924 to 119483.414	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+375	N-carboxymethyliminobis(ethylenenitrilo)tetra(acetic acid)	67-43-6	mono constituent substance	OC(=O)CN(CCN(CCN(CC(O)=O)CC(O)=O)CC(O)=O)CC(O)=O	Reactive unspecified	no data	<=331191168.0000*	from 94527128.000 to 1160382080.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+376	heptan-2-one	110-43-0	mono constituent substance	CCCCCC(C)=O	basesurface narcotics	no data	108.9011	from 83.473 to 142.075	In domain	75.00%	0.00%	25.00%	Out of domain	32.96%	Out of Domain
+377	tricyclodecanedimethanol	26896-48-0	UVCB	OCC1CC2CC1C1CC(CO)CC21											
+378	maleic acid	110-16-7	mono constituent substance	OC(=O)C=CC(O)=O	Reactive unspecified	no data	<=2352.8420	from 1232.399 to 4491.942	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+379	1,1,1-trifluoroethane	420-46-2	mono constituent substance	CC(F)(F)F	basesurface narcotics	no data	94.7212	from 69.584 to 128.940	In domain	20.00%	0.00%	80.00%	Out of domain	Out of domain	Out of Domain
+380	diethyl oxalate	95-92-1	mono constituent substance	CCOC(=O)C(=O)OCC	Reactive unspecified	no data	<=1690.8044	from 1018.685 to 2806.383	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+381	malic acid	6915-15-7	mono constituent substance	OC(CC(O)=O)C(O)=O	Reactive unspecified	no data	<=143764.6406	from 68651.398 to 301061.188	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+382	tripotassium citrate	866-84-2	mono constituent substance	OC(CC(=O)O{-}.K{+})(CC(=O)O{-}.K{+})C(=O)O{-}.K{+}	Reactive unspecified	no data	<=182579.0938	from 84009.148 to 396803.500	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+383	trixylyl phosphate	25155-23-1	UVCB	Cc1cccc(OP(=O)(Oc2ccc(C)cc2C)Oc2cc(C)cc(C)c2)c1C											
+384	2,2'-(octadec-9-enylimino)bisethanol	25307-17-9	mono constituent substance	CCCCCCCCC=CCCCCCCCCN(CCO)CCO	Reactive unspecified	no data	<=0.0444	from  0.024 to  0.082	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+385	undecane	1120-21-4	mono constituent substance	CCCCCCCCCCC	basesurface narcotics	no data	0.0731*	from  0.032 to  0.169	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+386	tert-butyl methacrylate	585-07-9	mono constituent substance	CC(=C)C(=O)OC(C)(C)C	Reactive unspecified	no data	<=17.7002	from 14.186 to 22.084	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+387	1,3-dioxepane	505-65-7	mono constituent substance	C1CCCOCO1	basesurface narcotics	no data	1259.4631	from 813.597 to 1949.672	In domain	100.00%	0.00%	0.00%	In domain	5.94%	In domain
+388	trimethyl-3-[(1-oxoallyl)amino]propylammonium chloride	45021-77-0	mono constituent substance	CN{+}(C)(C)(.Cl{-})CCCNC(=O)C=C	Reactive unspecified	no data	<=22576.7227*	from 6909.691 to 73767.195	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+389	ethyl chloroformate	541-41-3	mono constituent substance	CCOC(=O)Cl	Reactive unspecified	no data	<=849.9797	from 545.767 to 1323.762	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+390	sodium ethylenesulphonate	3039-83-6	mono constituent substance	C=CS(=O)(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=190894.5938	from 79119.789 to 460576.906	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+391	2-ethylhexyl 4-methoxycinnamate	5466-77-3	mono constituent substance	CCCCC(CC)COC(=O)C=Cc1ccc(OC)cc1	esters	no data	1.2035*	from  0.024 to 59.391	Out of domain	0.25	0	0.75	Out of domain	21%	Out of Domain
+392	C,C'-azodi(formamide)	123-77-3	mono constituent substance	NC(=O)N=NC(N)=O	Reactive unspecified	no data	<=9986669.0000*	from 3108961.500 to 32079378.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+393	furfuryl alcohol	98-00-0	mono constituent substance	OCC1=CC=CO1	basesurface narcotics	no data	1248.8142	from 812.393 to 1919.684	In domain	14.29%	0.00%	85.71%	Out of domain	Out of domain	Out of Domain
+394	hexasodium 2,2'-[vinylenebis[(3-sulphonato-4,1-phenylene)imino[6-(diethylamino)-1,3,5-triazine-4,2-diyl]imino]]bis(benzene-1,4-disulphonate)	41098-56-0	mono constituent substance	CCN(CC)c1nc(Nc2ccc(C=Cc3ccc(Nc4nc(Nc5cc(S(=O)(=O)O{-}.[Na]{+})ccc5S(=O)(=O)O{-}.[Na]{+})nc(N(CC)CC)n4)c(S(=O)(=O)O{-}.[Na]{+})c3)cc2S(=O)(=O)O{-}.[Na]{+})nc(Nc2cc(S(=O)(=O)O{-}.[Na]{+})ccc2S(=O)(=O)O{-}.[Na]{+})n1	Reactive unspecified	no data	<=6.8091	from  4.485 to 10.337	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+395	N-vinylformamide	13162-05-5	mono constituent substance	C=CNC=O	Reactive unspecified	no data	<=1308.2064	from 840.303 to 2036.650	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+396	N-(2-ethylhexyl)naphthalen-2-amine	56358-17-9	mono constituent substance	CCCCC(CC)CNc1ccc2ccccc2c1	basesurface narcotics	no data	0.0309	from  0.019 to  0.051	In domain	60.00%	0.00%	40.00%	Out of domain	30.49%	Out of Domain
+397	docusate sodium	577-11-7	mono constituent substance	CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=0.0432	from  0.026 to  0.071	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+398	2-chloropropane	75-29-6	mono constituent substance	CC(C)Cl	basesurface narcotics	no data	47.9219	from 36.621 to 62.710	In domain	75.00%	0.00%	25.00%	Out of domain	13.59%	Out of Domain
+399	heptane	142-82-5	mono constituent substance	CCCCCCC	basesurface narcotics	no data	2.3497	from  1.221 to  4.523	In domain	100.00%	0.00%	0.00%	In domain	11.95%	In domain
+400	2,6-di-tert-butylphenol	128-39-2	mono constituent substance	CC(C)(C)c1cccc(C(C)(C)C)c1O	Reactive unspecified	no data	<=0.5835	from  0.417 to  0.816	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+401	sodium benzoate	532-32-1	mono constituent substance	O=C(c1ccccc1)O{-}.[Na]{+}	Reactive unspecified	no data	<=64.4027	from 45.979 to 90.209	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+402	triclosan	3380-34-5	mono constituent substance	Oc1cc(Cl)ccc1Oc1ccc(Cl)cc1Cl	Reactive unspecified	no data	<=0.4514	from  0.322 to  0.632	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+403	ammonium hydrogendifluoride	1341-49-7	inorganic	F_N{+}.F{-}											
+404	pivaloyl chloride	3282-30-2	mono constituent substance	CC(C)(C)C(=O)Cl	Reactive unspecified	no data	<=596.9078	from 409.974 to 869.078	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+405	hydrogen fluoride	7664-39-3	inorganic	F											
+406	isopentyl acetate	123-92-2	mono constituent substance	CC(C)CCOC(C)=O	esters	no data	120.9447	from 11.047 to 1324.078	In domain	0.5556	0	0.4444	Out of domain	15%	Out of Domain
+407	tris(2-butoxyethyl) phosphate	78-51-3	mono constituent substance	CCCCOCCOP(=O)(OCCOCCCC)OCCOCCCC	Reactive unspecified	no data	<=24.1829	from 19.512 to 29.972	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+408	diammonium dihydrogen ethylenediaminetetraacetate	20824-56-0	mono constituent substance	N{+}.O{-}C(=O)CN(CCN(CC(O)=O)CC(=O)O{-}.N{+})CC(O)=O	Reactive unspecified	no data	<=27970056.0000*	from 9428115.000 to 82977776.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+409	1,1',1''-nitrilotripropan-2-ol	122-20-3	mono constituent substance	CC(O)CN(CC(C)O)CC(C)O	Reactive unspecified	no data	<=113095.9219	from 61154.434 to 209153.875	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+410	geraniol	106-24-1	mono constituent substance	CC(C)=CCCC(C)=CCO	Reactive unspecified	no data	<=3.9449	from  3.024 to  5.146	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+411	3-methylbutan-1-ol	123-51-3	mono constituent substance	CC(C)CCO	basesurface narcotics	no data	378.8731	from 228.764 to 627.480	In domain	100.00%	0.00%	0.00%	In domain	6.95%	In domain
+412	4-methylpentan-2-ol	108-11-2	mono constituent substance	CC(C)CC(C)O	basesurface narcotics	no data	182.7531	from 110.740 to 301.596	In domain	85.71%	0.00%	14.29%	Out of domain	Out of domain	Out of Domain
+413	[2-(2-methoxymethylethoxy)methylethoxy]propanol	25498-49-1	multi constituent substance	CC(CO)OCC(C)OCC(C)OC	basesurface narcotics	no data	14278.3115	from 8763.009 to 23264.861	In domain	42.86%	0.00%	57.14%	Out of domain	Out of domain	Out of Domain
+			multi constituent substance	CCC(O)OCCCOCCCOC	Reactive unspecified	no data	<=11026.2012	from 6817.979 to 17831.842	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	CC(CO)OC(C)COC(C)COC	basesurface narcotics	no data	14108.5898	from 8671.804 to 22953.969	In domain	42.86%	0.00%	57.14%	Out of domain	Out of domain	Out of Domain
+414	tetraphenyl m-phenylene bis(phosphate)	57583-54-7	multi constituent substance	O=P(Oc1ccccc1)(Oc1ccccc1)Oc1cccc(OP(=O)(Oc2ccccc2)Oc2ccccc2)c1	Reactive unspecified	no data	<=0.0934*	from  0.059 to  0.149	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+415	1,2,2,6,6-pentamethylpiperidin-4-ol	2403-89-6	mono constituent substance	CC1(C)CC(O)CC(C)(C)N1C	Reactive unspecified	no data	<=758.1176	from 508.838 to 1129.520	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+416	tris(2-ethylhexyl) benzene-1,2,4-tricarboxylate	3319-31-1	mono constituent substance	CCCCC(CC)COC(=O)c1ccc(C(=O)OCC(CC)CCCC)cc1C(=O)OCC(CC)CCCC	esters	no data	146.3846*	from  7.478 to 2865.457	Out of domain	0.5588	0	0.4412	Out of domain	10%	Out of Domain
+417	2-hexyloxyethanol	112-25-4	mono constituent substance	CCCCCCOCCO	basesurface narcotics	no data	290.0844	from 194.806 to 431.964	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+418	disodium [2,2'-bi-1H-indole]-3,3'-diolate	894-86-0	mono constituent substance	[Na]{+}.O{-}C1=C(C2=C(O{-}.[Na]{+})c3ccccc3N2)Nc2ccccc12	basesurface narcotics	no data	16.1443	from 12.575 to 20.728	In domain	0.00%	0.00%	100.00%	Out of domain	81.82%	Out of Domain
+419	2,2'-[(3,3'-dichloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[N-(4-ethoxyphenyl)-3-oxobutyramide]	31775-20-9	mono constituent substance	CCOc1ccc(NC(=O)C(C(C)=O)N=Nc2ccc(-c3ccc(N=NC(C(C)=O)C(=O)Nc4ccc(OCC)cc4)c(Cl)c3)cc2Cl)cc1	Reactive unspecified	no data	<=0.4122*	from  0.277 to  0.614	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+420	4-methylpentan-2-one	108-10-1	mono constituent substance	CC(C)CC(C)=O	basesurface narcotics	no data	310.8161	from 225.350 to 428.696	In domain	71.43%	0.00%	28.57%	Out of domain	13.75%	Out of Domain
+421	N-[3-(dimethylamino)propyl]methacrylamide	5205-93-6	mono constituent substance	CC(=C)C(=O)NCCCN(C)C	Reactive unspecified	no data	<=2396.3887	from 1545.278 to 3716.275	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+422	ammonium hydrogensulphite	10192-30-0	inorganic	N{+}.O{-}S(O)=O											
+423	bis(4-chlorophenyl) sulphone	80-07-9	mono constituent substance	O=S(=O)(c1ccc(Cl)cc1)c1ccc(Cl)cc1	Reactive unspecified	no data	<=2.0377*	from  1.501 to  2.766	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+424	cyclohex-1,4-ylenedimethanol	105-08-8	mono constituent substance	OCC1CCC(CO)CC1	basesurface narcotics	no data	365.3073	from 228.278 to 584.591	In domain	80.00%	0.00%	20.00%	Out of domain	Out of domain	Out of Domain
+425	glyoxal	107-22-2	mono constituent substance	O=CC=O	Reactive unspecified	no data	<=46452.5625	from 20196.557 to 106842.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+426	(3-chloro-2-hydroxypropyl)trimethylammonium chloride	3327-22-8	mono constituent substance	CN{+}(C)(C)(.Cl{-})CC(O)CCl	Reactive unspecified	no data	<=338949.9375*	from 86128.352 to 1333905.125	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+427	3-isocyanatomethyl-3,5,5-trimethylcyclohexyl isocyanate	4098-71-9	mono constituent substance	CC1(C)CC(N=C=O)CC(C)(CN=C=O)C1	Reactive unspecified	no data	<=0.3610	from  0.250 to  0.521	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+428	p-phenylenediamine	106-50-3	mono constituent substance	Nc1ccc(N)cc1	Reactive unspecified	no data	<=8214.8477	from 4808.538 to 14034.146	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+429	crotonaldehyde	4170-30-3	mono constituent substance	CC=CC=O	Reactive unspecified	no data	<=574.0166	from 365.867 to 900.587	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+430	isobutyric anhydride	97-72-3	mono constituent substance	CC(C)C(=O)OC(=O)C(C)C	Reactive unspecified	no data	<=383.9707	from 276.742 to 532.747	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+431	oxalic acid	144-62-7	mono constituent substance	OC(=O)C(O)=O	Reactive unspecified	no data	<=86982.8594	from 37702.629 to 200676.156	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+432	2,2,2',2'-tetrakis(hydroxymethyl)-3,3'-oxydipropan-1-ol	126-58-9	mono constituent substance	OCC(CO)(CO)COCC(CO)(CO)CO	basesurface narcotics	no data	2492852.7500*	from 1105949.625 to 5618985.000	Out of domain	76.47%	0.00%	23.53%	Out of domain	Out of domain	Out of Domain
+433	tert-butyl acetate	540-88-5	mono constituent substance	CC(=O)OC(C)(C)C	esters	no data	155.1915	from 29.943 to 804.341	In domain	0.375	0	0.625	Out of domain	25%	Out of Domain
+434	29H,31H-phthalocyanine	574-93-6	mono constituent substance	C1=CC=CC2C1=C1NC=2N=C2c3ccccc3C(=N2)N=C2c3ccccc3C(N2)=NC2c3ccccc3C(=N1)N=2	Reactive unspecified	no data	<=7.6991*	from  5.134 to 11.546	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+435	N-tert-butylbenzothiazole-2-sulphenamide	95-31-8	mono constituent substance	CC(C)(C)NSC1=Nc2ccccc2S1	Reactive unspecified	no data	<=29.1690	from 21.775 to 39.074	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+436	pentane-1,2-diol	5343-92-0	mono constituent substance	CCCC(O)CO	basesurface narcotics	no data	3814.8105	from 2289.785 to 6355.522	In domain	85.71%	0.00%	14.29%	Out of domain	15.05%	Out of Domain
+437	2-hydroxyethyl acrylate	818-61-1	mono constituent substance	C=CC(=O)OCCO	Reactive unspecified	no data	<=5307.4683	from 2941.235 to 9577.344	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+438	2-methylaminoethanol	109-83-1	mono constituent substance	CNCCO	Reactive unspecified	no data	<=44578.0313	from 23846.260 to 83333.859	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+439	2,2'-ethylenedioxydiethyl bis(2-ethylhexanoate)	94-28-0	mono constituent substance	CCCCC(CC)C(=O)OCCOCCOCCOC(=O)C(CC)CCCC	esters	no data	6.5187*	from  0.030 to 1410.255	Out of domain	0.5	0	0.5	Out of domain	Out of domain	Out of Domain
+440	(Z)-N-methyl-N-(1-oxo-9-octadecenyl)glycine	110-25-8	mono constituent substance	CCCCCCCCC=CCCCCCCCC(=O)N(C)CC(O)=O	Reactive unspecified	no data	<=0.0405	from  0.023 to  0.071	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+441	N-phenylmaleimide	941-69-5	mono constituent substance	O=C1C=CC(=O)N1c1ccccc1	Reactive unspecified	no data	<=626.7516	from 368.111 to 1067.118	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+442	disodium dihydrogenpyrophosphate	7758-16-9	inorganic	OP(=O)(OP(O)(=O)O{-}.[Na]{+})O{-}.[Na]{+}											
+443	2-ethyl-N,N-bis(2-ethylhexyl)hexylamine	1860-26-0	mono constituent substance	CCCCC(CC)CN(CC(CC)CCCC)CC(CC)CCCC	Reactive unspecified	no data	<=24.4251*	from 15.384 to 38.780	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+444	diallyl 2,2'-oxydiethyl dicarbonate	142-22-3	mono constituent substance	C=CCOC(=O)OCCOCCOC(=O)OCC=C	Reactive unspecified	no data	<=353.6810	from 263.803 to 474.180	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+445	tetramethylenediamine	110-60-1	mono constituent substance	NCCCCN	Reactive unspecified	no data	<=19220.0391	from 10635.803 to 34732.676	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+446	allyl alcohol	107-18-6	mono constituent substance	C=CCO	Reactive unspecified	no data	<=1363.9701	from 883.310 to 2106.184	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+447	tris(2-methoxyethoxy)vinylsilane	1067-53-4	mono constituent substance	COCCO[Si](C=C)(OCCOC)OCCOC	Reactive unspecified	no data	<=93118.5391	from 47500.852 to 182545.406	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+448	potassium sodium tartrate	304-59-6	mono constituent substance	OC(C(O)C(=O)O{-}.[Na]{+})C(=O)O{-}.K{+}	Reactive unspecified	no data	<=37548.1719	from 19589.324 to 71971.102	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+449	2,2-bis(hydroxymethyl)propionic acid	4767-03-7	mono constituent substance	CC(CO)(CO)C(O)=O	Reactive unspecified	no data	<=42945.6641	from 22842.869 to 80739.859	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+450	2-chlorobenzaldehyde	89-98-5	mono constituent substance	O=Cc1ccccc1Cl	Reactive unspecified	no data	<=26.5540	from 19.540 to 36.086	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+451	glyoxylic acid	298-12-4	mono constituent substance	OC(=O)C=O	Reactive unspecified	no data	<=39460.7188	from 18803.689 to 82810.773	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+452	triphenylphosphine	603-35-0	mono constituent substance	c1ccccc1P(c1ccccc1)c1ccccc1	Reactive unspecified	no data	<=0.2366*	from  0.160 to  0.349	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+453	diammonium hydrogenorthophosphate	7783-28-0	inorganic	N{+}.O{-}P(O)(=O)O{-}.N{+}											
+454	isotridecan-1-ol	27458-92-0	UVCB	CC(C)CCCCCCCCCCO											
+455	3-chloropropyltrimethoxysilane	2530-87-2	mono constituent substance	CO[Si](CCCCl)(OC)OC	Reactive unspecified	no data	<=2173.5186	from 1467.164 to 3219.941	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+456	tert-butylamine	75-64-9	mono constituent substance	CC(C)(C)N	Reactive unspecified	no data	<=973.9983	from 576.125 to 1646.643	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+457	2-(4-tert-butylbenzyl)propionaldehyde	80-54-6	mono constituent substance	CC(Cc1ccc(C(C)(C)C)cc1)C=O	Reactive unspecified	no data	<=0.7157	from  0.524 to  0.978	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+458	propylidynetrimethyl trimethacrylate	3290-92-4	mono constituent substance	CCC(COC(=O)C(C)=C)(COC(=O)C(C)=C)COC(=O)C(C)=C	Reactive unspecified	no data	<=0.8082	from  0.589 to  1.110	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+459	dimethylamine	124-40-3	mono constituent substance	CNC	Reactive unspecified	49.4318	<=3855.3562	from 2187.498 to 6794.872	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+460	trisodium orthophosphate	7601-54-9	inorganic	O=P(O{-}.[Na]{+})(O{-}.[Na]{+})O{-}.[Na]{+}											
+461	3,7,11,15-tetramethylhexadec-1-en-3-ol	505-32-8	mono constituent substance	CC(C)CCCC(C)CCCC(C)CCCC(C)(O)C=C	basesurface narcotics	no data	0.2936*	from  0.185 to  0.467	Out of domain	85.71%	0.00%	14.29%	Out of domain	Out of domain	Out of Domain
+462	2-[(2-methoxy-4-nitrophenyl)azo]-N-(2-methoxyphenyl)-3-oxobutyramide	6358-31-2	mono constituent substance	CC(=O)C(C(=O)Nc1ccccc1OC)N=Nc1ccc(N(=O)=O)cc1OC	Reactive unspecified	no data	<=15.8862	from 10.734 to 23.512	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+463	tris[2-chloro-1-(chloromethyl)ethyl] phosphate	13674-87-8	mono constituent substance	O=P(OC(CCl)CCl)(OC(CCl)CCl)OC(CCl)CCl	Reactive unspecified	no data	<=5.7321	from  4.436 to  7.406	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+464	3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-2H-benzopyran-6-yl acetate	7695-91-2	mono constituent substance	CC(C)CCCC(C)CCCC(C)CCCC1(C)CCc2c(C)c(OC(C)=O)c(C)c(C)c2O1	esters	no data	818.2555*	from 142.357 to 4703.250	Out of domain	0.2069	0	0.7931	Out of domain	6%	Out of Domain
+465	3-mercaptopropionic acid	107-96-0	mono constituent substance	OC(=O)CCS	Reactive unspecified	no data	<=1135.9064	from 743.491 to 1735.439	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+466	ammonium hydrogencarbonate	1066-33-7	inorganic	N{+}.O{-}C(O)=O											
+467	2-aminobutan-1-ol	96-20-8	mono constituent substance	CCC(N)CO	Reactive unspecified	no data	<=21767.2500	from 12075.764 to 39236.703	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+468	cyclohexyl methacrylate	101-43-9	mono constituent substance	CC(=C)C(=O)OC1CCCCC1	Reactive unspecified	no data	<=3.1329	from  2.476 to  3.964	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+469	n-hexane	110-54-3	mono constituent substance	CCCCCC	basesurface narcotics	3.8937	5.6812	from  3.051 to 10.579	In domain	100.00%	0.00%	0.00%	In domain	21.13%	In domain
+470	benzene-1,2,4,5-tetracarboxylic acid, compound with 4,5-dihydro-2-phenyl-1H-imidazole (1:1)	54553-90-1	UVCB	 											
+471	di-tert-butyl 1,1,4,4-tetramethyltetramethylene diperoxide	78-63-7	mono constituent substance	CC(C)(C)OOC(C)(C)CCC(C)(C)OOC(C)(C)C	Reactive unspecified	no data	<=0.0432	from  0.022 to  0.087	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+472	1,3,5-triazine-2,4,6(1H,3H,5H)-trione, trisodium salt	3047-33-4	mono constituent substance	[Na]{+}.O{-}c1nc(O{-}.[Na]{+})nc(O{-}.[Na]{+})n1	Reactive unspecified	no data	<=951.4279	from 581.918 to 1555.572	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+473	"1,3-propanesultone; 1,2-oxathiolane 2,2-dioxide"	1120-71-4	mono constituent substance	O=S1(=O)CCCO1	Reactive unspecified	no data	<=5597.2051	from 2988.595 to 10482.752	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+474	hydrogen bromide	10035-10-6	inorganic	Br											
+475	cyclopentanone	120-92-3	mono constituent substance	O=C1CCCC1	basesurface narcotics	no data	793.1017	from 540.012 to 1164.808	In domain	50.00%	0.00%	50.00%	Out of domain	Out of domain	Out of Domain
+476	diphosphorus pentasulphide	1314-80-3	inorganic	S=P12SP3(=S)SP(=S)(S1)SP(=S)(S2)S3											
+477	diisononyl adipate	33703-08-1	UVCB	CC(C)CCCCCCOC(=O)CCCCC(=O)OCCCCCCC(C)C											
+478	(Z)-octadec-9-enol	143-28-2	mono constituent substance	CCCCCCCCC=CCCCCCCCCO	basesurface narcotics	no data	0.0722*	from  0.041 to  0.127	Out of domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+479	benzoin	119-53-9	mono constituent substance	OC(c1ccccc1)C(=O)c1ccccc1	Reactive unspecified	no data	<=120.3470	from 85.970 to 168.470	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+480	methyl undec-10-enoate	111-81-9	mono constituent substance	COC(=O)CCCCCCCCC=C	esters	no data	10.6487*	from  0.101 to 1125.783	Out of domain	0.7143	0	0.2857	Out of domain	Out of domain	Out of Domain
+481	m-phenylenebis(methylamine)	1477-55-0	mono constituent substance	NCc1cccc(CN)c1	Reactive unspecified	no data	<=3175.5212	from 1969.842 to 5119.159	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+482	DL-malic acid	617-48-1	mono constituent substance	OC(CC(O)=O)C(O)=O	Reactive unspecified	no data	<=143764.6406	from 68651.398 to 301061.188	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+483	isodecyl diphenyl phosphate	29761-21-5	UVCB	CC(C)CCCCCCCOP(=O)(Oc1ccccc1)Oc1ccccc1											
+484	3-chloropropene	107-05-1	mono constituent substance	C=CCCl	Reactive unspecified	no data	<=45.8490	from 35.696 to 58.891	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+485	chlorotrimethylsilane	75-77-4	mono constituent substance	C[Si](C)(C)Cl	Reactive unspecified	no data	<=18.1779	from 14.367 to 23.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+486	bis(2-ethylhexyl) maleate	142-16-5	mono constituent substance	CCCCC(CC)COC(=O)C=CC(=O)OCC(CC)CCCC	Reactive unspecified	no data	<=0.1257*	from  0.083 to  0.190	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+487	[1,3-phenylenebis(1-methylethylidene)]bis[tert-butyl] peroxide	2212-81-9	mono constituent substance	CC(C)(C)OOC(C)(C)c1cccc(C(C)(C)OOC(C)(C)C)c1	Reactive unspecified	no data	<=0.0591*	from  0.036 to  0.098	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+488	tetrahydro-4-methylphthalic anhydride	34090-76-1	mono constituent substance	CC1CCC2=C(C1)C(=O)OC2=O	Reactive unspecified	no data	<=0.8739	from  0.618 to  1.237	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+489	"4,4'-oxydianiline and its salts; p-aminophenyl ether"	101-80-4	mono constituent substance	Nc1ccc(Oc2ccc(N)cc2)cc1	Reactive unspecified	no data	<=61.8609	from 48.758 to 78.485	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+490	diisodecyl adipate	27178-16-1	UVCB	CC(C)CCCCCCCOC(=O)CCCCC(=O)OCCCCCCCC(C)C											
+491	N-(1,4-dimethylpentyl)-N'-phenylbenzene-1,4-diamine	3081-01-4	mono constituent substance	CC(C)CCC(C)Nc1ccc(Nc2ccccc2)cc1	basesurface narcotics	no data	0.1881	from  0.125 to  0.282	In domain	54.55%	9.09%	36.36%	Out of domain	10%	Out of Domain
+492	1,1',1'',1'''-ethylenedinitrilotetrapropan-2-ol	102-60-3	mono constituent substance	CC(O)CN(CCN(CC(C)O)CC(C)O)CC(C)O	Reactive unspecified	no data	<=1048502.6875*	from 505281.281 to 2175734.500	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+493	bis(4-fluorophenyl) ketone	345-92-6	mono constituent substance	O=C(c1ccc(F)cc1)c1ccc(F)cc1	basesurface narcotics	no data	3.3009	from  2.486 to  4.382	In domain	16.67%	0.00%	83.33%	Out of domain	44.84%	Out of Domain
+494	diisotridecyl 3,3'-[(dibutylstannylene)bis(thio)]dipropionate	84896-44-6	UVCB	CCCC[Sn](CCCC)(SCCC(=O)OCCCCCCCCCCC(C)C)SCCC(=O)OCCCCCCCCCCC(C)C											
+495	Propane-1,2-diol, propoxylated	25322-69-4	UVCB	 											
+496	5,12-dihydroquino[2,3-b]acridine-7,14-dione	1047-16-1	mono constituent substance	O=C1c2ccccc2Nc2cc3c(cc12)Nc1ccccc1C3=O	Reactive unspecified	no data	<=426.1922*	from 274.062 to 662.768	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+497	1-(5,6,7,8-tetrahydro-3,5,5,6,8,8-hexamethyl-2-naphthyl)ethan-1-one	1506-02-1	mono constituent substance	CC1CC(C)(C)c2cc(C(C)=O)c(C)cc2C1(C)C	basesurface narcotics	no data	0.0272	from  0.016 to  0.045	Out of domain	64.29%	0.00%	35.71%	Out of domain	22.26%	Out of Domain
+498	2,2,4(or 2,4,4)-trimethylhexane-1,6-diamine	25513-64-8	multi constituent substance	CC(CCN)CC(C)(C)CN	Reactive unspecified	no data	<=299.7987	from 185.359 to 484.892	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	CC(CC(C)(C)CCN)CN	Reactive unspecified	no data	<=296.6404	from 184.703 to 476.416	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+499	Ionone, methyl-	1335-46-2	multi constituent substance	CCC(=O)C=CC1C(C)=CCCC1(C)C	Reactive unspecified	no data	<=0.2876	from  0.202 to  0.409	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+500	2,2'-[(3,3'-dichloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[N-(4-chloro-2,5-dimethoxyphenyl)-3-oxobutyramide]	5567-15-7	mono constituent substance	CC(=O)C(C(=O)Nc1cc(OC)c(Cl)cc1OC)N=Nc1ccc(-c2ccc(N=NC(C(C)=O)C(=O)Nc3cc(OC)c(Cl)cc3OC)c(Cl)c2)cc1Cl	Reactive unspecified	no data	<=0.1313*	from  0.082 to  0.210	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+501	2-methylbutan-1-ol	137-32-6	mono constituent substance	CCC(C)CO	basesurface narcotics	no data	378.4756	from 228.678 to 626.401	In domain	100.00%	0.00%	0.00%	In domain	7.01%	In domain
+502	3-methylbutanone	563-80-4	mono constituent substance	CC(C)C(C)=O	basesurface narcotics	no data	748.8043	from 512.356 to 1094.371	In domain	66.67%	0.00%	33.33%	Out of domain	Out of domain	Out of Domain
+503	citronellol	106-22-9	mono constituent substance	CC(CCC=C(C)C)CCO	basesurface narcotics	no data	3.4658	from  2.597 to  4.625	In domain	54.55%	0.00%	45.45%	Out of domain	10.22%	Out of Domain
+504	hydrogen chloride	7647-01-0	inorganic	Cl											
+505	m-tolylidene diisocyanate	26471-62-5	multi constituent substance	Cc1ccc(N=C=O)cc1N=C=O	Reactive unspecified	no data	<=1.8345	from  1.397 to  2.410	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	Cc1c(N=C=O)cccc1N=C=O	Reactive unspecified	no data	<=1.8476	from  1.410 to  2.421	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+506	2-methylpropane-2-thiol	75-66-1	mono constituent substance	CC(C)(C)S	Reactive unspecified	no data	<=36.3707	from 28.682 to 46.120	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+507	pentaerythritol	115-77-5	mono constituent substance	OCC(CO)(CO)CO	basesurface narcotics	no data	271429.5313	from 136273.359 to 540633.813	Out of domain	88.89%	0.00%	11.11%	Out of domain	8%	Out of Domain
+508	pentasodium triphosphate	7758-29-4	inorganic	O=P(OP(=O)(OP(=O)(O{-}.[Na]{+})O{-}.[Na]{+})O{-}.[Na]{+})(O{-}.[Na]{+})O{-}.[Na]{+}											
+509	decyl oleate	3687-46-5	mono constituent substance	CCCCCCCCCCOC(=O)CCCCCCCC=CCCCCCCCC	esters	no data	2102.7864*	from 279.029 to 15846.794	Out of domain	0.8333	0	0.1667	Out of domain	75%	Out of Domain
+510	tetraammonium ethylenediaminetetraacetate	22473-78-5	mono constituent substance	N{+}.O{-}C(=O)CN(CCN(CC(=O)O{-}.N{+})CC(=O)O{-}.N{+})CC(=O)O{-}.N{+}	Reactive unspecified	no data	<=27970056.0000*	from 9428115.000 to 82977776.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+511	1,2,4-trimethylbenzene	95-63-6	mono constituent substance	Cc1ccc(C)cc1C	basesurface narcotics	3.5469	1.9998	from  1.555 to  2.572	In domain	100.00%	0.00%	0.00%	In domain	45.94%	In domain
+512	3,7-dimethyloctan-3-ol	78-69-3	mono constituent substance	CCC(C)(O)CCCC(C)C	basesurface narcotics	no data	5.0229	from  2.780 to  9.074	In domain	72.73%	0.00%	27.27%	Out of domain	11.19%	Out of Domain
+513	tetrasodium 4-amino-5-hydroxy-3,6-bis[[4-[[2-(sulphonatooxy)ethyl]sulphonyl]phenyl]azo]naphthalene-2,7-disulphonate	17095-24-8	mono constituent substance	Nc1c(N=Nc2ccc(S(=O)(=O)CCOS(=O)(=O)O{-}.[Na]{+})cc2)c(S(=O)(=O)O{-}.[Na]{+})cc2cc(S(=O)(=O)O{-}.[Na]{+})c(N=Nc3ccc(S(=O)(=O)CCOS(=O)(=O)O{-}.[Na]{+})cc3)c(O)c12	Reactive unspecified	no data	<=12346796032.0000*	from 2158031104.000 to 70640066560.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+514	1,4-dioxacyclohexadecane-5,16-dione	54982-83-1	mono constituent substance	O=C1CCCCCCCCCCC(=O)OCCO1	esters	no data	16.1554	from  0.467 to 558.386	In domain	0.8889	0	0.1111	Out of domain	Out of domain	Out of Domain
+515	1,1'-isopropylidenebis(p-phenyleneoxy)dipropan-2-ol	116-37-0	mono constituent substance	CC(O)COc1ccc(C(C)(C)c2ccc(OCC(C)O)cc2)cc1	basesurface narcotics	no data	2.1601	from  1.641 to  2.843	Out of domain	53.33%	0.00%	46.67%	Out of domain	60.08%	Out of Domain
+516	isobutyl acrylate	106-63-8	mono constituent substance	CC(C)COC(=O)C=C	Reactive unspecified	no data	<=44.3795	from 34.085 to 57.783	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+517	N-methylacetamide	79-16-3	mono constituent substance	CC(=O)NC	basesurface narcotics	no data	12428.8428	from 7182.662 to 21506.813	In domain	0.00%	0.00%	100.00%	Out of domain	11.31%	Out of Domain
+518	ethylamine	75-04-7	mono constituent substance	CCN	Reactive unspecified	no data	<=3789.2217	from 2119.486 to 6774.378	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+519	2-acrylamido-2-methylpropanesulphonic acid	15214-89-8	mono constituent substance	CC(C)(CS(O)(=O)=O)NC(=O)C=C	Reactive unspecified	no data	<=476771.4688	from 185202.328 to 1227365.875	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+520	2,4,6-triallyloxy-1,3,5-triazine	101-37-1	mono constituent substance	C=CCOc1nc(OCC=C)nc(OCC=C)n1	Reactive unspecified	no data	<=0.1279	from  0.085 to  0.192	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+521	carbon disulphide	75-15-0	inorganic	S=C=S											
+522	4-methylpent-3-en-2-one	141-79-7	mono constituent substance	CC(C)=CC(C)=O	Reactive unspecified	no data	<=164.8352	from 116.701 to 232.823	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+523	benzenesulphonic acid	98-11-3	mono constituent substance	OS(=O)(=O)c1ccccc1	Reactive unspecified	no data	<=44293.7344	from 20424.109 to 96059.750	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+524	Phenol, 4-nonyl-, branched	84852-15-3	UVCB	CC(C)CCCCCCc1ccc(O)cc1											
+525	pentan-3-one	96-22-0	mono constituent substance	CCC(=O)CC	basesurface narcotics	no data	640.982	from 442.501 to 928.491	In domain	50.00%	0.00%	50.00%	Out of domain	Out of domain	Out of Domain
+526	tetrahydrothiophene	110-01-0	mono constituent substance	C1CCCS1	basesurface narcotics	no data	77.5071	from 59.494 to 100.975	In domain	40.00%	0.00%	60.00%	Out of domain	26.35%	Out of Domain
+527	1,2,3,6-tetrahydro-3-methylphthalic anhydride	5333-84-6	mono constituent substance	CC1C=CCC2C1C(=O)OC2=O	Reactive unspecified	no data	<=35.6967	from 28.257 to 45.095	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+528	[[(phosphonomethyl)imino]bis[ethane-2,1-diylnitrilobis(methylene)]]tetrakisphosphonic acid	15827-60-8	mono constituent substance	OP(O)(=O)CN(CCN(CCN(CP(O)(O)=O)CP(O)(O)=O)CP(O)(O)=O)CP(O)(O)=O	Reactive unspecified	no data	<=483072081920.0000*	from 82459590656.000 to 2829975552000.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+529	N-(hydroxymethyl)acrylamide	924-42-5	mono constituent substance	C=CC(=O)NCO	Reactive unspecified	no data	<=131262.5625	from 60010.711 to 287113.094	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+530	diallyldimethylammonium chloride	7398-69-8	mono constituent substance	CN{+}(C)(.Cl{-})(CC=C)CC=C	Reactive unspecified	no data	<=4531.3960*	from 1521.602 to 13494.690	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+531	heptan-1-ol	111-70-6	mono constituent substance	CCCCCCCO	basesurface narcotics	70.0146	54.9453	from 32.740 to 92.209	In domain	100.00%	0.00%	0.00%	In domain	13.91%	In domain
+532	isopropyl laurate	10233-13-3	mono constituent substance	CCCCCCCCCCCC(=O)OC(C)C	esters	no data	3.0972*	from  0.006 to 1659.307	Out of domain	0.7059	0	0.2941	Out of domain	Out of domain	Out of Domain
+533	sodium 2-hydroxyethanesulphonate	1562-00-1	mono constituent substance	OCCS(=O)(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=3382258.0000*	from 1120725.125 to 10207381.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+534	hexan-1-ol	111-27-3	mono constituent substance	CCCCCCO	basesurface narcotics	no data	135.4678	from 81.506 to 225.155	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+535	benzene-1,2,4,5-tetracarboxylic acid, compound with 4,5-dihydro-2-phenyl-1H-imidazole (1:2)	54553-91-2	multi constituent substance	C1CNC(c2ccccc2)=N1	Reactive unspecified	no data	<=25.3002	from 19.755 to 32.402	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	OC(=O)c1cc(C(O)=O)c(C(O)=O)cc1C(O)=O	Reactive unspecified	no data	<=3498.0879	from 1646.903 to 7430.075	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+536	2,2,4-trimethylpentane	540-84-1	mono constituent substance	CC(C)CC(C)(C)C	basesurface narcotics	no data	1.3971	from  0.712 to  2.740	In domain	87.50%	0.00%	12.50%	Out of domain	8.84%	Out of Domain
+537	2,3-dichlorobuta-1,3-diene	1653-19-6	mono constituent substance	C=C(Cl)C(=C)Cl	basesurface narcotics	no data	6.4406	from  5.116 to  8.109	In domain	0.00%	0.00%	100.00%	Out of domain	98.77%	Out of Domain
+538	methylamine	74-89-5	mono constituent substance	CN	Reactive unspecified	no data	<=7511.8901	from 4001.438 to 14102.053	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+539	sodium acrylate	7446-81-3	mono constituent substance	C=CC(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=825.9807	from 515.706 to 1322.932	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+540	butylamine	109-73-9	mono constituent substance	CCCCN	Reactive unspecified	no data	<=772.2909	from 458.425 to 1301.050	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+541	2-ethyl-4-(2,2,3-trimethyl-3-cyclopenten-1-yl)-2-buten-1-ol	28219-61-6	mono constituent substance	CCC(CO)=CCC1CC=C(C)C1(C)C	Reactive unspecified	no data	<=0.1718	from  0.109 to  0.270	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+542	4-tert-butylbenzoic acid	98-73-7	mono constituent substance	CC(C)(C)c1ccc(C(O)=O)cc1	Reactive unspecified	no data	<=1.7724	from  1.360 to  2.310	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+543	diphosphorus pentaoxide	1314-56-3	inorganic	O=P(=O)OP(=O)=O											
+544	"1-bromopropane; n-propyl bromide"	106-94-5	mono constituent substance	CCCBr	basesurface narcotics	no data	47.5754	from 37.558 to 60.265	In domain	50.00%	0.00%	50.00%	Out of domain	41.34%	Out of Domain
+545	2,4,6-tris(dimethylaminomethyl)phenol	90-72-2	mono constituent substance	CN(C)Cc1cc(CN(C)C)cc(CN(C)C)c1O	Reactive unspecified	no data	<=1641.1344	from 1102.472 to 2442.985	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+546	maleic anhydride	108-31-6	mono constituent substance	O=C1C=CC(=O)O1	Reactive unspecified	no data	<=71.2078	from 43.379 to 116.891	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+547	benzyl acetate	140-11-4	mono constituent substance	CC(=O)OCc1ccccc1	esters	no data	76.725	from 23.793 to 247.419	In domain	0.6667	0	0.3333	Out of domain	13%	Out of Domain
+548	[(methylethylene)bis(oxy)]dipropanol	24800-44-0	mono constituent substance	CCC(O)OCC(C)OC(O)CC	Reactive unspecified	no data	<=24836.0430	from 14708.691 to 41936.363	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+549	2-ethylhexyl 10-ethyl-4-[[2-[(2-ethylhexyl)oxy]-2-oxoethyl]thio]-4-methyl-7-oxo-8-oxa-3,5-dithia-4-stannatetradecanoate	57583-34-3	mono constituent substance	CCCCC(CC)COC(=O)CS[Sn](C)(SCC(=O)OCC(CC)CCCC)SCC(=O)OCC(CC)CCCC	Reactive unspecified	no data	<=no data	± 0.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+550	sodium hydrogen di(acetate)	126-96-5	mono constituent substance	CC(=O)O{-}.[Na]{+}_CC(O)=O	Reactive unspecified	no data	<=1800.4454	from 1143.200 to 2835.552	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+551	ammonium acetate	631-61-8	mono constituent substance	CC(=O)O{-}.N{+}	Reactive unspecified	no data	<=1800.4454	from 1143.200 to 2835.552	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+552	3-(trimethoxysilyl)propylamine	13822-56-5	mono constituent substance	CO[Si](CCCN)(OC)OC	Reactive unspecified	no data	<=73244.9141	from 39073.949 to 137299.078	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+553	N,N-dimethylacetamide	127-19-5	mono constituent substance	CC(=O)N(C)C	basesurface narcotics	no data	9471.9951	from 5630.090 to 15935.568	In domain	0.00%	0.00%	100.00%	Out of domain	14.81%	Out of Domain
+554	chloromethane	74-87-3	mono constituent substance	CCl	Reactive unspecified	no data	<=213.3058	from 152.128 to 299.086	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+555	diethylbenzene	25340-17-4	multi constituent substance	CCc1ccccc1CC	basesurface narcotics	no data	0.91	from  0.678 to  1.222	In domain	40.00%	0.00%	60.00%	Out of domain	28.09%	Out of Domain
+			multi constituent substance	CCc1cccc(CC)c1	basesurface narcotics	no data	0.9101	from  0.678 to  1.222	In domain	40.00%	0.00%	60.00%	Out of domain	28.07%	Out of Domain
+			multi constituent substance	CCc1ccc(CC)cc1	basesurface narcotics	no data	0.9033	from  0.674 to  1.210	In domain	40.00%	0.00%	60.00%	Out of domain	29.81%	Out of Domain
+556	4-tert-butylpyrocatechol	98-29-3	mono constituent substance	CC(C)(C)c1ccc(O)c(O)c1	Reactive unspecified	no data	<=11.4020	from  9.205 to 14.123	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+557	azelaic acid	123-99-9	mono constituent substance	OC(=O)CCCCCCCC(O)=O	Reactive unspecified	no data	<=192.6351	from 147.268 to 251.978	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+558	tert-butyl 2-ethylperoxyhexanoate	3006-82-4	mono constituent substance	CCCCC(CC)C(=O)OOC(C)(C)C	Reactive unspecified	no data	<=0.9889	from  0.690 to  1.418	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+559	2,9-dichloro-5,12-dihydroquino[2,3-b]acridine-7,14-dione	3089-17-6	mono constituent substance	O=C1c2cc(Cl)ccc2Nc2cc3c(cc12)Nc1ccc(Cl)cc1C3=O	Reactive unspecified	no data	<=33.8293*	from 23.880 to 47.925	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+560	Terpineol	8000-41-7	multi constituent substance	CC1CCC(C(C)(C)O)CC=1	basesurface narcotics	no data	5.4572	from  4.162 to  7.155	In domain	36.36%	0.00%	63.64%	Out of domain	12.78%	Out of Domain
+561	tetracosanol	506-51-4	mono constituent substance	CCCCCCCCCCCCCCCCCCCCCCCCO	basesurface narcotics	no data	83.4842*	from 49.925 to 139.603	Out of domain	100.00%	0.00%	0.00%	In domain	16.19%	Out of Domain
+562	sulphur trioxide	7446-11-9	inorganic	O=S(=O)=O											
+563	3a,4,5,6,7,7a-hexahydro-4,7-methano-1H-indene	4488-57-7	mono constituent substance	C1CC2CC1C1CC=CC21	basesurface narcotics	no data	4.4586*	from  3.327 to  5.975	In domain	30.00%	0.00%	70.00%	Out of domain	6.06%	Out of Domain
+564	hex-1-ene	592-41-6	mono constituent substance	CCCCC=C	basesurface narcotics	no data	4.5545	from  3.433 to  6.042	In domain	66.67%	0.00%	33.33%	Out of domain	7.66%	Out of Domain
+565	2,3-epoxypropyl methacrylate	106-91-2	mono constituent substance	CC(=C)C(=O)OCC1CO1	Reactive unspecified	no data	<=754.2750	from 497.089 to 1144.525	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+566	2-ethylhexyl 10-ethyl-4,4-dioctyl-7-oxo-8-oxa-3,5-dithia-4-stannatetradecanoate	15571-58-1	mono constituent substance	CCCCCCCC[Sn](CCCCCCCC)(SCC(=O)OCC(CC)CCCC)SCC(=O)OCC(CC)CCCC	Reactive unspecified	no data	<=no data	± 0.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+567	benzene-1,2,4,5-tetracarboxylic acid	89-05-4	mono constituent substance	OC(=O)c1cc(C(O)=O)c(C(O)=O)cc1C(O)=O	Reactive unspecified	no data	<=3498.0879	from 1646.903 to 7430.075	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+568	(carboxymethyl)dimethyl-3-[(1-oxododecyl)amino]propylammonium hydroxide	4292-10-8	mono constituent substance	CCCCCCCCCCCC(=O)NCCCN{+}(C)(C)(.O{-})CC(O)=O	Reactive unspecified	no data	<=14.8705*	from  6.370 to 34.715	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+569	octocrilene	6197-30-4	mono constituent substance	CCCCC(CC)COC(=O)C(C#N)=C(c1ccccc1)c1ccccc1	Reactive unspecified	no data	<=0.0307	from  0.019 to  0.051	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+570	trifluoroacetic acid	76-05-1	mono constituent substance	OC(=O)C(F)(F)F	Reactive unspecified	no data	<=1138.9841	from 713.946 to 1817.062	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+571	dimethyl sulfoxide	67-68-5	mono constituent substance	CS(C)=O	Reactive unspecified	no data	<=34800.4258	from 18212.799 to 66495.523	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+572	methyl 3-oxo-2-pentylcyclopentaneacetate	24851-98-7	mono constituent substance	CCCCCC1C(CC(=O)OC)CCC1=O	esters	no data	64.7594	from  6.336 to 661.862	In domain	0.5	0	0.5	Out of domain	Out of domain	Out of Domain
+573	2-methoxy-2-methylbutane	994-05-8	mono constituent substance	CCC(C)(C)OC	basesurface narcotics	no data	99.8043	from 64.335 to 154.829	In domain	57.14%	0.00%	42.86%	Out of domain	Out of domain	Out of Domain
+574	N,N'-dithiodi-o-phenylenedibenzamide	135-57-9	mono constituent substance	O=C(c1ccccc1)Nc1ccccc1SSc1ccccc1NC(=O)c1ccccc1	Reactive unspecified	no data	<=0.6132*	from  0.395 to  0.951	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+575	tetrapotassium pyrophosphate	7320-34-5	inorganic	O=P(OP(=O)(O{-}.K{+})O{-}.K{+})(O{-}.K{+})O{-}.K{+}											
+576	2-ethylhexyl 4,4-dibutyl-10-ethyl-7-oxo-8-oxa-3,5-dithia-4-stannatetradecanoate	10584-98-2	mono constituent substance	CCCCC(CC)COC(=O)CS[Sn](CCCC)(CCCC)SCC(=O)OCC(CC)CCCC	Reactive unspecified	no data	<=no data	± 0.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+577	2,2'-dimethyl-2,2'-azodipropiononitrile	78-67-1	mono constituent substance	CC(C)(C#N)N=NC(C)(C)C#N	Reactive unspecified	no data	<=12.3063	from  9.891 to 15.312	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+578	bis(2-(2-butoxyethoxy)ethoxy)methane	143-29-3	mono constituent substance	CCCCOCCOCCOCOCCOCCOCCCC	basesurface narcotics	no data	446.9255	from 328.886 to 607.329	Out of domain	100.00%	0.00%	0.00%	In domain	5.16%	Out of Domain
+579	phenothiazine	92-84-2	mono constituent substance	c1cccc2c1Nc1ccccc1S2	basesurface narcotics	no data	1.9624	from  1.521 to  2.532	In domain	0.00%	0.00%	100.00%	Out of domain	85.17%	Out of Domain
+580	dipotassium peroxodisulphate	7727-21-1	inorganic	O=S(=O)(OOS(=O)(=O)O{-}.K{+})O{-}.K{+}											
+581	hexahydromethylphthalic anhydride	25550-51-0	multi constituent substance	CC1CCC2C(C1)C(=O)OC2=O	Reactive unspecified	no data	<=23.3992	from 18.767 to 29.174	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	CC12CCCCC1C(=O)OC2=O	Reactive unspecified	no data	<=21.8980	from 17.605 to 27.238	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+582	ammonium thiosulphate	7783-18-8	inorganic	N{+}.O{-}S(=O)(=O)S{-}.N{+}											
+583	potassium formate	590-29-4	mono constituent substance	O=CO{-}.K{+}	Reactive unspecified	no data	<=4354.6807	from 2567.002 to 7387.313	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+584	dipotassium disulphite	16731-55-8	inorganic	O=S(O{-}.K{+})S(=O)(=O)O{-}.K{+}											
+585	disulfiram	97-77-8	mono constituent substance	CCN(CC)C(=S)SSC(=S)N(CC)CC	Reactive unspecified	0.8167	<=3.0431	from  2.128 to  4.351	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+586	1,2-Benzenedicarboxylic acid, di-C9-11-branched and linear alkyl esters	68515-43-5	UVCB	CCCCCCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCC(C)(C)C											
+587	disodium disulphite	7681-57-4	inorganic	O=S(O{-}.[Na]{+})S(=O)(=O)O{-}.[Na]{+}											
+588	2,2'-methyliminodiethanol	105-59-9	mono constituent substance	CN(CCO)CCO	Reactive unspecified	no data	<=134288.0781	from 69830.477 to 258243.797	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+589	4,4'-methylenebis(cyclohexylamine)	1761-71-3	mono constituent substance	NC1CCC(CC2CCC(N)CC2)CC1	Reactive unspecified	no data	<=13.4044	from  7.671 to 23.422	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+590	dibenzoyl peroxide	94-36-0	mono constituent substance	O=C(c1ccccc1)OOC(=O)c1ccccc1	Reactive unspecified	no data	<=4.7906	from  3.658 to  6.274	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+591	propane-1,3-diol	504-63-2	mono constituent substance	OCCCO	basesurface narcotics	no data	18404.1113	from 10265.697 to 32994.477	In domain	100.00%	0.00%	0.00%	In domain	7.98%	In domain
+592	pentasodium (carboxylatomethyl)iminobis(ethylenenitrilo)tetraacetate	140-01-2	mono constituent substance	O=C(CN(CCN(CCN(CC(=O)O{-}.[Na]{+})CC(=O)O{-}.[Na]{+})CC(=O)O{-}.[Na]{+})CC(=O)O{-}.[Na]{+})O{-}.[Na]{+}	Reactive unspecified	no data	<=331191168.0000*	from 94527128.000 to 1160382080.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+593	2,3-epoxypropyl neodecanoate	26761-45-5	UVCB	CCC(C)(CCC(C)C)C(=O)OCC1CO1											
+594	trichloro(ethyl)silane	115-21-9	mono constituent substance	CC[Si](Cl)(Cl)Cl	Reactive unspecified	no data	<=20.9285	from 14.761 to 29.674	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+595	7-oxabicyclo[4.1.0]hept-3-ylmethyl 7-oxabicyclo[4.1.0]heptane-3-carboxylate	2386-87-0	mono constituent substance	O=C(C1CCC2C(C1)O2)OCC1CCC2C(C1)O2	Reactive unspecified	no data	<=64.4836	from 51.050 to 81.453	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+596	bis(nonylphenyl)amine	36878-20-3	UVCB	CCCCCCCCCc1ccccc1Nc1ccccc1CCCCCCCCC											
+597	barium 4-[(5-chloro-4-methyl-2-sulphonatophenyl)azo]-3-hydroxy-2-naphthoate	7585-41-3	mono constituent substance	Cc1cc2c(cc1Cl)N=Nc1c3ccccc3cc(c1O)C(=O)O{-}.[Ba]{2+}.O{-}S2(=O)=O	Reactive unspecified	no data	<=1.1889	from  0.809 to  1.747	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+598	[3-(2,3-epoxypropoxy)propyl]trimethoxysilane	2530-83-8	mono constituent substance	CO[Si](CCCOCC1CO1)(OC)OC	Reactive unspecified	no data	<=57217.6094	from 31550.205 to 103766.523	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+599	[2-(methacryloyloxy)ethyl]trimethylammonium chloride	5039-78-1	mono constituent substance	CC(=C)C(=O)OCCN{+}(C)(C)(C).Cl{-}	Reactive unspecified	no data	<=6789.1289*	from 2219.869 to 20763.512	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+600	dibromomethane	74-95-3	mono constituent substance	BrCBr	basesurface narcotics	no data	213.1702	from 153.699 to 295.652	In domain	0.00%	0.00%	100.00%	Out of domain	23.87%	Out of Domain
+601	1-butoxypropan-2-ol	5131-66-8	mono constituent substance	CCCCOCC(C)O	basesurface narcotics	no data	863.9379	from 565.223 to 1320.522	In domain	88.89%	0.00%	11.11%	Out of domain	6.14%	Out of Domain
+602	2-octyldodecan-1-ol	5333-42-6	mono constituent substance	CCCCCCCCCCC(CCCCCCCC)CO	basesurface narcotics	no data	1.0154*	from  0.511 to  2.019	Out of domain	95.24%	0.00%	4.76%	Out of domain	Out of domain	Out of Domain
+603	decamethylcyclopentasiloxane	541-02-6	mono constituent substance	C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1	Reactive unspecified	no data	<=0.1225*	from  0.068 to  0.220	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+604	benzyl alcohol	100-51-6	mono constituent substance	OCc1ccccc1	basesurface narcotics	no data	356.3159	from 249.022 to 509.839	In domain	66.67%	0.00%	33.33%	Out of domain	12.85%	Out of Domain
+605	prop-2-yn-1-ol	107-19-7	mono constituent substance	C#CCO	Reactive unspecified	no data	<=5470.0269	from 3283.732 to 9111.947	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+606	tetrasodium (1-hydroxyethylidene)bisphosphonate	3794-83-0	mono constituent substance	CC(O)(P(=O)(O{-}.[Na]{+})O{-}.[Na]{+})P(=O)(O{-}.[Na]{+})O{-}.[Na]{+}	Reactive unspecified	no data	<=32763.3223	from 17271.836 to 62149.457	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+607	undec-10-enoic acid	112-38-9	mono constituent substance	C=CCCCCCCCCC(O)=O	Reactive unspecified	no data	<=0.7443	from  0.514 to  1.077	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+608	1-nitroguanidine	556-88-7	mono constituent substance	NC(=N)NN(=O)=O	Reactive unspecified	no data	<=99911.4453	from 43946.082 to 227148.734	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+609	tris(2-ethylhexyl) phosphate	78-42-2	mono constituent substance	CCCCC(CC)COP(=O)(OCC(CC)CCCC)OCC(CC)CCCC	Reactive unspecified	no data	<=5.0827*	from  3.884 to  6.652	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+610	oxydiethylene dibenzoate	120-55-8	mono constituent substance	O=C(c1ccccc1)OCCOCCOC(=O)c1ccccc1	esters	no data	32.2987	from  7.527 to 138.601	Out of domain	0.4615	0	0.5385	Out of domain	43%	Out of Domain
+611	hexyl salicylate	6259-76-3	mono constituent substance	CCCCCCOC(=O)c1ccccc1O	Reactive unspecified	no data	<=0.1594	from  0.109 to  0.232	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+612	ethylene carbonate	96-49-1	mono constituent substance	O=C1OCCO1	Reactive unspecified	no data	<=6775.9668	from 4091.726 to 11221.114	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+613	3-aminopropyltriethoxysilane	919-30-2	mono constituent substance	CCO[Si](CCCN)(OCC)OCC	Reactive unspecified	no data	<=4199.3804	from 2753.100 to 6405.432	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+614	tert-butyl perbenzoate	614-45-9	mono constituent substance	CC(C)(C)OOC(=O)c1ccccc1	Reactive unspecified	no data	<=12.4435	from  9.622 to 16.093	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+615	(3S-cis)-3,6-dimethyl-1,4-dioxane-2,5-dione	4511-42-6	mono constituent substance	CC1C(=O)OC(C)C(=O)O1	esters	no data	149.408	from 41.384 to 539.406	In domain	0.2	0	0.8	Out of domain	Out of domain	Out of Domain
+616	sodium benzothiazol-2-yl sulphide	2492-26-4	mono constituent substance	[Na]{+}.S{-}C1=Nc2ccccc2S1	Reactive unspecified	no data	<=11.0159	from  8.376 to 14.488	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+617	adipic acid, compound with hexane-1,6-diamine (1:1)	3323-53-3	mono constituent substance	NCCCCCCN{+}.O{-}C(=O)CCCCC(O)=O	Reactive unspecified	no data	<=2920.5662	from 1842.680 to 4628.969	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+618	2-(2-hydroxyethoxy)ethyl 2-hydroxypropyl 3,4,5,6-tetrabromophthalate	20566-35-2	UVCB	CC(O)COC(=O)c1c(Br)c(Br)c(Br)c(Br)c1C(=O)OCCOCCO											
+619	dioctadecyl 3,3'-thiodipropionate	693-36-7	mono constituent substance	CCCCCCCCCCCCCCCCCCOC(=O)CCSCCC(=O)OCCCCCCCCCCCCCCCCCC	esters	no data	766888.2500*	from 268.864 to 2187413248.000	Out of domain	0.8936	0	0.1064	Out of domain	Out of domain	Out of Domain
+620	sodium N-lauroylsarcosinate	137-16-6	mono constituent substance	CCCCCCCCCCCC(=O)N(C)CC(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=1.7324	from  1.285 to  2.335	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+621	glycerol	56-81-5	mono constituent substance	OCC(O)CO	basesurface narcotics	no data	151253.3594	from 76732.492 to 298147.219	In domain	83.33%	0.00%	16.67%	Out of domain	8%	Out of Domain
+622	palmitoyl chloride	112-67-4	mono constituent substance	CCCCCCCCCCCCCCCC(=O)Cl	Reactive unspecified	no data	<=0.0303	from  0.018 to  0.051	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+623	N,N-dimethyldecan-1-amide	14433-76-2	mono constituent substance	CCCCCCCCCC(=O)N(C)C	basesurface narcotics	no data	5.9662	from  4.361 to  8.162	In domain	57.14%	0.00%	42.86%	Out of domain	Out of domain	Out of Domain
+624	(R)-p-mentha-1,8-diene	5989-27-5	mono constituent substance	CC(=C)C1CCC(C)=CC1	basesurface narcotics	no data	0.2221	from  0.143 to  0.345	In domain	10.00%	0.00%	90.00%	Out of domain	Out of domain	Out of Domain
+625	retinyl propionate	7069-42-3	mono constituent substance	CCC(=O)OC(=O)C=C(C)C=CC=C(C)C=CC1=C(C)CCCC1(C)C	Reactive unspecified	no data	<=0.0808	from  0.052 to  0.125	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+626	sodium hydroxymethanesulphinate	149-44-0	mono constituent substance	OCS(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=9605790.0000*	from 3312754.500 to 27853314.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+627	octylamine	111-86-4	mono constituent substance	CCCCCCCCN	Reactive unspecified	no data	<=22.1991	from 12.919 to 38.145	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+628	hexadecyl chloroformate	26272-90-2	mono constituent substance	CCCCCCCCCCCCCCCCOC(=O)Cl	Reactive unspecified	no data	<=0.0625*	from  0.039 to  0.100	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+629	potassium acetate	127-08-2	mono constituent substance	CC(=O)O{-}.K{+}	Reactive unspecified	no data	<=1800.4454	from 1143.200 to 2835.552	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+630	2,2'-[oxybis(methylene)]bis[2-ethylpropane-1,3-diol]	23235-61-2	mono constituent substance	CCC(CO)(CO)COCC(CC)(CO)CO	basesurface narcotics	no data	48718.2422	from 28183.107 to 84215.945	In domain	64.71%	0.00%	35.29%	Out of domain	Out of domain	Out of Domain
+631	(3-chloropropyl)triethoxysilane	5089-70-3	mono constituent substance	CCO[Si](CCCCl)(OCC)OCC	Reactive unspecified	no data	<=123.4193	from 96.470 to 157.898	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+632	2,2'-[(3,3'-dichloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[N-(4-methylphenyl)-3-oxobutyramide]	6358-37-8	mono constituent substance	Cc1ccc(NC(=O)C(C(C)=O)N=Nc2ccc(-c3ccc(N=NC(C(C)=O)C(=O)Nc4ccc(C)cc4)c(Cl)c3)cc2Cl)cc1	Reactive unspecified	no data	<=0.3226*	from  0.212 to  0.490	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+633	[[(phosphonomethyl)imino]bis[(ethylenenitrilo)bis(methylene)]]tetrakisphosphonic acid, sodium salt	22042-96-2	mono constituent substance	OP(=O)(CN(CCN(CCN(CP(O)(O)=O)CP(O)(O)=O)CP(O)(O)=O)CP(O)(O)=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=483072081920.0000*	from 82459590656.000 to 2829975552000.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+634	isopropyl palmitate	142-91-6	mono constituent substance	CCCCCCCCCCCCCCCC(=O)OC(C)C	esters	no data	9.2283*	from  0.051 to 1658.563	Out of domain	0.7619	0	0.2381	Out of domain	Out of domain	Out of Domain
+635	4-methyl-m-phenylene diisocyanate	584-84-9	mono constituent substance	Cc1ccc(N=C=O)cc1N=C=O	Reactive unspecified	no data	<=1.8345	from  1.397 to  2.410	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+636	(1-hydroxyethylidene)bisphosphonic acid, sodium salt	29329-71-3	mono constituent substance	CC(O)(P(O)(O)=O)P(O)(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=32763.3223	from 17271.836 to 62149.457	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+637	sodium dimethyldithiocarbamate	128-04-1	mono constituent substance	CN(C)C(=S)S{-}.[Na]{+}	Reactive unspecified	no data	<=663.8588	from 382.773 to 1151.356	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+638	[2-(acryloyloxy)ethyl]trimethylammonium chloride	44992-01-0	mono constituent substance	CN{+}(C)(C)(.Cl{-})CCOC(=O)C=C	Reactive unspecified	no data	<=19560.7949*	from 5985.383 to 63926.516	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+639	sodium chloroacetate	3926-62-3	mono constituent substance	O=C(CCl)O{-}.[Na]{+}	Reactive unspecified	no data	<=1407.7910	from 884.866 to 2239.748	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+640	(+)-menthol	15356-60-2	mono constituent substance	CC(C)C1CCC(C)CC1O	basesurface narcotics	no data	7.782	from  4.426 to 13.681	In domain	72.73%	0.00%	27.27%	Out of domain	13.67%	Out of Domain
+641	neodecanoic acid	26896-20-8	UVCB	CCC(C)(CCC(C)C)C(O)=O											
+642	pentan-1-ol	71-41-0	mono constituent substance	CCCCCO	basesurface narcotics	no data	328.1511	from 197.014 to 546.575	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+643	isophthaloyl dichloride	99-63-8	mono constituent substance	O=C(Cl)c1cccc(C(=O)Cl)c1	Reactive unspecified	no data	<=727.4673	from 421.700 to 1254.941	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+644	2-methylbut-2-ene	513-35-9	mono constituent substance	CC=C(C)C	basesurface narcotics	no data	10.7646	from  8.402 to 13.792	In domain	0.00%	0.00%	100.00%	Out of domain	15.55%	Out of Domain
+645	heptanal	111-71-7	mono constituent substance	CCCCCCC=O	Reactive unspecified	no data	<=33.7186	from 26.760 to 42.487	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+646	methyl (Z,Z)-8,8-dibutyl-3,6,10-trioxo-2,7,9-trioxa-8-stannatrideca-4,11-dien-13-oate	15546-11-9	mono constituent substance	CCCC[Sn](CCCC)(OC(=O)C=CC(=O)OC)OC(=O)C=CC(=O)OC	Reactive unspecified	no data	<=no data	± 0.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+647	3,7,7-trimethylbicyclo[4.1.0]hept-3-ene	13466-78-9	mono constituent substance	CC1CC2C(CC=1)C2(C)C	Reactive unspecified	no data	<=0.3483	from  0.229 to  0.529	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+648	hydroxycyclohexyl phenyl ketone	947-19-3	mono constituent substance	OC1(C(=O)c2ccccc2)CCCCC1	Reactive unspecified	no data	<=33.6504	from 25.486 to 44.431	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+649	[(butoxymethylethoxy)methylethoxy]propan-1-ol	55934-93-5	multi constituent substance	CCCCOCC(C)OCC(C)OC(O)CC	Reactive unspecified	no data	<=789.3223	from 553.743 to 1125.124	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	CCOCCCC(C)OCCOCC(C)CO	basesurface narcotics	no data	683.1731	from 479.369 to 973.625	In domain	82.35%	0.00%	17.65%	Out of domain	Out of domain	Out of Domain
+650	1-ethylpyrrolidin-2-one	2687-91-4	mono constituent substance	CCN1CCCC1=O	basesurface narcotics	no data	1982.1978	from 1317.077 to 2983.203	In domain	25.00%	0.00%	75.00%	Out of domain	Out of domain	Out of Domain
+651	2-(propyloxy)ethanol	2807-30-9	mono constituent substance	CCCOCCO	basesurface narcotics	no data	4471.7817	from 2760.271 to 7244.519	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+652	4,4'-methylenebis[N,N-bis(2,3-epoxypropyl)aniline]	28768-32-3	mono constituent substance	C1C(CN(CC2CO2)c2ccc(Cc3ccc(N(CC4CO4)CC4CO4)cc3)cc2)O1	Reactive unspecified	no data	<=64.4281*	from 51.153 to 81.148	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+653	6,6'-di-tert-butyl-4,4'-thiodi-m-cresol	96-69-5	mono constituent substance	Cc1cc(O)c(C(C)(C)C)cc1Sc1cc(C(C)(C)C)c(O)cc1C	Reactive unspecified	no data	<=0.2798*	from  0.191 to  0.409	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+654	disodium 2,2'-([1,1'-biphenyl]-4,4'-diyldivinylene)bis(benzenesulphonate)	27344-41-8	mono constituent substance	O=S(=O)(c1ccccc1C=Cc1ccc(-c2ccc(C=Cc3ccccc3S(=O)(=O)O{-}.[Na]{+})cc2)cc1)O{-}.[Na]{+}	Reactive unspecified	no data	<=0.6552	from  0.455 to  0.944	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+655	1,4:3,6-dianhydro-D-glucitol	652-67-5	mono constituent substance	OC1COC2C1OCC2O	basesurface narcotics	no data	42545.4375	from 23989.930 to 75453.078	In domain	40.00%	0.00%	60.00%	Out of domain	Out of domain	Out of Domain
+656	chlorodimethylsilane	1066-35-9	mono constituent substance	C[Si](C)Cl	Reactive unspecified	no data	<=48.1826	from 36.112 to 64.288	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+657	N,N'-bis(1,4-dimethylpentyl)-p-phenylenediamine	3081-14-9	mono constituent substance	CC(C)CCC(C)Nc1ccc(NC(C)CCC(C)C)cc1	basesurface narcotics	no data	0.037	from  0.022 to  0.063	Out of domain	70.59%	0.00%	29.41%	Out of domain	Out of domain	Out of Domain
+658	(Z)-cyclooctene	931-87-3	mono constituent substance	C1CCCCCC=C1	basesurface narcotics	no data	1.1387	from  0.804 to  1.612	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+659	dimethyl sulphide	75-18-3	mono constituent substance	CSC	basesurface narcotics	no data	325.6352	from 229.739 to 461.561	In domain	66.67%	0.00%	33.33%	Out of domain	6.58%	Out of Domain
+660	pentafluoroethane	354-33-6	mono constituent substance	FC(F)C(F)(F)F	basesurface narcotics	no data	146.9389	from 108.415 to 199.152	In domain	0.00%	0.00%	100.00%	Out of domain	30.46%	Out of Domain
+661	ethyl methacrylate	97-63-2	mono constituent substance	CCOC(=O)C(C)=C	Reactive unspecified	no data	<=85.9726	from 64.337 to 114.883	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+662	D-glucono-1,5-lactone	90-80-2	mono constituent substance	OCC1C(O)C(O)C(O)C(=O)O1	Reactive unspecified	no data	<=343898.4688	from 155640.797 to 759866.125	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+663	3,5,5-trimethylhexanoyl chloride	36727-29-4	mono constituent substance	CC(CC(=O)Cl)CC(C)(C)C	Reactive unspecified	no data	<=16.6402	from 13.421 to 20.632	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+664	tetrahydrothiophene 1,1-dioxide	126-33-0	mono constituent substance	O=S1(=O)CCCC1	Reactive unspecified	no data	<=5142.8926	from 2794.045 to 9466.328	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+665	sodium formate	141-53-7	mono constituent substance	O=CO{-}.[Na]{+}	Reactive unspecified	no data	<=4354.6807	from 2567.002 to 7387.313	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+666	[1,3(or 1,4)-phenylenebis(1-methylethylidene)]bis[tert-butyl] peroxide	25155-25-3	multi constituent substance	CC(C)(C)OOC(C)(C)c1ccc(C(C)(C)OOC(C)(C)C)cc1	Reactive unspecified	no data	<=0.0577*	from  0.035 to  0.095	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	CC(C)(C)OOC(C)(C)c1cccc(C(C)(C)OOC(C)(C)C)c1	Reactive unspecified	no data	<=0.0591*	from  0.036 to  0.098	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+667	cyanoguanidine	461-58-5	mono constituent substance	NC(=N)NC#N	Reactive unspecified	no data	<=44950.4570	from 22748.566 to 88820.688	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+668	cyanoacetic acid	372-09-8	mono constituent substance	N#CCC(O)=O	Reactive unspecified	no data	<=13308.0332	from 7273.272 to 24349.936	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+669	2-phosphonobutane-1,2,4-tricarboxylic acid	37971-36-1	mono constituent substance	OC(=O)CCC(CC(O)=O)(C(O)=O)P(O)(O)=O	Reactive unspecified	no data	<=124565.5547	from 58379.906 to 265786.250	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+670	3,3,5-trimethylcyclohexan-1-one	873-94-9	mono constituent substance	CC1CC(=O)CC(C)(C)C1	basesurface narcotics	no data	32.4677	from 25.776 to 40.896	In domain	60.00%	0.00%	40.00%	Out of domain	30.29%	Out of Domain
+671	climbazole	38083-17-9	mono constituent substance	CC(C)(C)C(=O)C(N1C=CN=C1)Oc1ccc(Cl)cc1	Reactive unspecified	no data	<=3.0281	from  2.323 to  3.947	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+672	betaine	107-43-7	mono constituent substance	CN{+}(C)(C)CC(=O)O{-}	Reactive unspecified	no data	<=1533542.3750*	from 585032.438 to 4019866.250	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+673	3,3'-dimethylbiphenyl-4,4'-diyl diisocyanate	91-97-4	mono constituent substance	Cc1cc(-c2ccc(N=C=O)c(C)c2)ccc1N=C=O	Reactive unspecified	no data	<=0.0326	from  0.020 to  0.052	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+674	methyl 4-hydroxybenzoate	99-76-3	mono constituent substance	COC(=O)c1ccc(O)cc1	Reactive unspecified	no data	<=64.2546	from 47.228 to 87.420	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+675	4-(vinyloxy)butan-1-ol	17832-28-9	mono constituent substance	C=COCCCCO	basesurface narcotics	no data	1785.27	from 1191.640 to 2674.625	In domain	50.00%	0.00%	50.00%	Out of domain	Out of domain	Out of Domain
+676	2,2'-[(3,3'-dichloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[N-(2,4-dimethylphenyl)-3-oxobutyramide]	5102-83-0	mono constituent substance	Cc1ccc(NC(=O)C(C(C)=O)N=Nc2ccc(-c3ccc(N=NC(C(C)=O)C(=O)Nc4ccc(C)cc4C)c(Cl)c3)cc2Cl)c(C)c1	Reactive unspecified	no data	<=0.3226*	from  0.213 to  0.489	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+677	(+)-tartaric acid	87-69-4	mono constituent substance	OC(C(O)C(O)=O)C(O)=O	Reactive unspecified	no data	<=37548.1719	from 19589.324 to 71971.102	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+678	ditolyl ether	28299-41-4	multi constituent substance	Cc1cccc(Oc2cccc(C)c2)c1	basesurface narcotics	no data	0.14	from  0.094 to  0.210	In domain	40.00%	0.00%	60.00%	Out of domain	10%	Out of Domain
+			multi constituent substance	Cc1ccccc1Oc1ccccc1C	basesurface narcotics	no data	0.7698	from  0.568 to  1.043	In domain	40.00%	0.00%	60.00%	Out of domain	36.39%	Out of Domain
+679	penta-1,3-diene	504-60-9	mono constituent substance	CC=CC=C	basesurface narcotics	no data	13.3175	from 10.666 to 16.629	In domain	0.00%	0.00%	100.00%	Out of domain	57.30%	Out of Domain
+680	potassium cyanate	590-28-3	inorganic	N#CO{-}.K{+}											
+681	potassium gluconate	299-27-4	mono constituent substance	OCC(O)C(O)C(O)C(O)C(=O)O{-}.K{+}	Reactive unspecified	no data	<=301316.8750	from 138735.391 to 654424.563	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+682	ammonia, anhydrous	7664-41-7	inorganic	N											
+683	"1,2-dimethoxyethane; ethylene glycol dimethyl ether; EGDME"	110-71-4	mono constituent substance	COCCOC	basesurface narcotics	no data	6845.0898	from 4134.596 to 11332.486	In domain	66.67%	0.00%	33.33%	Out of domain	7.36%	Out of Domain
+684	nitrilotrimethylenetris(phosphonic acid)	6419-19-8	mono constituent substance	OP(O)(=O)CN(CP(O)(O)=O)CP(O)(O)=O	Reactive unspecified	no data	<=125260792.0000*	from 38314520.000 to 409512256.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+685	2,2'-[(3,3'-dichloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[N-(2-methylphenyl)-3-oxobutyramide]	5468-75-7	mono constituent substance	Cc1ccccc1NC(=O)C(C(C)=O)N=Nc1ccc(-c2ccc(N=NC(C(C)=O)C(=O)Nc3ccccc3C)c(Cl)c2)cc1Cl	Reactive unspecified	no data	<=0.0548*	from  0.033 to  0.091	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+686	"4-methyl-m-phenylenediamine; 2,4-toluenediamine"	95-80-7	mono constituent substance	Cc1ccc(N)cc1N	Reactive unspecified	no data	<=3000.6824	from 1903.110 to 4731.253	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+687	N,N'-ethylenebis[N-acetylacetamide]	10543-57-4	mono constituent substance	CC(=O)N(CCN(C(C)=O)C(C)=O)C(C)=O	Reactive unspecified	no data	<=899569.0000	from 372194.469 to 2174197.750	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+688	2,2-bis(chloromethyl)trimethylene bis(bis(2-chloroethyl)phosphate)	38051-10-4	mono constituent substance	O=P(OCCCl)(OCCCl)OCC(COP(=O)(OCCCl)OCCCl)(CCl)CCl	Reactive unspecified	no data	<=16.1799	from 12.716 to 20.587	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+689	diammonium [[N,N'-ethylenebis[N-(carboxymethyl)glycinato]](4-)-N,N',O,O',ON,ON']hydroxyferrate(2-)	68413-60-5	mono constituent substance	N{+}.O{-}C(=O)CN(CCN1CC(=O)O{-}.[Fe]{3+}(.O{-}).O{-}C(=O)C1)CC(=O)O{-}.N{+}	Reactive unspecified	no data	<=27970056.0000*	from 9428115.000 to 82977776.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+690	hexafluoropropene	116-15-4	mono constituent substance	FC(F)=C(F)C(F)(F)F	basesurface narcotics	no data	41.8624	from 28.546 to 61.391	In domain	0.00%	0.00%	100.00%	Out of domain	50.86%	Out of Domain
+691	difluoromethane	75-10-5	mono constituent substance	FCF	basesurface narcotics	no data	606.5294	from 388.451 to 947.039	In domain	0.00%	0.00%	100.00%	Out of domain	9.93%	Out of Domain
+692	disodium 4,4'-bis[[6-anilino-4-[(2-hydroxyethyl)methylamino]-1,3,5-triazin-2-yl]amino]stilbene-2,2'-disulphonate	13863-31-5	mono constituent substance	CN(CCO)c1nc(Nc2ccccc2)nc(Nc2ccc(C=Cc3ccc(Nc4nc(Nc5ccccc5)nc(N(C)CCO)n4)cc3S(=O)(=O)O{-}.[Na]{+})c(S(=O)(=O)O{-}.[Na]{+})c2)n1	Reactive unspecified	no data	<=0.4150*	from  0.275 to  0.625	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+693	tetrabromophthalic anhydride	632-79-1	mono constituent substance	O=C1c2c(Br)c(Br)c(Br)c(Br)c2C(=O)O1	Reactive unspecified	no data	<=0.0821	from  0.050 to  0.135	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+694	fluoroethylene	75-02-5	mono constituent substance	C=CF	basesurface narcotics	no data	137.3939	from 99.873 to 189.010	In domain	0.00%	0.00%	100.00%	Out of domain	14.40%	Out of Domain
+695	L-menthol	2216-51-5	mono constituent substance	CC(C)C1CCC(C)CC1O	basesurface narcotics	no data	7.782	from  4.426 to 13.681	In domain	72.73%	0.00%	27.27%	Out of domain	13.67%	Out of Domain
+696	trimethoxy(methyl)silane	1185-55-3	mono constituent substance	CO[Si](C)(OC)OC	Reactive unspecified	no data	<=20084.9609	from 11498.024 to 35084.777	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+697	1,6-bis(2,3-epoxypropoxy)hexane	16096-31-4	UVCB	C(CCCCCOCC1CO1)OCC1CO1											
+698	2,2',2''-(hexahydro-1,3,5-triazine-1,3,5-triyl)triethanol	4719-04-4	mono constituent substance	OCCN1CN(CCO)CN(CCO)C1	Reactive unspecified	no data	<=165719712.0000*	from 54620176.000 to 502800000.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+699	trichloro(vinyl)silane	75-94-5	mono constituent substance	C=C[Si](Cl)(Cl)Cl	Reactive unspecified	no data	<=27.1159*	from 18.768 to 39.177	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+700	oct-1-ene	111-66-0	mono constituent substance	CCCCCCC=C	basesurface narcotics	no data	0.7866	from  0.542 to  1.143	In domain	75.00%	0.00%	25.00%	Out of domain	Out of domain	Out of Domain
+701	methylhydrazine	60-34-4	mono constituent substance	CNN	Reactive unspecified	no data	<=20517.5625	from 11111.479 to 37886.086	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+702	potassium methylsilanetriolate	31795-24-1	multi constituent substance	C[Si](O)(O)O{-}.K{+}	Reactive unspecified	no data	<=512037.4688	from 232601.500 to 1127174.125	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+703	sodium methanethiolate	5188-07-8	mono constituent substance	CS{-}.[Na]{+}	Reactive unspecified	no data	<=335.4427	from 232.268 to 484.448	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+704	allyl heptanoate	142-19-8	mono constituent substance	CCCCCCC(=O)OCC=C	Reactive unspecified	no data	<=2.7212	from  2.084 to  3.554	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+705	trichloro(3-chloropropyl)silane	2550-06-3	mono constituent substance	ClCCC[Si](Cl)(Cl)Cl	Reactive unspecified	no data	<=5.5710*	from  4.006 to  7.748	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+706	tris(2-hydroxyethyl)ammonium acetate	14806-72-5	mono constituent substance	CC(=O)O{-}.N{+}(CCO)(CCO)CCO	Reactive unspecified	no data	<=1800.4454	from 1143.200 to 2835.552	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+707	"2,3-epoxypropan-1-ol; glycidol; oxiranemethanol"	556-52-5	mono constituent substance	OCC1CO1	Reactive unspecified	no data	<=34133.1836	from 18746.137 to 62150.086	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+708	Butanamide, 2,2'-[(3,3'-dichloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[3-oxo-, N,N'-bis(o-anisyl and 2,4-xylyl) derivs.	68610-86-6	multi constituent substance	Cc1ccc(NC(=O)C(C(C)=O)N=Nc2ccc(-c3ccc(N=NC(C(C)=O)C(=O)Nc4ccccc4OC)c(Cl)c3)cc2Cl)c(C)c1	Reactive unspecified	no data	<=0.0649*	from  0.040 to  0.106	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+709	dibutyl fumarate	105-75-9	mono constituent substance	CCCCOC(=O)C=CC(=O)OCCCC	Reactive unspecified	no data	<=0.9476	from  0.693 to  1.295	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+710	bis(2,3-epoxypropyl) terephthalate	7195-44-0	mono constituent substance	O=C(c1ccc(C(=O)OCC2CO2)cc1)OCC1CO1	Reactive unspecified	no data	<=1347.2897	from 774.701 to 2343.083	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+711	[1a(E),2ß]-1-(2,6,6-trimethylcyclohex-3-en-1-yl)but-2-en-1-one	71048-82-3	mono constituent substance	CC=CC(=O)C1C(C)C=CCC1(C)C	Reactive unspecified	no data	<=0.9763	from  0.734 to  1.299	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+712	"2,2'-dichloro-4,4'-methylenedianiline; 4,4'-methylene bis(2-chloroaniline)"	101-14-4	mono constituent substance	Nc1ccc(Cc2ccc(N)c(Cl)c2)cc1Cl	Reactive unspecified	no data	<=5.8972*	from  4.679 to  7.432	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+713	ammonium sulphate	7783-20-2	inorganic	N{+}.O{-}S(=O)(=O)O{-}.N{+}											
+714	bis(2-ethylhexyl) terephthalate	6422-86-2	mono constituent substance	CCCCC(CC)COC(=O)c1ccc(C(=O)OCC(CC)CCCC)cc1	esters	no data	3.1585*	from  0.177 to 56.207	Out of domain	0.5217	0	0.4783	Out of domain	49%	Out of Domain
+715	sodium dihydrogen citrate	18996-35-5	mono constituent substance	OC(=O)CC(O)(CC(=O)O{-}.[Na]{+})C(O)=O	Reactive unspecified	no data	<=182579.0938	from 84009.148 to 396803.500	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+716	butanone	78-93-3	mono constituent substance	CCC(C)=O	basesurface narcotics	no data	1488.2559	from 963.480 to 2298.860	In domain	60.00%	0.00%	40.00%	Out of domain	Out of domain	Out of Domain
+717	tris(2-hydroxyethyl)-1,3,5-triazinetrione	839-90-7	mono constituent substance	OCCN1C(=O)N(CCO)C(=O)N(CCO)C1=O	Reactive unspecified	no data	<=5781.2549	from 3249.140 to 10286.693	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+718	acrylic acid, monoester with propane-1,2-diol	25584-83-2	multi constituent substance	CC(O)COC(=O)C=C	Reactive unspecified	no data	<=2583.0059	from 1544.154 to 4320.761	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	CC(CO)OC(=O)C=C	Reactive unspecified	no data	<=2547.4033	from 1513.585 to 4287.346	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+719	benzyldimethylamine	103-83-3	mono constituent substance	CN(C)Cc1ccccc1	Reactive unspecified	no data	<=113.1021	from 85.988 to 148.765	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+720	2-ethylhexyl methacrylate	688-84-6	mono constituent substance	CCCCC(CC)COC(=O)C(C)=C	Reactive unspecified	no data	<=0.3794	from  0.270 to  0.532	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+721	trisodium citrate	68-04-2	mono constituent substance	OC(CC(=O)O{-}.[Na]{+})(CC(=O)O{-}.[Na]{+})C(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=182579.0938	from 84009.148 to 396803.500	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+722	1,3,4,6,7,8-hexahydro-4,6,6,7,8,8-hexamethylindeno[5,6-c]pyran	1222-05-5	mono constituent substance	CC1COCc2cc3c(cc12)C(C)(C)C(C)C3(C)C	basesurface narcotics	no data	0.0323	from  0.019 to  0.055	In domain	50.00%	0.00%	50.00%	Out of domain	Out of domain	Out of Domain
+723	octamethylcyclotetrasiloxane	556-67-2	mono constituent substance	C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1	Reactive unspecified	no data	<=0.3083*	from  0.185 to  0.513	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+724	isoheptane	31394-54-4	UVCB	CCCCC(C)C											
+725	4-hydroxy-2,2,6,6-tetramethylpiperidine-1-ethanol	52722-86-8	mono constituent substance	CC1(C)CC(O)CC(C)(C)N1CCO	Reactive unspecified	no data	<=2780.2686	from 1832.157 to 4219.013	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+726	(1-hydroxyethylidene)bisphosphonic acid, potassium salt	67953-76-8	mono constituent substance	CC(O)(P(O)(O)=O)P(O)(=O)O{-}.K{+}	Reactive unspecified	no data	<=32763.3223	from 17271.836 to 62149.457	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+727	2-hydroxy-2-methylpropiophenone	7473-98-5	mono constituent substance	CC(C)(O)C(=O)c1ccccc1	Reactive unspecified	no data	<=473.9279	from 315.277 to 712.413	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+728	pentaerythritol tetrakis(3-(3,5-di-tert-butyl-4-hydroxyphenyl)propionate)	6683-19-8	mono constituent substance	CC(C)(C)c1cc(CCC(=O)OCC(COC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)(COC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)COC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O	Reactive unspecified	no data	<=18000314368.0000*	from 4127113728.000 to 78507966464.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+729	11-aminoundecanoic acid	2432-99-7	mono constituent substance	NCCCCCCCCCCC(O)=O	Reactive unspecified	no data	<=10221.2441*	from 6274.300 to 16651.074	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+730	N-(cyclohexylthio)phthalimide	17796-82-6	mono constituent substance	O=C1c2ccccc2C(=O)N1SC1CCCCC1	basesurface narcotics	no data	2.3984	from  1.750 to  3.287	In domain	38.46%	0.00%	61.54%	Out of domain	20.97%	Out of Domain
+731	tris(2,4-ditert-butylphenyl) phosphite	31570-04-4	mono constituent substance	CC(C)(C)c1ccc(OP(Oc2ccc(C(C)(C)C)cc2C(C)(C)C)Oc2ccc(C(C)(C)C)cc2C(C)(C)C)c(C(C)(C)C)c1	Reactive unspecified	no data	<=415668768.0000*	from 120389928.000 to 1435174144.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+732	bis(isopropyl)naphthalene	38640-62-9	multi constituent substance	CC(C)c1ccc2ccccc2c1C(C)C	basesurface narcotics	no data	0.0286	from  0.018 to  0.047	In domain	57.14%	0.00%	42.86%	Out of domain	27.45%	Out of Domain
+			multi constituent substance	CC(C)c1cccc2ccc(C(C)C)cc12	basesurface narcotics	no data	0.0285	from  0.017 to  0.046	In domain	57.14%	0.00%	42.86%	Out of domain	28.79%	Out of Domain
+733	octadecyl 3-(3,5-di-tert-butyl-4-hydroxyphenyl)propionate	2082-79-3	mono constituent substance	CCCCCCCCCCCCCCCCCCOC(=O)CCc1cc(C(C)(C)C)c(O)c(C(C)(C)C)c1	Reactive unspecified	no data	<=20663.2402*	from 12275.764 to 34781.504	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+734	1-propoxypropan-2-ol	1569-01-3	mono constituent substance	CCCOCC(C)O	basesurface narcotics	no data	2140.9858	from 1363.005 to 3363.024	In domain	87.50%	0.00%	12.50%	Out of domain	6.20%	Out of Domain
+735	retinyl palmitate	79-81-2	mono constituent substance	CCCCCCCCCCCCCCCC(=O)OCC=C(C)C=CC=C(C)C=CC1=C(C)CCCC1(C)C	Reactive unspecified	no data	<=1352695.3750*	from 546903.188 to 3345719.250	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+736	oxybis(methyl-2,1-ethanediyl) diacrylate	57472-68-1	UVCB	CC(COCC(C)OC(=O)C=C)OC(=O)C=C											
+737	trichloro(2,4,4-trimethylpentyl)silane	18379-25-4	mono constituent substance	CC(CC(C)(C)C)C[Si](Cl)(Cl)Cl	Reactive unspecified	no data	<=0.1078*	from  0.072 to  0.162	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+738	sodium dibutyldithiocarbamate	136-30-1	mono constituent substance	CCCCN(CCCC)C(=S)S{-}.[Na]{+}	Reactive unspecified	no data	<=2.8264	from  2.195 to  3.639	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+739	terephthaloyl dichloride	100-20-9	mono constituent substance	O=C(Cl)c1ccc(C(=O)Cl)cc1	Reactive unspecified	no data	<=690.4493	from 387.203 to 1231.190	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+740	iodine	7553-56-2	inorganic	II											
+741	undecanal	112-44-7	mono constituent substance	CCCCCCCCCCC=O	Reactive unspecified	no data	<=0.8415	from  0.600 to  1.181	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+742	1-(1-methyl-2-propoxyethoxy)propan-2-ol	29911-27-1	multi constituent substance	CCCOCC(C)OCC(C)O	basesurface narcotics	no data	2210.4475	from 1458.640 to 3349.748	In domain	66.67%	0.00%	33.33%	Out of domain	Out of domain	Out of Domain
+743	succinic anhydride	108-30-5	mono constituent substance	O=C1CCC(=O)O1	Reactive unspecified	no data	<=557.2761	from 372.649 to 833.375	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+744	ß-alanine	107-95-9	mono constituent substance	NCCC(O)=O	Reactive unspecified	no data	<=16320659.0000*	from 5583213.500 to 47707992.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+745	(2-methoxymethylethoxy)propanol	34590-94-8	multi constituent substance	CC(COCC(C)O)OC	basesurface narcotics	no data	14385.29	from 8636.597 to 23960.430	In domain	60.00%	0.00%	40.00%	Out of domain	6%	Out of Domain
+			multi constituent substance	CC(CO)OCC(C)OC	basesurface narcotics	no data	14267.5732	from 8577.022 to 23733.602	In domain	50.00%	0.00%	50.00%	Out of domain	6%	Out of Domain
+			multi constituent substance	CCC(O)OCCCOC	Reactive unspecified	no data	<=12743.5654	from 7665.717 to 21185.031	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+746	hexamethylene diacrylate	13048-33-4	mono constituent substance	C=CC(=O)OCCCCCCOC(=O)C=C	Reactive unspecified	no data	<=10.1333	from  7.978 to 12.871	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+747	acetic anhydride	108-24-7	mono constituent substance	CC(=O)OC(C)=O	Reactive unspecified	no data	<=10340.9951	from 5703.276 to 18749.959	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+748	tetrafluoroethylene	116-14-3	mono constituent substance	FC(F)=C(F)F	basesurface narcotics	no data	205.1272	from 134.470 to 312.912	In domain	0.00%	0.00%	100.00%	Out of domain	12.56%	Out of Domain
+749	dibutyl terephthalate	1962-75-0	mono constituent substance	CCCCOC(=O)c1ccc(C(=O)OCCCC)cc1	esters	no data	3.036	from  0.224 to 41.165	In domain	0.8	0	0.2	Out of domain	42%	Out of Domain
+750	ammonium chloride	12125-02-9	inorganic	N{+}.Cl{-}											
+751	dibutylamine	111-92-2	mono constituent substance	CCCCNCCCC	Reactive unspecified	no data	<=21.9700	from 13.415 to 35.981	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+752	tetrahydromethylphthalic anhydride	11070-44-3	multi constituent substance	CC1CCCC2C=1C(=O)OC2=O	Reactive unspecified	no data	<=17.7215	from 13.389 to 23.456	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	CC1C=CCC2C1C(=O)OC2=O	Reactive unspecified	no data	<=35.6967	from 28.257 to 45.095	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+753	[nitrilotris(methylene)]trisphosphonic acid, sodium salt	20592-85-2	mono constituent substance	OP(=O)(CN(CP(O)(O)=O)CP(O)(O)=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=125260792.0000*	from 38314520.000 to 409512256.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+754	4,4'-sulphonyldiphenol	80-09-1	mono constituent substance	Oc1ccc(S(=O)(=O)c2ccc(O)cc2)cc1	Reactive unspecified	no data	<=209.4156	from 144.849 to 302.763	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+755	propylene carbonate	108-32-7	mono constituent substance	CC1COC(=O)O1	Reactive unspecified	no data	<=3333.4963	from 2130.651 to 5215.399	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+756	hexahydro-1,3,5-trimethyl-1,3,5-triazine	108-74-7	mono constituent substance	CN1CN(C)CN(C)C1	Reactive unspecified	no data	<=546155.9375	from 260769.453 to 1143869.750	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+757	octanoyl chloride	111-64-8	mono constituent substance	CCCCCCCC(=O)Cl	Reactive unspecified	no data	<=28.8883	from 23.064 to 36.183	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+758	Butanamide, 2,2'-[(3,3'-dichloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[3-oxo-, N,N'-bis(p-anisyl and Ph) derivs.	90268-23-8	multi constituent substance	CC(=O)C(C(=O)Nc1ccccc1)N=Nc1ccc(-c2ccc(N=NC(C(C)=O)C(=O)Nc3ccc(OC)cc3)c(Cl)c2)cc1Cl	Reactive unspecified	no data	<=0.0611*	from  0.037 to  0.101	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+759	hydroxylamine	7803-49-8	inorganic	NO											
+760	methacrylic acid, monoester with propane-1,2-diol	27813-02-1	multi constituent substance	CC(O)COC(=O)C(C)=C	Reactive unspecified	no data	<=928.0121	from 602.158 to 1430.201	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	CC(CO)OC(=O)C(C)=C	Reactive unspecified	no data	<=937.7316	from 611.114 to 1438.914	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+761	dodec-1-ene	112-41-4	mono constituent substance	CCCCCCCCCCC=C	basesurface narcotics	no data	0.0305	from  0.017 to  0.056	In domain	83.33%	0.00%	16.67%	Out of domain	Out of domain	Out of Domain
+762	1,3-dioxolane	646-06-0	mono constituent substance	C1COCO1	basesurface narcotics	no data	6777.5596	from 4070.779 to 11284.158	In domain	100.00%	0.00%	0.00%	In domain	7%	In domain
+763	methyl formate	107-31-3	mono constituent substance	COC=O	esters	no data	969.0321	from 76.387 to 12292.899	Out of domain	0	0	1	Out of domain	11%	Out of Domain
+764	ethylene dinitrate	628-96-6	mono constituent substance	O=N(=O)OCCON(=O)=O	Reactive unspecified	no data	<=318.7486	from 199.994 to 508.018	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+765	dodecylamine	124-22-1	mono constituent substance	CCCCCCCCCCCCN	Reactive unspecified	no data	<=0.5380	from  0.264 to  1.098	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+766	propyl acetate	109-60-4	mono constituent substance	CCCOC(C)=O	esters	no data	201.1975	from 42.760 to 946.696	In domain	1	0	0	In domain	28%	In domain
+767	hexamethylene diisocyanate	822-06-0	mono constituent substance	O=C=NCCCCCCN=C=O	Reactive unspecified	no data	<=6.9208	from  5.543 to  8.640	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+768	tert-butyl 3,5,5-trimethylperoxyhexanoate	13122-18-4	mono constituent substance	CC(CC(=O)OOC(C)(C)C)CC(C)(C)C	Reactive unspecified	no data	<=0.4795	from  0.320 to  0.719	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+769	morpholine	110-91-8	mono constituent substance	C1CNCCO1	Reactive unspecified	no data	<=14676.2373	from 8423.443 to 25570.537	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+770	lysine hydrochloride	657-27-2	mono constituent substance	NC(CCCCN{+}.Cl{-})C(O)=O	Reactive unspecified	no data	<=2619297.7500*	from 1054855.375 to 6503943.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+771	12-hydroxystearic acid	106-14-9	mono constituent substance	CCCCCCC(O)CCCCCCCCCCC(O)=O	Reactive unspecified	no data	<=0.0382	from  0.021 to  0.069	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+772	N,N-dicyclohexylbenzothiazole-2-sulphenamide	4979-32-2	mono constituent substance	C1CCCCC1N(C1CCCCC1)SC1=Nc2ccccc2S1	Reactive unspecified	no data	<=0.0499	from  0.031 to  0.080	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+773	1,4-bis[(vinyloxy)methyl]cyclohexane	17351-75-6	mono constituent substance	C=COCC1CCC(COC=C)CC1	basesurface narcotics	no data	9.7599	from  7.363 to 12.937	In domain	28.57%	0.00%	71.43%	Out of domain	7.80%	Out of Domain
+774	di(morpholin-4-yl) disulphide	103-34-4	mono constituent substance	C1CN(SSN2CCOCC2)CCO1	Reactive unspecified	no data	<=121613.7734	from 52856.879 to 279810.500	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+775	tetraethylammonium heptadecafluorooctanesulphonate	56773-42-3	mono constituent substance	CCN{+}(CC)(CC)(CC).O{-}S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	Reactive unspecified	no data	<=0.0354	from  0.020 to  0.061	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+776	sulphuric acid	7664-93-9	inorganic	OS(O)(=O)=O											
+777	trichloroacetic acid	76-03-9	mono constituent substance	OC(=O)C(Cl)(Cl)Cl	Reactive unspecified	no data	<=201.3289	from 133.115 to 304.498	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+778	1,3-diphenylguanidine	102-06-7	mono constituent substance	N=C(Nc1ccccc1)Nc1ccccc1	Reactive unspecified	no data	<=14.9434	from 11.982 to 18.637	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+779	2-(2-aminoethoxy)ethanol	929-06-6	mono constituent substance	NCCOCCO	Reactive unspecified	no data	<=264015.3438	from 130617.078 to 533652.313	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+780	methanesulphonic acid	75-75-2	mono constituent substance	CS(O)(=O)=O	Reactive unspecified	no data	<=353855.3125	from 138737.734 to 902520.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+781	dimethyl phosphonate	868-85-9	mono constituent substance	COP(=O)OC	Reactive unspecified	no data	<=38376.5547	from 20022.963 to 73553.539	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+782	heptanoic acid	111-14-8	mono constituent substance	CCCCCCC(O)=O	Reactive unspecified	no data	<=23.4624	from 18.577 to 29.632	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+783	3-chloropropane-1,2-diol	96-24-2	mono constituent substance	OCC(O)CCl	Reactive unspecified	no data	<=12156.8760	from 7110.889 to 20783.564	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+784	bis(2-propylheptyl) phthalate	53306-54-0	mono constituent substance	CCCCCC(CCC)COC(=O)c1ccccc1C(=O)OCC(CCC)CCCCC	esters	no data	41.7188*	from  8.369 to 207.970	Out of domain	0.7037	0	0.2963	Out of domain	44%	Out of Domain
+785	ammonium dihydrogenorthophosphate	7722-76-1	inorganic	N{+}.O{-}P(O)(O)=O											
+786	2-ethylhexanoyl chloride	760-67-8	mono constituent substance	CCCCC(CC)C(=O)Cl	Reactive unspecified	no data	<=34.1988	from 27.271 to 42.887	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+787	trimethoxyvinylsilane	2768-02-7	mono constituent substance	CO[Si](C=C)(OC)OC	Reactive unspecified	no data	<=9143.8818	from 5324.613 to 15702.655	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+788	3-(trichlorosilyl)propiononitrile	1071-22-3	mono constituent substance	N#CCC[Si](Cl)(Cl)Cl	Reactive unspecified	no data	<=173.7629*	from 107.091 to 281.942	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+789	5,5-dimethylhydantoin	77-71-4	mono constituent substance	CC1(C)C(=O)NC(=O)N1	basesurface narcotics	no data	7178.9688*	from 4203.755 to 12259.893	In domain	22.22%	0.00%	77.78%	Out of domain	Out of domain	Out of Domain
+790	mercaptoacetic acid	68-11-1	mono constituent substance	OC(=O)CS	Reactive unspecified	no data	<=2515.3870	from 1489.366 to 4248.231	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+791	1,1-difluoroethane	75-37-6	mono constituent substance	CC(F)F	basesurface narcotics	no data	322.6132	from 210.635 to 494.121	In domain	25.00%	0.00%	75.00%	Out of domain	6.41%	Out of Domain
+792	stearic acid	57-11-4	mono constituent substance	CCCCCCCCCCCCCCCCCC(O)=O	Reactive unspecified	no data	<=0.1574*	from  0.097 to  0.256	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+793	1-phenoxypropan-2-ol	770-35-4	mono constituent substance	CC(O)COc1ccccc1	basesurface narcotics	no data	197.5163	from 145.121 to 268.828	In domain	66.67%	0.00%	33.33%	Out of domain	28.37%	Out of Domain
+794	propyl chloroformate	109-61-5	mono constituent substance	CCCOC(=O)Cl	Reactive unspecified	no data	<=344.6924	from 236.084 to 503.265	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+795	docosan-1-ol	661-19-8	mono constituent substance	CCCCCCCCCCCCCCCCCCCCCCO	basesurface narcotics	no data	10.0271*	from  5.544 to 18.134	Out of domain	100.00%	0.00%	0.00%	In domain	10.86%	Out of Domain
+796	methacrylonitrile	126-98-7	mono constituent substance	CC(=C)C#N	Reactive unspecified	no data	<=416.2882	from 276.004 to 627.875	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+797	disodium sulphide	1313-82-2	inorganic	[Na]S{-}.[Na]{+}											
+798	formamide	75-12-7	mono constituent substance	NC=O	Reactive unspecified	no data	<=52623.7969	from 26808.162 to 103299.281	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+799	29H,31H-phthalocyaninato(2-)-N29,N30,N31,N32 copper	147-14-8	mono constituent substance	c1cccc2C3N=C4c5ccccc5C(=N4)N=C4c5ccccc5C5=NC6c7ccccc7C(N=6)=NC(c12)N3[Cu]N45	Reactive unspecified	no data	<=63.0646*	from 40.488 to 98.231	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+800	1,3-Cyclohexanedimethanamine	2579-20-6	mono constituent substance	NCC1CCCC(CN)C1	Reactive unspecified	no data	<=872.8962	from 538.471 to 1415.021	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+801	propyloxirane	1003-14-1	mono constituent substance	CCCC1CO1	Reactive unspecified	no data	<=256.3565	from 171.366 to 383.500	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+802	sodium xylenesulphonate	1300-72-7	UVCB	Cc1ccc(S(=O)(=O)O{-}.[Na]{+})cc1C											
+803	sebacic acid	111-20-6	mono constituent substance	OC(=O)CCCCCCCCC(O)=O	Reactive unspecified	no data	<=73.3213	from 57.939 to 92.787	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+804	iodomethane	74-88-4	mono constituent substance	CI	Reactive unspecified	no data	<=168.1750	from 126.457 to 223.655	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+805	1,4-bis(2,3-epoxypropoxy)butane	2425-79-8	UVCB	C(CCCOCC1CO1)OCC1CO1											
+806	etidronic acid	2809-21-4	mono constituent substance	CC(O)(P(O)(O)=O)P(O)(O)=O	Reactive unspecified	no data	<=32763.3223	from 17271.836 to 62149.457	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+807	2-(2-(4-methyl-3-cyclohexen-1-yl)propyl)cyclopentanone	95962-14-4	mono constituent substance	CC(CC1CCCC1=O)C1CCC(C)=CC1	basesurface narcotics	no data	0.2157	from  0.138 to  0.336	In domain	37.50%	0.00%	62.50%	Out of domain	Out of domain	Out of Domain
+808	2-ethylhexyl oleate	26399-02-0	mono constituent substance	CCCCCCCCC=CCCCCCCCC(=O)OCC(CC)CCCC	esters	no data	560.2160*	from 61.381 to 5113.011	Out of domain	0.6786	0	0.3214	Out of domain	36%	Out of Domain
+809	4,4'-[(isopropylidene)bis(p-phenyleneoxy)]diphthalic dianhydride	38103-06-9	mono constituent substance	CC(C)(c1ccc(Oc2ccc3c(c2)C(=O)OC3=O)cc1)c1ccc(Oc2ccc3c(c2)C(=O)OC3=O)cc1	Reactive unspecified	no data	<=1.0520*	from  0.710 to  1.559	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+810	N-(1,1-dimethylethyl)bis(2-benzothiazolesulfen)amide	3741-80-8	mono constituent substance	CC(C)(C)N(SC1=Nc2ccccc2S1)SC1=Nc2ccccc2S1	Reactive unspecified	no data	<=1.6099	from  1.147 to  2.260	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+811	pentaerithrityl tetranitrate	78-11-5	mono constituent substance	O=N(=O)OCC(CON(=O)=O)(CON(=O)=O)CON(=O)=O	Reactive unspecified	no data	<=52.4143	from 36.960 to 74.331	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+812	2-methylbutene	26760-64-5	mono constituent substance	CCC(C)=C	basesurface narcotics	no data	9.3053	from  7.194 to 12.036	In domain	20.00%	0.00%	80.00%	Out of domain	12.73%	Out of Domain
+813	Butanamide, 2,2'-[(3,3'-dichloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[3-oxo-, N,N'-bis(4-chloro-2,5-dimethoxyphenyl and 2,4-xylyl) derivs.	90268-24-9	multi constituent substance	Cc1ccc(NC(=O)C(C(C)=O)N=Nc2ccc(-c3ccc(N=NC(C(C)=O)C(=O)Nc4cc(OC)c(Cl)cc4OC)c(Cl)c3)cc2Cl)c(C)c1	Reactive unspecified	no data	<=0.1972*	from  0.126 to  0.309	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+814	hexadec-1-ene	629-73-2	mono constituent substance	CCCCCCCCCCCCCCC=C	basesurface narcotics	no data	0.1677*	from  0.101 to  0.279	Out of domain	87.50%	0.00%	12.50%	Out of domain	Out of domain	Out of Domain
+815	disodium dihydrogen ethylenediaminetetraacetate	139-33-3	mono constituent substance	OC(=O)CN(CCN(CC(O)=O)CC(=O)O{-}.[Na]{+})CC(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=27970056.0000*	from 9428115.000 to 82977776.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+816	"isoprene (stabilised); 2-methyl-1,3-butadiene"	78-79-5	mono constituent substance	CC(=C)C=C	basesurface narcotics	no data	10.1302	from  8.154 to 12.585	In domain	0.00%	0.00%	100.00%	Out of domain	55.59%	Out of Domain
+817	citric acid	77-92-9	mono constituent substance	OC(=O)CC(O)(CC(O)=O)C(O)=O	Reactive unspecified	no data	<=182579.0938	from 84009.148 to 396803.500	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+818	lauric acid	143-07-7	mono constituent substance	CCCCCCCCCCCC(O)=O	Reactive unspecified	no data	<=0.2253	from  0.144 to  0.353	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+819	nonanoic acid	112-05-0	mono constituent substance	CCCCCCCCC(O)=O	Reactive unspecified	no data	<=3.7063	from  2.797 to  4.911	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+820	but-2-ene-1,4-diol	110-64-5	mono constituent substance	OCC=CCO	Reactive unspecified	no data	<=7148.0249	from 4135.401 to 12355.331	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+821	2,4-di-tert-butylphenol	96-76-4	mono constituent substance	CC(C)(C)c1ccc(O)c(C(C)(C)C)c1	Reactive unspecified	no data	<=0.1079	from  0.069 to  0.168	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+822	2,6-dimethyloct-7-en-2-ol	18479-58-8	mono constituent substance	CC(CCCC(C)(C)O)C=C	basesurface narcotics	no data	4.3318	from  3.210 to  5.845	In domain	72.73%	0.00%	27.27%	Out of domain	5.12%	Out of Domain
+823	methylcyclohexane	108-87-2	mono constituent substance	CC1CCCCC1	basesurface narcotics	1.5032	3.3384	from  1.784 to  6.249	In domain	100.00%	0.00%	0.00%	In domain	15.48%	In domain
+824	2-phenoxyethanol	122-99-6	mono constituent substance	OCCOc1ccccc1	basesurface narcotics	no data	422.9969	from 294.366 to 607.837	In domain	80.00%	0.00%	20.00%	Out of domain	13.12%	Out of Domain
+825	sodium dodecyl sulphate	151-21-3	mono constituent substance	CCCCCCCCCCCCOS(=O)(=O)O{-}.[Na]{+}	Reactive unspecified	no data	<=44.4935	from 33.209 to 59.612	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+826	2-butyl-2-ethylpropanediol	115-84-4	mono constituent substance	CCCCC(CC)(CO)CO	basesurface narcotics	no data	105.8795	from 66.110 to 169.574	In domain	72.73%	0.00%	27.27%	Out of domain	Out of domain	Out of Domain
+827	"1,3,5-tris(oxiranylmethyl)-1,3,5-triazine-2,4,6(1H,3H,5H)-trione; TGIC"	2451-62-9	mono constituent substance	O=C1N(CC2CO2)C(=O)N(CC2CO2)C(=O)N1CC1CO1	Reactive unspecified	no data	<=615.2631*	from 400.771 to 944.551	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+828	4,4'-methylenediphenyl diisocyanate	101-68-8	mono constituent substance	O=C=Nc1ccc(Cc2ccc(N=C=O)cc2)cc1	Reactive unspecified	no data	<=0.1348	from  0.091 to  0.200	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+829	dibenzyltoluene	26898-17-9	UVCB	Cc1cccc(Cc2ccccc2)c1Cc1ccccc1											
+830	dodecamethylcyclohexasiloxane	540-97-6	mono constituent substance	C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1	Reactive unspecified	no data	<=0.0665*	from  0.035 to  0.125	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+831	4-nitrotoluene-2-sulphonic acid	121-03-9	mono constituent substance	Cc1ccc(N(=O)=O)cc1S(O)(=O)=O	Reactive unspecified	no data	<=24134.2500	from 10721.508 to 54326.504	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+832	tributyl O-acetylcitrate	77-90-7	mono constituent substance	CCCCOC(=O)CC(CC(=O)OCCCC)(C(=O)OCCCC)OC(C)=O	esters	no data	16.7825*	from  0.783 to 359.757	Out of domain	0.8214	0	0.1786	Out of domain	Out of domain	Out of Domain
+833	[1,3,8,16,18,24-hexabromo-2,4,9,10,11,15,17,22,23,25-decachloro-29H,31H-phthalocyaninato(2-)-N29,N30,N31,N32]copper	14302-13-7	UVCB	Clc1c2C3N=C4c5c(Cl)c(Cl)c(Cl)c(Br)c5C(=N4)N=C4c5c(Cl)c(Br)c(Cl)c(Br)c5C5=NC6c7c(Cl)c(Br)c(Cl)c(Cl)c7C(N=6)=NC(c2c(Br)c(Cl)c1Br)N3[Cu]N45											
+834	troclosene sodium	2893-78-9	mono constituent substance	O=C1N(Cl)C(=O)N(Cl)C(=O)N{-}1.[Na]{+}	Reactive unspecified	no data	<=257.4083	from 138.855 to 477.180	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+835	8,18-dichloro-5,15-diethyl-5,15-dihydrodiindolo[3,2-b:3',2'-m]triphenodioxazine	6358-30-1	mono constituent substance	CCN1c2ccccc2-c2cc3c(cc12)OC1=C(Cl)C2C(=C(Cl)C1=N3)Oc1cc3c(cc1N=2)-c1ccccc1N3CC	basesurface narcotics	no data	4.0032*	from  2.767 to  5.793	Out of domain	9.09%	0.00%	90.91%	Out of domain	Out of domain	Out of Domain
+836	disodium 4,4'-bis[(4-anilino-6-morpholino-1,3,5-triazin-2-yl)amino]stilbene-2,2'-disulphonate	16090-02-1	mono constituent substance	O=S(=O)(c1cc(Nc2nc(Nc3ccccc3)nc(N3CCOCC3)n2)ccc1C=Cc1ccc(Nc2nc(Nc3ccccc3)nc(N3CCOCC3)n2)cc1S(=O)(=O)O{-}.[Na]{+})O{-}.[Na]{+}	Reactive unspecified	no data	<=0.1115*	from  0.069 to  0.180	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+837	disodium peroxodisulphate	7775-27-1	inorganic	O=S(=O)(OOS(=O)(=O)O{-}.[Na]{+})O{-}.[Na]{+}											
+838	dimethyl terephthalate	120-61-6	mono constituent substance	COC(=O)c1ccc(C(=O)OC)cc1	esters	no data	69.2807	from  5.495 to 873.522	In domain	0.6667	0	0.3333	Out of domain	42%	Out of Domain
+839	2,5-di-tert-pentylhydroquinone	79-74-3	mono constituent substance	CCC(C)(C)c1cc(O)c(C(C)(C)CC)cc1O	Reactive unspecified	no data	<=0.0521	from  0.032 to  0.085	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+840	1-nitropropane	108-03-2	mono constituent substance	CCCN(=O)=O	basesurface narcotics	no data	365.6262	from 246.644 to 542.005	In domain	66.67%	0.00%	33.33%	Out of domain	11.56%	Out of Domain
+841	norflurane	811-97-2	mono constituent substance	FCC(F)(F)F	basesurface narcotics	no data	111.1846	from 84.764 to 145.840	In domain	0.00%	0.00%	100.00%	Out of domain	27.15%	Out of Domain
+842	vinyl laurate	2146-71-6	mono constituent substance	CCCCCCCCCCCC(=O)OC=C	esters	no data	2.6435*	from  0.019 to 360.840	Out of domain	0.625	0	0.375	Out of domain	Out of domain	Out of Domain
+843	2-phenyl-2-imidazoline	936-49-2	mono constituent substance	C1CNC(c2ccccc2)=N1	Reactive unspecified	no data	<=25.3002	from 19.755 to 32.402	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+844	"ethylene thiourea; imidazolidine-2-thione; 2-imidazoline-2-thiol"	96-45-7	mono constituent substance	S=C1NCCN1	Reactive unspecified	26.258	<=8430.1621	from 4665.537 to 15232.469	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+845	2-isopropoxyethanol	109-59-1	mono constituent substance	CC(C)OCCO	basesurface narcotics	no data	5166.7334	from 3176.208 to 8404.720	In domain	71.43%	0.00%	28.57%	Out of domain	Out of domain	Out of Domain
+846	tetrapropylenebenzene	25265-78-5	UVCB	CCCc1cc(CCC)cc(CCC)c1CCC											
+847	dilauroyl peroxide	105-74-8	mono constituent substance	CCCCCCCCCCCC(=O)OOC(=O)CCCCCCCCCCC	Reactive unspecified	no data	<=26.8096*	from 21.637 to 33.219	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+848	benzyl 3-isobutyryloxy-1-isopropyl-2,2-dimethylpropyl phthalate	16883-83-3	mono constituent substance	CC(C)C(C(C)(C)COC(=O)C(C)C)OC(=O)c1ccccc1C(=O)OCc1ccccc1	esters	no data	1.0897*	from  0.019 to 63.102	Out of domain	0.3478	0	0.6522	Out of domain	7%	Out of Domain
+849	2,2-bis[[(1-oxopentyl)oxy]methyl]propane-1,3-diyl divalerate	15834-04-5	mono constituent substance	CCCCC(=O)OCC(COC(=O)CCCC)(COC(=O)CCCC)COC(=O)CCCC	esters	no data	3.2933*	from  0.012 to 875.695	Out of domain	0.7273	0	0.2727	Out of domain	Out of domain	Out of Domain
+850	(1-methyl-1,2-ethanediyl)bis[oxy(methyl-2,1-ethanediyl)] diacrylate	42978-66-5	UVCB	CC(COC(C)COC(C)COC(=O)C=C)OC(=O)C=C											
+851	tridecane	629-50-5	mono constituent substance	CCCCCCCCCCCCC	basesurface narcotics	no data	0.0370*	from  0.015 to  0.090	Out of domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain
+852	methyl vinyl ether	107-25-5	mono constituent substance	COC=C	basesurface narcotics	no data	945.0881	from 630.748 to 1416.082	In domain	0.00%	0.00%	100.00%	Out of domain	Out of domain	Out of Domain
+853	phthalic anhydride	85-44-9	mono constituent substance	O=C1c2ccccc2C(=O)O1	Reactive unspecified	no data	<=43.4285	from 28.275 to 66.703	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+854	1,2,3,4-tetrahydronaphthalene	119-64-2	mono constituent substance	C1CCCc2ccccc12	basesurface narcotics	no data	1.1367	from  0.855 to  1.510	In domain	40.00%	0.00%	60.00%	Out of domain	31.08%	Out of Domain
+855	2,2'-[(2,2',5,5'-tetrachloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[N-(2,4-dimethylphenyl)-3-oxobutyramide]	22094-93-5	mono constituent substance	Cc1ccc(NC(=O)C(C(C)=O)N=Nc2cc(Cl)c(-c3cc(Cl)c(N=NC(C(C)=O)C(=O)Nc4ccc(C)cc4C)cc3Cl)cc2Cl)c(C)c1	Reactive unspecified	no data	<=5.0113*	from  3.578 to  7.020	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+856	diaminotoluene	25376-45-8	multi constituent substance	Cc1cccc(N)c1N	Reactive unspecified	no data	<=928.4836	from 630.215 to 1367.916	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	Cc1cc(N)ccc1N	Reactive unspecified	no data	<=2942.2861	from 1857.174 to 4661.408	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	Cc1ccc(N)cc1N	Reactive unspecified	no data	<=3000.6824	from 1903.110 to 4731.253	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+857	benzyltoluene	27776-01-8	multi constituent substance	Cc1ccccc1Cc1ccccc1	basesurface narcotics	no data	0.4332	from  0.308 to  0.610	In domain	50.00%	0.00%	50.00%	Out of domain	14%	Out of Domain
+			multi constituent substance	Cc1ccc(Cc2ccccc2)cc1	basesurface narcotics	no data	0.4324	from  0.307 to  0.609	In domain	50.00%	0.00%	50.00%	Out of domain	14%	Out of Domain
+			multi constituent substance	Cc1cccc(Cc2ccccc2)c1	basesurface narcotics	no data	0.4333	from  0.308 to  0.610	In domain	50.00%	0.00%	50.00%	Out of domain	14%	Out of Domain
+858	trisodium hydrogendicarbonate	533-96-0	inorganic	O=C(O{-}.[Na]{+})O{-}.[Na]{+}_OC(=O)O{-}.[Na]{+}											
+859	1,1,1,2,3,3,3-heptafluoropropane	431-89-0	mono constituent substance	FC(C(F)(F)F)C(F)(F)F	basesurface narcotics	no data	25.884	from 20.310 to 32.987	In domain	0.00%	0.00%	100.00%	Out of domain	71.00%	Out of Domain
+860	(R)-lactic acid	10326-41-7	mono constituent substance	CC(O)C(O)=O	Reactive unspecified	no data	<=12081.8877	from 6867.375 to 21255.867	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+861	4,6-bis(octylthiomethyl)-o-cresol	110553-27-0	mono constituent substance	CCCCCCCCSCc1cc(C)c(O)c(CSCCCCCCCC)c1	Reactive unspecified	no data	<=19.1203*	from 15.243 to 23.984	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+862	"ethylene oxide; oxirane"	75-21-8	mono constituent substance	C1CO1	Reactive unspecified	210.8395	<=2472.4514	from 1502.416 to 4068.792	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+863	dipotassium hydrogenorthophosphate	7758-11-4	inorganic	OP(=O)(O{-}.K{+})O{-}.K{+}											
+864	3-hydroxy-N-(o-tolyl)-4-[(2,4,5-trichlorophenyl)azo]naphthalene-2-carboxamide	6535-46-2	mono constituent substance	Cc1ccccc1NC(=O)c1cc2ccccc2c(N=Nc2cc(Cl)c(Cl)cc2Cl)c1O	Reactive unspecified	no data	<=2.0239*	from  1.395 to  2.936	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+865	dilactide	95-96-5	mono constituent substance	CC1C(=O)OC(C)C(=O)O1	esters	no data	149.408	from 41.384 to 539.406	In domain	0.2	0	0.8	Out of domain	Out of domain	Out of Domain
+866	butan-2-ol	78-92-2	mono constituent substance	CCC(C)O	basesurface narcotics	no data	904.0828	from 534.411 to 1529.469	In domain	100.00%	0.00%	0.00%	In domain	17.90%	In domain
+867	neodecanoic acid, ethenyl ester	51000-52-3	UVCB	CCCCCCC(C)(C)C(=O)OC=C											
+868	sodium methanolate	124-41-4	mono constituent substance	CO{-}.[Na]{+}	basesurface narcotics	no data	7596.7212	from 4060.536 to 14212.452	Out of domain	0.00%	0.00%	100.00%	Out of domain	Out of domain	Out of Domain
+869	acetic acid	64-19-7	mono constituent substance	CC(O)=O	Reactive unspecified	no data	<=1800.4454	from 1143.200 to 2835.552	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+870	4,4',4''-(ethan-1,1,1-triyl)triphenol	27955-94-8	mono constituent substance	CC(c1ccc(O)cc1)(c1ccc(O)cc1)c1ccc(O)cc1	Reactive unspecified	no data	<=1.0348	from  0.755 to  1.418	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+871	5,12-dihydro-2,9-dimethylquino[2,3-b]acridine-7,14-dione	980-26-7	mono constituent substance	Cc1ccc2c(c1)C(=O)c1cc3c(cc1N2)C(=O)c1cc(C)ccc1N3	Reactive unspecified	no data	<=47.6659*	from 34.267 to 66.304	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+872	dipropylamine	142-84-7	mono constituent substance	CCCNCCC	Reactive unspecified	no data	<=135.7623	from 84.797 to 217.359	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+873	p-cumenesulphonic acid	16066-35-6	mono constituent substance	CC(C)c1ccc(S(O)(=O)=O)cc1	Reactive unspecified	no data	<=2710.2241	from 1542.345 to 4762.435	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+874	N-1-naphthylaniline	90-30-2	mono constituent substance	c1ccccc1Nc1cccc2ccccc12	basesurface narcotics	no data	0.5326	from  0.389 to  0.729	In domain	0.00%	33.33%	66.67%	Out of domain	69.43%	Out of Domain
+875	octabenzone	1843-05-6	mono constituent substance	CCCCCCCCOc1ccc(C(=O)c2ccccc2)c(O)c1	Reactive unspecified	no data	<=0.0313	from  0.019 to  0.051	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+876	anilinoacetonitrile	3009-97-0	mono constituent substance	N#CCNc1ccccc1	basesurface narcotics	no data	360.0095	from 250.248 to 517.913	In domain	20.00%	40.00%	40.00%	Out of domain	13.90%	Out of Domain
+877	Butanamide, 2,2'-[(3,3'-dichloro[1,1'-biphenyl]-4,4'-diyl)bis(azo)]bis[3-oxo-, N,N'-bis(phenyl and o-tolyl) derivs.	68910-13-4	multi constituent substance	Cc1ccccc1NC(=O)C(C(C)=O)N=Nc1ccc(-c2ccc(N=NC(C(C)=O)C(=O)Nc3ccccc3)c(Cl)c2)cc1Cl	Reactive unspecified	no data	<=0.0552*	from  0.033 to  0.091	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+878	tris(methylphenyl) phosphate	1330-78-5	multi constituent substance	Cc1ccc(OP(=O)(Oc2ccc(C)cc2)Oc2ccc(C)cc2)cc1	Reactive unspecified	no data	<=0.0380	from  0.023 to  0.063	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+			multi constituent substance	Cc1ccccc1OP(=O)(Oc1ccccc1C)Oc1ccccc1C	Reactive unspecified	no data	<=0.0378	from  0.023 to  0.063	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+879	tris(nonylphenyl) phosphite	26523-78-4	UVCB	CCCCCCCCCc1ccccc1OP(Oc1ccccc1CCCCCCCCC)Oc1ccccc1CCCCCCCCC											
+880	sulphamidic acid	5329-14-6	inorganic	NS(O)(=O)=O											
+881	"styrene oxide; (epoxyethyl)benzene; phenyloxirane"	96-09-3	mono constituent substance	C1C(c2ccccc2)O1	Reactive unspecified	11.4735	<=134.8892	from 99.994 to 181.961	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+882	1-chlorobutane	109-69-3	mono constituent substance	CCCCCl	basesurface narcotics	no data	17.7762	from 13.521 to 23.371	In domain	100.00%	0.00%	0.00%	In domain	8.42%	In domain
+883	2-vinylpyridine	100-69-6	mono constituent substance	C=Cc1ccccn1	Reactive unspecified	no data	<=83.6549	from 60.481 to 115.708	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+884	"4-aminoazobenzene; 4-phenylazoaniline"	60-09-3	mono constituent substance	Nc1ccc(N=Nc2ccccc2)cc1	Reactive unspecified	no data	<=6.5713	from  5.069 to  8.520	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+885	methyl palmitate	112-39-0	mono constituent substance	CCCCCCCCCCCCCCCC(=O)OC	esters	no data	3.5399*	from  0.008 to 1536.156	Out of domain	0.9474	0	0.0526	Out of domain	Out of domain	Out of Domain
+886	di-tert-butyl 3,3,5-trimethylcyclohexylidene diperoxide	6731-36-8	mono constituent substance	CC1CC(C)(C)CC(OOC(C)(C)C)(OOC(C)(C)C)C1	Reactive unspecified	no data	<=0.0958*	from  0.053 to  0.173	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+887	2-hexyldecan-1-ol	2425-77-6	mono constituent substance	CCCCCCCCC(CCCCCC)CO	basesurface narcotics	no data	0.0461	from  0.020 to  0.108	Out of domain	94.12%	0.00%	5.88%	Out of domain	Out of domain	Out of Domain
+888	dichloromethylbenzene	29797-40-8	mono constituent substance	ClC(Cl)c1ccccc1	basesurface narcotics	no data	9.2793	from  7.380 to 11.667	In domain	75.00%	0.00%	25.00%	Out of domain	98.40%	Out of Domain
+889	hydrogen peroxide	7722-84-1	inorganic	OO											
+890	ammonium perchlorate	7790-98-9	inorganic	N{+}.O{-}Cl(=O)(=O)=O											
+891	triammonium hydrogen ethylenediaminetetraacetate	15934-01-7	mono constituent substance	N{+}.O{-}C(=O)CN(CCN(CC(=O)O{-})CC(=O)O{-}.N{+})CC(=O)O{-}.N{+}	Reactive unspecified	no data	<=27970056.0000*	from 9428115.000 to 82977776.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+892	formic acid	64-18-6	mono constituent substance	OC=O	Reactive unspecified	no data	<=4354.6807	from 2567.002 to 7387.313	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+893	tetrahydrofuran	109-99-9	mono constituent substance	C1CCCO1	basesurface narcotics	no data	565.2482	from 353.447 to 903.970	In domain	100.00%	0.00%	0.00%	In domain	17.56%	In domain
+894	"N,N-dimethylformamide; dimethyl formamide"	68-12-2	mono constituent substance	CN(C)C=O	Reactive unspecified	14583.6309	<=20454.7910	from 11443.031 to 36563.605	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+895	methyl acrylate	96-33-3	mono constituent substance	COC(=O)C=C	Reactive unspecified	no data	<=551.3981	from 360.201 to 844.084	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+896	isobutyric acid, monoester with 2,2,4-trimethylpentane-1,3-diol	25265-77-4	multi constituent substance	CC(C)C(O)C(C)(C)COC(=O)C(C)C	esters	no data	80.2335	from  4.440 to 1449.866	In domain	0.1333	0	0.8667	Out of domain	Out of domain	Out of Domain
+897	decene	25339-53-1	UVCB	CCCCCCCCC=C											
+898	methyl chloroformate	79-22-1	mono constituent substance	COC(=O)Cl	Reactive unspecified	no data	<=2049.8848	from 1226.835 to 3425.096	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+899	Amines, bis(hydrogenated tallow alkyl), 2-[[bis(hydrogenated tallow alkyl)amino]carbonyl]benzoates	91745-35-6	UVCB	 											
+900	dichloro(dimethyl)silane	75-78-5	mono constituent substance	C[Si](C)(Cl)Cl	Reactive unspecified	no data	<=31.3783	from 23.161 to 42.511	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+901	chloro(methyl)silane	993-00-0	mono constituent substance	C[Si]Cl	Reactive unspecified	no data	<=124.7565	from 86.910 to 179.084	N/A	N/A	N/A	N/A	N/A	N/A	N/A
