@@ -32,8 +32,8 @@ def write_STREAM_EU_output(CAS,allCAS,statind,model,method,filespec1,filespec2,f
             dataentry = []
             tmp = []
             
-            #DELWAQA = delwaq all parameters
-            #DELWAQC = delwaq parameters confirmed in database
+            # DELWAQA = delwaq all parameters
+            # DELWAQC = delwaq parameters confirmed in database
             c.execute("SELECT STREAM_EU_parameter FROM STREAM_EU_meta")
             DELWAQA = c.fetchall()
             c.execute("SELECT STREAM_EU_parameter FROM STREAM_EU_database_dictionary")
@@ -41,8 +41,8 @@ def write_STREAM_EU_output(CAS,allCAS,statind,model,method,filespec1,filespec2,f
             
             search_t = []
 
-            #get the search terms from the DELWAQ dictionary v2 table
-            #compare to all of the known paramters to identify known and unknown
+            # get the search terms from the DELWAQ dictionary v2 table
+            # compare to all of the known paramters to identify known and unknown
             for nn in range(0,len(DELWAQA)):
                 #if there is a corresponding property in the database
                 if DELWAQA[nn][0] in [lp[0] for lp in DELWAQC]:
