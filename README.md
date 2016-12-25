@@ -1,10 +1,11 @@
-# SSPD
+﻿# SSPD
 version 1.7
 
 SOLUTIONS Substance Properties Database (SSPD) readme v1.7
 Written by Rudy Schueder
 Rudy.schueder@deltares.nl
 November 11, 2016
+
 0.	Instructions for use
 Please copy the folder SSPD (solutions substance properties database) somewhere on your computer. Also please ensure you have python 3.5 installed. This is necessary to read the unicode.
 The database contains tables with information on substances and substance properties. It also contains data on how model output (like STREAM_EU) should interact with the properties in the database. The database is populated by importing all files within a certain folder and sorting it into tables. 
