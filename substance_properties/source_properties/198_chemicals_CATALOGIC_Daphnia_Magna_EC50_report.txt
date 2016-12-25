@@ -1,0 +1,210 @@
+#	CAS RN	NAME	SMILES	Daphnia magna EC50 48h										
+				Daphnia magna-48h EC50 mode of action	Daphnia magna-48h EC50_Observed	Daphnia magna-48h EC50_StructCalcValue_Toxicity mg/l	Daphnia magna-48h EC50_Confidence	Parameter ranges	Correct fragments Structural domain	Incorrect fragments Structural domain	Unknown fragments Structural domain	Total Structural domain	Parametric coverage	Total Domain
+1	161599-46-8	"2',3'-di-O-acetyl-5'-deoxy-5-fluorocytidin"	CC1C(OC(C)=O)C(OC(C)=O)C(N2C=C(F)C(N)=NC2=O)O1	Reactive unspecified	no data	<=27248.2676	from 8813.425 to 84242.859	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+2	60397-77-5	"2,4-dimethylphenylformamid"	Cc1ccc(NC=O)c(C)c1	Reactive unspecified	no data	<=54.7452	from 34.245 to 87.517	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+3	1668-54-8	"2-Amino-4-methoxy-6-methyl-1,3,5 triazin"	Cc1nc(N)nc(OC)n1	Reactive unspecified	no data	<=417.4859	from 235.201 to 741.044	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+4	934-32-7	2-Aminobenzimidazol	NC1Nc2ccccc2N=1	Reactive unspecified	no data	<=903.6601	from 463.596 to 1761.452	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+5	99-88-7	4-Isopropylanilin	CC(C)c1ccc(N)cc1	phenols and anilines	no data	10.0587	from  6.433 to 15.729	In domain	20.00%	0.00%	80.00%	Out of domain	44.45%	Out of Domain
+6	53164-05-9	Acemetacin	CC1=C(CC(=O)OCC(O)=O)c2cc(OC)ccc2N1C(=O)c1ccc(Cl)cc1	Reactive unspecified	no data	<=1.9207*	from  0.828 to  4.456	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+7	160430-64-8	Acetamiprid	CC(=NC#N)N(C)Cc1ccc(Cl)nc1	Reactive unspecified	no data	<=33.9147	from 19.126 to 60.138	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+8	59-66-5	Acetazolamide	CC(=O)NC1=NN=C(S(N)(=O)=O)S1	Reactive unspecified	no data	<=30209.1113	from 7580.978 to 120378.984	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+9	173334-57-1	Aliskiren	CC(C)C{P+}(CC{P+}(O)C{P-}(N)CC{P+}(Cc1ccc(OC)c(OCCCOC)c1)C(C)C)C(=O)NCC(C)(C)C(N)=O	Reactive unspecified	no data	<=66.3466	from 40.535 to 108.595	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+10	315-30-0	Allopurinol	O=C1C2=CNNC2=NC=N1	Reactive unspecified	no data	<=48942.5508	from 11108.259 to 215638.938	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+11	519-65-3	AMDOPH	CC(=O)N(C)N(c1ccccc1)C(=O)C(=O)N(C)C	Reactive unspecified	no data	<=57995.9336	from 17898.475 to 187922.672	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+12	6640-24-0	1-(3-Chlorophenyl)-piperazin	Clc1cccc(N2CCNCC2)c1	basesurface narcotics	no data	81.4555	from 51.897 to 127.849	Out of domain	12.50%	0.00%	87.50%	Out of domain	93.70%	Out of Domain
+13	15532-75-9	1-(3-Trifluoromethylphenyl)-piperazin	FC(F)(F)c1cccc(N2CCN{+}CC2)c1	Reactive unspecified	no data	<=828.7038*	from 184.332 to 3725.604	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+14	80-73-9	"1,3-Dimethyl-2-imidazolidinon"	CN1CCN(C)C1=O	basesurface narcotics	no data	14055.2471	from 5927.674 to 33326.727	In domain	0.00%	0.00%	100.00%	Out of domain	15.44%	Out of Domain
+15	N/A	1-/4-Hydroxy-Benzotriazol#	Oc1cccc2c1N=NN2_ON1c2ccccc2N=N1											
+16	471-53-4	18-beta-Glycyrrhetinsäure	CC1(C)C{P-}(O)CCC{P-}2(C)C{P-}1CCC{P+}1(C)C{P+}2C(=O)C=C2C{P+}3CC{P-}(C)(C(O)=O)CCC{P-}3(C)CCC{P-}12C	Reactive unspecified	no data	<=0.0488	from  0.012 to  0.198	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+17	2759-28-6	1-Benzylpiperazin	C1CNCCN1Cc1ccccc1	Reactive unspecified	no data	<=774.5759	from 442.533 to 1355.758	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+18	114248-23-6	"2',2'-Difluorodeoxyuridin"	OCC1C(O)C(F)(F)C(N2CCC(=O)NC2=O)O1	Reactive unspecified	no data	<=164463.6563	from 45849.176 to 589940.688	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+19	198904-31-3	Atazanavir	CC(C)(C)C{P-}(C(=O)NC{P-}(Cc1ccccc1)C{P-}(O)CN(Cc1ccc(-c2ccccn2)cc1)NC(=O)C{P+}(C(C)(C)C)NC(=O)OC)NC(=O)OC	Reactive unspecified	no data	<=51.0331	from 27.848 to 93.520	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+20	83015-26-3	Atomoxetin	Cc1ccccc1OC{P+}(CCNC)c1ccccc1	Reactive unspecified	no data	<=1.3048	from  0.564 to  3.017	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+21	1610-17-9	Atraton (Isobare zu Prometon-Hydroxy)	CCNc1nc(NC(C)C)nc(OC)n1	basesurface narcotics	no data	11.3541	from  6.532 to 19.735	Out of domain	30.00%	0.00%	70.00%	Out of domain	45.30%	Out of Domain
+22	1007-28-9	Atrazin-Desisopropyl	CCNc1nc(N)nc(Cl)n1	Reactive unspecified	no data	<=406.9224	from 230.201 to 719.310	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+23	51-55-8	Atropine	CN1C2CCC1CC(OC(=O)C(CO)c1ccccc1)C2	Reactive unspecified	no data	<=207.9351	from 127.019 to 340.398	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+24	35575-96-3	Azamethiphos	COP(=O)(OC)SCN1c2c(cc(Cl)cn2)OC1=O	Reactive unspecified	no data	<=1171.8134	from 487.799 to 2814.982	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+25	1185255-09-7	Azoxystrobinsäure	CO/C=C(\c1ccccc1Oc1cc(Oc2ccccc2C#N)ncn1)/C(O)=O	Reactive unspecified	no data	<=843.4610*	from 404.373 to 1759.332	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+26	2156-27-6	Benproperine	CC(COc1ccccc1Cc1ccccc1)N1CCCCC1	Reactive unspecified	no data	<=0.1038	from  0.030 to  0.359	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+27	177406-68-7	Benthiavalicarb-isopropyl	CC(C)C{P-}(C(O)=NC{P+}(C)C1=Nc2ccc(F)cc2S1)N=C(O)OC(C)C	Reactive unspecified	no data	<=0.4139	from  0.150 to  1.144	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+28	153559-49-0	Bexarotene	Cc1cc2c(cc1C(=C)c1ccc(C(O)=O)cc1)C(C)(C)CCC2(C)C	Reactive unspecified	no data	<=0.1488*	from  0.047 to  0.469	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+29	90357-06-5	Bicalutamid	CC(O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1	Reactive unspecified	no data	<=91.3533	from 45.069 to 185.168	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+30	53774-07-5	Bifenox-säure	OC(=O)c1cc(Oc2ccc(Cl)cc2Cl)ccc1N(=O)=O	Reactive unspecified	no data	<=2.2011	from  0.933 to  5.195	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+31	2438-72-4	Bufexamac	CCCCOc1ccc(CC(=O)NO)cc1	basesurface narcotics	no data	140.2534	from 86.715 to 226.846	Out of domain	27.27%	0.00%	72.73%	Out of domain	76.35%	Out of Domain
+32	2180-92-9	Bupivacaine	CCCCN1CCCCC1C(=O)Nc1c(C)cccc1C	basesurface narcotics	no data	8.0105	from  4.294 to 14.942	Out of domain	37.50%	0.00%	62.50%	Out of domain	34.08%	Out of Domain
+33	34911-55-2	Bupropion	CC(C(=O)c1cccc(Cl)c1)NC(C)(C)C	Reactive unspecified	no data	<=2.2579	from  1.064 to  4.789	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+34	154361-50-9	Capecitabin	CCCCCOC(=O)NC1C(F)=CN(C{P-}2C{P+}(O)C{P+}(O)C{P-}(C)O2)C(=O)N=1	Reactive unspecified	no data	<=3700.8545	from 1475.513 to 9282.421	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+35	78-44-4	Carisoprodol	CCCC(C)(COC(N)=O)COC(=O)NC(C)C	Reactive unspecified	no data	<=98.1175	from 66.632 to 144.481	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+36	57470-78-7	Celiprolol	CCN(CC)C(O)=Nc1ccc(OCC(O)CNC(C)(C)C)c(C(C)=O)c1	Reactive unspecified	no data	<=2407.9773	from 1143.326 to 5071.479	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+37	17254-80-7	Chloridazon-methyl-desphenyl	CN1C(=O)C(Cl)=C(N)C=N1	Reactive unspecified	no data	<=126499.9141	from 31302.783 to 511207.906	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+38	N/A	Chlorothalonil-4-hydroxy-Carbonsäureamid (TP611968)	N#Cc1c(Cl)c(C#N)c(Cl)c(Cl)c1Cl	Reactive unspecified	no data	<=2.7960*	from  1.242 to  6.296	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+39	77-36-1	Chlorthalidon	NS(=O)(=O)c1cc(C2(O)c3ccccc3C(=O)N2)ccc1Cl	Reactive unspecified	no data	<=1330.5334	from 594.515 to 2977.756	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+40	82009-34-5	Cilastatin	CC1(C)CC{P+}1C(O)=N/C(=C\CCCCSCC{P+}(N)C(O)=O)/C(O)=O	Reactive unspecified	no data	<=2633.9968*	from 1221.270 to 5680.923	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+41	18323-44-9	Clindamycin	CCCC{P+}1CC{P-}(C(=O)NC(C(C)Cl)C{P+}2C{P+}(O)C{P+}(O)C{P-}(O)C{P-}(SC)O2)N(C)C1	basesurface narcotics	no data	252.2095	from 157.175 to 404.705	Out of domain	33.33%	0.00%	66.67%	Out of domain	80.18%	Out of Domain
+42	144457-28-3	Clopidogrel Carbonsäure	OC(=O)C{P+}(c1ccccc1Cl)N1CCC2=C(C1)C=CS2	Reactive unspecified	no data	<=507.4217*	from 289.685 to 888.815	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+43	23593-75-1	Clotrimazol	Clc1ccccc1C(c1ccccc1)(c1ccccc1)N1C=CN=C1	Reactive unspecified	no data	<=0.0375*	from  0.009 to  0.148	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+44	50-36-2	Cocaine	CN1C{P+}2CCC{P-}1CC{P+}(OC(=O)c1ccccc1)C{P+}2C(=O)OC	Reactive unspecified	no data	<=109.7369	from 63.518 to 189.587	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+45	50-22-6	Corticosteron	CC{P+}12CCC(=O)C=C1CCC{P+}1C{P+}2C{P-}(O)CC{P-}2(C)C{P-}1CCC{P+}2C(=O)CO	Reactive unspecified	no data	<=213.9025	from 132.943 to 344.165	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+46	53-06-5	Cortison	CC{P+}12CCC(=O)C=C1CCC{P+}1C{P+}2C(=O)CC{P-}2(C)C{P-}1CCC{P-}2(O)C(=O)CO	Reactive unspecified	no data	<=316.6360	from 189.887 to 527.989	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+47	50-18-0	Cyclophosphamid	O=P1(N(CCCl)CCCl)NCCCO1	Reactive unspecified	no data	<=1705.9786	from 980.470 to 2968.333	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+48	101205-02-1	Cycloxydim	CCCC(=C1C(=O)CC(C2CCCSC2)CC1=O)NOCC	Reactive unspecified	no data	<=9.8624	from  5.214 to 18.657	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+49	147-94-4	Cytarabin	NC1C=CN(C{P-}2C{P-}(O)C{P+}(O)C{P-}(CO)O2)C(=O)N=1	Reactive unspecified	no data	<=2007034.3750*	from 348660.563 to 11553321.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+50	34245-14-2	D617	CC(C)C(CCCNC)(C#N)c1ccc(OC)c(OC)c1	Reactive unspecified	no data	<=21.5252	from 12.611 to 36.739	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+51	206361-99-1	Darunavir	CC(C)CN(CC{P-}(O)C{P+}(Cc1ccccc1)NC(=O)OC{P-}1COC{P+}2C{P-}1CCO2)S(=O)(=O)c1ccc(N)cc1	Reactive unspecified	no data	<=348.4741*	from 190.111 to 638.756	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+52	201530-41-8	Deferasirox	OC(=O)c1ccc(N2C(=C3C=CC=CC3=O)NC(=C3C=CC=CC3=O)/N2)cc1	Reactive unspecified	no data	<=2051.3215	from 755.302 to 5571.174	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+53	1177-87-3	Dexamethason-21-acetat	CC{P+}1CC{P-}2C{P+}3CCC4=CC(=O)C=CC{P-}4(C)C{P+}3(F)C{P-}(O)CC{P-}2(C)C{P+}1(O)C(=O)COC(C)=O	Reactive unspecified	no data	<=84.6428*	from 49.525 to 144.662	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+54	85-79-0	Dibucaine	CCCCOc1cc(C(=O)NCCN(CC)CC)c2ccccc2n1	basesurface narcotics	no data	2.02	from  0.898 to  4.541	Out of domain	31.25%	0.00%	68.75%	Out of domain	16.99%	Out of Domain
+55	65928-58-7	Dienogest	CC{P+}12CCC3C{P-}(CCC4=CC(=O)CCC=34)C{P+}1CCC{P+}2(O)CC#N	Reactive unspecified	no data	<=79.5657	from 46.546 to 136.010	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+56	111-96-6	Diglym	COCCOCCOC	basesurface narcotics	no data	30791.4805	from 13205.961 to 71794.508	In domain	11.11%	0.00%	88.89%	Out of domain	Out of domain	Out of Domain
+57	125-28-0	Dihydrocodein	CN1CCC{P-}23C{P-}4CCC{P+}(O)C{P+}2Oc2c3c(CC{P-}14)ccc2OC	Reactive unspecified	no data	<=561.6508*	from 335.201 to 941.083	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+58	33286-22-5	Diltiazem	CC(=O)OC{P+}1C{P+}(c2ccc(OC)cc2)Sc2ccccc2N(CCN(C)C)C1=O	Reactive unspecified	no data	<=38.0631	from 21.485 to 67.435	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+59	34205-21-5	Dimefuron	CC(C)(C)C1=NN(c2ccc(NC(=O)N(C)C)cc2Cl)C(=O)O1	Reactive unspecified	no data	<=51.5639*	from 29.791 to 89.250	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+60	50563-36-5	Dimethachlor	Cc1cccc(C)c1N(CCOC)C(=O)CCl	basesurface narcotics	no data	75.1166	from 46.813 to 120.532	Out of domain	8.33%	0.00%	91.67%	Out of domain	90.82%	Out of Domain
+61	1086384-49-7	Dimethachlor-OXA	Cc1cccc(C)c1N(CCOC)C(=O)C(O)=O	Reactive unspecified	no data	<=3626.0288	from 1652.474 to 7956.609	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+62	3567-62-2	"Diuron-desmonomethyl (DCPMU) = 1-(3,4-Dichlorophenyl)-3-methylurea"	CNC(=O)Nc1ccc(Cl)c(Cl)c1	basesurface narcotics	no data	41.7667	from 24.129 to 72.296	Out of domain	25.00%	0.00%	75.00%	Out of domain	80.50%	Out of Domain
+63	4710-17-2	"DMSA (=N,N-Dimethylaminosulfanilid)"	CN(C)S(=O)(=O)Nc1ccccc1	Reactive unspecified	no data	<=625.3199	from 303.552 to 1288.164	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+64	74191-85-8	Doxazosin	COc1cc2c(cc1OC)c(N)nc(N1CCN(C(=O)C3COc4ccccc4O3)CC1)n2	Reactive unspecified	no data	<=183.3030*	from 101.307 to 331.665	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+65	141626-36-0	Dronedaron	CCCCC1=C(C(=O)c2ccc(OCCCN(CCCC)CCCC)cc2)c2cc(NS(C)(=O)=O)ccc2O1	Reactive unspecified	no data	<=0.2947*	from  0.097 to  0.897	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+66	17692-31-8	Dropropizine	OCC(O)CN1CCN(c2ccccc2)CC1	basesurface narcotics	no data	8482.4277	from 3696.782 to 19463.301	Out of domain	33.33%	0.00%	66.67%	Out of domain	8.84%	Out of Domain
+67	154598-52-4	Efavirenz	O=C1Nc2ccc(Cl)cc2C{P-}(C#CC2CC2)(C(F)(F)F)O1	Reactive unspecified	no data	<=0.4811*	from  0.182 to  1.275	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+68	143491-57-0	Emtricitabine	NC1C(F)=CN(C{P+}2CSC{P+}(CO)O2)C(=O)N=1	Reactive unspecified	no data	<=2378737.2500*	from 384074.844 to 14732519.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+69	299-42-3	Ephedrin	CC{P-}(C{P+}(O)c1ccccc1)NC	Reactive unspecified	no data	<=1795.6895	from 901.562 to 3576.570	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+70	133040-01-4	Eprosartan	CCCCC1=NC=C(/C=C(\CC2=CC=CS2)C(O)=O)N1Cc1ccc(C(O)=O)cc1	Reactive unspecified	no data	<=0.0345*	from  0.009 to  0.136	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+71	26244-33-7	Ethofumesat-2-keto	CC1(C)c2cc(OS(C)(=O)=O)ccc2OC1=O	Reactive unspecified	no data	<=1846.3524*	from 743.556 to 4584.749	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+72	41340-25-4	Etodolac	CCc1cccc2c1NC1=C2CCOC1(CC)CC(O)=O	Reactive unspecified	no data	<=2.5334	from  1.189 to  5.399	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+73	107868-30-4	Exemestan	CC{P+}12CCC{P-}3C{P-}(CC(=C)C4=CC(=O)C=CC{P+}34C)C{P+}1CCC2=O	Reactive unspecified	no data	<=19.3326*	from 10.744 to 34.787	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+74	79127-80-3	Fenoxycarb	CCOC(=O)NCCOc1ccc(Oc2ccccc2)cc1	Reactive unspecified	no data	<=1.4495	from  0.627 to  3.353	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+75	67306-03-0	Fenpropimorph	CC(Cc1ccc(C(C)(C)C)cc1)CN1CC(C)OC(C)C1	Reactive unspecified	no data	<=0.1206	from  0.035 to  0.413	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+76	120067-83-6	Fipronil-sulfid	NC1=C(SC(F)(F)F)C(C#N)=NN1c1c(Cl)cc(C(F)(F)F)cc1Cl	Reactive unspecified	no data	<=0.3742*	from  0.131 to  1.068	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+77	120068-36-2	Fipronil-sulfon	NC1=C(S(=O)(=O)C(F)(F)F)C(C#N)=NN1c1c(Cl)cc(C(F)(F)F)cc1Cl	Reactive unspecified	no data	<=0.8762	from  0.330 to  2.328	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+78	54143-55-4	Flecainid	O=C(c1cc(OCC(F)(F)F)ccc1OCC(F)(F)F)NCC1CCCCN1	basesurface narcotics	no data	2.9085	from  1.317 to  6.425	Out of domain	13.04%	0.00%	86.96%	Out of domain	17.40%	Out of Domain
+79	86386-73-4	Fluconazol	OC(CN1C=NC=N1)(CN1C=NC=N1)c1ccc(F)cc1F	Reactive unspecified	no data	<=6408.7695	from 2441.192 to 16824.703	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+80	514-36-3	Fludrocortison	CC(=O)OCC(=O)C{P-}1(O)CCC{P-}2C{P+}3CCC4=CC(=O)CCC{P-}4(C)C{P+}3(F)C{P-}(O)CC{P+}12C	Reactive unspecified	no data	<=139.8026*	from 86.040 to 227.159	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+81	142459-58-3	Flufenacet	CC(C)N(C(=O)COC1=NN=C(C(F)(F)F)S1)c1ccc(F)cc1	Reactive unspecified	no data	<=61.1238	from 29.860 to 125.119	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+82	201668-31-7	Flufenacet-OXA	CC(C)N(c1ccc(F)cc1)C(=O)C(O)=O	Reactive unspecified	no data	<=1616.2887	from 760.161 to 3436.624	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+83	530-78-9	Flufenaminsäure	OC(=O)c1ccccc1Nc1cccc(C(F)(F)F)c1	Reactive unspecified	no data	<=0.1652	from  0.055 to  0.498	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+84	54910-89-3	Fluoxetin	CNCCC(c1ccccc1)Oc1ccc(C(F)(F)F)cc1	Reactive unspecified	no data	<=0.5518	from  0.211 to  1.440	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+85	85509-19-9	Flusilazol	C[Si](CN1C=NC=N1)(c1ccc(F)cc1)c1ccc(F)cc1	Reactive unspecified	no data	<=0.3447	from  0.123 to  0.963	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+86	93957-54-1	Fluvastatin	CC(C)N1c2ccccc2C(c2ccc(F)cc2)=C1/C=C/C{P-}(O)CC{P+}(O)CC(O)=O	Reactive unspecified	no data	<=0.4581	from  0.166 to  1.268	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+87	98048-97-6	Fosinopril	CCC(=O)OC(C(C)C)OP(=O)(CCCCc1ccccc1)CC(=O)N1CC{P+}(C2CCCCC2)CC{P-}1C(O)=O	Reactive unspecified	no data	<=0.0572	from  0.014 to  0.236	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+88	54-31-9	Furosemid	NS(=O)(=O)c1cc(C(O)=O)c(NCC2=CC=CO2)cc1Cl	Reactive unspecified	no data	<=75.7147	from 40.327 to 142.154	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+89	256393-37-0	Galaxolidon	CC1COC(=O)c2cc3c(cc12)C(C)(C)C(C)C3(C)C	Reactive unspecified	no data	<=0.1413*	from  0.045 to  0.440	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+90	125-29-1	Hydrocodone	CN1CCC{P-}23C{P-}4CCC(=O)C{P+}2Oc2c3c(CC{P-}14)ccc2OC	Reactive unspecified	no data	<=129.1642*	from 81.823 to 203.895	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+91	50-23-7	Hydrocortison	CC{P+}12CCC(=O)C=C1CCC{P+}1C{P+}2C{P-}(O)CC{P-}2(C)C{P-}1CCC{P-}2(O)C(=O)CO	Reactive unspecified	no data	<=481.0471*	from 280.605 to 824.670	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+92	3778-73-2	Ifosfamid	O=P1(NCCCl)N(CCCl)CCCO1	Reactive unspecified	no data	<=1734.0070	from 1004.165 to 2994.308	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+93	115970-17-7	Imidacloprid-desnitro	O=N(=O)NC1=NCCN1Cc1ccc(Cl)nc1	Reactive unspecified	no data	<=22799.6113	from 7178.612 to 72412.648	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+94	120868-66-8	Imidacloprid-urea	OC1=NCCN1Cc1ccc(Cl)nc1	Reactive unspecified	no data	<=2073.6062	from 936.784 to 4590.007	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+95	256-96-2	Iminostilben	C1=Cc2ccccc2Nc2ccccc12	basesurface narcotics	no data	1.2737	from  0.577 to  2.813	Out of domain	0.00%	0.00%	100.00%	Out of domain	20.38%	Out of Domain
+96	53-86-1	Indomethacin	CC1=C(CC(O)=O)c2cc(OC)ccc2N1C(=O)c1ccc(Cl)cc1	Reactive unspecified	no data	<=1.3501*	from  0.569 to  3.205	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+97	140923-17-7	Iprovalicarb	CC(C)C{P-}(C(O)=NC(C)c1ccc(C)cc1)N=C(O)OC(C)C	Reactive unspecified	no data	<=0.3275	from  0.112 to  0.955	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+98	N/A	Irgarol-descyclopropyl	CC(C)(C)Nc1nc(N)nc(SC)n1	Reactive unspecified	no data	<=27.1895	from 16.672 to 44.343	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+99	56046-17-4	Isoproturon-didemethyl = 1-(4-Isoprophenyl)urea	CC(C)c1ccc(NC(N)=O)cc1	basesurface narcotics	no data	75.3946	from 47.198 to 120.435	In domain	25.00%	0.00%	75.00%	Out of domain	87.05%	Out of Domain
+100	34123-57-4	Isoproturon-monodemethyl = 1-(4-Isoprophenyl)-3-methylurea	CC(C)c1ccc(NC(=O)NC)cc1	basesurface narcotics	no data	30.0081	from 18.503 to 48.666	Out of domain	22.22%	0.00%	77.78%	Out of domain	87.54%	Out of Domain
+101	65277-42-1	Ketoconazol	CC(=O)N1CCN(c2ccc(OCC{P+}3COC{P-}(CN4C=CN=C4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1	Reactive unspecified	no data	<=1.4038	from  0.568 to  3.469	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+102	102767-28-2	Levetiracetam	CCC{P+}(C(N)=O)N1CCCC1=O	basesurface narcotics	no data	28716.9141	from 11138.756 to 74035.313	In domain	25.00%	0.00%	75.00%	Out of domain	17.44%	Out of Domain
+103	165800-03-3	Linezolid	CC(=O)NCC{P-}1CN(c2ccc(N3CCOCC3)c(F)c2)C(=O)O1	Reactive unspecified	no data	<=885.2256	from 463.198 to 1691.771	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+104	846-49-1	Lorazepam	OC1C(=O)Nc2ccc(Cl)cc2C(c2ccccc2Cl)=N1	Reactive unspecified	no data	<=64.0279*	from 35.526 to 115.398	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+105	75330-75-5	Lovastatin	CCC{P+}(C)C(=O)OC{P-}1CC{P-}(C)C=C2C=CC{P+}(C)C{P+}(CCC{P+}3CC{P-}(O)CC(=O)O3)C{P-}12	Reactive unspecified	no data	<=0.7241*	from  0.268 to  1.955	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+106	94-81-5	MCPB	Cc1cc(Cl)ccc1OCCCC(O)=O	Reactive unspecified	no data	<=5.2354	from  2.744 to  9.990	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+107	93-65-2	Mecoprop	CC(C(O)=O)Oc1ccc(Cl)cc1C	Reactive unspecified	no data	<=15.9801	from  9.244 to 27.625	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+108	110235-47-7	Mepanipyrim	CC#Cc1cc(C)nc(Nc2ccccc2)n1	basesurface narcotics	no data	5.0594	from  2.617 to  9.782	Out of domain	0.00%	0.00%	100.00%	Out of domain	37.09%	Out of Domain
+109	1189805-46-6	Mephedron (4-Methylmethcathinon)	CC(C(=O)c1ccc(C)cc1)NC	Reactive unspecified	no data	<=41.0448	from 24.402 to 69.039	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+110	96-88-8	Mepivacaine	Cc1cccc(C)c1NC(=O)C1CCCCN1C	basesurface narcotics	no data	163.221	from 102.340 to 260.319	Out of domain	23.08%	0.00%	76.92%	Out of domain	81.25%	Out of Domain
+111	54340-58-8	Meptazinol	CCC1(c2cccc(O)c2)CCCCN(C)C1	phenols and anilines	no data	3.8441	from  2.110 to  7.005	In domain	16.67%	0.00%	83.33%	Out of domain	Out of domain	Out of Domain
+112	36993-94-9	Metamitron-Desamino	CC1NN=C(c2ccccc2)C(=O)N=1	Reactive unspecified	no data	<=346.0927	from 187.121 to 640.122	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+113	1665-48-1	Metaxalone	Cc1cc(C)cc(OCC2CNC(=O)O2)c1	Reactive unspecified	no data	<=37.6448	from 23.440 to 60.458	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+114	N/A	Metazachlor-OXA	Cc1cccc(C)c1N(CN1C=CC=N1)C(=O)C(O)=O	Reactive unspecified	no data	<=3233.0920	from 1410.622 to 7410.125	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+115	125116-23-6	Metconazole	CC1(C)CCC(Cc2ccc(Cl)cc2)C1(O)CN1C=NC=N1	Reactive unspecified	no data	<=1.5819	from  0.691 to  3.624	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+116	76-99-3	Methadon	CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1	Reactive unspecified	no data	<=1.8325	from  0.808 to  4.157	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+117	77-41-8	Methsuximide	CC1(c2ccccc2)CC(=O)N(C)C1=O	basesurface narcotics	no data	410.0615	from 240.860 to 698.126	Out of domain	0.00%	0.00%	100.00%	Out of domain	56.81%	Out of Domain
+118	83-43-2	Methylprednisolon	CC{P-}1CC{P-}2C{P+}3CCC{P+}(O)(C(=O)CO)C{P+}3(C)CC{P+}(O)C{P+}2C{P-}2(C)C=CC(=O)C=C12	Reactive unspecified	no data	<=303.6905*	from 175.937 to 524.209	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+119	7232-21-5	Metoclopramid	CCN(CC)CCN=C(O)c1cc(Cl)c(N)cc1OC	Reactive unspecified	no data	<=47.4384	from 28.548 to 78.829	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+120	152019-73-3	Metolachlor-OXA	CCc1cccc(C)c1N(C(C)COC)C(=O)C(O)=O	Reactive unspecified	no data	<=551.7765	from 306.579 to 993.078	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+121	139528-85-1	Metosulam	Cc1ccc(Cl)c(NS(=O)(=O)C2Nn{+}3c(OC)cc(OC)nc3N=2)c1Cl	Reactive unspecified	no data	<=2.5415	from  0.616 to 10.491	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+122	35045-02-4	Metribuzin-Desamino (DA)	CC(C)(C)C1C(=O)N=C(SC)NN=1	Reactive unspecified	no data	<=309.8293	from 160.828 to 596.875	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+123	71320-77-9	Moclobemid	O=C(c1ccc(Cl)cc1)NCCN1CCOCC1	basesurface narcotics	no data	865.1226	from 435.785 to 1717.445	Out of domain	7.69%	0.00%	92.31%	Out of domain	19.92%	Out of Domain
+124	24280-93-1	Mycophenolsäure	CC(\CCC(O)=O)=C/Cc1c(OC)c(C)c2COC(=O)c2c1O	Reactive unspecified	no data	<=1.2904	from  0.550 to  3.030	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+125	93413-77-5	"N,N-Didesvenlafaxin"	OC=NCCN=CO	Reactive unspecified	no data	<=3281019.5000*	from 565997.563 to 19019672.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+126	135308-74-6	"N,O-Didesvenlafaxin"	CNCC(c1ccc(O)cc1)C1(O)CCCCC1	phenols and anilines	no data	15.9704	from 11.547 to 22.087	In domain	7.69%	0.00%	92.31%	Out of domain	74.78%	Out of Domain
+127	127-74-2	N4-Acetyl-Sulfadiazin	CC(=O)Nc1ccc(S(=O)(=O)Nc2ncccn2)cc1	Reactive unspecified	no data	<=4407.8218	from 1695.147 to 11461.482	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+128	24341-30-8	N4-Acetyl-Sulfadimethoxin	CC(=O)Nc1ccc(S(=O)(=O)Nc2nc(OC)cc(OC)n2)cc1	Reactive unspecified	no data	<=526.3306	from 259.049 to 1069.390	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+129	100-90-3	N4-Acetyl-Sulfamethazin	Cc1cc(C)nc(NS(=O)(=O)c2ccc(NC(C)=O)cc2)n1	Reactive unspecified	no data	<=462.3529*	from 230.876 to 925.909	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+130	127-76-4	N4-acetyl-Sulfathiazol	CC(=O)Nc1ccc(S(=O)(=O)NC2=NC=CS2)cc1	Reactive unspecified	no data	<=453.7118*	from 219.626 to 937.296	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+131	985-16-0	Nafcillin	CCOc1ccc2ccccc2c1C(O)=NC{P-}1C{P+}2N(C{P-}(C(O)=O)C(C)(C)S2)C1=O	Reactive unspecified	no data	<=0.5875	from  0.220 to  1.568	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+132	149289-30-5	N-Desvenlafaxin	CNCC(c1ccc(OC)cc1)C1(O)CCCCC1	Reactive unspecified	no data	<=16.8249	from  9.843 to 28.759	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+133	20702-77-6	Neohesperidin dihydrochalcon	CC{P-}1C{P+}(O)C{P-}(O)C{P-}(O)C{P+}(OC{P+}2C{P-}(O)C{P+}(O)C{P-}(CO)OC{P-}2Oc2cc(O)c(C(=O)CCc3ccc(OC)c(O)c3)c(O)c2)O1	phenols and anilines	no data	390.2758	from 155.454 to 979.808	Out of domain	9.09%	0.00%	90.91%	Out of domain	Out of domain	Out of Domain
+134	165450-17-9	Neotam	CC(C)(C)CCNC{P+}(CC(O)=O)C(=O)NC{P+}(Cc1ccccc1)C(=O)OC	Reactive unspecified	no data	<=34.0985	from 20.333 to 57.182	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+135	579-10-2	N-Methylacetanilid	CC(=O)N(C)c1ccccc1	basesurface narcotics	no data	937.7144	from 495.400 to 1774.947	In domain	0.00%	0.00%	100.00%	Out of domain	31.66%	Out of Domain
+136	128-62-1	Noscapin	CN1CCc2cc3c(c(OC)c2C{P+}1C{P+}1c2ccc(OC)c(OC)c2C(=O)O1)OCO3	Reactive unspecified	no data	<=222.3803*	from 124.750 to 396.417	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+137	113806-05-6	Olopatadine	CN(C)CC/C=C1\c2ccccc2COc2ccc(CC(O)=O)cc12	Reactive unspecified	no data	<=8904.3857*	from 3728.452 to 21265.684	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+138	34622-58-7	Orbencarb	CCN(CC)C(=O)SCc1ccccc1Cl	basesurface narcotics	no data	2.2792	from  1.069 to  4.860	Out of domain	18.18%	0.00%	81.82%	Out of domain	26.39%	Out of Domain
+139	196618-13-0	Oseltamivir	CCC(CC)OC{P+}1C=C(C(=O)OCC)CC{P+}(N)C{P-}1NC(C)=O	Reactive unspecified	no data	<=1594.8013	from 775.693 to 3278.865	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+140	187227-45-8	Oseltamivir-carboxylat	CCC(CC)OC{P+}1C=C(C(O)=O)CC{P+}(N)C{P-}1NC(C)=O	Reactive unspecified	no data	<=7626.5176	from 2984.709 to 19487.246	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+141	66-79-5	Oxacillin	CC1=C(C(=O)NC{P-}2C{P+}3N(C{P-}(C(O)=O)C(C)(C)S3)C2=O)C(c2ccccc2)=NO1	Reactive unspecified	no data	<=58.8195	from 33.491 to 103.304	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+142	6452-71-7	Oxprenolol	CC(C)NCC(O)COc1ccccc1OCC=C	Reactive unspecified	no data	<=239.2376	from 150.094 to 381.325	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+143	5633-20-5	Oxybutynin	CCN(CC)CC#CCOC(=O)C(O)(C1CCCCC1)c1ccccc1	Reactive unspecified	no data	<=3.2115	from  1.501 to  6.870	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+144	66246-88-6	Penconazol	CCCC(CN1C=NC=N1)c1ccc(Cl)cc1Cl	Reactive unspecified	no data	<=0.4774	from  0.182 to  1.255	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+145	82834-16-0	Perindopril	CCCC{P-}(C(=O)OCC)NC{P-}(C)C(=O)N1C{P-}2CCCCC{P-}2CC{P-}1C(O)=O	Reactive unspecified	no data	<=68.7010	from 43.892 to 107.534	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+146	106700-29-2	Pethoxamid	CCOCCN(C(=O)CCl)C(=C(C)C)c1ccccc1	basesurface narcotics	no data	8.5682	from  4.601 to 15.956	Out of domain	26.67%	0.00%	73.33%	Out of domain	41.64%	Out of Domain
+147	119515-38-7	Picaridin (Icaridin)	CCC(C)OC(=O)N1CCCCC1CCO	Reactive unspecified	no data	<=53.8008	from 35.367 to 81.843	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+148	111025-46-8	Pioglitazone	CCc1ccc(CCOc2ccc(CC3C(=O)NC(=O)S3)cc2)nc1	basesurface narcotics	no data	2.647	from  1.214 to  5.770	Out of domain	6.67%	0.00%	93.33%	Out of domain	23.30%	Out of Domain
+149	81093-37-0	Pravastatin	CCC{P+}(C)C(=O)OC{P-}1CC{P+}(O)C=C2C=CC{P+}(C)C{P+}(CCC{P-}(O)CC{P-}(O)CC(O)=O)C{P-}12	Reactive unspecified	no data	<=23.7975	from 13.659 to 41.462	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+150	55268-74-1	Praziquantel	O=C1CN(C(=O)C2CCCCC2)CC2c3ccccc3CCN12	basesurface narcotics	no data	74.7382	from 46.506 to 120.110	Out of domain	27.78%	0.00%	72.22%	Out of domain	92.07%	Out of Domain
+151	50-24-8	Prednisolon	CC{P+}12CC{P+}(O)C{P-}3C{P-}(CCC4=CC(=O)C=CC{P+}34C)C{P+}1CCC{P-}2(O)C(=O)CO	Reactive unspecified	no data	<=672.9157*	from 350.217 to 1292.957	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+152	53-03-2	Prednison	CC{P+}12CC(=O)C{P-}3C{P-}(CCC4=CC(=O)C=CC{P+}34C)C{P+}1CCC{P-}2(O)C(=O)CO	Reactive unspecified	no data	<=462.2088*	from 256.289 to 833.580	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+153	721-50-6	Prilocain	CCCNC(C)C(=O)Nc1ccccc1C	basesurface narcotics	no data	171.6996	from 105.627 to 279.104	Out of domain	36.36%	0.00%	63.64%	Out of domain	72.31%	Out of Domain
+154	125-33-7	Primidon	CCC1(c2ccccc2)C(=O)NCNC1=O	Reactive unspecified	no data	<=2155.7429	from 1093.175 to 4251.129	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+155	57-83-0	Progesteron	CC(=O)C{P-}1CCC{P-}2C{P+}3CCC4=CC(=O)CCC{P-}4(C)C{P-}3CCC{P+}12C	Reactive unspecified	no data	<=5.1878	from  2.620 to 10.270	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+156	123732-85-4	Propachlor-ESA	CC(C)N(C(=O)CS(O)(=O)=O)c1ccccc1	Reactive unspecified	no data	<=1343.0409	from 578.956 to 3115.539	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+157	111479-05-1	Propaquizafop	CC(C(=O)OCCON=C(C)C)Oc1ccc(Oc2cnc3cc(Cl)ccc3n2)cc1	Reactive unspecified	no data	<=0.7479*	from  0.286 to  1.955	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+158	120983-64-4	Prothioconazole-desethio	OC(Cc1ccccc1Cl)(CN1C=NC=N1)C1(Cl)CC1	Reactive unspecified	no data	<=18.3299	from 10.430 to 32.214	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+159	66357-35-5	Ranitidin	CN/C(=C\N(=O)=O)/NCCSCC1=CC=C(CN(C)C)O1	Reactive unspecified	no data	<=6539.2822	from 2644.802 to 16168.404	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+160	*738557-20-2	Ranitidin-N-oxid	CN/C(=C\N(=O)=O)/NCCSCC1=CC=C(CN(C)C)O1	Reactive unspecified	no data	<=6539.2822	from 2644.802 to 16168.404	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+161	13392-28-4	Rimantadin	CC(N)C12CC3CC(C1)CC(C2)C3	Reactive unspecified	no data	<=14.7464	from  6.376 to 34.108	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+162	155213-67-5	Ritonavir	CC(C)C{P-}(C(=O)NC{P+}(CC{P+}(O)C{P+}(Cc1ccccc1)NC(=O)OCC1=CN=CS1)Cc1ccccc1)NC(=O)N(C)CC1=CSC(C(C)C)=N1	Reactive unspecified	no data	<=0.0714*	from  0.018 to  0.280	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+163	123441-03-2	Rivastigmin	CCN(C)C(=O)Oc1cccc(C{P+}(C)N(C)C)c1	Reactive unspecified	no data	<=90.1647	from 56.907 to 142.858	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+164	287714-41-4	Rosuvastatin	CC(C)c1c(/C=C/C{P+}(O)CC{P-}(O)CC(O)=O)c(-c2ccc(F)cc2)nc(N(C)S(C)(=O)=O)n1	Reactive unspecified	no data	<=82.2636	from 45.385 to 149.109	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+165	N/A	Simazin-2-hydroxy	CCNC1NC(NCC)=NC(=O)N=1	Reactive unspecified	no data	<=840715.6875	from 164995.797 to 4283763.000	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+166	673-04-1	Simeton	CCNc1nc(NCC)nc(OC)n1	basesurface narcotics	no data	25.9458	from 16.070 to 41.891	Out of domain	22.22%	0.00%	77.78%	Out of domain	78.93%	Out of Domain
+167	486460-32-6	Sitagliptin	NC{P+}(Cc1cc(F)c(F)cc1F)CC(=O)N1CCN2C(C1)=NN=C2C(F)(F)F	Reactive unspecified	no data	<=690.8946	from 331.708 to 1439.022	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+168	99105-77-8	Sulcotrion	CS(=O)(=O)c1ccc(C(=O)C2C(=O)CCCC2=O)c(Cl)c1	Reactive unspecified	no data	<=69.6276	from 35.126 to 138.018	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+169	53250-83-2	Sulcotrion-CMBA	CS(=O)(=O)c1ccc(C(O)=O)c(Cl)c1	Reactive unspecified	no data	<=1430.6050	from 553.918 to 3694.829	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+170	35256-85-0	Tebutam	CC(C)N(Cc1ccccc1)C(=O)C(C)(C)C	basesurface narcotics	no data	5.8624	from  3.106 to 11.063	Out of domain	16.67%	8.33%	75.00%	Out of domain	29.08%	Out of Domain
+171	83121-18-0	Teflubenzuron	O=C(c1c(F)cccc1F)NC(=O)Nc1cc(Cl)c(F)c(Cl)c1F	Reactive unspecified	no data	<=0.5727	from  0.216 to  1.519	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+172	30125-63-4	Terbutylazin-desethyl	CC(C)(C)Nc1nc(N)nc(Cl)n1	Reactive unspecified	no data	<=73.9228	from 46.497 to 117.526	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+173	10379-14-3	Tetrazepam	CN1C(=O)CN=C(C2CCCCC=2)c2cc(Cl)ccc12	basesurface narcotics	no data	4.1272*	from  2.038 to  8.360	Out of domain	20.00%	0.00%	80.00%	Out of domain	31.12%	Out of Domain
+174	676228-91-4	Thiacloprid-amide	N=C(O)/N=C1/N(Cc2ccc(Cl)nc2)CCS/1	Reactive unspecified	no data	<=379.1878	from 199.114 to 722.117	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+175	76-75-5	Thiopental	CCCC(C)C1(CC)C(=O)NC(=S)NC1=O	Reactive unspecified	no data	<=16.3448	from  8.557 to 31.221	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+176	51012-32-9	Tiaprid	CCN(CC)CCN=C(O)c1cc(S(C)(=O)=O)ccc1OC	Reactive unspecified	no data	<=524.6598	from 259.624 to 1060.255	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+177	55142-85-3	Ticlopidin	Clc1ccccc1CN1CCC2=C(C1)C=CS2	Reactive unspecified	no data	<=1.0148	from  0.424 to  2.430	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+178	51931-66-9	Tilidine	CCOC(=O)C1(c2ccccc2)CCC=CC{P-}1N(C)C	Reactive unspecified	no data	<=4.2922	from  2.145 to  8.587	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+179	26839-75-8	Timolol	CC(C)(C)NCC{P+}(O)COC1C(N2CCOCC2)=NSN=1	Reactive unspecified	no data	<=283.7902	from 158.563 to 507.918	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+180	2398-96-1	Tolnaftat	Cc1cccc(N(C)C(=S)Oc2ccc3ccccc3c2)c1	Reactive unspecified	no data	<=0.0517*	from  0.014 to  0.186	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+181	56211-40-6	Torasemid	CC(C)NC(=O)NS(=O)(=O)c1cnccc1Nc1cccc(C)c1	Reactive unspecified	no data	<=173.4138	from 89.452 to 336.186	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+182	147441-56-3	Tramadol N-oxide	CN(C)(=O)CC1CCCCC1(O)c1cccc(OC)c1	Reactive unspecified	no data	<=103.2473*	from 65.961 to 161.612	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+183	68786-66-3	Triclabendazol	CSC1Nc2cc(Cl)c(Oc3cccc(Cl)c3Cl)cc2N=1	Reactive unspecified	no data	<=0.1032*	from  0.031 to  0.345	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+184	101-20-2	Triclocarban	O=C(Nc1ccc(Cl)cc1)Nc1ccc(Cl)c(Cl)c1	basesurface narcotics	no data	0.3094*	from  0.110 to  0.870	Out of domain	22.22%	0.00%	77.78%	Out of domain	Out of domain	Out of Domain
+185	126535-15-7	Triflusulfuron-methyl	Cc1cccc(C(=O)OC)c1S(=O)(=O)NC(=O)Nc1nc(OCC(F)(F)F)nc(N(C)C)n1	Reactive unspecified	no data	<=3.0230*	from  1.311 to  6.972	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+186	739-71-9	Trimipramin	CC(CN(C)C)CN1c2ccccc2CCc2ccccc12	basesurface narcotics	no data	0.1321	from  0.040 to  0.440	Out of domain	8.33%	0.00%	91.67%	Out of domain	Out of domain	Out of Domain
+187	142469-14-5	Tritosulfuron	COc1nc(C(F)(F)F)nc(NC(=O)NS(=O)(=O)c2ccccc2C(F)(F)F)n1	Reactive unspecified	no data	<=20.0640*	from  9.634 to 41.785	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+188	10405-02-4	Trospium	OC(c1ccccc1)(c1ccccc1)C(=O)OC1CC2CCC(C1)N{+}21CCCC1	Reactive unspecified	no data	<=17.7450*	from  6.247 to 50.402	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+189	1401-69-0	Tylosin	CCC{P+}1C{P-}(COC{P-}2C{P+}(OC)C{P+}(OC)C{P+}(O)C{P-}(C)O2)/C=C(C)/C=C/C(=O)C{P+}(C)CC{P+}(CC=O)C{P+}(OC{P-}2C{P+}(O)C{P-}(N(C)C)C{P+}(OC{P-}3CC{P-}(C)(O)C{P-}(O)C{P+}(C)O3)C{P-}(C)O2)C{P-}(C)C{P+}(O)CC(=O)O1	Reactive unspecified	no data	<=3375.9495	from 1554.125 to 7333.410	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+190	128-13-2	Ursodeoxycholic acid	CC{P+}(CCC(O)=O)C{P-}1CCC{P-}2C{P-}3C{P+}(CCC{P+}12C)C{P-}1(C)CCC{P-}(O)CC{P-}1CC{P+}3O	Reactive unspecified	no data	<=0.4441	from  0.144 to  1.370	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+191	1404-90-6	Vancomycin	CC(C)CC{P+}(C(=O)NC1C{P+}(O)c2ccc(c(Cl)c2)Oc2cc3cc(c2OC{P-}2C{P+}(OC{P-}4CC{P+}(C)(N)C{P+}(O)C{P+}(C)O4)C{P-}(O)C{P+}(O)C{P-}(CO)O2)Oc2ccc(cc2Cl)C{P-}(O)C{P-}2C(=O)NC{P-}(C(O)=O)c4cc(O)cc(O)c4-c4cc(ccc4O)C{P+}(C(=O)N2)NC(=O)C{P+}3NC(=O)C{P+}(CC(N)=O)NC1=O)NC	Reactive unspecified	no data	<=312971.3125	from 84599.656 to 1157818.500	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+192	52-53-9	Verapamil	CC(C)C(CCCN(C)CCc1ccc(OC)c(OC)c1)(C#N)c1ccc(OC)c(OC)c1	Reactive unspecified	no data	<=0.6677*	from  0.245 to  1.823	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+193	274901-16-5	Vildagliptin	N#CC{P+}1CCCN1C(=O)CNC12CC3CC(C1)CC(O)(C2)C3	basesurface narcotics	no data	3088.7998	from 1739.907 to 5483.444	Out of domain	18.18%	0.00%	81.82%	Out of domain	24.11%	Out of Domain
+194	526-36-3	Xylometazolin	Cc1cc(C(C)(C)C)cc(C)c1CC1NCCN=1	Reactive unspecified	no data	<=0.1277	from  0.039 to  0.415	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+195	30516-87-1	Zidovudine	CC1=CN(C{P-}2CC{P+}(N=N#N)C{P-}(CO)O2)C(=O)NC1=O	Reactive unspecified	no data	<=6670.4634	from 2714.924 to 16389.074	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+196	68291-97-4	Zonisamide	NS(=O)(=O)CC1c2ccccc2ON=1	Reactive unspecified	no data	<=3507.0625	from 1368.963 to 8984.526	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+197	N/A	Fe	Fe	 	 	 	 	 	 	 	 	 	 	 
+198	501-36-0	Resveratrol	Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1	phenols and anilines	no data	5.8118	from  3.961 to  8.528	In domain	42.86%	0.00%	57.14%	Out of domain	37.80%	Out of Domain
+														
+														
+Legend:														
+< =   is assigned in the report for toxicity prediction in the case with the chemicals with reactive unspecified toxicity mode of action. 														
+These chemicals are known to possess reactive groups. 														
+"Having no enough data for their toxicity, the base-surface toxicity model (associated with narcotic chemicals) is applied for  evaluating the max LC50 data for the chemicals with reactive unspecified toxicity mode of action."														
+This is the upper boundary for LC 50 which could be associated with these chemicals.  														
+No domain could be assigned for these chemicals having no sharp prediction values.														
+# the substance is a mixture and has not been assessed														
+*  Predicted toxicity is greater than the calculated by the fragment method water solubility for this chemical.														
