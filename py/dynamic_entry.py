@@ -134,7 +134,32 @@ def dynamic_entry(table,properties,x,sourcefile,iD,conn,c):
                 entry.append(tmp[ii])
             qu = ['?' for number in range(len(tmp))]
             qu2 = ' ,'.join(qu)    
-            c.executemany('''INSERT INTO {tn} (substance_property,STREAM_EU_parameter,conversion) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])            
-            
-            conn.commit()
-    
+            c.executemany('''INSERT INTO {tn} (substance_property,STREAM_EU_parameter,conversion) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])
+
+    if table is 'SIMPLE_TREAT_database_dictionary':
+        qu2 = []
+        for jj in range(len(x[0])):
+            tmp = []
+            entry = []
+            for nn in range(len(x)):
+                tmp.append(x[nn][jj])
+            for ii in range(len(tmp)):
+                entry.append(tmp[ii])
+            qu = ['?' for number in range(len(tmp))]
+            qu2 = ' ,'.join(qu)
+            c.executemany('''INSERT INTO {tn} (substance_property,SIMPLE_TREAT_parameter,conversion) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])
+
+    if table is 'SIMPLE_TREAT_meta':
+        qu2 = []
+        for jj in range(len(x[0])):
+            tmp = []
+            entry = []
+            for nn in range(len(x)):
+                tmp.append(x[nn][jj])
+            for ii in range(len(tmp)):
+                entry.append(tmp[ii])
+            qu = ['?' for number in range(len(tmp))]
+            qu2 = ' ,'.join(qu)
+            c.executemany('''INSERT INTO {tn} (SIMPLE_TREAT_parameter,description,unit) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])
+    conn.commit()
+
