@@ -1,0 +1,56 @@
+DELWAQ;DELWAQ;Currently provided by;;Expected source
+CAS;-;STELA (LMC);RALPH (UFZ);-
+Name;-;-;-;-
+SMILES;-;-;-;-
+MolMass;Molar mass (g/mol)                               ;-;MW;UFZ
+Delho;default reaction enthalpy (J/mol)                ;-;-;SU
+bp;boiling point (C)                                ;Boiling point;-;LMC
+mp;melting point (C)                                ;Melting point;-;LMC
+pv;vapour pressure (Pa)                             ;Vapor pressure;-;UFZ
+ks;water solubility (mol/m3)                        ;Water solubility;-;UFZ
+tos;ref.temp.(water solubility k) (C)                ;25;-;UFZ
+Delhs;enthalpy (water solubility) (J/mol)              ;-;-;SU
+pka1;-log 10 acid dissociation constant 1 (-)         ;-;pKa1;UFZ
+toa1;ref.temp.(acid diss. constant 1) (C)             ;-;-;UFZ
+Delha1;enthalpy (acid diss. 1) (J/mol)                  ;-;-;SU
+pka2;-log 10acid dissociation constant 2 (-)          ;-;pKa2;UFZ
+toa2;ref.temp.(acid diss. constant 2) (C)             ;-;-;UFZ
+Delha2;enthalpy (acid diss. 2) (J/mol)                  ;-;-;SU
+pkb1;-log10 base dissociation constant 1 (-)          ;-;pKb1;UFZ
+tob1;ref.temp.(base diss. constant 1) (C)             ;-;-;UFZ
+Delhb1;enthalpy (base diss. 1) (J/mol)                  ;-;-;SU
+pkb2;- log10 base dissociation constant 2 (-)         ;-;pKb2;UFZ
+tob2;ref.temp.(base diss. constant 2) (C)             ;-;-;UFZ
+Delhb2;enthalpy (base diss. 2) (J/mol)                  ;-;-;SU
+kac;acid catalysed hydrolysis rate constant (1/s)    ;Hydrolysis half life Ka pH 7;-;LMC and UFZ
+toac;ref.temp. (acid catalysed hydrolysis k) (C)      ;-;-;LMC and UFZ
+Delhac;enthalpy  (acid catalysed hydrolysis) (J/mol)    ;-;-;LMC and UFZ
+kba;base catalysed hydrolysis rate constant (1/s)    ;Hydrolysis half-life Kb pH 8;-;LMC and UFZ
+toba;ref.temp. (base catalysed hydrolysis k) (C)      ;-;-;LMC and UFZ
+Delhba;enthalpy  (base catalysed hydrolysis) (J/mol)    ;-;-;LMC and UFZ
+kn;neutral hydrolysis rate constant (1/s)           ;neutral hydrolysis rate constant;HL neutral hydrolysis;LMC and UFZ
+ton;ref.temp. (neutral hydrolysis k) (C)             ;25;-;LMC and UFZ
+Delhn;enthalpy  (neutral hydrolysis) (J/mol)           ;-;-;LMC and UFZ
+kp;direct photolysis rate at surface (1/s)          ;-;-;SU
+top;ref.temp. (photolysis k) (C)                     ;-;-;SU
+Delhp;enthalpy  (photolysis) (J/mol)                   ;-;-;SU
+kds;half-life degradation rate in sediment (1/s)     ;-;HL in sediment;LMC
+tods;ref.temp. (mic. deg. sediment k) (C)             ;-;-;LMC
+kde;half-life l degradation rate in soil (1/s)       ;-;HL in soil;LMC
+tode;ref.temp. (mic. deg. soil k) (C)                 ;-;-;LMC
+kdw;half-life degradation rate in water (1/s)        ;Half-life in water;HL in water;LMC
+todw;ref.temp. (mic. deg. water k) (C)                ;-;25;LMC
+kow0;log10 Part coeff octanol water at ref T (-)      ;log Kow;-;UFZ
+kaw0;log10 Part coeff air water at ref T (-)          ;-;log Kaw;UFZ
+koa0;log10 Part coeff octanol air at ref T (-)        ;Koa;-;UFZ
+dhow;enthalpy of phase change o-w (J/mol)             ;-;-;SU
+dhaw;enthalpy of phase change a-w (J/mol)             ;-;deltaH (air/water);UFZ
+dhoa;enthalpy of phase change o-a (J/mol)             ;-;-;SU
+X1water;Karickhoff par. POC water comp. (-)              ;-;-;SU
+X1soil;Karickhoff par. POC soil and groundw comp (-)    ;-;-;SU
+X1sedim;Karickhoff par. POC aquatic sediments (-)        ;-;-;SU
+X2water;Karickhoff par. DOC water comp. (-)              ;-;-;SU
+X2soil;Karickhoff par. DOC soil and groundw comp (-)    ;-;-;SU
+ X2sedim ; Karickhoff par. DOC aquatic sediments (-)         ; - ; - ;SU
+;Colloid water partition coefficient;;;
+;half-life degredation in air;;;

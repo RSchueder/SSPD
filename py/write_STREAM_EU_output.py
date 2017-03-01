@@ -7,7 +7,7 @@ Created on Fri Jul 22 11:31:10 2016
 # method is a mx1 list of strings with values of 'average', 'min', 'max', or 
 # some other indicator of the method you want to use for the variable you are 
 # searching for
-def write_STREAM_EU_output(CAS,allCAS,statind,model,method,filespec1,filespec2,filespec3,ref_temp,data,PATH,headers,conn,c):
+def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,method,filespec1,filespec2,filespec3,ref_temp,data,PATH,headers,conn,c):
     tot = len(allCAS)    
     from isnum import isnum
     import numpy as np    
@@ -28,34 +28,20 @@ def write_STREAM_EU_output(CAS,allCAS,statind,model,method,filespec1,filespec2,f
         with open(('parameters.inc'),'a') as fileID:
             tofilename = []
             tofileval = []
-            ind = 0
             dataentry = []
             tmp = []
             
-            # DELWAQA = delwaq all parameters
-            # DELWAQC = delwaq parameters confirmed in database
-            c.execute("SELECT STREAM_EU_parameter FROM STREAM_EU_meta")
-            DELWAQA = c.fetchall()
-            c.execute("SELECT STREAM_EU_parameter FROM STREAM_EU_database_dictionary")
-            DELWAQC = c.fetchall()
-            
-            search_t = []
-
-            # get the search terms from the DELWAQ dictionary v2 table
-            # compare to all of the known paramters to identify known and unknown
-            for nn in range(0,len(DELWAQA)):
-                #if there is a corresponding property in the database
-                if DELWAQA[nn][0] in [lp[0] for lp in DELWAQC]:
-                    search_t.append(DELWAQA[nn][0])
-                    # search_t contains all parameters present in the database
             for ii in range(0,len(DELWAQA)): #skip CAS, Name, Smiles
                 c.execute("SELECT description FROM STREAM_EU_meta WHERE STREAM_EU_parameter = '{qq}'".format(qq = DELWAQA[ii][0]))
                 description = c.fetchall()               
                 entry = []
+                try:
+                    del val
+                except:
+                    pass
                 check  = DELWAQA[ii][0]
-                
                 if 'Name' in check or 'CAS' in check or 'SMILES' in check:
-                    print('break found')
+                    pass
             
 ###############################################################################
 ############################EXISTS IN DATABASE#################################
@@ -70,7 +56,11 @@ def write_STREAM_EU_output(CAS,allCAS,statind,model,method,filespec1,filespec2,f
                     prop_used = []
                     #obtain the search queries that tie this parameter to
                     #properties in the database
+                    
+                    #map STREAM EU to DATABASE NAME
                     c.execute("SELECT substance_property FROM STREAM_EU_database_dictionary WHERE STREAM_EU_parameter = '{qq}'".format(qq = DELWAQA[ii][0]))
+                    # property_search is the name in the database, perhaps multiple
+                    # DELWAQA[ii][0] is the name in DELWAQ                    
                     property_search = c.fetchall()
                     c.execute("SELECT conversion FROM STREAM_EU_database_dictionary WHERE STREAM_EU_parameter = '{qq}'".format(qq = DELWAQA[ii][0]))
                     conv = c.fetchall()
@@ -83,13 +73,15 @@ def write_STREAM_EU_output(CAS,allCAS,statind,model,method,filespec1,filespec2,f
                     #2. min
                     #3. max
                     #4. specific (with list)
-                    val = float(0)
                     med = []
                     dat = []
 ###############################################################################
 ##############################GET VAL##########################################
+###############################################################################
+                    # it is impairitive that DELWAQA has the same order each time
+                    # it is read
                     
-                    val = get_val(val,CAS,method,property_search,dat,prop_used,med,ii,filespec1,filespec2,filespec3,conv,c,conn)
+                    val = get_val(CAS,method,property_search,DELWAQA[ii][0],dat,prop_used,med,ii,filespec1,filespec2,filespec3,conv,c,conn)
                     
 ###############################################################################
 #############################END GET VAL, VALUE KNOWN##########################      
@@ -173,6 +165,7 @@ def write_STREAM_EU_output(CAS,allCAS,statind,model,method,filespec1,filespec2,f
                     line = tmp[0]
                     line = ','.join(line)
                     line = line.split(',')
+                    # we only want the first 4 properties of the parameter
                     meta = [0,1,2,3]
                     for mm in range(len(line)):
                         if mm in meta:
@@ -233,6 +226,7 @@ def write_STREAM_EU_output(CAS,allCAS,statind,model,method,filespec1,filespec2,f
 ###############################################################################                    
 
             fileID.write('CONSTANTS Delho  DATA    30000') 
+
 ###############################################################################
             tofilename.insert(0,'CAS')
             tofileval.insert(0,CAS)
@@ -247,4 +241,4 @@ def write_STREAM_EU_output(CAS,allCAS,statind,model,method,filespec1,filespec2,f
                     tofileval[ii] = str(tofileval[ii])
                 tofileval = ','.join(tofileval)
                 overallFile.write(('%s\n')% tofileval)
-            print(('substance %i/%i written')%(statind, tot))
+            print(('substance %s %i/%i written')%(CAS, statind, tot))

@@ -27,7 +27,7 @@ CONSTANTS    kds    DATA    -9999    ;    half-life degradation rate in sediment
 CONSTANTS    kdw    DATA    -9999    ;    half-life degradation rate in water              (1/s)    LMC    name of parameters used ---->
 CONSTANTS    kn    DATA    -9999    ;    neutral hydrolysis rate constant                 (1/s)    LMC and UFZ    name of parameters used ---->
 CONSTANTS    koa0    DATA    -9999    ;    log10 Part coeff octanol air at ref T              (-)    UFZ    name of parameters used ---->
-CONSTANTS    kow0    DATA    5.5041    ;    log10 Part coeff octanol water at ref T           (-)    UFZ    name of parameters used ---->    log Kow
+CONSTANTS    kow0    DATA    -9999    ;    log10 Part coeff octanol water at ref T           (-)    UFZ    name of parameters used ---->
 CONSTANTS    kp    DATA    -9999    ;    direct photolysis rate at surface                (1/s)    SU    name of parameters used ---->
 CONSTANTS    ks    DATA    -9999    ;    water solubility                              (mol/m3)    UFZ    name of parameters used ---->
 CONSTANTS    mp    DATA    -9999    ;    melting point                                      (C)    LMC    name of parameters used ---->
