@@ -8,6 +8,7 @@ Created on Mon Sep 19 13:51:23 2016
 
 def STREAM_EU_search_list(abrev,DELWAQA):
     # REMEMBER THAT IN PYTHON THE FIRST INDEX IS '0' AND THER SECOND IS '1'
+    # TEST
     method = {}
 
     for ii in DELWAQA:
