@@ -1,4 +1,5 @@
 SOLUTIONS Substance Properties Database (SSPD) readme v1.8
+Github version
 Written by Rudy Schueder
 Rudy.schueder@deltares.nl
 May, 2017
