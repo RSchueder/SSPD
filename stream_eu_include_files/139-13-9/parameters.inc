@@ -15,19 +15,19 @@ CONSTANTS    X1water    DATA    -9999    ;    Karickhoff par. POC water comp.   
 CONSTANTS    X2sedim    DATA    -9999    ;     Karickhoff par. DOC aquatic sediments               (-)    SU    name of parameters used ---->
 CONSTANTS    X2soil    DATA    -9999    ;    Karickhoff par. DOC soil and groundw comp         (-)    SU    name of parameters used ---->
 CONSTANTS    X2water    DATA    -9999    ;    Karickhoff par. DOC water comp.                    (-)    SU    name of parameters used ---->
-CONSTANTS    bp    DATA    -9999    ;    boiling point                                      (C)    LMC    name of parameters used ---->
+CONSTANTS    bp    DATA    429.28    ;    boiling point                                      (C)    LMC    name of parameters used ---->    Boiling Point
 CONSTANTS    dhaw    DATA    -9999    ;    enthalpy of phase change a-w                   (J/mol)    UFZ    name of parameters used ---->
 CONSTANTS    dhoa    DATA    -9999    ;    enthalpy of phase change o-a                   (J/mol)    SU    name of parameters used ---->
 CONSTANTS    dhow    DATA    -9999    ;    enthalpy of phase change o-w                   (J/mol)    SU    name of parameters used ---->
 CONSTANTS    kac    DATA    -9999    ;    acid catalysed hydrolysis rate constant          (1/s)    LMC and UFZ    name of parameters used ---->
 CONSTANTS    kaw0    DATA    -9999    ;    log10 Part coeff air water at ref T                (-)    UFZ    name of parameters used ---->
 CONSTANTS    kba    DATA    -9999    ;    base catalysed hydrolysis rate constant          (1/s)    LMC and UFZ    name of parameters used ---->
-CONSTANTS    kde    DATA    6.418028703703704e-07    ;    half-life l degradation rate in soil             (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted
-CONSTANTS    kds    DATA    6.418028703703704e-07    ;    half-life degradation rate in sediment           (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted
-CONSTANTS    kdw    DATA    6.418028703703704e-07    ;    half-life degradation rate in water              (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted
+CONSTANTS    kde    DATA    -9999    ;    half-life l degradation rate in soil             (1/s)    LMC    name of parameters used ---->
+CONSTANTS    kds    DATA    -9999    ;    half-life degradation rate in sediment           (1/s)    LMC    name of parameters used ---->
+CONSTANTS    kdw    DATA    -9999    ;    half-life degradation rate in water              (1/s)    LMC    name of parameters used ---->
 CONSTANTS    kn    DATA    -9999    ;    neutral hydrolysis rate constant                 (1/s)    LMC and UFZ    name of parameters used ---->
-CONSTANTS    koa0    DATA    -9999    ;    log10 Part coeff octanol air at ref T              (-)    UFZ    name of parameters used ---->
-CONSTANTS    kow0    DATA    -9999    ;    log10 Part coeff octanol water at ref T           (-)    UFZ    name of parameters used ---->
+CONSTANTS    koa0    DATA    10.503    ;    log10 Part coeff octanol air at ref T              (-)    UFZ    name of parameters used ---->    Log Koa (Airwater partition coefficient model)    Log Koa (Henry's law constant model)
+CONSTANTS    kow0    DATA    -3.81    ;    log10 Part coeff octanol water at ref T           (-)    UFZ    name of parameters used ---->    log Kow
 CONSTANTS    kp    DATA    -9999    ;    direct photolysis rate at surface                (1/s)    SU    name of parameters used ---->
 CONSTANTS    ks    DATA    -9999    ;    water solubility                              (mol/m3)    UFZ    name of parameters used ---->
 CONSTANTS    mp    DATA    -9999    ;    melting point                                      (C)    LMC    name of parameters used ---->

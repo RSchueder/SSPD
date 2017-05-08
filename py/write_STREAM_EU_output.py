@@ -231,9 +231,9 @@ def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,met
             tofilename.insert(0,'CAS')
             tofileval.insert(0,CAS)
   
-            os.chdir(('%s\\properties_table\overall')%(PATH))
+            os.chdir(('%s\\properties_matrix\STREAM_EU')%(PATH))
 
-            with open(('overall.txt'),'a') as overallFile:
+            with open(('SEproperty_matrix.txt'),'a') as overallFile:
                 if headers is 0:
                     tofilename = ','.join(tofilename)
                     overallFile.write(('%s\n')% tofilename)

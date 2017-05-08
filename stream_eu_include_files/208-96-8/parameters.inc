@@ -22,9 +22,9 @@ CONSTANTS    dhow    DATA    -9999    ;    enthalpy of phase change o-w         
 CONSTANTS    kac    DATA    -9999    ;    acid catalysed hydrolysis rate constant          (1/s)    LMC and UFZ    name of parameters used ---->
 CONSTANTS    kaw0    DATA    -2.98    ;    log10 Part coeff air water at ref T                (-)    UFZ    name of parameters used ---->    log Kaw
 CONSTANTS    kba    DATA    -9999    ;    base catalysed hydrolysis rate constant          (1/s)    LMC and UFZ    name of parameters used ---->
-CONSTANTS    kde    DATA    9.819505360623782e-09    ;    half-life l degradation rate in soil             (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted    Ultimate Half Life Predicted
-CONSTANTS    kds    DATA    9.819505360623782e-09    ;    half-life degradation rate in sediment           (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted    Ultimate Half Life Predicted
-CONSTANTS    kdw    DATA    9.819505360623782e-09    ;    half-life degradation rate in water              (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted    Ultimate Half Life Predicted
+CONSTANTS    kde    DATA    9.819505360623782e-09    ;    half-life l degradation rate in soil             (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted
+CONSTANTS    kds    DATA    9.819505360623782e-09    ;    half-life degradation rate in sediment           (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted
+CONSTANTS    kdw    DATA    9.819505360623782e-09    ;    half-life degradation rate in water              (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted
 CONSTANTS    kn    DATA    -9999    ;    neutral hydrolysis rate constant                 (1/s)    LMC and UFZ    name of parameters used ---->
 CONSTANTS    koa0    DATA    6.431    ;    log10 Part coeff octanol air at ref T              (-)    UFZ    name of parameters used ---->    Log Koa (Airwater partition coefficient model)    Log Koa (Henry's law constant model)
 CONSTANTS    kow0    DATA    3.94    ;    log10 Part coeff octanol water at ref T           (-)    UFZ    name of parameters used ---->    log Kow
