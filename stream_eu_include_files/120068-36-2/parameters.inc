@@ -8,26 +8,26 @@ CONSTANTS    Delhn    DATA    -9999    ;    enthalpy  (neutral hydrolysis)      
 CONSTANTS    Delho    DATA    -9999    ;    default reaction enthalpy                      (J/mol)    SU    name of parameters used ---->
 CONSTANTS    Delhp    DATA    -9999    ;    enthalpy  (photolysis)                         (J/mol)    SU    name of parameters used ---->
 CONSTANTS    Delhs    DATA    -9999    ;    enthalpy (water solubility)                    (J/mol)    SU    name of parameters used ---->
-CONSTANTS    MolMass    DATA    453.1356    ;    Molar mass                                     (g/mol)    UFZ    name of parameters used ---->    Molecular weight
+CONSTANTS    MolMass    DATA    -9999    ;    Molar mass                                     (g/mol)    UFZ    name of parameters used ---->
 CONSTANTS    X1sedim    DATA    -9999    ;    Karickhoff par. POC aquatic sediments              (-)    SU    name of parameters used ---->
 CONSTANTS    X1soil    DATA    -9999    ;    Karickhoff par. POC soil and groundw comp         (-)    SU    name of parameters used ---->
 CONSTANTS    X1water    DATA    -9999    ;    Karickhoff par. POC water comp.                    (-)    SU    name of parameters used ---->
 CONSTANTS    X2sedim    DATA    -9999    ;     Karickhoff par. DOC aquatic sediments               (-)    SU    name of parameters used ---->
 CONSTANTS    X2soil    DATA    -9999    ;    Karickhoff par. DOC soil and groundw comp         (-)    SU    name of parameters used ---->
 CONSTANTS    X2water    DATA    -9999    ;    Karickhoff par. DOC water comp.                    (-)    SU    name of parameters used ---->
-CONSTANTS    bp    DATA    -9999    ;    boiling point                                      (C)    LMC    name of parameters used ---->
+CONSTANTS    bp    DATA    489.61    ;    boiling point                                      (C)    LMC    name of parameters used ---->    Boiling Point
 CONSTANTS    dhaw    DATA    -9999    ;    enthalpy of phase change a-w                   (J/mol)    UFZ    name of parameters used ---->
 CONSTANTS    dhoa    DATA    -9999    ;    enthalpy of phase change o-a                   (J/mol)    SU    name of parameters used ---->
 CONSTANTS    dhow    DATA    -9999    ;    enthalpy of phase change o-w                   (J/mol)    SU    name of parameters used ---->
 CONSTANTS    kac    DATA    -9999    ;    acid catalysed hydrolysis rate constant          (1/s)    LMC and UFZ    name of parameters used ---->
 CONSTANTS    kaw0    DATA    -9999    ;    log10 Part coeff air water at ref T                (-)    UFZ    name of parameters used ---->
 CONSTANTS    kba    DATA    -9999    ;    base catalysed hydrolysis rate constant          (1/s)    LMC and UFZ    name of parameters used ---->
-CONSTANTS    kde    DATA    -9999    ;    half-life l degradation rate in soil             (1/s)    LMC    name of parameters used ---->
-CONSTANTS    kds    DATA    -9999    ;    half-life degradation rate in sediment           (1/s)    LMC    name of parameters used ---->
-CONSTANTS    kdw    DATA    -9999    ;    half-life degradation rate in water              (1/s)    LMC    name of parameters used ---->
+CONSTANTS    kde    DATA    9.819505360623782e-09    ;    half-life l degradation rate in soil             (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted
+CONSTANTS    kds    DATA    9.819505360623782e-09    ;    half-life degradation rate in sediment           (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted
+CONSTANTS    kdw    DATA    9.819505360623782e-09    ;    half-life degradation rate in water              (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted
 CONSTANTS    kn    DATA    -9999    ;    neutral hydrolysis rate constant                 (1/s)    LMC and UFZ    name of parameters used ---->
-CONSTANTS    koa0    DATA    -9999    ;    log10 Part coeff octanol air at ref T              (-)    UFZ    name of parameters used ---->
-CONSTANTS    kow0    DATA    -9999    ;    log10 Part coeff octanol water at ref T           (-)    UFZ    name of parameters used ---->
+CONSTANTS    koa0    DATA    18.207    ;    log10 Part coeff octanol air at ref T              (-)    UFZ    name of parameters used ---->    Log Koa (Airwater partition coefficient model)    Log Koa (Henry's law constant model)
+CONSTANTS    kow0    DATA    4.42    ;    log10 Part coeff octanol water at ref T           (-)    UFZ    name of parameters used ---->    log Kow
 CONSTANTS    kp    DATA    -9999    ;    direct photolysis rate at surface                (1/s)    SU    name of parameters used ---->
 CONSTANTS    ks    DATA    -9999    ;    water solubility                              (mol/m3)    UFZ    name of parameters used ---->
 CONSTANTS    mp    DATA    -9999    ;    melting point                                      (C)    LMC    name of parameters used ---->

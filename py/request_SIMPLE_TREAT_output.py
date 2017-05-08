@@ -11,6 +11,7 @@ creation of the database itself
 import os
 import glob
 import csv
+import shutil
 import sqlite3
 from dynamic_entry import dynamic_entry
 from create_table import create_table
@@ -32,7 +33,12 @@ if os.path.isfile(("%s\simple_treat_include_files\STdataFromDatabase.txt")%(PATH
     os.remove(("%s\simple_treat_include_files\STdataFromDatabase.txt")%(PATH))
 if not os.path.exists(("%s\simple_treat_include_files")%(PATH)):
     os.makedirs(("%s\simple_treat_include_files")%(PATH))
-
+try:
+    shutil.rmtree(("%s\simple_treat_include_files")% PATH)
+except:
+    pass
+if not os.path.exists(("%s\simple_treat_include_files")% PATH):
+    os.makedirs(("%s\simple_treat_include_files")% PATH)
 try:
     c.close()
     conn.close()
@@ -52,7 +58,7 @@ for nn in range(0, len(paramReq)):
     # if there is a corresponding property in the database
     if paramReq[nn][0] in [lp[0] for lp in paramPos]:
         search_t.append(paramReq[nn][0])
-        # search_t contains all parameters present in the database
+        # search_t contains all simple treat parameters in the database
         # these are those we are going to loop through
 
 defaultCAS = 1

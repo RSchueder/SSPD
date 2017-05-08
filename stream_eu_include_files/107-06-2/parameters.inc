@@ -27,7 +27,7 @@ CONSTANTS    kds    DATA    1.8657060185185187e-07    ;    half-life degradation
 CONSTANTS    kdw    DATA    1.8657060185185187e-07    ;    half-life degradation rate in water              (1/s)    LMC    name of parameters used ---->    Ultimate Half Life Predicted
 CONSTANTS    kn    DATA    5.248060976643892e-10    ;    neutral hydrolysis rate constant                 (1/s)    LMC and UFZ    name of parameters used ---->    HL neutral hydrolysis [h]
 CONSTANTS    koa0    DATA    2.4665    ;    log10 Part coeff octanol air at ref T              (-)    UFZ    name of parameters used ---->    Log Koa (Airwater partition coefficient model)    Log Koa (Henry's law constant model)
-CONSTANTS    kow0    DATA    1.83    ;    log10 Part coeff octanol water at ref T           (-)    UFZ    name of parameters used ---->    log Kow
+CONSTANTS    kow0    DATA    1.83    ;    log10 Part coeff octanol water at ref T           (-)    UFZ    name of parameters used ---->    log Kow    log Kow
 CONSTANTS    kp    DATA    -9999    ;    direct photolysis rate at surface                (1/s)    SU    name of parameters used ---->
 CONSTANTS    ks    DATA    -9999    ;    water solubility                              (mol/m3)    UFZ    name of parameters used ---->
 CONSTANTS    mp    DATA    -9999    ;    melting point                                      (C)    LMC    name of parameters used ---->

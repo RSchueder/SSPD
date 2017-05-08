@@ -59,11 +59,15 @@ for dd in ll:
     os.chdir(PATH)
     conn = sqlite3.connect(('substance_properties%s.db')%(dd))
     c = conn.cursor()
-    
-    abrev = []
-    STabrev = []
-    description = []
-    STdescription = []
+
+    ###############################################################################
+    #                    POPULATE THE DATABASE PROPERTIES
+    ###############################################################################
+
+    abrev = [] # stream eu abbreviation
+    STabrev = [] # simple treat abbreviation
+    description = [] # stream eu description
+    STdescription = [] # simple treat description
     units = []
     STunits = []
     source = []
@@ -80,8 +84,7 @@ for dd in ll:
     ST = []
     STprop = []
     conversion3 = []
-    
-###############################################################################
+
     with open(("%s\\database_properties\\stream_eu_meta.csv")%(PATH)) as csvfile:
         att = csv.reader(csvfile)
         for row in att:
@@ -131,7 +134,7 @@ for dd in ll:
         create_table('SIMPLE_TREAT_meta',['SIMPLE_TREAT_parameter','description','unit'],['TEXT','TEXT','TEXT'],conn,c)
         create_table('SIMPLE_TREAT_database_dictionary',['substance_property','SIMPLE_TREAT_parameter','conversion'],['TEXT','TEXT','TEXT'],conn,c)
 ###############################################################################
-        os.chdir(('%s\\substance_properties\\source_properties')%(PATH))
+        os.chdir(('%s\\substance_properties\\source_properties\\physchem')%(PATH))
         iD = 1
         for file in glob.glob("*.txt"):    
             dat = read_csv(file,conn,c) # this is the whole file

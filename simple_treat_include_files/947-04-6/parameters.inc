@@ -4,7 +4,7 @@ CONSTANTS    Degredation rate in water    DATA    -9999    ;    NA    1/s    nam
 CONSTANTS    Koc    DATA    -9999    ;    NA    L/kg    name of parameters used ---->
 CONSTANTS    Vapor pressure    DATA    -9999    ;    NA    Pa    name of parameters used ---->
 CONSTANTS    Water solubility    DATA    -9999    ;    NA    mol/L    name of parameters used ---->
-CONSTANTS    log Kow    DATA    -9999    ;    NA    -    name of parameters used ---->
+CONSTANTS    log Kow    DATA    327.1    ;    NA    -    name of parameters used ---->    Koc (Log Kow)
 CONSTANTS    pka1    DATA    -9999    ;    NA    -    name of parameters used ---->
 CONSTANTS    pka2    DATA    -9999    ;    NA    -    name of parameters used ---->
 CONSTANTS    pkb1    DATA    -9999    ;    NA    -    name of parameters used ---->

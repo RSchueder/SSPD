@@ -79,7 +79,7 @@ def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,
 ###############################################################################
 ##############################GET VAL##########################################
 ###############################################################################
-                    # it is impairitive that DELWAQA has the same order each time
+                    # it is imperative that DELWAQA has the same order each time
                     # it is read
                     
                     val = get_val(CAS,method,property_search,DELWAQA[ii][0],dat,prop_used,med,ii,filespec1,filespec2,filespec3,conv,c,conn)
@@ -87,9 +87,9 @@ def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,
 ###############################################################################
 #############################END GET VAL, VALUE KNOWN##########################      
 ###############################################################################
-                    #this gets the metadata about the property in DELWAQ, and
-                    #again this is a parameter for which some database value is
-                    #available for some substances according to the dictionary
+                    # this gets the metadata about the property in DELWAQ, and
+                    # again this is a parameter for which some database value is
+                    # available for some substances according to the dictionary
                                 
                     conline = []
                     conline.append('DATA')
@@ -136,7 +136,7 @@ def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,
 
                     
 ###############################################################################
-################################REF TEMP#######################################
+#                               REF TEMP                                      #
 ###############################################################################
                
                # if the parameter is a ref temp, there is no corresponding 
@@ -185,7 +185,7 @@ def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,
 ###############################################################################                    
 
 ###############################################################################
-########################NO DICTIONARY VALUE AVAILABLE##########################
+#                          NO DICTIONARY VALUE AVAILABLE                      #
 ###############################################################################
                 # there is no data for this parameter in the database, so in
                 # DELWAQ it will take on a value of '-9999'
@@ -232,9 +232,9 @@ def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,
             tofilename.insert(0,'CAS')
             tofileval.insert(0,CAS)
   
-            os.chdir(('%s\\simple_treat_include_files')%(PATH))
+            os.chdir(('%s\\properties_matrix\SIMPLE_TREAT')%(PATH))
 
-            with open(('STdataFromDatabase.txt'),'a') as overallFile:
+            with open(('STproperty_matrix.txt'),'a') as overallFile:
                 if headers is 0:
                     tofilename = ','.join(tofilename)
                     overallFile.write(('%s\n')% tofilename)
