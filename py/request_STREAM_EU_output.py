@@ -30,8 +30,8 @@ os.chdir('../')
 PATH = os.getcwd()
 if os.path.isfile(("%s\properties_table\STREAM_EU\property_matrix.txt")%(PATH)):
     os.remove(("%s\properties_table\STREAM_EU\property_matrix.txt")%(PATH))
-if not os.path.exists(("%s\properties_table\STREAM_EU")%(PATH)):
-    os.makedirs(("%s\properties_table\STREAM_EU")%(PATH))
+if not os.path.exists(("%s\properties_matrix\STREAM_EU")%(PATH)):
+    os.makedirs(("%s\properties_matrix\STREAM_EU")%(PATH))
 try:
     shutil.rmtree(("%s\stream_eu_include_files")% PATH)
 except:
