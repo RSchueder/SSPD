@@ -83,7 +83,7 @@ def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,
                     # it is read
                     
                     val = get_val(CAS,method,property_search,DELWAQA[ii][0],dat,prop_used,med,ii,filespec1,filespec2,filespec3,conv,c,conn)
-                    
+                    print(DELWAQA[ii][0],val)
 ###############################################################################
 #############################END GET VAL, VALUE KNOWN##########################      
 ###############################################################################

@@ -12,9 +12,9 @@ def SIMPLE_TREAT_search_list(abrev,paramReq):
     for ii in paramReq:
         method[(("%s")% ii[0])] = 'average'
 
-    method['Melting Point'] = 'Mean melting point'
+    method['Melting Point'] = 'Mean Melting Point'
     method['Vapor pressure'] = 'Vapor Pressure (Antoine Method)'
-    method['Water solubility'] = 'Water solubility'
+    method['Water solubility'] = 'Water Solubility'
     method['pka1'] = 'pka1'
     method['pka2'] = 'pka2'
     method['pkb1'] = 'pka1'
@@ -22,7 +22,7 @@ def SIMPLE_TREAT_search_list(abrev,paramReq):
     method['Degradation rate in sediment'] = 'Ultimate Half Life Predicted'
     method['Degradation rate in soil'] = 'Ultimate Half Life Predicted'
     method['Degradation rate in water'] = 'Ultimate Half Life Predicted'
-    method['Log Kow'] = 'log Kow'
+    method['log Kow'] = 'log Kow'
     method['Koc'] = 'Koc (MCI)'
 
     # (OPTIONAL) SPECIFY THE FILE SPECIFIER AT THIS LOCATION, IF THERE ARE

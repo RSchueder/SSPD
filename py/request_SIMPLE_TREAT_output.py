@@ -29,8 +29,8 @@ from read_csv2dict import read_csv2dict
 
 os.chdir('../')
 PATH = os.getcwd()
-if os.path.isfile(("%s\simple_treat_include_files\STdataFromDatabase.txt")%(PATH)):
-    os.remove(("%s\simple_treat_include_files\STdataFromDatabase.txt")%(PATH))
+if os.path.isfile(("%s\properties_matrix\SIMPLE_TREAT\STproperty_matrix.txt")%(PATH)):
+    os.remove(("%s\properties_matrix\SIMPLE_TREAT\STproperty_matrix.txt")%(PATH))
 if not os.path.exists(("%s\simple_treat_include_files")%(PATH)):
     os.makedirs(("%s\simple_treat_include_files")%(PATH))
 try:
@@ -62,6 +62,7 @@ for nn in range(0, len(paramReq)):
         # these are those we are going to loop through
 
 defaultCAS = 1
+#allCAS = ['106-42-3']
 if defaultCAS == 1:
     c.execute("SELECT CAS FROM substances where CAS IS NOT NULL AND TRIM(CAS)")
     allCAS = c.fetchall()

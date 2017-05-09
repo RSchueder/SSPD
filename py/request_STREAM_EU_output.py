@@ -28,8 +28,8 @@ from read_csv2dict import read_csv2dict
 
 os.chdir('../')
 PATH = os.getcwd()
-if os.path.isfile(("%s\properties_table\STREAM_EU\property_matrix.txt")%(PATH)):
-    os.remove(("%s\properties_table\STREAM_EU\property_matrix.txt")%(PATH))
+if os.path.isfile(("%s\properties_matrix\STREAM_EU\SEproperty_matrix.txt")%(PATH)):
+    os.remove(("%s\properties_matrix\STREAM_EU\SEproperty_matrix.txt")%(PATH))
 if not os.path.exists(("%s\properties_matrix\STREAM_EU")%(PATH)):
     os.makedirs(("%s\properties_matrix\STREAM_EU")%(PATH))
 try:
@@ -64,7 +64,7 @@ search_t = []
 os.chdir(PATH)
 
 ###############################################################################
-
+#allCAS = ['106-42-3']
 defaultCAS = 1
 
 # get the search terms from the DELWAQ dictionary v2 table
@@ -73,7 +73,7 @@ for nn in range(0, len(paramReq)):
     # if there is a corresponding property in the database
     if paramReq[nn][0] in [lp[0] for lp in paramPos]:
         search_t.append(paramReq[nn][0])
-        # search_t contains all parameters present in the database
+        # search_t contallCASains all parameters present in the database
         # these are those we are going to loop through
                 
 # read all of the unique CAS numbers from the database to determine list to put into program file

@@ -13,6 +13,7 @@ def get_val(CAS,method,property_search,DELWAQA,dat,prop_used,med,ii,filespec1,fi
     f3 = filespec1[(("%s")%DELWAQA)]
 
     if method[(("%s")%DELWAQA)] is 'average':
+
         for ss in [yy[0] for yy in property_search]:
             # for each name that the DELWAQ property may have in the database
             c.execute("SELECT * FROM substance_properties WHERE CAS = '{qq}' AND property LIKE '%{pp}%'".format(qq =  CAS, pp = ss.replace("'","''")))
@@ -109,22 +110,24 @@ def get_val(CAS,method,property_search,DELWAQA,dat,prop_used,med,ii,filespec1,fi
     # if something specific was written, do not use the property
     # search terms
     else:
-        if f1 is '':
-            c.execute("SELECT * FROM substance_properties WHERE CAS = '{qq}' AND property LIKE '%{ww}%'".format(qq =  CAS, ww = method[(("%s")%property_search[0])]))
+        if f1 is 'none':
+            c.execute("SELECT * FROM substance_properties WHERE CAS = '{qq}' AND property = '{ww}'".format(qq =  CAS, ww = method[(("%s")%DELWAQA)]))
             dat = c.fetchall()
             if not dat:
                 val = '-9999'
         else:
-            c.execute("SELECT * FROM substance_properties WHERE CAS = '{qq}' AND property LIKE '%{ww}%' AND source LIKE '%{ss}%'".format(qq =  CAS, ww = method[(("%s")%DELWAQA)], ss = f1))
+
+            c.execute("SELECT * FROM substance_properties WHERE CAS = '{qq}' AND property = '{ww}' AND source LIKE '%{ss}%'".format(qq =  CAS, ww = method[(("%s")%DELWAQA)], ss = f1))
             dat = c.fetchall()
             if not dat:
-                c.execute("SELECT * FROM substance_properties WHERE CAS = '{qq}' AND property LIKE '%{ww}%' AND source LIKE '%{ss}%'".format(qq =  CAS, ww = method[(("%s")%DELWAQA)], ss = f2))
+                c.execute("SELECT * FROM substance_properties WHERE CAS = '{qq}' AND property = '{ww}' AND source LIKE '%{ss}%'".format(qq =  CAS, ww = method[(("%s")%DELWAQA)], ss = f2))
                 dat = c.fetchall()
                 if not dat:
-                    c.execute("SELECT * FROM substance_properties WHERE CAS = '{qq}' AND property LIKE '%{ww}%' AND source LIKE '%{ss}%'".format(qq =  CAS, ww = method[(("%s")%DELWAQA)], ss = f3))
+                    c.execute("SELECT * FROM substance_properties WHERE CAS = '{qq}' AND property = '{ww}' AND source LIKE '%{ss}%'".format(qq =  CAS, ww = method[(("%s")%DELWAQA)], ss = f3))
                     dat = c.fetchall()
                     if not dat:
                         val = '-9999'
+
         for mm in range(0,len(dat)):
             if isnum(dat[mm][-3]):
                 ll = float(dat[mm][-3])
@@ -143,6 +146,7 @@ def get_val(CAS,method,property_search,DELWAQA,dat,prop_used,med,ii,filespec1,fi
             #if there are no values it is -9999
         else:
             val = '-9999'
+
     # recall that conv is a tuple within a list
     if conv[0][0][0] is '-' and val != '-9999':
         if len(conv[0][0]) > 1:

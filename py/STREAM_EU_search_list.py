@@ -13,9 +13,9 @@ def STREAM_EU_search_list(abrev,DELWAQA):
     for ii in DELWAQA:
         method[(("%s")% ii[0])] = 'average'
 
-    method['mp'] = 'Mean melting point'
+    method['mp'] = 'Mean Melting Point'
     method['pv'] = 'Vapor Pressure (Antoine Method)'
-    method['ks'] = 'Water solubility'
+    method['ks'] = 'Water Solubility'
     method['pka1'] = 'pka1'
     method['pka2'] = 'pka2'
     method['kde'] = 'Ultimate Half Life Predicted'
