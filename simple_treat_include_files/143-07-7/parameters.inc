@@ -1,10 +1,10 @@
 CONSTANTS    Degredation rate in sediment    DATA    -9999    ;    NA    1/s    name of parameters used ---->
 CONSTANTS    Degredation rate in soil    DATA    -9999    ;    NA    1/s    name of parameters used ---->
 CONSTANTS    Degredation rate in water    DATA    -9999    ;    NA    1/s    name of parameters used ---->
-CONSTANTS    Koc    DATA    -9999    ;    NA    L/kg    name of parameters used ---->
-CONSTANTS    Vapor pressure    DATA    -9999    ;    NA    Pa    name of parameters used ---->
-CONSTANTS    Water solubility    DATA    -9999    ;    NA    mol/L    name of parameters used ---->
-CONSTANTS    log Kow    DATA    501.3    ;    NA    -    name of parameters used ---->    Koc (Log Kow)
+CONSTANTS    Koc    DATA    319.3    ;    NA    L/kg    name of parameters used ---->    Koc (MCI)
+CONSTANTS    Vapor pressure    DATA    0.14799    ;    NA    Pa    name of parameters used ---->    Vapor Pressure (Antoine Method)
+CONSTANTS    Water solubility    DATA    63.702    ;    NA    mol/L    name of parameters used ---->    Water Solubility
+CONSTANTS    log Kow    DATA    5.0    ;    NA    -    name of parameters used ---->    log Kow
 CONSTANTS    pka1    DATA    -9999    ;    NA    -    name of parameters used ---->
 CONSTANTS    pka2    DATA    -9999    ;    NA    -    name of parameters used ---->
 CONSTANTS    pkb1    DATA    -9999    ;    NA    -    name of parameters used ---->

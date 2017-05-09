@@ -29,13 +29,13 @@ CONSTANTS    kn    DATA    -9999    ;    neutral hydrolysis rate constant       
 CONSTANTS    koa0    DATA    8.247    ;    log10 Part coeff octanol air at ref T              (-)    UFZ    name of parameters used ---->    Log Koa (Airwater partition coefficient model)    Log Koa (Henry's law constant model)
 CONSTANTS    kow0    DATA    2.45    ;    log10 Part coeff octanol water at ref T           (-)    UFZ    name of parameters used ---->    log Kow
 CONSTANTS    kp    DATA    -9999    ;    direct photolysis rate at surface                (1/s)    SU    name of parameters used ---->
-CONSTANTS    ks    DATA    -9999    ;    water solubility                              (mol/m3)    UFZ    name of parameters used ---->
-CONSTANTS    mp    DATA    -9999    ;    melting point                                      (C)    LMC    name of parameters used ---->
+CONSTANTS    ks    DATA    4356.900000000001    ;    water solubility                              (mol/m3)    UFZ    name of parameters used ---->    Water Solubility
+CONSTANTS    mp    DATA    119.1    ;    melting point                                      (C)    LMC    name of parameters used ---->    Mean Melting Point
 CONSTANTS    pka1    DATA    -9999    ;    -log 10 acid dissociation constant 1               (-)    UFZ    name of parameters used ---->
 CONSTANTS    pka2    DATA    -9999    ;    -log 10acid dissociation constant 2                (-)    UFZ    name of parameters used ---->
 CONSTANTS    pkb1    DATA    -9999    ;    -log10 base dissociation constant 1                (-)    UFZ    name of parameters used ---->
 CONSTANTS    pkb2    DATA    -9999    ;    - log10 base dissociation constant 2               (-)    UFZ    name of parameters used ---->
-CONSTANTS    pv    DATA    -9999    ;    vapour pressure                                   (Pa)    UFZ    name of parameters used ---->
+CONSTANTS    pv    DATA    0.0021998    ;    vapour pressure                                   (Pa)    UFZ    name of parameters used ---->    Vapor Pressure (Antoine Method)
 CONSTANTS    toa1    DATA    25.0    ;    ref.temp.(acid diss. constant 1)                   (C)    UFZ    name of parameters used ---->
 CONSTANTS    toa2    DATA    25.0    ;    ref.temp.(acid diss. constant 2)                   (C)    UFZ    name of parameters used ---->
 CONSTANTS    toac    DATA    25.0    ;    ref.temp. (acid catalysed hydrolysis k)           (C)    LMC and UFZ    name of parameters used ---->

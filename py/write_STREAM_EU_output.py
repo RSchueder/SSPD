@@ -39,7 +39,7 @@ def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,met
                     del val
                 except:
                     pass
-                check  = DELWAQA[ii][0]
+                check = DELWAQA[ii][0]
                 if 'Name' in check or 'CAS' in check or 'SMILES' in check:
                     pass
             
@@ -80,9 +80,9 @@ def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,met
 ###############################################################################
                     # it is impairitive that DELWAQA has the same order each time
                     # it is read
-                    
+
                     val = get_val(CAS,method,property_search,DELWAQA[ii][0],dat,prop_used,med,ii,filespec1,filespec2,filespec3,conv,c,conn)
-                    
+                    print(method[(('%s')%DELWAQA[ii][0])],DELWAQA[ii][0],val)
 ###############################################################################
 #############################END GET VAL, VALUE KNOWN##########################      
 ###############################################################################
