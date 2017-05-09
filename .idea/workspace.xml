@@ -28,8 +28,8 @@
       <file leaf-file-name="request_STREAM_EU_output.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py/request_STREAM_EU_output.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+            <state relative-caret-position="289">
+              <caret line="34" column="4" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="34" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -531,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py/request_STREAM_EU_output.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+        <state relative-caret-position="289">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="33" selection-start-column="58" selection-end-line="34" selection-end-column="4" />
           <folding />
         </state>
       </provider>
