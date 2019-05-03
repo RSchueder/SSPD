@@ -35,6 +35,4 @@ def make_hl_val(hl):
         hours = '-9999'
         
     return hours
-
-#h = make_hl_val(hl)
     

@@ -1,0 +1,113 @@
+Cas#	Chem. Name	Smiles	Quantity	Mixture/Salt	Map reliability	Observed Neutral hydrolysis rate constant /ln(Kn_Observed)	Predicted Neutral hydrolysis rate constant /ln(Kn_Predicted)	±_Predicted Neutral hydrolysis rate constant /ln(Kn_Predicted)	Primary Half Life by Kn	Parameter ranges	Structural domain				Mechanistic domain	Total Domain	Remark
+											Correct fragments Structural domain	Incorrect fragments Structural domain	Unknown fragments Structural domain	Total Structural domain			
+15972-60-8	Alachlor	CCc1cccc(CC)c1N(COC)C(=O)CCl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	53.85%	0.00%	46.15%	Out of domain	In domain	Out of Domain	 
+120-12-7	Anthracene	c1cccc2cc3ccccc3cc12	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+1912-24-9	Atrazine	CCNc1nc(NC(C)C)nc(Cl)n1	1	 	N/A	No data	-11.5	 	3650.00000	In domain	33.33%	0.00%	66.67%	Out of domain	In domain	Out of Domain	 
+71-43-2	Benzene	c1ccccc1	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+93703-48-1	3,3',4,4'-Tetrabromodiphenyl ether	Brc1ccc(Oc2ccc(Br)c(Br)c2)cc1Br	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+32534-81-9	1,2,4-tribromo-5-(2,4-dibromophenoxy)benzene	Brc1ccc(Oc2cc(Br)c(Br)cc2Br)c(Br)c1	1	 	N/A	No data	-11.5	 	3650.00000	Out of domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+36483-60-0	1,2,3-tribromo-4-(2,3,5-tribromophenoxy)benzene	Brc1ccc(Oc2cc(Br)cc(Br)c2Br)c(Br)c1Br	1	 	N/A	No data	-11.5	 	3650.00000	Out of domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+68928-80-3	1,2,3,4,5-pentabromo-6-(2,3-dibromophenoxy)benzene	Brc1cccc(Oc2c(Br)c(Br)c(Br)c(Br)c2Br)c1Br	1	 	N/A	No data	-11.5	 	3650.00000	Out of domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+470-90-6	Chlorfenvinphos	CCOP(=O)(OCC)OC(=CCl)c1ccc(Cl)cc1Cl	0.1558	 	0.7293	No data	-3.20	 	16.95028	In domain	53.33%	0.00%	46.67%	Out of domain	In domain	Out of Domain	 
+2921-88-2	Chlorpyrifos (Chlorpyrifos-ethyl)	CCOP(=S)(OCC)Oc1c(Cl)cc(Cl)c(Cl)n1	0.4085	 	1.0000	No data	-3.46	 	22.02630	In domain	61.54%	0.00%	38.46%	Out of domain	In domain	Out of Domain	 
+107-06-2	1,2-dichloroethane	ClCCCl	0.233	 	0.7756	No data	-3.65	 	26.64944	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain	 
+75-09-2	Dichloromethane	ClCCl	0.9809	 	0.3333	No data	-7.28	 	1004.83386	In domain	66.67%	0.00%	33.33%	Out of domain	In domain	Out of Domain	 
+117-81-7	Di(2-ethylhexyl)phthalate (DEHP)	CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC	1	 	N/A	No data	-11.5	 	3650.00000	In domain	100.00%	0.00%	0.00%	In domain	Out of domain	Out of Domain	 
+330-54-1	Diuron	CN(C)C(=O)Nc1ccc(Cl)c(Cl)c1	0.9849	 	1.0000	-7.52	-7.52	 	1278.55652	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain	belong to training set
+115-29-7	Endosulfan	O=S1OCC2C(CO1)C1(Cl)C(Cl)=C(Cl)C2(Cl)C1(Cl)Cl	0.1173	 	1.0000	-2.57	-2.57	 	9.05654	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain	belong to training set
+206-44-0	Fluoranthene	c1cccc2c1c1cccc3cccc2c13	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+118-74-1	Hexachlorobenzene	Clc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+87-68-3	Hexachlorobutadiene	ClC(Cl)=C(Cl)C(Cl)=C(Cl)Cl	0.03186	 	1.0000	No data	-4.17	 	45.05334	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+608-73-1	Hexachlorocyclohexane	ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	50.00%	0.00%	50.00%	Out of domain	In domain	Out of Domain	 
+34123-59-6	Isoproturon	CC(C)c1ccc(NC(=O)N(C)C)cc1	0.5511	 	1.0000	-7.72	-3.85	 	32.57311	In domain	80.00%	20.00%	0.00%	Out of domain	In domain	Out of Domain	belong to training set
+91-20-3	Naphthalene	c1cccc2ccccc12	1	 	N/A	No data	-11.5	 	3650.00000	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain	 
+608-93-5	Pentachlorobenzene	Clc1cc(Cl)c(Cl)c(Cl)c1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	50.00%	50.00%	Out of domain	In domain	Out of Domain	 
+87-86-5	Pentachlorophenol	Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+208-96-8	acenaphthylene	C1=Cc2cccc3cccc1c23	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+83-32-9	acenaphthene	C1Cc2cccc3cccc1c23	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+86-73-7	fluorene	C1c2ccccc2-c2ccccc12	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+85-01-8	phenantrene	c1cccc2ccc3ccccc3c12	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+129-00-0	pyrene	c1ccc2ccc3cccc4ccc1c2c34	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+56-55-3	benz[a]anthracene	c1cccc2ccc3cc4ccccc4cc3c12	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+218-01-9	chrysene benzophenanthrene	c1cccc2ccc3c4ccccc4ccc3c12	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+205-99-2	benzo[b]fluoranthene	c1cccc2cc3c4ccccc4c4cccc(c12)c34	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+207-08-9	benzo[k]fluoranthene	c1cccc2cc3c4cccc5cccc(c3cc12)c45	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+50-32-8	benzo[a]pyrene	c1cccc2cc3ccc4cccc5ccc(c12)c3c45	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+215-58-7	dibenz[a,c]anthracene	c1cccc2cc3c4ccccc4c4ccccc4c3cc12	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+191-24-2	benzo[ghi]perylene	c1ccc2ccc3ccc4ccc5cccc6c1c2c3c4c56	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+205-82-3	benzo[j]fluoranthene	c1cccc2ccc3c4cccc5cccc(c3c12)c45	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+205-12-9	benzo[c]fluorene	C1c2ccccc2-c2c1ccc1ccccc21	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+27208-37-3	cyclopenta[cd]-pyrene	C1=Cc2ccc3ccc4cccc5cc1c2c3c45	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+53-70-3	benzo[k]tetraphene	c1cccc2ccc3cc4c5ccccc5ccc4cc3c12	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+192-65-4	dibenzo[a,e]pyrene	c1cccc2cc3c4ccccc4c4cccc5ccc(c12)c3c45	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+189-64-0	dibenzo[a,h]pyrene	c1cccc2cc3ccc4c5ccccc5cc5ccc(c12)c3c45	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+189-55-9	dibenzo[a,i]pyrene	c1cccc2cc3ccc4cc5ccccc5c5ccc(c12)c3c45	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+191-30-0	dibenzo[def,p]chrysene	c1cccc2cc3ccc4cccc5c4c3c(c12)c1ccccc51	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+3697-24-3	5-methylchrysene	Cc1cc2ccccc2c2ccc3ccccc3c12	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+193-39-5	indeno[1,2,3-cd]pyrene	c1cccc2c1c1ccc3ccc4cccc5cc2c1c3c45	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+122-34-9	Simazine	CCNc1nc(NCC)nc(Cl)n1	1	 	N/A	No data	-11.5	 	3650.00000	In domain	25.00%	0.00%	75.00%	Out of domain	In domain	Out of Domain	 
+56-35-9	Tributyltin oxide	CCCC[Sn](CCCC)(CCCC)O[Sn](CCCC)(CCCC)CCCC	1	 	N/A	No data	-11.5	 	3650.00000	Out of domain	66.67%	0.00%	33.33%	Out of domain	In domain	Out of Domain	 
+4342-36-3	Tributyltin benzoate	CCCC[Sn](CCCC)(CCCC)OC(=O)c1ccccc1	1	 	N/A	No data	-11.5	 	3650.00000	In domain	52.94%	0.00%	47.06%	Out of domain	In domain	Out of Domain	 
+1461-22-9	Tributyltin Chloride	CCCC[Sn](Cl)(CCCC)CCCC	1	 	N/A	No data	-11.5	 	3650.00000	In domain	64.29%	0.00%	35.71%	Out of domain	In domain	Out of Domain	 
+1983-10-4	Tributyltin Fluoride	CCCC[Sn](F)(CCCC)CCCC	1	 	N/A	No data	-11.5	 	3650.00000	In domain	64.29%	0.00%	35.71%	Out of domain	In domain	Out of Domain	 
+24124-25-2	Tributyltin linoleate	CCCCCC=CCC=CCCCCCCCC(=O)O[Sn](CCCC)(CCCC)CCCC	1	 	N/A	No data	-11.5	 	3650.00000	Out of domain	72.73%	0.00%	27.27%	Out of domain	In domain	Out of Domain	 
+2155-70-6	Tributyltin methacrylate	CCCC[Sn](CCCC)(CCCC)OC(=O)C(C)=C	1	 	N/A	No data	-11.5	 	3650.00000	In domain	57.89%	0.00%	42.11%	Out of domain	In domain	Out of Domain	 
+36643-28-4	Tributyltin-cation	CCCC[Sn]{+}(CCCC)CCCC	1	 	N/A	No data	-11.5	 	3650.00000	In domain	69.23%	0.00%	30.77%	Out of domain	In domain	Out of Domain	 
+12002-48-1	Trichlorobenzenes	Clc1cc(Cl)cc(Cl)c1	1	 	N/A	No data	-11.5	 	3650.00000	In domain	75.00%	0.00%	25.00%	Out of domain	In domain	Out of Domain	 
+67-66-3	Trichloromethane (chloroform)	ClC(Cl)Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	75.00%	0.00%	25.00%	Out of domain	In domain	Out of Domain	 
+1582-09-8	Trifluralin	CCCN(CCC)c1c(N(=O)=O)cc(C(F)(F)F)cc1N(=O)=O	1	 	N/A	No data	-11.5	 	3650.00000	In domain	83.33%	0.00%	16.67%	Out of domain	In domain	Out of Domain	 
+115-32-2	Dicofol	OC(c1ccc(Cl)cc1)(c1ccc(Cl)cc1)C(Cl)(Cl)Cl	0.9594	 	0.8000	No data	-6.52	 	468.58389	In domain	60.00%	0.00%	40.00%	Out of domain	In domain	Out of Domain	 
+1763-23-1	Perfluorooctane sulfonic acid	OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	1	 	N/A	No data	-11.5	 	3650.00000	In domain	62.07%	0.00%	37.93%	Out of domain	In domain	Out of Domain	 
+2795-39-3	1-octanesulfonic acid, 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-, potassium salt (1:1)	O=S(=O)(C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F)O{-}.K{+}	1	Salt	N/A	No data	-11.5	 	3650.00000	Out of domain	60.00%	0.00%	40.00%	Out of domain	In domain	Out of Domain	 
+29457-72-5	lithium heptadecafluorooctanesulphonate	[Li]{+}.O{-}S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	1	Salt	N/A	No data	-11.5	 	3650.00000	In domain	60.00%	0.00%	40.00%	Out of domain	In domain	Out of Domain	 
+29081-56-9	1-octanesulfonic acid, 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-, ammonium salt	N{+}.O{-}S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	1	Salt	N/A	No data	-11.5	 	3650.00000	Out of domain	60.00%	0.00%	40.00%	Out of domain	In domain	Out of Domain	 
+70225-14-8	1-octanesulfonic acid, 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-, compd. with 2,2’-iminobis[ethanol] (1:1)	OCCNCCO_OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	0	Mixture	N/A	No data	-11.5	 	3650	In domain	69.44%	0.00%	30.56%	Out of domain	In domain	Out of Domain	 
+ 	 	OS(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	0.5	 	1.0000	No data	N/A	 	 	In domain	62.07%	0.00%	37.93%	Out of domain	In domain	Out of Domain	 
+ 	 	OCCNCCO	0.5	 	1.0000	No data	N/A	 	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain	 
+307-35-7	heptadecafluorooctanesulphonyl fluoride	O=S(=O)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	0.001	 	1.0000	No data	 1.49	 	0.15559	In domain	62.07%	0.00%	37.93%	Out of domain	In domain	Out of Domain	 
+56773-42-3	ethanaminium, n,n,n-triethyl-, salt with 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-1-octanesulfonic acid (1:1)	CCN{+}(CC)(CC)(CC).O{-}S(=O)(=O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F	1	Salt	N/A	No data	-11.5	 	3650.00000	Out of domain	57.89%	0.00%	42.11%	Out of domain	In domain	Out of Domain	 
+124495-18-7	Quinoxyfen	Fc1ccc(Oc2ccnc3cc(Cl)cc(Cl)c23)cc1	1	 	N/A	No data	-11.5	 	3650.00000	In domain	16.67%	0.00%	83.33%	Out of domain	In domain	Out of Domain	 
+1746-01-6	2,3,7,8-T4CDD	Clc1cc2c(cc1Cl)Oc1cc(Cl)c(Cl)cc1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	50.00%	0.00%	50.00%	Out of domain	In domain	Out of Domain	 
+40321-76-4	1,2,3,7,8-P5CDD	Clc1cc2c(cc1Cl)Oc1cc(Cl)c(Cl)c(Cl)c1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	22.22%	22.22%	55.56%	Out of domain	In domain	Out of Domain	 
+39227-28-6	1,2,3,4,7,8-H6CDD	Clc1ccc2c(c1Cl)Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	20.00%	0.00%	80.00%	Out of domain	In domain	Out of Domain	 
+57653-85-7	1,2,3,6,7,8-H6CDD	Clc1cc2c(c(Cl)c1Cl)Oc1cc(Cl)c(Cl)c(Cl)c1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	40.00%	60.00%	Out of domain	In domain	Out of Domain	 
+19408-74-3	1,2,3,7,8,9-H6CDD	Clc1cc2c(c(Cl)c1Cl)Oc1c(cc(Cl)c(Cl)c1Cl)O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	40.00%	60.00%	Out of domain	In domain	Out of Domain	 
+35822-46-9	1,2,3,4,6,7,8-H7CDD	Clc1cc2c(c(Cl)c1Cl)Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	18.18%	81.82%	Out of domain	In domain	Out of Domain	 
+3268-87-9	1,2,3,4,6,7,8,9-O8CDD	Clc1c(Cl)c(Cl)c(Cl)c2c1Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+51207-31-9	2,3,7,8-T4CDF	Clc1cc2c(cc1Cl)-c1cc(Cl)c(Cl)cc1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	57.14%	0.00%	42.86%	Out of domain	In domain	Out of Domain	 
+57117-41-6	1,2,3,7,8-P5CDF	Clc1cc2c(cc1Cl)-c1c(cc(Cl)c(Cl)c1Cl)O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	25.00%	25.00%	50.00%	Out of domain	In domain	Out of Domain	 
+57117-31-4	2,3,4,7,8-P5CDF	Clc1cc2c(cc1Cl)-c1cc(Cl)c(Cl)c(Cl)c1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	25.00%	25.00%	50.00%	Out of domain	In domain	Out of Domain	 
+70648-26-9	1,2,3,4,7,8-H6CDF	Clc1cc2c(cc1Cl)-c1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	22.22%	0.00%	77.78%	Out of domain	In domain	Out of Domain	 
+57117-44-9	1,2,3,6,7,8-H6CDF	Clc1cc2c(c(Cl)c1Cl)-c1cc(Cl)c(Cl)c(Cl)c1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	44.44%	55.56%	Out of domain	In domain	Out of Domain	 
+72918-21-9	1,2,3,7,8,9-H6CDF	Clc1cc2c(c(Cl)c1Cl)-c1c(cc(Cl)c(Cl)c1Cl)O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	44.44%	55.56%	Out of domain	In domain	Out of Domain	 
+60851-34-5	2,3,4,6,7,8-H6CDF	Clc1cc2c(c(Cl)c1Cl)Oc1c-2cc(Cl)c(Cl)c1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	44.44%	55.56%	Out of domain	In domain	Out of Domain	 
+67562-39-4	1,2,3,4,6,7,8-H7CDF	Clc1cc2c(c(Cl)c1Cl)Oc1c-2c(Cl)c(Cl)c(Cl)c1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	20.00%	80.00%	Out of domain	In domain	Out of Domain	 
+55673-89-7	1,2,3,4,7,8,9-H7CDF	Clc1cc2c(c(Cl)c1Cl)-c1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	20.00%	80.00%	Out of domain	In domain	Out of Domain	 
+39001-02-0	1,2,3,4,6,7,8,9-O8CDF	Clc1c(Cl)c(Cl)c(Cl)c2c1-c1c(Cl)c(Cl)c(Cl)c(Cl)c1O2	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+32598-13-3	3,3’,4,4’-T4CB	Clc1ccc(-c2ccc(Cl)c(Cl)c2)cc1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	66.67%	0.00%	33.33%	Out of domain	In domain	Out of Domain	 
+70362-50-4	3,3’,4’,5-T4CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2)cc1	1	 	N/A	No data	-11.5	 	3650.00000	In domain	16.67%	0.00%	83.33%	Out of domain	In domain	Out of Domain	 
+32598-14-4	2,3,3',4,4'-P5CB	Clc1ccc(-c2ccc(Cl)c(Cl)c2Cl)cc1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	71.43%	0.00%	28.57%	Out of domain	In domain	Out of Domain	 
+74472-37-0	2,3,4,4',5-P5CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2Cl)cc1	1	 	N/A	No data	-11.5	 	3650.00000	In domain	14.29%	28.57%	57.14%	Out of domain	In domain	Out of Domain	 
+31508-00-6	2,3',4,4',5-P5CB	Clc1ccc(-c2cc(Cl)c(Cl)cc2Cl)cc1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	71.43%	0.00%	28.57%	Out of domain	In domain	Out of Domain	 
+65510-44-3	2,3',4,4',5'-P5CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2)c(Cl)c1	1	 	N/A	No data	-11.5	 	3650.00000	In domain	28.57%	0.00%	71.43%	Out of domain	In domain	Out of Domain	 
+57465-28-8	3,3’,4,4’,5-P5CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2)cc1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	28.57%	0.00%	71.43%	Out of domain	In domain	Out of Domain	 
+38380-08-4	2,3,3',4,4',5-H6CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2Cl)cc1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	25.00%	25.00%	50.00%	Out of domain	In domain	Out of Domain	 
+69782-90-7	2,3,3',4,4',5'-H6CB	Clc1ccc(-c2cc(Cl)c(Cl)c(Cl)c2)c(Cl)c1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	37.50%	0.00%	62.50%	Out of domain	In domain	Out of Domain	 
+52663-72-6	2,3',4,4',5,5'-H6CB	Clc1cc(-c2cc(Cl)c(Cl)cc2Cl)cc(Cl)c1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	37.50%	0.00%	62.50%	Out of domain	In domain	Out of Domain	 
+32774-16-6	3,3’,4,4’,5,5’-H6CB	Clc1cc(-c2cc(Cl)c(Cl)c(Cl)c2)cc(Cl)c1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+39635-31-9	2,3,3',4,4',5,5'-H7CB	Clc1cc(-c2cc(Cl)c(Cl)c(Cl)c2Cl)cc(Cl)c1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	0.00%	22.22%	77.78%	Out of domain	In domain	Out of Domain	 
+74070-46-5	Aclonifen	Nc1c(N(=O)=O)ccc(Oc2ccccc2)c1Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	50.00%	0.00%	50.00%	Out of domain	In domain	Out of Domain	 
+42576-02-3	Bifenox	COC(=O)c1cc(Oc2ccc(Cl)cc2Cl)ccc1N(=O)=O	1	 	N/A	No data	-11.5	 	3650.00000	In domain	75.00%	8.33%	16.67%	Out of domain	In domain	Out of Domain	 
+28159-98-0	Cybutryne	CC(C)(C)Nc1nc(NC2CC2)nc(SC)n1	1	 	N/A	No data	-11.5	 	3650.00000	In domain	33.33%	0.00%	66.67%	Out of domain	In domain	Out of Domain	 
+52315-07-8	Cypermethrin	CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1	0.0008694	 	1.0000	-4.28	-0.674	 	1.36022	In domain	50.00%	50.00%	0.00%	Out of domain	In domain	Out of Domain	belong to training set
+67375-30-8	Alpha cypermethrin	CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1	0.0008694	 	1.0000	-4.28	-0.674	 	1.36022	In domain	50.00%	50.00%	0.00%	Out of domain	In domain	Out of Domain	belong to training set
+62-73-7	Dichlorvos	COP(=O)(OC)OC=C(Cl)Cl	0.2397	 	0.9845	No data	-3.67	 	27.17378	In domain	18.18%	0.00%	81.82%	Out of domain	In domain	Out of Domain	 
+76-44-8	Heptachlor	ClC1C=CC2C1C1(Cl)C(Cl)=C(Cl)C2(Cl)C1(Cl)Cl	1	 	N/A	No data	-11.5	 	3650.00000	In domain	82.35%	0.00%	17.65%	Out of domain	In domain	Out of Domain	 
+1024-57-3	Heptachlor epoxide	ClC1C2C(C3C1C1(Cl)C(Cl)=C(Cl)C3(Cl)C1(Cl)Cl)O2	0.2201	 	1.0000	No data	-2.92	 	12.82209	In domain	72.22%	0.00%	27.78%	Out of domain	In domain	Out of Domain	 
+886-50-0	Terbutryn	CCNc1nc(NC(C)(C)C)nc(SC)n1	1	 	N/A	No data	-11.5	 	3650.00000	In domain	45.45%	0.00%	54.55%	Out of domain	In domain	Out of Domain	 
+57-63-6	17alpha-ethinylestradiol	CC12CCC3C(CCc4cc(O)ccc34)C1CCC2(O)C#C	1	 	N/A	No data	-11.5	 	3650.00000	In domain	76.47%	0.00%	23.53%	Out of domain	In domain	Out of Domain	 
+50-28-2	17beta-estradiol	CC12CCC3C(CCc4cc(O)ccc34)C1CCC2O	1	 	N/A	No data	-11.5	 	3650.00000	In domain	80.00%	0.00%	20.00%	Out of domain	In domain	Out of Domain	 
+15307-79-6	Diclofenac	O=C(Cc1ccccc1Nc1c(Cl)cccc1Cl)O{-}.[Na]{+}	1E-005	Salt	1.0000	No data	-0.552	 	1.20412	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain	 
+25637-99-4	1,3,5,7,9,11-Hexabromocyclododecane	BrC1CC(Br)CC(Br)CC(Br)CC(Br)CC(Br)C1	1	 	N/A	No data	-11.5	 	3650.00000	Out of domain	66.67%	33.33%	0.00%	Out of domain	In domain	Out of Domain	 
+3194-55-6	1,2,5,6,9,10- Hexabromocyclododecane	BrC1CCC(Br)C(Br)CCC(Br)C(Br)CCC1Br	1	 	N/A	No data	-11.5	 	3650.00000	Out of domain	66.67%	0.00%	33.33%	Out of domain	In domain	Out of Domain	 
+

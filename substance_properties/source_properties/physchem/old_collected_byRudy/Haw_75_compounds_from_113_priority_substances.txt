@@ -1,0 +1,76 @@
+No	CAS Number	Chemical name	SMILES	Dhaw	Dhaw (Unit)
+1	100-02-7	4-nitrophenol	Oc1ccc(cc1)[N+]([O-])=O	53.947	kJ/mol
+2	10605-21-7	Carbendazim	COC(=O)Nc1nc2ccccc2[nH]1	114.92	kJ/mol
+3	111988-49-9	Thiacloprid	Clc1ccc(CN2CCSC2=NC#N)cn1	111.57	kJ/mol
+4	113665-84-2	Klopidogrel	COC(=O)C(N1CCc2sccc2C1)c1ccccc1Cl	87.87	kJ/mol
+5	115-96-8	tris(2-chloroethyl) phosphate	ClCCOP(=O)(OCCCl)OCCCl		kJ/mol
+6	120068-37-3	Fipronil	Nc1c([S+]([O-])C(F)(F)F)c(nn1-c1c(Cl)cc(cc1Cl)C(F)(F)F)C#N	142.66	kJ/mol
+7	120-47-8	ethyl 4-hydroxybenzoate	CCOC(=O)c1ccc(O)cc1	60.628	kJ/mol
+8	122-34-9	Simazine	CCNc1nc(Cl)nc(NCC)n1	135.69	kJ/mol
+9	126-73-8	tributyl phosphate	CCCCOP(=O)(OCCCC)OCCCC		kJ/mol
+10	129-00-0	pyrene	c1cc2ccc3cccc4ccc(c1)c2c34	41.083	kJ/mol
+11	13523-86-9	Pindolol	CC(C)NCC(O)COc1cccc2[nH]ccc12	134.77	kJ/mol
+12	137-58-6	Lidokain	CCN(CC)CC(=O)Nc1c(C)cccc1C	122.44	kJ/mol
+13	143-24-8	bis(2-(2-methoxyethoxy)ethyl) ether	COCCOCCOCCOCCOC	123.82	kJ/mol
+14	144-83-2	sulfapyridine	Nc1ccc(cc1)S(=O)(=O)Nc1ccccn1	124.91	kJ/mol
+15	15307-79-6	sodium [2-[(2,6-dichlorophenyl)amino]phenyl]acetate	[Na+].[O-]C(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl		kJ/mol
+16	15307-86-5	diclofenac	OC(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl	102.61	kJ/mol
+17	15545-48-9	Chlorotoluron	CN(C)C(=O)Nc1ccc(C)c(Cl)c1	82.012	kJ/mol
+18	1634-04-4	tert-butyl methyl ether	COC(C)(C)C	49.755	kJ/mol
+19	1689-84-5	Bromoxynil	Oc1c(Br)cc(cc1Br)C#N	78.375	kJ/mol
+20	1698-60-8	Chloridazon	NC1C=NN(c2ccccc2)C(=O)C=1Cl	100.68	kJ/mol
+21	188425-85-6	Boscalid	Clc1ccc(cc1)-c1ccccc1NC(=O)c1cccnc1Cl	111.26	kJ/mol
+22	22071-15-4	Ketoprofen	CC(C(O)=O)c1cccc(c1)C(=O)c1ccccc1	90.799	kJ/mol
+23	25057-89-0	Bentazone	CC(C)N1C(=O)c2ccccc2NS1(=O)=O	82.395	kJ/mol
+24	2642-71-9	Azinphos-ethyl	CCOP(=S)(OCC)SCN1N=Nc2ccccc2C1=O		kJ/mol
+25	27203-92-5	Tramadol	COc1cccc(c1)C1(O)CCCCC1CN(C)C	112.78	kJ/mol
+26	27503-81-7	2-phenyl-1H-benzimidazole-5-sulphonic acid	OS(=O)(=O)c1ccc2nc([nH]c2c1)-c1ccccc1	113.81	kJ/mol
+27	29122-68-7	Atenolol	CC(C)NCC(O)COc1ccc(CC(N)=O)cc1	156.88	kJ/mol
+28	298-46-4	Karbamazepin	NC(=O)N1c2ccccc2C=Cc2ccccc12	87.755	kJ/mol
+29	333-41-5	Diazinon	CCOP(=S)(OCC)Oc1cc(C)nc(n1)C(C)C		kJ/mol
+30	34123-59-6	Isoproturon	CC(C)c1ccc(NC(=O)N(C)C)cc1	87.162	kJ/mol
+31	37350-58-6	Metoprolol	COCCc1ccc(OCC(O)CNC(C)C)cc1	131.75	kJ/mol
+32	3930-20-9	Sotalol	CC(C)NCC(O)c1ccc(NS(C)(=O)=O)cc1	146.14	kJ/mol
+33	4065-45-6	sulisobenzone	COc1cc(O)c(cc1S(O)(=O)=O)C(=O)c1ccccc1	104.14	kJ/mol
+34	41859-67-0	Bezafibrat	CC(C)(Oc1ccc(CCNC(=O)c2ccc(Cl)cc2)cc1)C(O)=O	128.26	kJ/mol
+35	50-27-1	Estriol	CC12CCC3C(CCc4cc(O)ccc34)C1CC(O)C2O	138.56	kJ/mol
+36	51218-45-2	Metolachlor	CCc1cccc(C)c1N(C(C)COC)C(=O)CCl	95.145	kJ/mol
+37	520-85-4	Medroxiprogesteron	CC1CC2C(CCC3(C)C2CCC3(O)C(C)=O)C2(C)CCC(=O)C=C12	119.61	kJ/mol
+38	525-66-6	Propranolol	CC(C)NCC(O)COc1cccc2ccccc12	117.05	kJ/mol
+39	52888-80-9	Prosulfocarb	CCCN(CCC)C(=O)SCc1ccccc1	51.497	kJ/mol
+40	54-31-9	Furosemid	NS(=O)(=O)c1cc(C(O)=O)c(NCc2ccco2)cc1Cl	140.44	kJ/mol
+41	55589-62-3	6-methyl-1,2,3-oxathiazin-4(3H)-one 2,2-dioxide, potassium salt	[K+].CC1OS(=O)(=O)N=C([O-])C=1		kJ/mol
+42	56-75-7	Kloramfenikol	OCC(NC(=O)C(Cl)Cl)C(O)c1ccc(cc1)[N+]([O-])=O	167.76	kJ/mol
+43	57-83-0	progesterone	CC(=O)C1CCC2C3CCC4=CC(=O)CCC4(C)C3CCC21C	96.753	kJ/mol
+44	58-89-9	Lindane	ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl	56.168	kJ/mol
+45	58-93-5	Hydroklortiazid	NS(=O)(=O)c1cc2c(NCNS2(=O)=O)cc1Cl	132.92	kJ/mol
+46	5915-41-3	Terbuthylazine	CCNc1nc(Cl)nc(NC(C)(C)C)n1	141.43	kJ/mol
+47	60142-96-3	Gabapentin	NCC1(CCCCC1)CC(O)=O	87.947	kJ/mol
+48	604-75-1	Oxazepam	OC1N=C(c2ccccc2)c2cc(Cl)ccc2NC1=O	134.49	kJ/mol
+49	60-80-0	phenazone	CN1N(C(=O)C=C1C)c1ccccc1	79.925	kJ/mol
+50	63-25-2	Carbaryl	CNC(=O)Oc1cccc2ccccc12	69.262	kJ/mol
+51	65277-42-1	Ketokonazol	CC(=O)N1CCN(CC1)c1ccc(OCC2COC(Cn3ccnc3)(O2)c2ccc(Cl)cc2Cl)cc1	181.94	kJ/mol
+52	66108-95-0	iohexol	CC(=O)N(CC(O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I	384.54	kJ/mol
+53	67129-08-2	Metazachlor	Cc1cccc(C)c1N(Cn1cccn1)C(=O)CCl	117.31	kJ/mol
+54	69-72-7	salicylic acid	OC(=O)c1ccccc1O	71.311	kJ/mol
+55	70-55-3	toluene-4-sulphonamide	Cc1ccc(cc1)S(N)(=O)=O	76.728	kJ/mol
+56	723-46-6	Sulfametoxazol	Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1	130.58	kJ/mol
+57	7287-19-6	Prometryn	CSc1nc(NC(C)C)nc(NC(C)C)n1	147.92	kJ/mol
+58	73334-07-3	Jopromid	COCC(=O)Nc1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)N(C)CC(O)CO)c1I	332.47	kJ/mol
+59	738-70-5	Trimetoprim	COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC	139.14	kJ/mol
+60	78-51-3	tris(2-butoxyethyl) phosphate	CCCCOCCOP(=O)(OCCOCCCC)OCCOCCCC		kJ/mol
+61	78649-41-9	Jomeprol	CN(C(=O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I	333.24	kJ/mol
+62	80-05-7	4,4'-isopropylidenediphenol	CC(C)(c1ccc(O)cc1)c1ccc(O)cc1	92.579	kJ/mol
+63	81-07-2	1,2-benzisothiazol-3(2H)-one 1,1-dioxide	O=C1NS(=O)(=O)c2ccccc12	80.327	kJ/mol
+64	81103-11-9	Klaritromycin	CCC1OC(=O)C(C)C(OC2CC(C)(OC)C(O)C(C)O2)C(C)C(OC2OC(C)CC(C2O)N(C)C)C(C)(CC(C)C(=O)C(C)C(O)C1(C)O)OC	362.97	kJ/mol
+65	81-25-4	cholic acid	CC(CCC(O)=O)C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C	196.38	kJ/mol
+66	83881-51-0	Cetirizin	OC(=O)COCCN1CCN(CC1)C(c1ccccc1)c1ccc(Cl)cc1	161.02	kJ/mol
+67	84057-84-1	Lamotrigin	Nc1nnc(c(N)n1)-c1cccc(Cl)c1Cl	133.95	kJ/mol
+68	846-49-1	Lorazepam	OC1N=C(c2ccccc2Cl)c2cc(Cl)ccc2NC1=O	135.08	kJ/mol
+69	886-50-0	Terbutryn	CCNc1nc(NC(C)(C)C)nc(SC)n1	147.92	kJ/mol
+70	90357-06-5	Bikalutamid	CC(O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(c1)C(F)(F)F	150.43	kJ/mol
+71	90-43-7	biphenyl-2-ol	Oc1ccccc1-c1ccccc1	58.408	kJ/mol
+72	93-65-2	Mecoprop	CC(Oc1ccc(Cl)cc1C)C(O)=O	79.255	kJ/mol
+73	94-13-3	propyl 4-hydroxybenzoate	CCCOC(=O)c1ccc(O)cc1	63.5	kJ/mol
+74	94-74-6	MCPA	Cc1cc(Cl)ccc1OCC(O)=O	70.698	kJ/mol
+75	94-75-7	2,4-D	OC(=O)COc1ccc(Cl)cc1Cl	68.42	kJ/mol

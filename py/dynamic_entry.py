@@ -5,109 +5,59 @@ Created on Sun Jul 10 16:34:07 2016
 @author: Rudy
 """
 from isnum import isnum
-def dynamic_entry(table,properties,x,sourcefile,iD,conn,c): 
-    if table is 'substance_properties':    
+import numpy as np
+import sys
+
+
+def dynamic_entry(table, properties, x, sourcefile, iD, conn, c):
+    # the compounds file will not be run through this loop
+    # in 5000 sub list the 5th line always marks the data
+    if table is 'substance_properties':
         qu2 = []
         # here are all of the possible names for headers that are not properties
-        notprop = ['#','Substance No','CAS','Chem name', 'Smiles','SMILES',
-                   'NAME','Name','Cas#','Chem. Name','CAS RN','Parent #','Parent Cas#', 
-                   'Parent Chem. Name', 'Parent Smiles', 'Substance type']
-        # sometimes there are 1-3 headers, make something that can determine
-        # this number for this particular file
-        
-        # for the first few rows, scan the first three columns for a CAS number
-        # the row at which a CAS number is found determines how many headers 
-        # there are
-        n = 0
-        p = 0
-        for mm in range(0,len(x)):
-            # we check for CAS number by seeing if it is a real number, we only 
-            # check the first three columns for CAS numbers in a given row
-            if isnum(x[mm][0].replace('-','')) or isnum(x[mm][1].replace('-','')) or isnum(x[mm][2].replace('-','')):
-                p = 1
-            else:
-                n = n + 1
-            if p is 1:
-                break
-        # find the index of keys
-        # depending on how many of the rows were skipped before a CAS number (n)
-        # was found, the name of the property will be the conjugation of all 
-        # values in that index
+        notprop = ['No',	'Line in table Compounds',	'MLoS number']
+
+        m = 4
+        n = 3
+        # and the metadata is always organized like this
+        # 0 = endpoint
+        # 1 model
+        # 2 software
+        # 3 property name
+        # depending on how many of the rows were skipped before a CAS number (m)
+
         propertiesAugm = []
         propertiesComb = []
-        unitind = []
-        unit = []
-        # add all of the names together, that is skwish n rows together
-        for jj in range(0,n):
-            propertiesAugm.append(x[jj])
-        # for the number of properties    
-        for jj in range(0,len(propertiesAugm[0])):
-            tmp = []
-            #for each row (name) in each property column, combine them
-            for ii in range(0,n):
-                tmp.append(propertiesAugm[ii][jj])
-            tmp = ','.join(tmp)
-            tmp = tmp.replace(',','-')
-            tmp = tmp.replace('-','')
-            tmp = tmp.rstrip()
-            propertiesComb.append(tmp)
-            
-        p = 0
-        #this is contingent on the assumption that all notprops come before
-        #real properties
-        for jj in range(0,len(propertiesComb)):
-            if 'Unit' in propertiesComb[jj]:
-                unit.append(propertiesComb[jj])
-                unitind.append(jj)
-            if propertiesComb[jj].replace('-','') in notprop:
-                if 'CAS' in propertiesComb[jj] or 'Cas' in propertiesComb[jj]:
-                    CASind = jj
-                if 'smiles' in propertiesComb[jj] or 'SMILES' in propertiesComb[jj] or 'Smiles' in propertiesComb[jj]:
-                    smilesind = jj
-                if 'NAME' in propertiesComb[jj] or 'Chem name' in propertiesComb[jj] or 'Chem. name' in propertiesComb[jj] or 'Name' in propertiesComb[jj]:
-                    nameind = jj
-                p = p + 1
+        unitind = 0
+        modelind = 1
+        softwareind = 2
+        unit = x.iloc[unitind,:]
+        model = x.iloc[modelind,:]
+        software = x.iloc[softwareind,:]
+        prop = x.iloc[3,:]
+        x.replace(np.nan,'', inplace = True)
         # p is the index of the first property, n is the index of the first substance
-        for jj in range(n,len(x)): #for each substance, skipping n headers
-            tmp = x[jj]
-            for ii in range(p,len(tmp)): #for each property, skipping notprops
-                if propertiesComb[ii] in unit:
-                    pass
-                else:
-                    # need to look through available units to see if there is a
-                    # matching one for the current property
-                    if any(propertiesComb[ii] in uu for uu in unit):
-                        unitProp = [s for s in unit if propertiesComb[ii] in s]
-                        thisInd = unit.index(unitProp[0])
-                        unitvalInd = unitind[thisInd]
-                        vUnit = tmp[unitvalInd]
-                    else:
-                        vUnit = 'N/A'
-                    entry = [iD,tmp[CASind],propertiesComb[ii],tmp[ii],vUnit]
-                    entry.append(sourcefile)
-                    qu = ['?' for number in range(len(entry))]
-                    qu2 = ' ,'.join(qu)                    
-                    c.executemany('''INSERT INTO {tn} (ID, CAS, property, value, unit, source) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])
-                    iD = iD + 1
-#        for ii in unit:
-#            unitProp = ii.replace('( Unit)','')
-#            print((('unitprop = %s ')% unitProp))
-#            c.execute('''SELECT unit FROM substance_properties WHERE property = "%{pp}%"''')
-#            c.executemany('''INSERT INTO substance_properties (unit) VALUES ('?')''', [unitProp])
-
-###############################################################################
-#now add the CAS substance info if the CAS does not exist
-        qu2 = []
-        for jj in range(1,len(x)): #for each substance, all properties, skipping headers
-            tmp = x[jj]
-            if '*' in tmp[CASind]:
-                pass
-            else:
-                entry = [tmp[CASind],tmp[smilesind],tmp[nameind]]
+        for jj in range(m,len(x[x.columns[0]])): #for each substance, skipping n headers
+            tmp = x.loc[jj]
+            # the unique number is the first index
+            no = tmp[0]
+            mlos = tmp[2]
+            # unique index is 'MLOS'
+            c.execute("SELECT CAS FROM substances WHERE MLOS = '{qq}'".format(qq=mlos))
+            CAS = c.fetchall()
+            for ii in range(n,len(tmp)): #for each property, skipping not props
+                # ['ID', 'CAS', 'property', 'value', 'endpoint [unit]', 'model', 'software', 'source']
+                
+                entry = [iD, CAS[0][0], prop[ii], tmp[ii], unit[ii], model[ii], software[ii]]
+                entry.append(sourcefile)
                 qu = ['?' for number in range(len(entry))]
                 qu2 = ' ,'.join(qu)
-                c.executemany('''INSERT OR IGNORE INTO substances (CAS, SMILES, NAME) VALUES ({qq})'''.format(qq = qu2), [entry])  
-        return iD                     
+                try:
+                    c.executemany('''INSERT INTO {tn} (ID, CAS, property, value, endpoint_unit, model, software, source) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])
+                except:
+                    print(entry)
+                iD = iD + 1
+        return iD
 ###############################################################################
                     
     if table is 'STREAM_EU_meta':
@@ -121,7 +71,7 @@ def dynamic_entry(table,properties,x,sourcefile,iD,conn,c):
                 entry.append(tmp[ii])
             qu = ['?' for number in range(len(tmp))]
             qu2 = ' ,'.join(qu)
-            c.executemany('''INSERT INTO {tn} (STREAM_EU_parameter,description,unit,source,SUalias,UFZalias) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])                                                   
+            c.executemany('''INSERT INTO {tn} (STREAM_EU_parameter,description,unit) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])                                                   
 
     if table is 'STREAM_EU_database_dictionary':
         qu2 = []
@@ -134,7 +84,7 @@ def dynamic_entry(table,properties,x,sourcefile,iD,conn,c):
                 entry.append(tmp[ii])
             qu = ['?' for number in range(len(tmp))]
             qu2 = ' ,'.join(qu)    
-            c.executemany('''INSERT INTO {tn} (substance_property,STREAM_EU_parameter,conversion) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])
+            c.executemany('''INSERT INTO {tn} (substance_property,STREAM_EU_parameter,conversion, method) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])
 
     if table is 'SIMPLE_TREAT_database_dictionary':
         qu2 = []
@@ -147,7 +97,7 @@ def dynamic_entry(table,properties,x,sourcefile,iD,conn,c):
                 entry.append(tmp[ii])
             qu = ['?' for number in range(len(tmp))]
             qu2 = ' ,'.join(qu)
-            c.executemany('''INSERT INTO {tn} (substance_property,SIMPLE_TREAT_parameter,conversion) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])
+            c.executemany('''INSERT INTO {tn} (substance_property,SIMPLE_TREAT_parameter,conversion, method) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])
 
     if table is 'SIMPLE_TREAT_meta':
         qu2 = []
@@ -161,5 +111,31 @@ def dynamic_entry(table,properties,x,sourcefile,iD,conn,c):
             qu = ['?' for number in range(len(tmp))]
             qu2 = ' ,'.join(qu)
             c.executemany('''INSERT INTO {tn} (SIMPLE_TREAT_parameter,description,unit) VALUES ({qq})'''.format(tn = table, qq = qu2), [entry])
+
+###############################################################################
+    if table is 'substances':
+        # only occurs with one of the files
+        m = 4
+        n = 4
+
+        noind = 0
+        mlosind = 3
+        CASind = 6
+        nameind = 7
+        smilesind = 8
+        codeind = 9
+        mwind = 11
+
+        # now add the CAS substance info if the CAS does not exist
+        for jj in range(m, len(x[x.columns[0]])):  # for each substance, all properties, skipping headers
+            tmp = x.loc[jj]
+            entry = [tmp[noind],tmp[CASind], tmp[smilesind], tmp[nameind], tmp[codeind],tmp[mlosind],tmp[mwind]]
+            qu = ['?' for number in range(len(entry))]
+            qu2 = ' ,'.join(qu)
+            c.executemany('''INSERT OR IGNORE INTO substances ('NO','CAS','SMILES', 'NAME', 'CODE','MLOS','MW') VALUES ({qq})'''.format(qq=qu2),
+            [entry])
+
+            #return iD
+            
     conn.commit()
 

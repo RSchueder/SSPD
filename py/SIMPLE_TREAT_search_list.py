@@ -10,42 +10,42 @@ def SIMPLE_TREAT_search_list(abrev,paramReq):
     method = {}
 
     for ii in paramReq:
-        method[(("%s")% ii[0])] = 'average'
+        method[(("%s")% ii[0])] = 'median'
 
-    method['Melting Point'] = 'Mean Melting Point'
-    method['Vapor pressure'] = 'Vapor Pressure (Antoine Method)'
-    method['Water solubility'] = 'Water Solubility'
-    method['pka1'] = 'pka1'
-    method['pka2'] = 'pka2'
-    method['pkb1'] = 'pka1'
-    method['pkb2'] = 'pka2'
-    method['Degradation rate in sediment'] = 'Ultimate Half Life Predicted'
-    method['Degradation rate in soil'] = 'Ultimate Half Life Predicted'
-    method['Degradation rate in water'] = 'Ultimate Half Life Predicted'
-    method['log Kow'] = 'log Kow'
-    method['Koc'] = 'Koc (MCI)'
+#    method['Melting Point'] = 'Tm'
+#    method['Vapor pressure'] = 'Vp'
+#    method['Water solubility'] = 'Sw'
+#    method['pka1'] = 'pKa1'
+#    method['pka2'] = 'pKa2'
+#    method['pkb1'] = 'pKb1'
+#    method['pkb2'] = 'pKb2'
+#    method['Degredation rate in sediment'] = 'HL in sediment'
+#    method['Degredation rate in soil'] = 'HL in soil'
+#    method['Degredation rate in water'] = 'HL in water'
+#    method['log Kow'] = 'log Kow'
 
-    # (OPTIONAL) SPECIFY THE FILE SPECIFIER AT THIS LOCATION, IF THERE ARE
-    # MULTIPLE VALUES OF SAME NAME BUT FROM DIFFERENT FILES
-    filespec1 = {}
-    filespec2 = {}
-    filespec3 = {}
+   
+    # (OPTIONAL) SPECIFY THE MODEL SPECIFIER AT THIS LOCATION, IF THERE ARE
+    # MULTIPLE VALUES OF SAME NAME BUT FROM DIFFERENT MODELS
+    modelspec1 = {}
+    modelspec2 = {}
+    modelspec3 = {}
     
     for ii in paramReq:
-        filespec1[(("%s")% ii[0])] = 'none'
-    # filespec1['kde'] = '301B'
-
+        modelspec1[(("%s")% ii[0])] = 'none'
+#    modelspec1['log Kow'] = 'KOWWIN 1.68'
+#    modelspec1['Melting Point'] = 'MPBPWIN v1.43: Mean Joback,Gold and Ogle method'
+#    modelspec1['Water solubility'] = 'Kühne R, Ebert R-U, Schüürmann G 2006. Model selection based on structural similarity – method description and application to water solubility prediction. J. Chem. Inf. Model. 46: 636-641.'
+#    modelspec1['Vapor pressure'] = 'MPBPWIN v1.43: Grain modified Antoine model and Mackay model'
 
     for ii in paramReq:
-        filespec2[(("%s")% ii[0])] = 'none'
-    # filespec2['kde'] = '301C'
+        modelspec2[(("%s")% ii[0])] = 'none'
 
     
     
     for ii in paramReq:
-        filespec3[(("%s")% ii[0])] = 'none'
-    # filespec3['kde'] = '301_F'
+        modelspec3[(("%s")% ii[0])] = 'none'
 
     ref_temp = [25] * len(abrev)
     
-    return method, filespec1, filespec2, filespec3, ref_temp
+    return method, modelspec1, modelspec2, modelspec3, ref_temp

@@ -1,0 +1,78 @@
+No	CAS number	Name	SMILES	Map reliability	Observed Neutral hydrolysis rate constant /ln(Kn_Observed)	Predicted Neutral hydrolysis rate constant /ln(Kn_Predicted)	Primary Half Life by Kn	Parameter ranges	Correct fragments Structural domain	Incorrect fragments Structural domain	Unknown fragments Structural domain	Total Structural domain	Mechanistic domain	Total Domain
+1	100-02-7	4-nitrophenol	Oc1ccc(N(=O)=O)cc1	N/A	No data	-11.5	3650	In domain	80.00%	0.00%	20.00%	Out of domain	In domain	Out of Domain
+2	10605-21-7	Carbendazim	COC(=O)NC1Nc2ccccc2N=1	N/A	No data	-11.5	3650	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+3	111988-49-9	Thiacloprid	N#C/N=C1N(Cc2ccc(Cl)nc2)CCS/1	N/A	No data	-11.5	3650	In domain	18.18%	0.00%	81.82%	Out of domain	In domain	Out of Domain
+4	113665-84-2	Klopidogrel	COC(=O)C{P+}(c1ccccc1Cl)N1CCC2=C(C1)C=CS2	1	No data	-3.72	28.48449	In domain	31.25%	12.50%	56.25%	Out of domain	In domain	Out of Domain
+5	115-96-8	tris(2-chloroethyl) phosphate	O=P(OCCCl)(OCCCl)OCCCl	0.3621	No data	-3.62	25.97199	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+6	120068-37-3	Fipronil	NC1=C(S(=O)C(F)(F)F)C(C#N)=NN1c1c(Cl)cc(C(F)(F)F)cc1Cl	1	No data	-0.552	1.20412	In domain	28.57%	0.00%	71.43%	Out of domain	In domain	Out of Domain
+7	120-47-8	ethyl 4-hydroxybenzoate	CCOC(=O)c1ccc(O)cc1	N/A	No data	-11.5	3650	In domain	85.71%	0.00%	14.29%	Out of domain	Out of domain	Out of Domain
+8	122-34-9	Simazine	CCNc1nc(NCC)nc(Cl)n1	N/A	No data	-11.5	3650	In domain	25.00%	0.00%	75.00%	Out of domain	In domain	Out of Domain
+9	126-73-8	tributyl phosphate	CCCCOP(=O)(OCCCC)OCCCC	0.5163	No data	-7.3	1021.68384	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+10	129-00-0	pyrene	c1ccc2ccc3cccc4ccc1c2c34	N/A	No data	-11.5	3650	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+11	13523-86-9	Pindolol	CC(C)NCC(O)COc1cccc2c1C=CN2	N/A	No data	-11.5	3650	In domain	53.85%	0.00%	46.15%	Out of domain	In domain	Out of Domain
+12	137-58-6	Lidokain	CCN(CC)CC(=O)Nc1c(C)cccc1C	N/A	No data	-11.5	3650	In domain	50.00%	0.00%	50.00%	Out of domain	In domain	Out of Domain
+13	143-24-8	bis(2-(2-methoxyethoxy)ethyl) ether	COCCOCCOCCOCCOC	N/A	No data	-11.5	3650	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+14	144-83-2	sulfapyridine	Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1	N/A	No data	-11.5	3650	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+15	15307-79-6	sodium [2-[(2,6-dichlorophenyl)amino]phenyl]acetate	O=C(Cc1ccccc1Nc1c(Cl)cccc1Cl)O{-}.[Na]{+}	1	No data	-0.552	1.20412	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+16	15307-86-5	diclofenac	OC(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl	N/A	No data	-11.5	3650	In domain	33.33%	0.00%	66.67%	Out of domain	In domain	Out of Domain
+17	15545-48-9	Chlorotoluron	Cc1ccc(NC(=O)N(C)C)cc1Cl	1	No data	-3.85	32.57311	In domain	88.89%	0.00%	11.11%	Out of domain	In domain	Out of Domain
+18	1634-04-4	tert-butyl methyl ether	CC(C)(C)OC	N/A	No data	-11.5	3650	In domain	83.33%	0.00%	16.67%	Out of domain	In domain	Out of Domain
+19	1689-84-5	Bromoxynil	N#Cc1cc(Br)c(O)c(Br)c1	N/A	No data	-11.5	3650	In domain	33.33%	0.00%	66.67%	Out of domain	In domain	Out of Domain
+20	1698-60-8	Chloridazon	NC1C=NN(c2ccccc2)C(=O)C=1Cl	1	No data	-0.552	1.20412	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+21	188425-85-6	Boscalid	O=C(c1cccnc1Cl)Nc1ccccc1-c1ccc(Cl)cc1	N/A	No data	-11.5	3650	In domain	25.00%	0.00%	75.00%	Out of domain	In domain	Out of Domain
+22	22071-15-4	Ketoprofen	CC(c1cccc(C(=O)c2ccccc2)c1)C(O)=O	N/A	No data	-11.5	3650	In domain	66.67%	0.00%	33.33%	Out of domain	In domain	Out of Domain
+23	25057-89-0	Bentazone	CC(C)N1C(=O)c2ccccc2NS1(=O)=O	N/A	No data	-11.5	3650	In domain	18.18%	0.00%	81.82%	Out of domain	In domain	Out of Domain
+24	2642-71-9	Azinphos-ethyl	CCOP(=S)(OCC)SCN1C(=O)c2ccccc2N=N1	1	No data	-3.81	31.2959	In domain	31.25%	25.00%	43.75%	Out of domain	In domain	Out of Domain
+25	27203-92-5	Tramadol	CN(C)CC{P-}1CCCCC{P-}1(O)c1cccc(OC)c1	N/A	No data	-11.5	3650	In domain	64.29%	0.00%	35.71%	Out of domain	In domain	Out of Domain
+26	27503-81-7	2-phenyl-1H-benzimidazole-5-sulphonic acid	OS(=O)(=O)c1ccc2c(c1)N=C(c1ccccc1)N2	N/A	No data	-11.5	3650	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+27	29122-68-7	Atenolol	CC(C)NCC(O)COc1ccc(CC(N)=O)cc1	N/A	No data	-11.5	3650	In domain	78.57%	0.00%	21.43%	Out of domain	In domain	Out of Domain
+28	298-46-4	Karbamazepin	NC(=O)N1c2ccccc2C=Cc2ccccc12	N/A	No data	-11.5	3650	In domain	25.00%	0.00%	75.00%	Out of domain	In domain	Out of Domain
+29	333-41-5	Diazinon	CCOP(=S)(OCC)Oc1cc(C)nc(C(C)C)n1	1	No data	-3.46	22.0263	In domain	71.43%	0.00%	28.57%	Out of domain	In domain	Out of Domain
+30	34123-59-6	Isoproturon	CC(C)c1ccc(NC(=O)N(C)C)cc1	1	No data	-3.85	32.57311	In domain	80.00%	20.00%	0.00%	Out of domain	In domain	Out of Domain
+31	37350-58-6	Metoprolol	CC(C)NCC(O)COc1ccc(CCOC)cc1	N/A	No data	-11.5	3650	In domain	85.71%	0.00%	14.29%	Out of domain	In domain	Out of Domain
+32	3930-20-9	Sotalol	CC(C)NCC(O)c1ccc(NS(C)(=O)=O)cc1	N/A	No data	-11.5	3650	In domain	30.77%	0.00%	69.23%	Out of domain	In domain	Out of Domain
+33	4065-45-6	sulisobenzone	COc1cc(O)c(C(=O)c2ccccc2)cc1S(O)(=O)=O	N/A	No data	-11.5	3650	In domain	27.27%	0.00%	72.73%	Out of domain	In domain	Out of Domain
+34	41859-67-0	Bezafibrat	CC(C)(C(O)=O)Oc1ccc(CCNC(=O)c2ccc(Cl)cc2)cc1	N/A	No data	-11.5	3650	In domain	53.33%	6.67%	40.00%	Out of domain	In domain	Out of Domain
+35	50-27-1	Estriol	CC{P+}12CCC{P-}3C{P-}(CCc4cc(O)ccc34)C{P+}1CC{P-}(O)C{P+}2O	N/A	No data	-11.5	3650	In domain	87.50%	0.00%	12.50%	Out of domain	In domain	Out of Domain
+36	51218-45-2	Metolachlor	CCc1cccc(C)c1N(C(C)COC)C(=O)CCl	N/A	No data	-11.5	3650	In domain	64.29%	0.00%	35.71%	Out of domain	In domain	Out of Domain
+37	520-85-4	Medroxiprogesteron	CC{P-}1CC{P+}2C{P+}(CCC{P-}3(C)C{P-}2CCC{P-}3(O)C(C)=O)C{P-}2(C)CCC(=O)C=C12	N/A	No data	-11.5	3650	In domain	88.00%	0.00%	12.00%	Out of domain	In domain	Out of Domain
+38	525-66-6	Propranolol	CC(C)NCC(O)COc1cccc2ccccc12	N/A	No data	-11.5	3650	In domain	60.00%	0.00%	40.00%	Out of domain	In domain	Out of Domain
+39	52888-80-9	Prosulfocarb	CCCN(CCC)C(=O)SCc1ccccc1	1	No data	-2.67	10.00902	In domain	75.00%	0.00%	25.00%	Out of domain	In domain	Out of Domain
+40	54-31-9	Furosemid	NS(=O)(=O)c1cc(C(O)=O)c(NCC2=CC=CO2)cc1Cl	N/A	No data	-11.5	3650	In domain	50.00%	0.00%	50.00%	Out of domain	In domain	Out of Domain
+41	55589-62-3	6-methyl-1,2,3-oxathiazin-4(3H)-one 2,2-dioxide, potassium salt	CC1=CC(=O)N{-}(.K{+})S(=O)(=O)O1	N/A	No data	-11.5	3650	Out of domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+42	56-75-7	Kloramfenikol	OCC{P+}(C{P+}(O)c1ccc(N(=O)=O)cc1)NC(=O)C(Cl)Cl	N/A	No data	-11.5	3650	In domain	73.33%	0.00%	26.67%	Out of domain	In domain	Out of Domain
+43	57-83-0	progesterone	CC(=O)C{P-}1CCC{P-}2C{P+}3CCC4=CC(=O)CCC{P-}4(C)C{P-}3CCC{P+}12C	N/A	No data	-11.5	3650	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+44	58-89-9	Lindane	ClC{P+}1C{P+}(Cl)C{P-}(Cl)C{P+}(Cl)C{P+}(Cl)C{P-}1Cl	N/A	No data	-11.5	3650	In domain	50.00%	0.00%	50.00%	Out of domain	In domain	Out of Domain
+45	58-93-5	Hydroklortiazid	NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O	N/A	No data	-11.5	3650	In domain	8.33%	0.00%	91.67%	Out of domain	In domain	Out of Domain
+46	5915-41-3	Terbuthylazine	CCNc1nc(NC(C)(C)C)nc(Cl)n1	N/A	No data	-11.5	3650	In domain	40.00%	0.00%	60.00%	Out of domain	In domain	Out of Domain
+47	60142-96-3	Gabapentin	NCC1(CC(O)=O)CCCCC1	N/A	No data	-11.5	3650	In domain	83.33%	0.00%	16.67%	Out of domain	In domain	Out of Domain
+48	604-75-1	Oxazepam	OC1C(=O)Nc2ccc(Cl)cc2C(c2ccccc2)=N1	N/A	No data	-11.5	3650	In domain	40.00%	0.00%	60.00%	Out of domain	In domain	Out of Domain
+49	60-80-0	phenazone	CC1=CC(=O)N(c2ccccc2)N1C	N/A	No data	-11.5	3650	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+50	63-25-2	Carbaryl	CNC(=O)Oc1cccc2ccccc12	1	No data	-0.72	1.42402	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+51	65277-42-1	Ketokonazol	CC(=O)N1CCN(c2ccc(OCC{P-}3COC{P+}(CN4C=CN=C4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1	N/A	No data	-11.5	3650	Out of domain	42.31%	3.85%	53.85%	Out of domain	In domain	Out of Domain
+52	657-24-9	Metformin	CN(C)C(=N)NC(N)=N	1	No data	-2.4	7.64068	Out of domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+53	66108-95-0	iohexol	CC(=O)N(CC(O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I	N/A	No data	-11.5	3650	Out of domain	51.72%	0.00%	48.28%	Out of domain	In domain	Out of Domain
+54	67129-08-2	Metazachlor	Cc1cccc(C)c1N(CN1C=CC=N1)C(=O)CCl	N/A	No data	-11.5	3650	In domain	35.71%	0.00%	64.29%	Out of domain	In domain	Out of Domain
+55	69-72-7	salicylic acid	Oc1ccccc1C(O)=O	N/A	No data	-11.5	3650	In domain	60.00%	0.00%	40.00%	Out of domain	In domain	Out of Domain
+56	70-55-3	toluene-4-sulphonamide	Cc1ccc(S(N)(=O)=O)cc1	N/A	No data	-11.5	3650	In domain	16.67%	0.00%	83.33%	Out of domain	In domain	Out of Domain
+57	723-46-6	Sulfametoxazol	CC1=CC(NS(=O)(=O)c2ccc(N)cc2)=NO1	N/A	No data	-11.5	3650	In domain	16.67%	0.00%	83.33%	Out of domain	In domain	Out of Domain
+58	7287-19-6	Prometryn	CC(C)Nc1nc(NC(C)C)nc(SC)n1	N/A	No data	-11.5	3650	In domain	45.45%	0.00%	54.55%	Out of domain	In domain	Out of Domain
+59	73334-07-3	Jopromid	CN(CC(O)CO)C(=O)c1c(I)c(NC(=O)COC)c(I)c(C(=O)NCC(O)CO)c1I	N/A	No data	-11.5	3650	Out of domain	55.56%	0.00%	44.44%	Out of domain	In domain	Out of Domain
+60	738-70-5	Trimetoprim	COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC	N/A	No data	-11.5	3650	In domain	27.27%	0.00%	72.73%	Out of domain	In domain	Out of Domain
+61	75847-73-3	Enalapril	CCOC(=O)C{P+}(CCc1ccccc1)NC{P-}(C)C(=O)N1CCCC{P-}1C(O)=O	0	No data	-3.22	17.32868	In domain	72.73%	0.00%	27.27%	Out of domain	In domain	Out of Domain
+62	78-51-3	tris(2-butoxyethyl) phosphate	CCCCOCCOP(=O)(OCCOCCCC)OCCOCCCC	0.5163	No data	-7.3	1021.68384	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+63	78649-41-9	Jomeprol	CN(C(=O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I	N/A	No data	-11.5	3650	Out of domain	53.85%	0.00%	46.15%	Out of domain	In domain	Out of Domain
+64	80-05-7	4,4'-isopropylidenediphenol	CC(C)(c1ccc(O)cc1)c1ccc(O)cc1	N/A	No data	-11.5	3650	In domain	57.14%	0.00%	42.86%	Out of domain	In domain	Out of Domain
+65	81-07-2	1,2-benzisothiazol-3(2H)-one 1,1-dioxide	O=C1c2ccccc2S(=O)(=O)N1	N/A	No data	-11.5	3650	In domain	28.57%	0.00%	71.43%	Out of domain	In domain	Out of Domain
+66	81103-11-9	Klaritromycin	CCC{P+}1C{P-}(C)(O)C{P+}(O)C{P-}(C)C(=O)C{P+}(C)CC{P-}(C)(OC)C{P+}(OC{P-}2C{P+}(O)C{P-}(N(C)C)CC{P-}(C)O2)C(C)C{P+}(OC{P-}2CC{P-}(C)(OC)C{P-}(O)C{P+}(C)O2)C{P-}(C)C(=O)O1	N/A	No data	-11.5	3650	Out of domain	88.46%	3.85%	7.69%	Out of domain	In domain	Out of Domain
+67	81-25-4	cholic acid	CC{P+}(CCC(O)=O)C{P-}1CCC{P-}2C{P+}3C{P+}(O)CC{P+}4CC{P+}(O)CCC{P-}4(C)C{P-}3CC{P+}(O)C{P+}12C	N/A	No data	-11.5	3650	In domain	93.10%	0.00%	6.90%	Out of domain	In domain	Out of Domain
+68	83881-51-0	Cetirizin	OC(=O)COCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1	N/A	No data	-11.5	3650	In domain	76.47%	5.88%	17.65%	Out of domain	In domain	Out of Domain
+69	84057-84-1	Lamotrigin	Nc1c(-c2cccc(Cl)c2Cl)nnc(N)n1	N/A	No data	-11.5	3650	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+70	846-49-1	Lorazepam	OC1C(=O)Nc2ccc(Cl)cc2C(c2ccccc2Cl)=N1	N/A	No data	-11.5	3650	In domain	36.36%	9.09%	54.55%	Out of domain	In domain	Out of Domain
+71	886-50-0	Terbutryn	CCNc1nc(NC(C)(C)C)nc(SC)n1	N/A	No data	-11.5	3650	In domain	45.45%	0.00%	54.55%	Out of domain	In domain	Out of Domain
+72	90357-06-5	Bikalutamid	CC(O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1	N/A	No data	-11.5	3650	In domain	52.63%	0.00%	47.37%	Out of domain	In domain	Out of Domain
+73	90-43-7	biphenyl-2-ol	Oc1ccccc1-c1ccccc1	N/A	No data	-11.5	3650	In domain	33.33%	0.00%	66.67%	Out of domain	In domain	Out of Domain
+74	93-65-2	Mecoprop	CC(C(O)=O)Oc1ccc(Cl)cc1C	N/A	No data	-11.5	3650	In domain	77.78%	0.00%	22.22%	Out of domain	In domain	Out of Domain
+75	94-13-3	propyl 4-hydroxybenzoate	CCCOC(=O)c1ccc(O)cc1	N/A	No data	-11.5	3650	In domain	87.50%	0.00%	12.50%	Out of domain	Out of domain	Out of Domain
+76	94-74-6	MCPA	Cc1cc(Cl)ccc1OCC(O)=O	N/A	No data	-11.5	3650	In domain	75.00%	0.00%	25.00%	Out of domain	In domain	Out of Domain
+77	94-75-7	2,4-D	OC(=O)COc1ccc(Cl)cc1Cl	N/A	No data	-11.5	3650	In domain	75.00%	0.00%	25.00%	Out of domain	In domain	Out of Domain

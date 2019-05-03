@@ -7,14 +7,11 @@ Created on Fri Jul 22 11:31:10 2016
 # method is a mx1 list of strings with values of 'average', 'min', 'max', or 
 # some other indicator of the method you want to use for the variable you are 
 # searching for
-def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,method,filespec1,filespec2,filespec3,ref_temp,data,PATH,headers,conn,c):
+def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,method,modelspec1,modelspec2,modelspec3,ref_temp,data,PATH,headers,conn,c):
     tot = len(allCAS)    
-    from isnum import isnum
     import numpy as np    
     import os
-    import math
-    from make_hl_val import make_hl_val
-    from get_val import get_val
+    from get_val_SIMPLE_TREAT import get_val_SIMPLE_TREAT
 ###############################################################################    
 
 ###############################################################################    
@@ -55,6 +52,7 @@ def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,
                     # exist in the library and it will automatically prescribe a
                     # value of '-9999'
                     prop_used = []
+                    model_used = []
                     # obtain the search queries that tie this parameter to
                     # properties in the database
                     
@@ -82,8 +80,7 @@ def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,
                     # it is imperative that DELWAQA has the same order each time
                     # it is read
                     
-                    val = get_val(CAS,method,property_search,DELWAQA[ii][0],dat,prop_used,med,ii,filespec1,filespec2,filespec3,conv,c,conn)
-                    print(DELWAQA[ii][0],val)
+                    val = get_val_SIMPLE_TREAT(CAS,method,property_search,DELWAQA[ii][0],dat,prop_used,model_used,med,ii,modelspec1,modelspec2,modelspec3,conv,c,conn)
 ###############################################################################
 #############################END GET VAL, VALUE KNOWN##########################      
 ###############################################################################
@@ -123,67 +120,21 @@ def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,
                             entry = ','.join(entry)
                             entry = entry.split(',')
                     entry.append('name of parameters used ---->')
-                    if len(prop_used) > 0:                    
+                    if len(prop_used) > 0:        
+                        uu = 0
                         for pp in prop_used:
                             entry.append(pp)
+                            if model_used[uu] is None:
+                                entry.append('NA')
+                            else:
+                                entry.append(model_used[uu])                                    
+                            uu = uu + 1
                     
                     tofilename.append(entry[1])
                     entry = ','.join(entry)
                     entry = entry.replace(',','    ')
                     fileID.write(('%s\n') % entry)
                     
-###############################################################################                    
-
-                    
-###############################################################################
-#                               REF TEMP                                      #
-###############################################################################
-               
-               # if the parameter is a ref temp, there is no corresponding 
-                # property, but we need to put a value in for delwaq        
-                elif 'ref.temp' in description[0][0]:                   
-                    conline = []
-                    conline.append('DATA')
-                    val = float(ref_temp[ii])
-                    if type(val) is float:
-                        conline.append(str(val))
-                    if type(val) is np.float64:
-                        conline.append(str(val)) 
-                    if type(val) is list:
-                        conline.append(str(val[0]))
-                    if type(val) is str:
-                        conline.append(val)
-                    tofileval.append(val)
-                    tmp = ','.join(conline) 
-                    tmp = tmp.replace(',','    ')
-                    dataentry.append(tmp)
-                    tmpV = tmp
-                    
-                    entry = []
-                    entry.append('CONSTANTS')
-                    c.execute("SELECT * FROM SIMPLE_TREAT_meta WHERE description = '{qq}'".format(qq =  description[0][0]))
-                    tmp = c.fetchall()
-                    line = tmp[0]
-                    line = ','.join(line)
-                    line = line.split(',')
-                    # we only want the first 4 properties of the parameter
-                    meta = [0,1,2,3]
-                    for mm in range(len(line)):
-                        if mm in meta:
-                            entry.append(line[mm])
-                        if mm is 0:
-                            entry.append(tmpV)
-                            entry.append(';')
-                        if mm is 1:
-                            entry = ','.join(entry)
-                            entry = entry.split(',')
-                    entry.append('name of parameters used ---->')
-                    tofilename.append(entry[1])
-                    entry = ','.join(entry)
-                    entry = entry.replace(',','    ')
-                    fileID.write(('%s\n') % entry)
-###############################################################################                    
-
 ###############################################################################
 #                          NO DICTIONARY VALUE AVAILABLE                      #
 ###############################################################################
@@ -225,9 +176,7 @@ def write_SIMPLE_TREAT_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,
                     entry = entry.replace(',','    ')
                     fileID.write(('%s\n') % entry)
 ###############################################################################                    
-
-            fileID.write('CONSTANTS Delho  DATA    30000') 
-
+#                         PROPERTY MATRIX                                     #
 ###############################################################################
             tofilename.insert(0,'CAS')
             tofileval.insert(0,CAS)

@@ -1,0 +1,3 @@
+CAS Number	SMILES	Chemical name(s)	Ka Half-Life (pH 7) [hours]	Kb half-life (pH 7) [hours]	log Kow	Mean Melting Point [°C]	Molecular Weight [Da]	Vapor Pressure (Antoine method) [Pa]	Water Solubility [mol/m3]	SMILES Source
+657-24-9	CN(C)C(=N)NC(N)=N	Metformin	No value	No value	-2.64	106	129	0.00968	7.74E+03	SMILES for the substance is extracted from QSAR Toolbox4.0 and ChemID database using the provided CAS number.
+75847-73-3	CCOC(=O)C(CCc1ccccc1)NC(C)C(=O)N1CCCC1C(O)=O	Enalapril	No value	1.10E+06	2.45	277	376	3.35E-13	0.485	SMILES for the substance is extracted from QSAR Toolbox 4.0 database using the provided name.

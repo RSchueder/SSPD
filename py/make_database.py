@@ -21,6 +21,7 @@ from read_csv2array import read_csv2array
 import pandas as pd
 from read_csv2dict import read_csv2dict
 
+
 try:
     c.close()
     conn.close()
@@ -29,27 +30,18 @@ except:
 
 startTime = datetime.now()
 
-# CURRENT ISSUE IS THAT I THINK IF THERE ARE ABSOLUTEY NO STREAMEU VALUES
-# FOR A SUBSTANCE THEN IT TAKES THE LAST VALUE IT HAD FOR THE PREVIOUS SUBSTANCE
-# check at least sub 126-33-0
-#128-39-2
-# there is something wrong where the kds kde kdw are being given to the wrong
-# param
-# this does not happen if I specify only 128-39-2
-# must be due to leftovers from other substance?
-
 ###############################################################################
 # USER CONSTANTS
-make_db = 1 # 1 is on, 0 is off
+make_db = 1  # 1 is on, 0 is off
 # switch for creating the duplicate copy for manual manipulation
-manual = 'true'
+manual = 'false'
 ###############################################################################
 os.chdir('../')
 PATH = os.getcwd()
 ###############################################################################
     
 if manual is 'true':
-    #if manual is true then a second database will be created that can be edited manually
+    # if manual is true then a second database will be created that can be edited manually
     ll = ['','_manual']
 else:
     ll = ['']
@@ -64,38 +56,30 @@ for dd in ll:
     #                    POPULATE THE DATABASE PROPERTIES
     ###############################################################################
 
-    abrev = [] # stream eu abbreviation
+    SEabrev = [] # stream eu abbreviation
     STabrev = [] # simple treat abbreviation
-    description = [] # stream eu description
+    SEdescription = [] # stream eu description
     STdescription = [] # simple treat description
-    units = []
+    SEunits = []
     STunits = []
-    source = []
-    SUalias = []
-    UFZalias = []
-    term = []
-    multiple = []
-    paramN = []
     searchT = []
-    conversion = []
-    prop = []
-    DW = []
-    conversion2 = []
-    ST = []
+    SEprop = []
+    SEparam = []
+    conversionSE = []
+    STparam = []
     STprop = []
-    conversion3 = []
+    conversionST = []
+    SEmethod = []
+    STmethod = []
 
     with open(("%s\\database_properties\\stream_eu_meta.csv")%(PATH)) as csvfile:
         att = csv.reader(csvfile)
         for row in att:
             row = row[0].split(';')
-            abrev.append(row[1])
-            description.append(row[3])
-            units.append(row[4])
-            source.append(row[5])
-            SUalias.append(row[6])
-            UFZalias.append(row[7])
-        attributes = [abrev,description,units,source,SUalias,UFZalias]
+            SEabrev.append(row[1])
+            SEdescription.append(row[3])
+            SEunits.append(row[4])
+        SEattributes = [SEabrev,SEdescription,SEunits]
 
     with open(("%s\\database_properties\\simple_treat_meta.csv") % (PATH)) as csvfile:
         att = csv.reader(csvfile)
@@ -110,44 +94,55 @@ for dd in ll:
         att = csv.reader(csvfile)
         for row in att:
             row = row[0].split(';')
-            prop.append(row[0])
-            DW.append(row[1])
-            conversion2.append(row[2])
-        dictD2 = [prop,DW,conversion2]
+            SEprop.append(row[0])
+            SEparam.append(row[1])
+            conversionSE.append(row[2])
+            SEmethod.append(row[3])
+        dictSE = [SEprop, SEparam, conversionSE, SEmethod]
 
     with open(("%s\\database_properties\\simple_treat_database_dictionary.csv")%(PATH)) as csvfile:
         att = csv.reader(csvfile)
         for row in att:
             row = row[0].split(';')
             STprop.append(row[0])
-            ST.append(row[1])
-            conversion3.append(row[2])
-        dictD3 = [STprop, ST, conversion3]
+            STparam.append(row[1])
+            conversionST.append(row[2])
+            STmethod.append(row[3])
+
+        dictST = [STprop, STparam, conversionST, STmethod]
 
 ###############################################################################
     if make_db == 1:
-        create_table('substances',['CAS','SMILES', 'NAME'],['TEXT','TEXT','TEXT'],conn,c)
-        create_table('degredation_products',['CAS','degredation_product','quantity'],['TEXT','TEXT','TEXT'],conn,c)
-        create_table('substance_properties',['ID','CAS','property','value','unit','source'],['INT','TEXT','TEXT','TEXT','TEXT','TEXT'],conn,c)
-        create_table('STREAM_EU_meta',['STREAM_EU_parameter','description','unit','source','SUalias','UFZalias'],['TEXT','TEXT','TEXT','TEXT','TEXT','TEXT'],conn,c)
-        create_table('STREAM_EU_database_dictionary',['substance_property','STREAM_EU_parameter','conversion'],['TEXT','TEXT','TEXT'],conn,c)
+        create_table('STREAM_EU_meta',['STREAM_EU_parameter','description','unit'],['TEXT','TEXT','TEXT'],conn,c)
+        create_table('STREAM_EU_database_dictionary',['substance_property','STREAM_EU_parameter','conversion','method'],['TEXT','TEXT','TEXT','TEXT'],conn,c)
         create_table('SIMPLE_TREAT_meta',['SIMPLE_TREAT_parameter','description','unit'],['TEXT','TEXT','TEXT'],conn,c)
-        create_table('SIMPLE_TREAT_database_dictionary',['substance_property','SIMPLE_TREAT_parameter','conversion'],['TEXT','TEXT','TEXT'],conn,c)
+        create_table('SIMPLE_TREAT_database_dictionary',['substance_property','SIMPLE_TREAT_parameter','conversion','method'],['TEXT','TEXT','TEXT','TEXT'],conn,c)
+        create_table('substances',['NO','CAS','SMILES', 'NAME', 'CODE','MLOS','MW'],['TEXT','TEXT','TEXT','TEXT','TEXT','TEXT','TEXT'],conn,c)
+        create_table('substance_properties',['ID','CAS','property','value','endpoint_unit','model','software','source'],['TEXT','TEXT','TEXT','TEXT','TEXT','TEXT','TEXT','TEXT'],conn,c)
+
 ###############################################################################
-        os.chdir(('%s\\substance_properties\\source_properties\\physchem')%(PATH))
+        os.chdir(('%s\\substance_properties\\')%(PATH))
         iD = 1
-        for file in glob.glob("*.txt"):    
-            dat = read_csv(file,conn,c) # this is the whole file
-            properties = dat[0] # these are the headers
-            sourcefile = file
-            iD = dynamic_entry('substance_properties', properties, dat, sourcefile, iD, conn, c)
+        for file in glob.glob("*.xlsx"):    
+            xl = pd.ExcelFile(file)
+            sheets = xl.sheet_names
+            properties = []
+
+            for ss in sheets:
+                dat = pd.read_excel(file, sheetname = ss, header = None)
+                sourcefile = file + '_' + ss
+                print(sourcefile)
+                if 'Compounds' in ss:
+                    dynamic_entry('substances', properties, dat, sourcefile, iD, conn, c)
+                else:
+                    iD = dynamic_entry('substance_properties', properties, dat, sourcefile, iD, conn, c)
 ###############################################################################
         # populate the property-model dictionary table
-        dynamic_entry('STREAM_EU_meta', attributes[0], attributes, sourcefile, iD, conn, c)
-        dynamic_entry('STREAM_EU_database_dictionary', dictD2[0], dictD2, sourcefile, iD, conn, c)
+        dynamic_entry('STREAM_EU_meta', SEattributes[0], SEattributes, sourcefile, iD, conn, c)
+        dynamic_entry('STREAM_EU_database_dictionary', dictSE[0], dictSE, sourcefile, iD, conn, c)
         dynamic_entry('SIMPLE_TREAT_meta', STattributes[0], STattributes, sourcefile, iD, conn, c)
-        dynamic_entry('SIMPLE_TREAT_database_dictionary', dictD3[0], dictD3, sourcefile, iD, conn, c)
+        dynamic_entry('SIMPLE_TREAT_database_dictionary', dictST[0], dictST, sourcefile, iD, conn, c)
 ###############################################################################
     c.close()
     conn.close() 
-print('Database is created')
+print('COMPLETE: Database is created')

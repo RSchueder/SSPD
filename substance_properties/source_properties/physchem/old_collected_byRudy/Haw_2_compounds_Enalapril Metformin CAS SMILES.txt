@@ -1,0 +1,9 @@
+CAS Number	Chemical name	Structural Formula	SMILES Source	Dhaw	Dhaw (Unit)
+657-24-9	Metformin	CN(C)C(=N)NC(N)=N	SMILES for the substance is extracted from QSAR Toolbox4.0 and ChemID database using the provided CAS number.	137.01	kJ/mol
+75847-73-3	Enalapril	CCOC(=O)C(CCc1ccccc1)NC(C)C(=O)N1CCCC1C(O)=O	SMILES for the substance is extracted from QSAR Toolbox 4.0 database using the provided name	152.79	kJ/mol
+					
+					
+					
+					
+					
+					

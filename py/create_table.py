@@ -6,19 +6,9 @@ Created on Sun Jul 10 16:34:33 2016
 """
 
 def create_table(table,headers,types,conn,c):
-        
     nn = 0
-    #c.execute('CREATE TABLE IF NOT EXISTS {tn} ({cn} {ct})' 
-    #.format(tn = table, cn = headers[nn], ct = types[nn]))
-    #if table is 'substances':  
     c.execute('CREATE TABLE IF NOT EXISTS {tn} ({cn} {ct}, UNIQUE({cn}))' 
     .format(tn = table, cn = headers[nn], ct = types[nn]))
-    #elif table is 'substance_properties':
-    #    c.execute('CREATE TABLE IF NOT EXISTS {tn} ({cn} {ct}, UNIQUE({cn}))' 
-    #        .format(tn = table, cn = headers[nn], ct = types[nn]))
-    #else:
-        #c.execute('CREATE TABLE IF NOT EXISTS {tn} ({cn} {ct})' 
-            #.format(tn = table, cn = headers[nn], ct = types[nn]))
     nn = 1
     for ii in range(nn,len(headers)):
         c.execute('''SELECT * FROM {tn}'''.format(tn = table))

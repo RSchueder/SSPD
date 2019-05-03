@@ -1,0 +1,114 @@
+No	CAS Number	Name	SMILES	Model output	Model domain	Converted to:	1	20
+1	100-02-7	4-nitrophenol	Oc1ccc(cc1)[N+]([O-])=O	0.00021084	inside	0.000700919		
+2	100-97-0	methenamine	C1N2CN3CN1CN(C2)C3	0.039134	outside	0.130097504		
+3	10605-21-7	Carbendazim	COC(=O)Nc1nc2ccccc2[nH]1	0.00024104	outside	0.000801316		
+4	108-78-1	melamine	Nc1nc(N)nc(N)n1	0.0099145	outside	0.032959874		
+5	109-89-7	diethylamine	CCNCC	8.05E-05	outside	0.000267615		
+6	111988-49-9	Thiacloprid	Clc1ccc(CN2CCSC2=NC#N)cn1	0.0013023	outside	0.004329381		
+7	112-02-7	cetrimonium chloride	[Cl-].CCCCCCCCCCCCCCCC[N+](C)(C)C	5.77E-06	outside	1.92E-05		
+8	113665-84-2	Klopidogrel	COC(=O)C(N1CCc2sccc2C1)c1ccccc1Cl	0.0017298	outside	0.005750566		
+9	115-86-6	triphenyl phosphate	O=P(Oc1ccccc1)(Oc1ccccc1)Oc1ccccc1	4.97E-05	inside	0.000165223		
+10	115-96-8	tris(2-chloroethyl) phosphate	ClCCOP(=O)(OCCCl)OCCCl	0.00010198	inside	0.000339023		
+11	120068-37-3	Fipronil	Nc1c([S+]([O-])C(F)(F)F)c(nn1-c1c(Cl)cc(cc1Cl)C(F)(F)F)C#N	1.93E-29	outside	6.42E-29		
+12	120-18-3	naphthalene-2-sulphonic acid	OS(=O)(=O)c1ccc2ccccc2c1	6.50E-06	outside	2.16E-05		
+13	120-40-1	N,N-bis(2-hydroxyethyl)dodecanamide	CCCCCCCCCCCC(=O)N(CCO)CCO	0.0011845	outside	0.003937765		
+14	120-47-8	ethyl 4-hydroxybenzoate	CCOC(=O)c1ccc(O)cc1	0.00045452	border out	0.001511011		
+15	122-34-9	Simazine	CCNc1nc(Cl)nc(NCC)n1	0.00010216	inside	0.000339622		
+16	123-91-1	1,4-dioxane	C1COCCO1	0.00020691	outside	0.000687854		
+17	124-40-3	dimethylamine	CNC	0.00012321	outside	0.000409601		
+18	126-71-6	triisobutyl phosphate	CC(C)COP(=O)(OCC(C)C)OCC(C)C	5.86E-05	outside	0.00019481		
+19	126-73-8	tributyl phosphate	CCCCOP(=O)(OCCCC)OCCCC	3.97E-05	inside	0.000131979		
+20	127-18-4	tetrachloroethylene	ClC(Cl)=C(Cl)Cl	4.46E-06	inside	1.48E-05		
+21	129-00-0	pyrene	c1cc2ccc3cccc4ccc(c1)c2c34	3.10E-07	inside	1.03E-06		
+22	131-57-7	oxybenzone	COc1ccc(C(=O)c2ccccc2)c(O)c1	8.82E-05	border out	0.000293213		
+23	13523-86-9	Pindolol	CC(C)NCC(O)COc1cccc2[nH]ccc12	2.96E-05	outside	9.84E-05		
+24	13674-84-5	tris(2-chloro-1-methylethyl) phosphate	CC(CCl)OP(=O)(OC(C)CCl)OC(C)CCl	4.85E-05	inside	0.000161234		
+25	13674-87-8	tris[2-chloro-1-(chloromethyl)ethyl] phosphate	ClCC(CCl)OP(=O)(OC(CCl)CCl)OC(CCl)CCl	2.13E-05	inside	7.08E-05		
+26	137-58-6	Lidokain	CCN(CC)CC(=O)Nc1c(C)cccc1C	0.00029446	outside	0.000978906		
+27	139-13-9	nitrilotriacetic acid	OC(=O)CN(CC(O)=O)CC(O)=O	0.0010415	outside	0.003462374		
+28	143-24-8	bis(2-(2-methoxyethoxy)ethyl) ether	COCCOCCOCCOCCOC	0.00020069	outside	0.000667176		
+29	144-83-2	sulfapyridine	Nc1ccc(cc1)S(=O)(=O)Nc1ccccn1	0.0001833	outside	0.000609365		
+30	15307-79-6	sodium [2-[(2,6-dichlorophenyl)amino]phenyl]acetate	[Na+].[O-]C(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl	1.93E-29	outside	6.42E-29		
+31	15307-86-5	diclofenac	OC(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl	1.78E-06	outside	5.92E-06		
+32	15545-48-9	Chlorotoluron	CN(C)C(=O)Nc1ccc(C)c(Cl)c1	0.00096131	inside	0.00319579		
+33	1634-04-4	tert-butyl methyl ether	COC(C)(C)C	3.69E-05	inside	0.000122671		
+34	1689-84-5	Bromoxynil	Oc1c(Br)cc(cc1Br)C#N	4.90E-05	border out	0.000162896		
+35	1698-60-8	Chloridazon	NC1C=NN(c2ccccc2)C(=O)C=1Cl	3.19E-05	outside	0.000106049		
+36	188425-85-6	Boscalid	Clc1ccc(cc1)-c1ccccc1NC(=O)c1cccnc1Cl	1.69E-06	border out	5.62E-06		
+37	1912-24-9	atrazine	CCNc1nc(Cl)nc(NC(C)C)n1	7.90E-05	inside	0.000262628		
+38	22071-15-4	Ketoprofen	CC(C(O)=O)c1cccc(c1)C(=O)c1ccccc1	1.16E-05	outside	3.86E-05		
+39	25057-89-0	Bentazone	CC(C)N1C(=O)c2ccccc2NS1(=O)=O	8.37E-05	outside	0.000278253		
+40	2642-71-9	Azinphos-ethyl	CCOP(=S)(OCC)SCN1N=Nc2ccccc2C1=O	7.10E-06	outside	2.36E-05		
+41	27203-92-5	Tramadol	COc1cccc(c1)C1(O)CCCCC1CN(C)C	5.01E-05	outside	0.000166553		
+42	27503-81-7	2-phenyl-1H-benzimidazole-5-sulphonic acid	OS(=O)(=O)c1ccc2nc([nH]c2c1)-c1ccccc1	8.18E-05	outside	0.000271937		
+43	288-13-1	pyrazole	c1cn[nH]c1	2.95E-05	outside	9.81E-05		
+44	29122-68-7	Atenolol	CC(C)NCC(O)COc1ccc(CC(N)=O)cc1	0.00043101	outside	0.001432854		
+45	298-46-4	Karbamazepin	NC(=O)N1c2ccccc2C=Cc2ccccc12	6.86E-05	outside	0.000228055		
+46	330-54-1	diuron	CN(C)C(=O)Nc1ccc(Cl)c(Cl)c1	0.00048047	inside	0.00159728		
+47	333-41-5	Diazinon	CCOP(=S)(OCC)Oc1cc(C)nc(n1)C(C)C	4.74E-06	inside	1.58E-05		
+48	3380-34-5	triclosan	Oc1cc(Cl)ccc1Oc1ccc(Cl)cc1Cl	2.30E-06	border out	7.65E-06		
+49	34123-59-6	Isoproturon	CC(C)c1ccc(NC(=O)N(C)C)cc1	0.00084916	inside	0.002822957		
+50	37350-58-6	Metoprolol	COCCc1ccc(OCC(O)CNC(C)C)cc1	6.40E-05	outside	0.000212762		
+51	3930-20-9	Sotalol	CC(C)NCC(O)c1ccc(NS(C)(=O)=O)cc1	5.79E-05	outside	0.000192483		
+52	4065-45-6	sulisobenzone	COc1cc(O)c(cc1S(O)(=O)=O)C(=O)c1ccccc1	0.00068856	outside	0.002289057		
+53	41859-67-0	Bezafibrat	CC(C)(Oc1ccc(CCNC(=O)c2ccc(Cl)cc2)cc1)C(O)=O	5.92E-06	outside	1.97E-05		
+54	50-27-1	Estriol	CC12CCC3C(CCc4cc(O)ccc34)C1CC(O)C2O	3.04E-05	outside	0.000101062		
+55	50-28-2	estradiol	CC12CCC3C(CCc4cc(O)ccc34)C1CCC2O	1.04E-05	outside	3.46E-05		
+56	51218-45-2	Metolachlor	CCc1cccc(C)c1N(C(C)COC)C(=O)CCl	3.08E-05	outside	0.000102392		
+57	51-28-5	2,4-dinitrophenol	Oc1ccc(cc1[N+]([O-])=O)[N+]([O-])=O	0.00070072	border out	0.002329481		
+58	520-85-4	Medroxiprogesteron	CC1CC2C(CCC3(C)C2CCC3(O)C(C)=O)C2(C)CCC(=O)C=C12	3.65E-05	outside	0.000121341		
+59	525-66-6	Propranolol	CC(C)NCC(O)COc1cccc2ccccc12	3.44E-06	outside	1.14E-05		
+60	52888-80-9	Prosulfocarb	CCCN(CCC)C(=O)SCc1ccccc1	0.00087324	border out	0.002903009		
+61	53-16-7	estrone	CC12CCC3C(CCc4cc(O)ccc34)C1CCC2=O	1.36E-05	outside	4.52E-05		
+62	54-31-9	Furosemid	NS(=O)(=O)c1cc(C(O)=O)c(NCc2ccco2)cc1Cl	0.00029692	outside	0.000987084		
+63	55589-62-3	6-methyl-1,2,3-oxathiazin-4(3H)-one 2,2-dioxide, potassium salt	[K+].CC1OS(=O)(=O)N=C([O-])C=1	1.93E-29	outside	6.42E-29		
+64	56-75-7	Kloramfenikol	OCC(NC(=O)C(Cl)Cl)C(O)c1ccc(cc1)[N+]([O-])=O	0.00057535	outside	0.0019127		
+65	57-83-0	progesterone	CC(=O)C1CCC2C3CCC4=CC(=O)CCC4(C)C3CCC21C	6.89E-05	outside	0.000229052		
+66	58-08-2	caffeine	CN1C(=O)N(C)c2ncn(C)c2C1=O	0.021672	outside	0.072046637		
+67	58-22-0	testosterone	CC12CCC3C(CCC4=CC(=O)CCC34C)C1CCC2O	2.46E-05	outside	8.18E-05		
+68	58-89-9	Lindane	ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl	5.50E-07	inside	1.83E-06		
+69	58-93-5	Hydroklortiazid	NS(=O)(=O)c1cc2c(NCNS2(=O)=O)cc1Cl	0.0014401	outside	0.004787484		
+70	5915-41-3	Terbuthylazine	CCNc1nc(Cl)nc(NC(C)(C)C)n1	4.87E-05	outside	0.000161899		
+71	60-00-4	edetic acid	OC(=O)CN(CCN(CC(O)=O)CC(O)=O)CC(O)=O	0.006526	outside	0.021695107		
+72	60142-96-3	Gabapentin	NCC1(CCCCC1)CC(O)=O	7.49E-05	outside	0.000248998		
+73	604-75-1	Oxazepam	OC1N=C(c2ccccc2)c2cc(Cl)ccc2NC1=O	3.39E-05	outside	0.000112698		
+74	60-80-0	phenazone	CN1N(C(=O)C=C1C)c1ccccc1	2.42E-05	outside	8.05E-05		
+75	63-05-8	androst-4-ene-3,17-dione	CC12CCC3C(CCC4=CC(=O)CCC34C)C1CCC2=O	3.42E-05	outside	0.000113695		
+76	63-25-2	Carbaryl	CNC(=O)Oc1cccc2ccccc12	1.29E-05	inside	4.29E-05		
+77	637-92-3	2-ethoxy-2-methylpropane	CCOC(C)(C)C	2.87E-05	border out	9.54E-05		
+78	65277-42-1	Ketokonazol	CC(=O)N1CCN(CC1)c1ccc(OCC2COC(Cn3ccnc3)(O2)c2ccc(Cl)cc2Cl)cc1	3.28E-06	outside	1.09E-05		
+79	657-24-9	Metformin	CN(C)C(=N)NC(N)=N	0.00034768	outside	0.001155831		
+80	66108-95-0	iohexol	CC(=O)N(CC(O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I	6.4828	outside	21.5514923		
+81	67129-08-2	Metazachlor	Cc1cccc(C)c1N(Cn1cccn1)C(=O)CCl	1.57E-05	outside	5.22E-05		
+82	67-43-6	N-carboxymethyliminobis(ethylenenitrilo)tetra(acetic acid)	OC(=O)CN(CCN(CC(O)=O)CC(O)=O)CCN(CC(O)=O)CC(O)=O	0.040888	outside	0.135928521		
+83	67-66-3	chloroform	ClC(Cl)Cl	1.95E-05	inside	6.48E-05		
+84	69-72-7	salicylic acid	OC(=O)c1ccccc1O	0.00017439	outside	0.000579744		
+85	70-55-3	toluene-4-sulphonamide	Cc1ccc(cc1)S(N)(=O)=O	7.76E-05	inside	0.000257974		
+86	723-46-6	Sulfametoxazol	Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1	0.00016081	outside	0.000534599		
+87	7287-19-6	Prometryn	CSc1nc(NC(C)C)nc(NC(C)C)n1	8.27E-05	outside	0.000274929		
+88	73334-07-3	Jopromid	COCC(=O)Nc1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)N(C)CC(O)CO)c1I	6.0546	outside	20.12797946		
+89	738-70-5	Trimetoprim	COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC	0.00031779	outside	0.001056465		
+90	76-03-9	trichloroacetic acid	OC(=O)C(Cl)(Cl)Cl	1.83E-05	outside	6.08E-05		
+91	75847-73-3	Enalapril	CCOC(=O)C(CCc1ccccc1)NC(C)C(=O)N1CCCC1C(O)=O	0.002899	outside	0.009637468		
+92	77-93-0	triethyl citrate	CCOC(=O)CC(O)(CC(=O)OCC)C(=O)OCC	0.048793	outside	0.162207991		
+93	78-51-3	tris(2-butoxyethyl) phosphate	CCCCOCCOP(=O)(OCCOCCCC)OCCOCCCC	6.62E-05	border out	0.000220076		
+94	78649-41-9	Jomeprol	CN(C(=O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I	2.4846	outside	8.259831826		
+95	791-28-6	triphenylphosphine oxide	O=P(c1ccccc1)(c1ccccc1)c1ccccc1	1.34E-05	outside	4.45E-05		
+96	80-05-7	4,4'-isopropylidenediphenol	CC(C)(c1ccc(O)cc1)c1ccc(O)cc1	2.36E-05	inside	7.85E-05		
+97	80-09-1	4,4'-sulphonyldiphenol	Oc1ccc(cc1)S(=O)(=O)c1ccc(O)cc1	0.00014501	outside	0.000482073		
+98	81-07-2	1,2-benzisothiazol-3(2H)-one 1,1-dioxide	O=C1NS(=O)(=O)c2ccccc12	0.0001696	outside	0.00056382		
+99	81103-11-9	Klaritromycin	CCC1OC(=O)C(C)C(OC2CC(C)(OC)C(O)C(C)O2)C(C)C(OC2OC(C)CC(C2O)N(C)C)C(C)(CC(C)C(=O)C(C)C(O)C1(C)O)OC	0.000331	outside	0.00110038		
+100	81-25-4	cholic acid	CC(CCC(O)=O)C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C	9.93E-05	outside	0.000330114		
+101	83881-51-0	Cetirizin	OC(=O)COCCN1CCN(CC1)C(c1ccccc1)c1ccc(Cl)cc1	0.00022273	outside	0.000740446		
+102	84057-84-1	Lamotrigin	Nc1nnc(c(N)n1)-c1cccc(Cl)c1Cl	8.71E-05	outside	0.000289556		
+103	846-49-1	Lorazepam	OC1N=C(c2ccccc2Cl)c2cc(Cl)ccc2NC1=O	4.95E-06	outside	1.65E-05		
+104	886-50-0	Terbutryn	CCNc1nc(NC(C)(C)C)nc(SC)n1	6.59E-05	outside	0.000219079		
+105	90357-06-5	Bikalutamid	CC(O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(c1)C(F)(F)F	1.89E-05	outside	6.28E-05		
+106	90-43-7	biphenyl-2-ol	Oc1ccccc1-c1ccccc1	1.32E-05	border out	4.39E-05		
+107	91-20-3	naphthalene	c1ccc2ccccc2c1	6.07E-07	inside	2.02E-06		
+108	93-65-2	Mecoprop	CC(Oc1ccc(Cl)cc1C)C(O)=O	9.36E-06	outside	3.11E-05		
+109	94-13-3	propyl 4-hydroxybenzoate	CCCOC(=O)c1ccc(O)cc1	0.00034992	border out	0.001163278		
+110	94-74-6	MCPA	Cc1cc(Cl)ccc1OCC(O)=O	1.20E-05	outside	3.99E-05		
+111	94-75-7	2,4-D	OC(=O)COc1ccc(Cl)cc1Cl	9.86E-07	outside	3.28E-06		
+112	95-14-7	benzotriazole	c1ccc2[nH]nnc2c1	1.86E-05	outside	6.18E-05		
+113	95-16-9	benzothiazole	c1ccc2scnc2c1	6.26E-05	inside	0.000208108		

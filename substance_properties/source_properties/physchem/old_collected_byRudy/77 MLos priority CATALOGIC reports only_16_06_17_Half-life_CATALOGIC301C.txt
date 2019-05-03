@@ -1,0 +1,78 @@
+No	CAS number	Name	SMILES	Map reliability	BOD_Observed	BOD	±_BOD	Excess BOD	Primary Half Life	Ultimate Half Life Predicted	Obs. half life by BOD	Parameter ranges	Correct fragments Structural domain	Incorrect fragments Structural domain	Unknown fragments Structural domain	Total Structural domain	Unable to mineralize	Total Domain
+1	100-02-7	4-nitrophenol	Oc1ccc(N(=O)=O)cc1	0.2447	No data	0.03	0	0.027	11m 9d	1y 10m 30d	1y 2m 17d	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+2	10605-21-7	Carbendazim	COC(=O)NC1Nc2ccccc2N=1	0.0498	No data	0.03	0.04	0.028	3m 9d	1y 10m 7d	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+3	111988-49-9	Thiacloprid	N#C/N=C1N(Cc2ccc(Cl)nc2)CCS/1	N/A	No data	0.05	0.05	0.053	1m 13d	11m 24d	 	In domain	9.09%	0.00%	90.91%	Out of domain	In domain	Out of Domain
+4	113665-84-2	Klopidogrel	COC(=O)C{P+}(c1ccccc1Cl)N1CCC2=C(C1)C=CS2	N/A	No data	0.16	0.04	0.16	5.32 days	3m 19d	 	In domain	50.00%	0.00%	50.00%	Out of domain	In domain	Out of Domain
+5	115-96-8	tris(2-chloroethyl) phosphate	O=P(OCCCl)(OCCCl)OCCCl	0.0676	No data	0.04	0.04	0.036	3m 25d	1y 5m 18d	1y 3m 20d	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+6	120068-37-3	Fipronil	NC1=C(S(=O)C(F)(F)F)C(C#N)=NN1c1c(Cl)cc(C(F)(F)F)cc1Cl	0.0918	No data	0	0.01	0.0021	1y 0m 15d	more than 10 years	 	In domain	47.62%	0.00%	52.38%	Out of domain	In domain	Out of Domain
+7	120-47-8	ethyl 4-hydroxybenzoate	CCOC(=O)c1ccc(O)cc1	0.0821	No data	0.78	0.04	0.78	8.70 days	12.67 days	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+8	122-34-9	Simazine	CCNc1nc(NCC)nc(Cl)n1	0.1309	No data	0.01	0.02	0.0064	1y 4m 21d	8y 2m 20d	7y 6m 24d	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+9	126-73-8	tributyl phosphate	CCCCOP(=O)(OCCCC)OCCCC	0.0519	No data	0.06	0.08	0.062	3m 25d	10m 1d	2m 25d	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+10	129-00-0	pyrene	c1ccc2ccc3cccc4ccc1c2c34	N/A	No data	0.01	0	0.0052	10m 6d	more than 10 years	 	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+11	13523-86-9	Pindolol	CC(C)NCC(O)COc1cccc2c1C=CN2	N/A	No data	0.35	0.02	0.35	4.90 days	1m 14d	 	In domain	61.54%	0.00%	38.46%	Out of domain	In domain	Out of Domain
+12	137-58-6	Lidokain	CCN(CC)CC(=O)Nc1c(C)cccc1C	0.0286	No data	0.09	0.04	0.092	15.60 days	6m 21d	 	In domain	75.00%	0.00%	25.00%	Out of domain	In domain	Out of Domain
+13	143-24-8	bis(2-(2-methoxyethoxy)ethyl) ether	COCCOCCOCCOCCOC	0	No data	0.86	0.09	0.86	 < 1 day	9.82 days	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+14	144-83-2	sulfapyridine	Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1	0.025	No data	0.01	0.03	0.01	4m 7d	5y 1m 19d	 	In domain	57.14%	0.00%	42.86%	Out of domain	In domain	Out of Domain
+15	15307-79-6	sodium [2-[(2,6-dichlorophenyl)amino]phenyl]acetate	O=C(Cc1ccccc1Nc1c(Cl)cccc1Cl)O{-}.[Na]{+}	0.3208	No data	0	0.05	0.0032	 < 1 day	more than 10 years	 	In domain	70.00%	0.00%	30.00%	Out of domain	In domain	Out of Domain
+16	15307-86-5	diclofenac	OC(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl	0.3208	No data	0	0.05	0.0032	1y 4m 8d	more than 10 years	 	In domain	66.67%	0.00%	33.33%	Out of domain	In domain	Out of Domain
+17	15545-48-9	Chlorotoluron	Cc1ccc(NC(=O)N(C)C)cc1Cl	0.0449	No data	0.02	0.01	0.02	2m 19d	2y 6m 26d	 	In domain	88.89%	0.00%	11.11%	Out of domain	In domain	Out of Domain
+18	1634-04-4	tert-butyl methyl ether	CC(C)(C)OC	0.7885	No data	0.01	0.01	0.011	1y 5m 0d	4y 9m 19d	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+19	1689-84-5	Bromoxynil	N#Cc1cc(Br)c(O)c(Br)c1	0.0836	No data	0.04	0.1	0.041	6m 8d	1y 3m 13d	 	In domain	66.67%	0.00%	33.33%	Out of domain	In domain	Out of Domain
+20	1698-60-8	Chloridazon	NC1C=NN(c2ccccc2)C(=O)C=1Cl	0.046	No data	0.12	0.02	0.12	1.69 days	5m 3d	 	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+21	188425-85-6	Boscalid	O=C(c1cccnc1Cl)Nc1ccccc1-c1ccc(Cl)cc1	0.0497	No data	0.18	0.03	0.18	5.56 days	3m 5d	 	In domain	37.50%	0.00%	62.50%	Out of domain	In domain	Out of Domain
+22	22071-15-4	Ketoprofen	CC(c1cccc(C(=O)c2ccccc2)c1)C(O)=O	0.019	No data	0.01	0.11	0.0088	8m 20d	6y 0m 11d	 	In domain	66.67%	0.00%	33.33%	Out of domain	In domain	Out of Domain
+23	25057-89-0	Bentazone	CC(C)N1C(=O)c2ccccc2NS1(=O)=O	0.0035	No data	0.35	0.04	0.35	1.37 days	1m 13d	 	In domain	18.18%	0.00%	81.82%	Out of domain	In domain	Out of Domain
+24	2642-71-9	Azinphos-ethyl	CCOP(=S)(OCC)SCN1C(=O)c2ccccc2N=N1	N/A	No data	0.02	0.35	0.024	20.78 days	2y 2m 12d	 	In domain	37.50%	0.00%	62.50%	Out of domain	In domain	Out of Domain
+25	27203-92-5	Tramadol	CN(C)CC{P-}1CCCCC{P-}1(O)c1cccc(OC)c1	0.0115	No data	0.08	0.03	0.084	9.64 days	7m 10d	 	In domain	85.71%	0.00%	14.29%	Out of domain	In domain	Out of Domain
+26	27503-81-7	2-phenyl-1H-benzimidazole-5-sulphonic acid	OS(=O)(=O)c1ccc2c(c1)N=C(c1ccccc1)N2	0.1068	No data	0	0	0.0028	1y 2m 13d	more than 10 years	 	In domain	33.33%	0.00%	66.67%	Out of domain	In domain	Out of Domain
+27	29122-68-7	Atenolol	CC(C)NCC(O)COc1ccc(CC(N)=O)cc1	0.0324	No data	0.5	0.04	0.5	2.99 days	27.63 days	 	In domain	92.86%	0.00%	7.14%	Out of domain	In domain	Out of Domain
+28	298-46-4	Karbamazepin	NC(=O)N1c2ccccc2C=Cc2ccccc12	0.1502	No data	0.06	0.07	0.059	17.33 days	10m 16d	 	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+29	333-41-5	Diazinon	CCOP(=S)(OCC)Oc1cc(C)nc(C(C)C)n1	N/A	No data	0.03	0.07	0.034	17.27 days	1y 6m 12d	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+30	34123-59-6	Isoproturon	CC(C)c1ccc(NC(=O)N(C)C)cc1	0.054	No data	0.03	0.02	0.026	1m 20d	2y 0m 15d	 	In domain	90.00%	0.00%	10.00%	Out of domain	In domain	Out of Domain
+31	37350-58-6	Metoprolol	CC(C)NCC(O)COc1ccc(CCOC)cc1	0.02	No data	0.47	0.05	0.47	5.95 days	1m 0d	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+32	3930-20-9	Sotalol	CC(C)NCC(O)c1ccc(NS(C)(=O)=O)cc1	0.0272	No data	0.29	0.02	0.29	9.02 days	1m 25d	 	In domain	92.31%	0.00%	7.69%	Out of domain	In domain	Out of Domain
+33	4065-45-6	sulisobenzone	COc1cc(O)c(C(=O)c2ccccc2)cc1S(O)(=O)=O	0.0195	No data	0.09	0.08	0.087	10.42 days	7m 0d	 	In domain	81.82%	0.00%	18.18%	Out of domain	In domain	Out of Domain
+34	41859-67-0	Bezafibrat	CC(C)(C(O)=O)Oc1ccc(CCNC(=O)c2ccc(Cl)cc2)cc1	0.0377	No data	0.2	0.03	0.2	21.07 days	2m 26d	 	In domain	80.00%	0.00%	20.00%	Out of domain	In domain	Out of Domain
+35	50-27-1	Estriol	CC{P+}12CCC{P-}3C{P-}(CCc4cc(O)ccc34)C{P+}1CC{P-}(O)C{P+}2O	0.2837	No data	0.22	0.05	0.22	 < 1 day	2m 17d	 	In domain	81.25%	0.00%	18.75%	Out of domain	In domain	Out of Domain
+36	51218-45-2	Metolachlor	CCc1cccc(C)c1N(C(C)COC)C(=O)CCl	0.0556	No data	0.15	0.02	0.15	2.11 days	3m 27d	 	In domain	64.29%	0.00%	35.71%	Out of domain	In domain	Out of Domain
+37	520-85-4	Medroxiprogesteron	CC{P-}1CC{P+}2C{P+}(CCC{P-}3(C)C{P-}2CCC{P-}3(O)C(C)=O)C{P-}2(C)CCC(=O)C=C12	0.0341	No data	0.49	0.04	0.49	1.69 days	28.89 days	 	In domain	80.00%	0.00%	20.00%	Out of domain	In domain	Out of Domain
+38	525-66-6	Propranolol	CC(C)NCC(O)COc1cccc2ccccc12	0.0329	No data	0.22	0.02	0.22	9.22 days	2m 19d	 	In domain	90.00%	0.00%	10.00%	Out of domain	In domain	Out of Domain
+39	52888-80-9	Prosulfocarb	CCCN(CCC)C(=O)SCc1ccccc1	0.104	No data	0.39	0.14	0.39	1.69 days	1m 8d	 	In domain	41.67%	0.00%	58.33%	Out of domain	In domain	Out of Domain
+40	54-31-9	Furosemid	NS(=O)(=O)c1cc(C(O)=O)c(NCC2=CC=CO2)cc1Cl	0.0809	No data	0.04	0.01	0.044	7.89 days	1y 2m 7d	 	In domain	75.00%	0.00%	25.00%	Out of domain	In domain	Out of Domain
+41	55589-62-3	6-methyl-1,2,3-oxathiazin-4(3H)-one 2,2-dioxide, potassium salt	CC1=CC(=O)N{-}(.K{+})S(=O)(=O)O1	0.1215	No data	0.9	0.05	0.9	 < 1 day	8.33 days	 	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+42	56-75-7	Kloramfenikol	OCC{P+}(C{P+}(O)c1ccc(N(=O)=O)cc1)NC(=O)C(Cl)Cl	N/A	No data	0.24	0.02	0.24	2.49 days	2m 10d	 	In domain	73.33%	0.00%	26.67%	Out of domain	In domain	Out of Domain
+43	57-83-0	progesterone	CC(=O)C{P-}1CCC{P-}2C{P+}3CCC4=CC(=O)CCC{P-}4(C)C{P-}3CCC{P+}12C	0.1101	No data	0.56	0.04	0.56	1.69 days	23.82 days	 	In domain	82.61%	0.00%	17.39%	Out of domain	In domain	Out of Domain
+44	58-89-9	Lindane	ClC{P+}1C{P+}(Cl)C{P-}(Cl)C{P+}(Cl)C{P+}(Cl)C{P-}1Cl	0.0835	No data	0.02	0.02	0.023	1m 14d	2y 3m 21d	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+45	58-93-5	Hydroklortiazid	NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O	0.0496	No data	0.05	0	0.048	15.98 days	1y 0m 29d	 	In domain	66.67%	0.00%	33.33%	Out of domain	In domain	Out of Domain
+46	5915-41-3	Terbuthylazine	CCNc1nc(NC(C)(C)C)nc(Cl)n1	0.1219	No data	0.01	0.01	0.0059	8m 28d	8y 11m 10d	 	In domain	90.00%	0.00%	10.00%	Out of domain	In domain	Out of Domain
+47	60142-96-3	Gabapentin	NCC1(CC(O)=O)CCCCC1	0.0093	No data	0.07	0.06	0.073	19.35 days	8m 13d	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+48	604-75-1	Oxazepam	OC1C(=O)Nc2ccc(Cl)cc2C(c2ccccc2)=N1	0.1177	No data	0.05	0.01	0.051	1.69 days	1y 0m 7d	 	In domain	50.00%	0.00%	50.00%	Out of domain	In domain	Out of Domain
+49	60-80-0	phenazone	CC1=CC(=O)N(c2ccccc2)N1C	0.0728	No data	0.01	0.02	0.0099	5m 10d	5y 4m 10d	 	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+50	63-25-2	Carbaryl	CNC(=O)Oc1cccc2ccccc12	0.0246	No data	0.09	0.13	0.089	2m 26d	6m 27d	1m 11d	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+51	65277-42-1	Ketokonazol	CC(=O)N1CCN(c2ccc(OCC{P-}3COC{P+}(CN4C=CN=C4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1	0.0116	No data	0.05	0.01	0.054	14.09 days	11m 12d	 	In domain	88.46%	0.00%	11.54%	Out of domain	In domain	Out of Domain
+52	657-24-9	Metformin	CN(C)C(=N)NC(N)=N	0.0458	No data	0.27	0.12	0.27	1.69 days	2m 2d	 	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+53	66108-95-0	iohexol	CC(=O)N(CC(O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I	0.0543	No data	0.24	0.02	0.24	1.69 days	2m 13d	 	In domain	68.97%	0.00%	31.03%	Out of domain	In domain	Out of Domain
+54	67129-08-2	Metazachlor	Cc1cccc(C)c1N(CN1C=CC=N1)C(=O)CCl	0.0302	No data	0.14	0.03	0.14	2.32 days	4m 6d	 	In domain	35.71%	0.00%	64.29%	Out of domain	In domain	Out of Domain
+55	69-72-7	salicylic acid	Oc1ccccc1C(O)=O	0.2765	No data	0.98	0.01	0.98	1.80 days	5.04 days	9.12 days	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+56	70-55-3	toluene-4-sulphonamide	Cc1ccc(S(N)(=O)=O)cc1	0.042	No data	0.1	0.01	0.098	3m 17d	6m 6d	1y 8m 29d	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+57	723-46-6	Sulfametoxazol	CC1=CC(NS(=O)(=O)c2ccc(N)cc2)=NO1	0.1011	No data	0.28	0.04	0.28	1.69 days	2m 1d	 	In domain	8.33%	0.00%	91.67%	Out of domain	In domain	Out of Domain
+58	7287-19-6	Prometryn	CC(C)Nc1nc(NC(C)C)nc(SC)n1	0.1543	No data	0	0.01	0.0031	2y 0m 4d	more than 10 years	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+59	73334-07-3	Jopromid	CN(CC(O)CO)C(=O)c1c(I)c(NC(=O)COC)c(I)c(C(=O)NCC(O)CO)c1I	0.0327	No data	0.33	0.03	0.33	1.69 days	1m 18d	 	In domain	66.67%	0.00%	33.33%	Out of domain	In domain	Out of Domain
+60	738-70-5	Trimetoprim	COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC	0.0053	No data	0.28	0.05	0.28	3.62 days	1m 28d	 	In domain	27.27%	0.00%	72.73%	Out of domain	In domain	Out of Domain
+61	75847-73-3	Enalapril	CCOC(=O)C{P+}(CCc1ccccc1)NC{P-}(C)C(=O)N1CCCC{P-}1C(O)=O	0.0535	No data	0.58	0.04	0.58	2.23 days	22.67 days	 	In domain	81.82%	0.00%	18.18%	Out of domain	In domain	Out of Domain
+62	78-51-3	tris(2-butoxyethyl) phosphate	CCCCOCCOP(=O)(OCCOCCCC)OCCOCCCC	0.0359	No data	0.07	0.06	0.07	2m 10d	8m 24d	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+63	78649-41-9	Jomeprol	CN(C(=O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I	0.0419	No data	0.23	0.02	0.23	1.69 days	2m 13d	 	In domain	61.54%	0.00%	38.46%	Out of domain	In domain	Out of Domain
+64	80-05-7	4,4'-isopropylidenediphenol	CC(C)(c1ccc(O)cc1)c1ccc(O)cc1	0.0692	No data	0.27	0.01	0.27	3.92 days	2m 2d	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+65	81-07-2	1,2-benzisothiazol-3(2H)-one 1,1-dioxide	O=C1c2ccccc2S(=O)(=O)N1	0.0137	No data	0.06	0.01	0.055	4m 15d	11m 7d	 	In domain	0.00%	0.00%	100.00%	Out of domain	In domain	Out of Domain
+66	81103-11-9	Klaritromycin	CCC{P+}1C{P-}(C)(O)C{P+}(O)C{P-}(C)C(=O)C{P+}(C)CC{P-}(C)(OC)C{P+}(OC{P-}2C{P+}(O)C{P-}(N(C)C)CC{P-}(C)O2)C(C)C{P+}(OC{P-}2CC{P-}(C)(OC)C{P-}(O)C{P+}(C)O2)C{P-}(C)C(=O)O1	0.0039	No data	0.42	0.09	0.42	2.73 days	1m 4d	 	In domain	84.62%	0.00%	15.38%	Out of domain	In domain	Out of Domain
+67	81-25-4	cholic acid	CC{P+}(CCC(O)=O)C{P-}1CCC{P-}2C{P+}3C{P+}(O)CC{P+}4CC{P+}(O)CCC{P-}4(C)C{P-}3CC{P+}(O)C{P+}12C	0.0638	No data	0.53	0.01	0.53	1.69 days	25.67 days	 	In domain	96.55%	0.00%	3.45%	Out of domain	In domain	Out of Domain
+68	83881-51-0	Cetirizin	OC(=O)COCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1	0.0409	No data	0.14	0.03	0.14	6.08 days	4m 7d	 	In domain	94.12%	0.00%	5.88%	Out of domain	In domain	Out of Domain
+69	84057-84-1	Lamotrigin	Nc1c(-c2cccc(Cl)c2Cl)nnc(N)n1	0.2304	No data	0	0.02	0.0027	1y 4m 4d	more than 10 years	 	In domain	33.33%	0.00%	66.67%	Out of domain	In domain	Out of Domain
+70	846-49-1	Lorazepam	OC1C(=O)Nc2ccc(Cl)cc2C(c2ccccc2Cl)=N1	0.1118	No data	0.05	0.02	0.054	1.69 days	11m 18d	 	In domain	54.55%	0.00%	45.45%	Out of domain	In domain	Out of Domain
+71	886-50-0	Terbutryn	CCNc1nc(NC(C)(C)C)nc(SC)n1	0.0929	No data	0.01	0.01	0.0053	10m 22d	more than 10 years	 	In domain	90.91%	0.00%	9.09%	Out of domain	In domain	Out of Domain
+72	90357-06-5	Bikalutamid	CC(O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1	0.0995	No data	0.03	0.01	0.033	5.54 days	1y 6m 28d	17.75 days	In domain	78.95%	0.00%	21.05%	Out of domain	In domain	Out of Domain
+73	90-43-7	biphenyl-2-ol	Oc1ccccc1-c1ccccc1	0.0755	No data	0.75	0.04	0.75	2.12 days	14.02 days	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+74	93-65-2	Mecoprop	CC(C(O)=O)Oc1ccc(Cl)cc1C	0.0691	No data	0.01	0.01	0.009	10m 13d	5y 10m 27d	 	In domain	88.89%	0.00%	11.11%	Out of domain	In domain	Out of Domain
+75	94-13-3	propyl 4-hydroxybenzoate	CCCOC(=O)c1ccc(O)cc1	0.0713	No data	0.8	0.04	0.8	8.56 days	12.14 days	7y 11m 10d	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+76	94-74-6	MCPA	Cc1cc(Cl)ccc1OCC(O)=O	0.1046	No data	0.15	0.02	0.15	6.50 days	3m 30d	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain
+77	94-75-7	2,4-D	OC(=O)COc1ccc(Cl)cc1Cl	0.1495	No data	0.17	0.03	0.17	6.54 days	3m 15d	 	In domain	100.00%	0.00%	0.00%	In domain	In domain	In domain

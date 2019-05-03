@@ -1,38 +1,14 @@
-Mean Melting Point;Melting point;1;;;Melting point;NA
-Mean Melting Point(min);Melting point;1;;;;
-Mean Melting Point(max);Melting point;1;;;;
-Melting Point (Gold and Ogle Method);Melting point;1;;;;
-Melting Point (Gold and Ogle Method)(min);Melting point;1;;;;
-Melting Point (Gold and Ogle Method)(max);Melting point;1;;;;
-Vapor Pressure (Antoine Method);Vapor pressure;1;;;;
-Vapor Pressure (Antoine Method)(min);Vapor pressure;1;;;;
-Vapor Pressure (Antoine Method)(max);Vapor pressure;1;;;;
-Vapor Pressure (Modified Grain Method);Vapor pressure;1;;;;
-Vapor Pressure (Modified Grain Method)(min);Vapor pressure;1;;;;
-Vapor Pressure (Modified Grain Method)(max);Vapor pressure;1;;;;
-Vapor Pressure (Mackay Method);Vapor pressure;1;;;;
-Vapor Pressure (Mackay Method)(min);Vapor pressure;1;;;;
-Vapor Pressure (Mackay Method)(max);Vapor pressure;1;;;;
-Water solubility (FR);Water solubility;1000;;;;
-Water Solubility (fragments);Water solubility;1000;;;;
-Water Solubility (fragments)(min);Water solubility;1000;;;;
-Water Solubility (fragments)(max);Water solubility;1000;;;;
-Water Solubility;Water solubility;1000;;;;
-Water Solubility(min);Water solubility;1000;;;;
-Water Solubility(max);Water solubility;1000;;;;
-pka1;pka1;1;;;;
-pka2;pka2;1;;;;
-pKb1;pkb1;1;;;;
-pKb2;pkb2;1;;;;
-HL in sed;Degredation rate in sediment;-3600;;;;
-HL in soil;Degredation rate in soil;-3600;;;;
-HL in water;Degredation rate in water;-3600;;;;
-log Kow;log Kow;1;;;;
-log Kow(min);log Kow;1;;;;
-log Kow(max);log Kow;1;;;;
-Koc (MCI)(max);Koc;1;;;;
-Koc (MCI)(min);Koc;1;;;;
-Koc (MCI);Koc;1;;;;
-Koc (Log Kow);Koc;1;;;;
-Koc (Log Kow)(max);Koc;1;;;;
-Koc (Log Kow)(min);Koc;1;;;;
+Molar mass [Da];MolMass;1;MD
+Tm;Melting point;1;MD
+Vp;Vapor pressure;1;MD
+Sw;Water solubility;0.001;MWC
+Ks;Water solubility;1;MD
+pKa1;pka1;1;MD
+pKa2;pka2;1;MD
+pKb1;pkb1;1;MD
+pKb2;pkb2;1;MD
+HL in sediment;Degredation rate in sediment;-3600;MD
+HL in soil;Degredation rate in soil;-3600;MD
+HL in water;Degredation rate in water;-3600;MD
+log Kow;log Kow;1;MD
+Koc;Koc;1;MD

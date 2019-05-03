@@ -10,7 +10,7 @@ def read_csv(varagin,conn,c):
     with open(varagin,'r+') as data:
         page = data.readlines()
         for ii in page:
-            tmp = ii.split("\t")
+            tmp = ii.split(";")
             tmp2  = []
             for nn in tmp:
                 nn = nn.replace('ÿþ','')

@@ -7,14 +7,14 @@ Created on Fri Jul 22 11:31:10 2016
 # method is a mx1 list of strings with values of 'average', 'min', 'max', or 
 # some other indicator of the method you want to use for the variable you are 
 # searching for
-def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,method,filespec1,filespec2,filespec3,ref_temp,data,PATH,headers,conn,c):
+def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,method,modelspec1,modelspec2,modelspec3,ref_temp,data,PATH,headers,conn,c):
     tot = len(allCAS)    
     from isnum import isnum
     import numpy as np    
     import os
     import math
     from make_hl_val import make_hl_val
-    from get_val import get_val
+    from get_val_STREAM_EU import get_val_STREAM_EU
 ###############################################################################    
 
 ###############################################################################    
@@ -40,19 +40,21 @@ def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,met
                 except:
                     pass
                 check = DELWAQA[ii][0]
+
+
                 if 'Name' in check or 'CAS' in check or 'SMILES' in check:
                     pass
             
 ###############################################################################
 ############################EXISTS IN DATABASE#################################
-###############################################################################                
-                elif DELWAQA[ii][0] in search_t: #check if it is in the dictionary
+###############################################################################  
+                elif DELWAQA[ii][0] in search_t: 
+                # check if it is in the dictionary
                 # If there are values for this property in the database then
                 # it should be specified here in this dictionary for this check
                 # to pass. If nothing is written in the dictionary entry for 
-                # the DELWAQ parameter then it assumes the parameter does not
                 # exist in the library and it will automatically prescribe a 
-                # value of '-9999'
+                # value of '-9999' or will comment the entry out in the *.inc
                     prop_used = []
                     #obtain the search queries that tie this parameter to
                     #properties in the database
@@ -64,7 +66,6 @@ def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,met
                     property_search = c.fetchall()
                     c.execute("SELECT conversion FROM STREAM_EU_database_dictionary WHERE STREAM_EU_parameter = '{qq}'".format(qq = DELWAQA[ii][0]))
                     conv = c.fetchall()
-                    entry.append('CONSTANTS')
                     # now we need to find the property types in the properties 
                     # table, and there will be different cases depending on the 
                     # desired methods
@@ -81,8 +82,7 @@ def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,met
                     # it is impairitive that DELWAQA has the same order each time
                     # it is read
 
-                    val = get_val(CAS,method,property_search,DELWAQA[ii][0],dat,prop_used,med,ii,filespec1,filespec2,filespec3,conv,c,conn)
-                    print(method[(('%s')%DELWAQA[ii][0])],DELWAQA[ii][0],val)
+                    val = get_val_STREAM_EU(CAS,method,property_search,DELWAQA[ii][0],dat,prop_used,med,ii,modelspec1,modelspec2,modelspec3,conv,c,conn)
 ###############################################################################
 #############################END GET VAL, VALUE KNOWN##########################      
 ###############################################################################
@@ -100,6 +100,12 @@ def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,met
                         conline.append(str(val[0]))
                     if type(val) is str:
                         conline.append(val)
+                    # check what was just appended for validity in DELWAQ
+                    if conline[-1] == '-9999':
+                        entry.append(';CONSTANTS')
+                    else:
+                        entry.append('CONSTANTS')
+
                     tofileval.append(val)
                     tmp = ','.join(conline) 
                     tmp = tmp.replace(',','    ')
@@ -122,66 +128,17 @@ def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,met
                             entry = ','.join(entry)
                             entry = entry.split(',')
                     entry.append('name of parameters used ---->')
+                    print(prop_used)
                     if len(prop_used) > 0:                    
                         for pp in prop_used:
-                            entry.append(pp)
+                            if pp is not None:
+                                entry.append(pp)
                     
                     tofilename.append(entry[1])
                     entry = ','.join(entry)
                     entry = entry.replace(',','    ')
                     fileID.write(('%s\n') % entry)
                     
-###############################################################################                    
-
-                    
-###############################################################################
-################################REF TEMP#######################################
-###############################################################################
-               
-               # if the parameter is a ref temp, there is no corresponding 
-                # property, but we need to put a value in for delwaq        
-                elif 'ref.temp' in description[0][0]:                   
-                    conline = []
-                    conline.append('DATA')
-                    val = float(ref_temp[ii])
-                    if type(val) is float:
-                        conline.append(str(val))
-                    if type(val) is np.float64:
-                        conline.append(str(val)) 
-                    if type(val) is list:
-                        conline.append(str(val[0]))
-                    if type(val) is str:
-                        conline.append(val)
-                    tofileval.append(val)
-                    tmp = ','.join(conline) 
-                    tmp = tmp.replace(',','    ')
-                    dataentry.append(tmp)
-                    tmpV = tmp
-                    
-                    entry = []
-                    entry.append('CONSTANTS')
-                    c.execute("SELECT * FROM STREAM_EU_meta WHERE description = '{qq}'".format(qq =  description[0][0]))
-                    tmp = c.fetchall()
-                    line = tmp[0]
-                    line = ','.join(line)
-                    line = line.split(',')
-                    # we only want the first 4 properties of the parameter
-                    meta = [0,1,2,3]
-                    for mm in range(len(line)):
-                        if mm in meta:
-                            entry.append(line[mm])
-                        if mm is 0:
-                            entry.append(tmpV)
-                            entry.append(';')
-                        if mm is 1:
-                            entry = ','.join(entry)
-                            entry = entry.split(',')
-                    entry.append('name of parameters used ---->')
-                    tofilename.append(entry[1])
-                    entry = ','.join(entry)
-                    entry = entry.replace(',','    ')
-                    fileID.write(('%s\n') % entry)
-###############################################################################                    
 
 ###############################################################################
 ########################NO DICTIONARY VALUE AVAILABLE##########################
@@ -190,7 +147,9 @@ def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,met
                 # DELWAQ it will take on a value of '-9999'
                 else:
                     entry = []
-                    entry.append('CONSTANTS')
+                    entry.append(';CONSTANTS')
+                    # or we need to use the procesm value
+
                     val = '-9999'
                     conline = []
                     conline.append('DATA')
@@ -225,8 +184,6 @@ def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,met
                     fileID.write(('%s\n') % entry)
 ###############################################################################                    
 
-            fileID.write('CONSTANTS Delho  DATA    30000') 
-
 ###############################################################################
             tofilename.insert(0,'CAS')
             tofileval.insert(0,CAS)
@@ -241,4 +198,4 @@ def write_STREAM_EU_output(CAS,allCAS,DELWAQA,DELWAQC,search_t,statind,model,met
                     tofileval[ii] = str(tofileval[ii])
                 tofileval = ','.join(tofileval)
                 overallFile.write(('%s\n')% tofileval)
-            print(('substance %s %i/%i written')%(CAS, statind, tot))
+            print(('substance %s %i/%i written')%(CAS, statind+1, tot))

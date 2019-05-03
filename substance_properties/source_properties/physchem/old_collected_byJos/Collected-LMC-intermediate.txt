@@ -1,0 +1,114 @@
+CAS Number	Chemical name(s)	SMILES	Primary Half Life by Kn	Ultimate Half Life Predicted	Molecular Weight	Mean Melting Point	Vapor Pressure (Antoine Method)	Water Solubility	Ka Half-Life (pH 7)	Kb half-life (pH 7)	log Kow	Boiling Point
+100-97-0	methenamine	C1N2CN3CN1CN(C2)C3	3650	21.80 days	140.18	235.84	14.265	7133.5	Can not calculate	Can not calculate	-4.15	208.59
+108-78-1	melamine	Nc1nc(N)nc(N)n1	3650	1m 19d	126.12	349.84	7.04E-06	7929	Can not calculate	Can not calculate	-0.38	329.78
+109-89-7	diethylamine	CCNCC	3650	15.99 days	73.13	-85.66	31864	5974	Can not calculate	Can not calculate	0.81	68.26
+112-02-7	cetrimonium chloride	CCCCCCCCCCCCCCCCN{+}(C)(C)(C).Cl{-}	3650	17.92 days	319.98	349.84	5.60E-10	5.10E-02	Can not calculate	Can not calculate	3.18	499.89
+115-86-6	triphenyl phosphate	O=P(Oc1ccccc1)(Oc1ccccc1)Oc1ccccc1	18.98192	13.22 days	326.27	75	5.43E-06	3.17E-03	428.44	428.44	4.7	441.27
+120-18-3	naphthalene-2-sulphonic acid	OS(=O)(=O)c1ccc2ccccc2c1	3650	2y 1m 22d	208.22	211.76	1.87E-06	55.229	Can not calculate	Can not calculate	0.01	391.58
+120-40-1	N,N-bis(2-hydroxyethyl)dodecanamide	CCCCCCCCCCCC(=O)N(CCO)CCO	3650	20.02 days	287.42	232.92	5.72E-08	0.17365	Can not calculate	Can not calculate	2.89	430.64
+123-91-1	1,4-dioxane	C1COCCO1	3650	5y 11m 3d	88.10	-73.56	5679.5	2427.9	Can not calculate	Can not calculate	-0.32	102.77
+124-40-3	dimethylamine	CNC	3650	15.86 days	45.08	-108.2	1.97E+05	22182	Can not calculate	Can not calculate	-0.17	16.06
+126-71-6	triisobutyl phosphate	CC(C)COP(=O)(OCC(C)C)OCC(C)C	1021.68384	10m 1d	266.30	7.16	1.6932	6.09E-02	3911.8	3911.8	3.6	302.2
+127-18-4	tetrachloroethylene	ClC(Cl)=C(Cl)Cl	45.05334	6m 24d	165.83	-74.18	2519.8	0.48435	Can not calculate	Can not calculate	2.97	114.28
+131-57-7	oxybenzone	COc1ccc(C(=O)c2ccccc2)c(O)c1	3650	6m 24d	228.23	223.62	0.00031731	0.3004	Can not calculate	Can not calculate	3.52	363.41
+13674-84-5	tris(2-chloro-1-methylethyl) phosphate	CC(CCl)OP(=O)(OC(C)CCl)OC(C)CCl	25.97199	1y 6m 3d	327.56	63.11	0.0028398	0.15829	4109.1	4109.1	2.89	365.49
+13674-87-8	tris[2-chloro-1-(chloromethyl)ethyl] phosphate	O=P(OC(CCl)CCl)(OC(CCl)CCl)OC(CCl)CCl	25.97199	1y 9m 18d	430.90	75	2.08E-06	3.48E-03	4109.1	4109.1	3.65	458.73
+139-13-9	nitrilotriacetic acid	OC(=O)CN(CC(O)=O)CC(O)=O	3650	3y 2m 23d	191.13	349.84	1.10E-07	3865.9	Can not calculate	Can not calculate	-3.81	429.28
+1912-24-9	atrazine	CCNc1nc(NC(C)C)nc(Cl)n1	3650	more than 10 years	215.68	293.08	0.0026664	0.99268	Can not calculate	Can not calculate	2.82	313.03
+288-13-1	pyrazole	C1=CC=NN1	3650	19.84 days	68.08	10.53	39.33	1197.8	Can not calculate	Can not calculate	0.06	175.67
+330-54-1	diuron	CN(C)C(=O)Nc1ccc(Cl)c(Cl)c1	1278.55652	2y 5m 8d	233.09	226.69	0.00027464	0.64611	Can not calculate	Can not calculate	2.67	353.86
+3380-34-5	triclosan	Oc1cc(Cl)ccc1Oc1ccc(Cl)cc1Cl	3650	9y 3m 1d	289.53	265.95	0.00018798	1.60E-02	Can not calculate	Can not calculate	4.66	373.62
+50-28-2	estradiol	CC12CCC3C(CCc4cc(O)ccc34)C1CCC2O	3650	2m 13d	272.37	293.14	4.52E-08	0.30095	Can not calculate	Can not calculate	3.94	395.47
+51-28-5	2,4-dinitrophenol	Oc1ccc(N(=O)=O)cc1N(=O)=O	3650	more than 10 years	184.10	233.03	0.00094526	10.706	Can not calculate	Can not calculate	1.73	332.13
+53-16-7	estrone	CC12CCC3C(CCc4cc(O)ccc34)C1CCC2=O	3650	2m 19d	270.35	304.78	0.82127	0.543	Can not calculate	Can not calculate	3.43	391.87
+58-08-2	caffeine	CN1C=NC2=C1C(=O)N(C)C(=O)N2C	3650	3m 25d	194.19	349.84	1.08E-07	13.554	Can not calculate	Can not calculate	0.16	430.85
+58-22-0	testosterone	CC12CCC3C(CCC4=CC(=O)CCC34C)C1CCC2O	3650	1m 12d	288.41	266.53	4.36E-07	0.23494	Can not calculate	Can not calculate	3.27	390.02
+60-00-4	edetic acid	OC(=O)CN(CCN(CC(O)=O)CC(O)=O)CC(O)=O	3650	5m 6d	292.23	349.84	6.87E-13	780.89	Can not calculate	Can not calculate	-3.86	557.81
+63-05-8	androst-4-ene-3,17-dione	CC12CCC3C(CCC4=CC(=O)CCC34C)C1CCC2=O	3650	1m 14d	286.39	278.17	6.79E-05	0.23035	Can not calculate	Can not calculate	2.76	386.41
+637-92-3	2-ethoxy-2-methylpropane	CCOC(C)(C)C	3650	6y 7m 18d	102.17	-91.13	17332	25.839	Can not calculate	Can not calculate	1.92	72.53
+67-43-6	N-carboxymethyliminobis(ethylenenitrilo)tetra(acetic acid)	OC(=O)CN(CCN(CCN(CC(O)=O)CC(O)=O)CC(O)=O)CC(O)=O	3650	3m 0d	393.33	349.84	3.97E-21	1127	Can not calculate	Can not calculate	-4.91	686.34
+67-66-3	chloroform	ClC(Cl)Cl	3650	9m 1d	119.38	-97.37	25598	17.558	Can not calculate	1.24E+06	1.52	91.18
+76-03-9	trichloroacetic acid	OC(=O)C(Cl)(Cl)Cl	1.20412	4m 17d	163.38	91.92	31.064	73.385	Can not calculate	Can not calculate	1.44	203.15
+77-93-0	triethyl citrate	CCOC(=O)CC(O)(CC(=O)OCC)C(=O)OCC	28.48449	10.79 days	276.27	12.07	0.020665	102.22	Can not calculate	5945.9	0.33	324.77
+791-28-6	triphenylphosphine oxide	O=P(c1ccccc1)(c1ccccc1)c1ccccc1	3650	3y 5m 19d	278.27	75	7.24E-06	0.22554	Can not calculate	Can not calculate	2.87	405.1
+80-09-1	4,4'-sulphonyldiphenol	Oc1ccc(S(=O)(=O)c2ccc(O)cc2)cc1	3650	2y 11m 12d	250.26	349.84	6.11E-09	14.057	Can not calculate	Can not calculate	1.65	422.52
+91-20-3	naphthalene	c1cccc2ccccc12	3650	1y 10m 28d	128.16	-11.58	6.2128	1.1087	Can not calculate	Can not calculate	3.17	231.64
+95-14-7	benzotriazole	c1cccc2c1NN=N2	3650	3y 10m 10d	119.12	161.1	0.0015332	50.008	Can not calculate	Can not calculate	1.17	297.25
+95-16-9	benzothiazole	c1cccc2c1N=CS2	3650	4y 7m 3d	135.18	106.36	10.439	12.457	Can not calculate	Can not calculate	2.17	248.94
+100-02-7	4-nitrophenol	Oc1ccc(N(=O)=O)cc1	3650	1y 10m 30d	139	103	0.0347	54	No value	No value	1.91	
+10605-21-7	Carbendazim	COC(=O)NC1Nc2ccccc2N=1	3650	1y 10m 7d	191	177	0.00000014	12.8	No value	307000	1.55	
+111988-49-9	Thiacloprid	N#C/N=C1N(Cc2ccc(Cl)nc2)CCS/1	3650	11m 24d	253	211	0.0000433	0.918	No value	No value	2.33	
+113665-84-2	Klopidogrel	COC(=O)C{P+}(c1ccccc1Cl)N1CCC2=C(C1)C=CS2	28.48449	3m 19d	322	213	0.0000076	0.158	No value	8420	3.82	
+115-96-8	tris(2-chloroethyl) phosphate	O=P(OCCCl)(OCCCl)OCCCl	25.97199	1y 5m 18d	285	83	0.0308	3.08	No value	7260	1.63	
+120068-37-3	Fipronil	NC1=C(S(=O)C(F)(F)F)C(C#N)=NN1c1c(Cl)cc(C(F)(F)F)cc1Cl	1.20412	more than 10 years	437	259	4.2E-09	0.000856	No value	No value	6.64	
+120-47-8	ethyl 4-hydroxybenzoate	CCOC(=O)c1ccc(O)cc1	3650	12.67 days	166	71	0.00967	11.4	No value	13300	2.49	
+122-34-9	Simazine	CCNc1nc(NCC)nc(Cl)n1	3650	8y 2m 20d	202	181	0.000899	2.93	No value	No value	2.4	
+126-73-8	tributyl phosphate	CCCCOP(=O)(OCCCC)OCCCC	1021.68384	10m 1d	266	64.7	0.395	0.0276	No value	4180	3.82	
+129-00-0	pyrene	c1ccc2ccc3cccc4ccc1c2c34	3650	more than 10 years	202	128	0.00000903	0.00111	No value	No value	4.93	
+13523-86-9	Pindolol	CC(C)NCC(O)COc1cccc2c1C=CN2	3650	1m 14d	248	173	0.000000136	31.7	No value	No value	1.48	
+137-58-6	Lidokain	CCN(CC)CC(=O)Nc1c(C)cccc1C	3650	6m 21d	234	192	0.000243	1.01	No value	No value	1.66	
+143-24-8	bis(2-(2-methoxyethoxy)ethyl) ether	COCCOCCOCCOCCOC	3650	9.82 days	222	40.4	1.11	1140	No value	No value	-1.03	
+144-83-2	sulfapyridine	Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1	3650	5y 1m 19d	249	241	0.000000737	48.1	No value	No value	0.53	
+15307-79-6	sodium [2-[(2,6-dichlorophenyl)amino]phenyl]acetate	O=C(Cc1ccccc1Nc1c(Cl)cccc1Cl)O{-}.[Na]{+}	1.20412	more than 10 years	318	299	1.75E-16	7.62	No value	No value	0.57	
+15307-86-5	diclofenac	OC(=O)Cc1ccccc1Nc1c(Cl)cccc1Cl	3650	more than 10 years	296	236	0.00000107	0.0153	No value	No value	4.02	
+15545-48-9	Chlorotoluron	Cc1ccc(NC(=O)N(C)C)cc1Cl	32.57311	2y 6m 26d	213	148	0.000573	1.55	No value	No value	2.58	
+1634-04-4	tert-butyl methyl ether	CC(C)(C)OC	3650	4y 9m 19d	88.1	-94.3	34000	225	No value	No value	1.43	
+1689-84-5	Bromoxynil	N#Cc1cc(Br)c(O)c(Br)c1	3650	1y 3m 13d	277	161	0.000176	0.158	No value	No value	3.39	
+1698-60-8	Chloridazon	NC1C=NN(c2ccccc2)C(=O)C=1Cl	1.20412	5m 3d	222	223	0.0000441	34.3	No value	No value	0.76	
+188425-85-6	Boscalid	O=C(c1cccnc1Cl)Nc1ccccc1-c1ccc(Cl)cc1	3650	3m 5d	343	270	6.63E-11	0.0588	No value	No value	4	
+22071-15-4	Ketoprofen	CC(c1cccc(C(=O)c2ccccc2)c1)C(O)=O	3650	6y 0m 11d	254	190	0.0000387	0.474	No value	No value	3	
+25057-89-0	Bentazone	CC(C)N1C(=O)c2ccccc2NS1(=O)=O	3650	1m 13d	240	239	0.00000533	1.12	No value	No value	1.67	
+2642-71-9	Azinphos-ethyl	CCOP(=S)(OCC)SCN1C(=O)c2ccccc2N=N1	31.2959	2y 2m 12d	345	120	0.000000227	0.0239	No value	14500	3.51	
+27203-92-5	Tramadol	CN(C)CC{P-}1CCCCC{P-}1(O)c1cccc(OC)c1	3650	7m 10d	263	136	0.0000221	4.37	No value	No value	3.01	
+27503-81-7	2-phenyl-1H-benzimidazole-5-sulphonic acid	OS(=O)(=O)c1ccc2c(c1)N=C(c1ccccc1)N2	3650	more than 10 years	274	283	2.08E-16	86.1	No value	No value	-0.16	
+29122-68-7	Atenolol	CC(C)NCC(O)COc1ccc(CC(N)=O)cc1	3650	27.63 days	266	246	5.76E-09	2.57	No value	No value	-0.03	
+298-46-4	Karbamazepin	NC(=O)N1c2ccccc2C=Cc2ccccc12	3650	10m 16d	236	217	0.00000204	0.0747	No value	No value	2.25	
+333-41-5	Diazinon	CCOP(=S)(OCC)Oc1cc(C)nc(C(C)C)n1	22.0263	1y 6m 12d	304	87.6	0.00271	0.0212	No value	65100	3.86	
+34123-59-6	Isoproturon	CC(C)c1ccc(NC(=O)N(C)C)cc1	32.57311	2y 0m 15d	206	130	0.000525	0.697	No value	No value	2.84	
+37350-58-6	Metoprolol	CC(C)NCC(O)COc1ccc(CCOC)cc1	3650	1m 0d	267	125	0.0000125	17.9	No value	No value	1.69	
+3930-20-9	Sotalol	CC(C)NCC(O)c1ccc(NS(C)(=O)=O)cc1	3650	1m 25d	272	201	2.31E-08	20.2	No value	No value	0.37	
+4065-45-6	sulisobenzone	COc1cc(O)c(C(=O)c2ccccc2)cc1S(O)(=O)=O	3650	7m 0d	308	263	1.24E-11	65.8	No value	No value	0.37	
+41859-67-0	Bezafibrat	CC(C)(C(O)=O)Oc1ccc(CCNC(=O)c2ccc(Cl)cc2)cc1	3650	2m 26d	362	275	2.73E-11	0.00338	No value	No value	4.25	
+50-27-1	Estriol	CC{P+}12CCC{P-}3C{P-}(CCc4cc(O)ccc34)C{P+}1CC{P-}(O)C{P+}2O	3650	2m 17d	288	244	7.69E-11	1.53	No value	No value	2.81	
+51218-45-2	Metolachlor	CCc1cccc(C)c1N(C(C)COC)C(=O)CCl	3650	3m 27d	284	149	0.597	0.179	No value	No value	3.24	
+520-85-4	Medroxiprogesteron	CC{P-}1CC{P+}2C{P+}(CCC{P-}3(C)C{P-}2CCC{P-}3(O)C(C)=O)C{P-}2(C)CCC(=O)C=C12	3650	28.89 days	344	244	1.72E-09	0.0645	No value	No value	3.5	
+525-66-6	Propranolol	CC(C)NCC(O)COc1cccc2ccccc12	3650	2m 19d	259	143	0.0000026	0.879	No value	No value	2.6	
+52888-80-9	Prosulfocarb	CCCN(CCC)C(=O)SCc1ccccc1	10.00902	1m 8d	251	125	3.25E-11	4970	No value	No value	4.23	
+54-31-9	Furosemid	NS(=O)(=O)c1cc(C(O)=O)c(NCC2=CC=CO2)cc1Cl	3650	1y 2m 7d	331	263	6.56E-11	0.451	No value	No value	2.32	
+55589-62-3	6-methyl-1,2,3-oxathiazin-4(3H)-one 2,2-dioxide, potassium salt	CC1=CC(=O)N{-}(.K{+})S(=O)(=O)O1	3650	8.33 days	201	272	3.25E-11	4.97E+03	No value	No value	-2.3	
+56-75-7	Kloramfenikol	OCC{P+}(C{P+}(O)c1ccc(N(=O)=O)cc1)NC(=O)C(Cl)Cl	3650	2m 10d	323	266	8.31E-13	1.2	No value	No value	0.92	
+57-83-0	progesterone	CC(=O)C{P-}1CCC{P-}2C{P+}3CCC4=CC(=O)CCC{P-}4(C)C{P-}3CCC{P+}12C	3650	23.82 days	314	198	0.0000877	0.0159	No value	No value	3.67	
+58-89-9	Lindane	ClC{P+}1C{P+}(Cl)C{P-}(Cl)C{P+}(Cl)C{P+}(Cl)C{P-}1Cl	3650	2y 3m 21d	291	57	0.0575	0.0139	No value	1.3E+13	4.26	
+58-93-5	Hydroklortiazid	NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O	3650	1y 0m 29d	298	258	7.39E-10	4.34	No value	No value	-0.1	
+5915-41-3	Terbuthylazine	CCNc1nc(NC(C)(C)C)nc(Cl)n1	3650	8y 11m 10d	230	198	0.00139	0.241	No value	No value	3.27	
+60142-96-3	Gabapentin	NCC1(CC(O)=O)CCCCC1	3650	8m 13d	171	251	2.31E-09	26.2	No value	No value	-1.37	
+604-75-1	Oxazepam	OC1C(=O)Nc2ccc(Cl)cc2C(c2ccccc2)=N1	3650	1y 0m 7d	287	262	4.89E-12	0.625	No value	No value	2.32	
+60-80-0	phenazone	CC1=CC(=O)N(c2ccccc2)N1C	3650	5y 4m 10d	188	155	0.0245	126	No value	No value	0.59	
+63-25-2	Carbaryl	CNC(=O)Oc1cccc2ccccc12	1.42402	6m 27d	201	98	0.00488	2.07	No value	6260	2.35	
+65277-42-1	Ketokonazol	CC(=O)N1CCN(c2ccc(OCC{P-}3COC{P+}(CN4C=CN=C4)(c4ccc(Cl)cc4Cl)O3)cc2)CC1	3650	11m 12d	531	314	8.96E-18	0.000163	No value	No value	4.45	
+657-24-9	Metformin	CN(C)C(=N)NC(N)=N	7.64068	2m 2d	129	106	0.00968	7.74E+03	No value	No value	-2.64	
+66108-95-0	iohexol	CC(=O)N(CC(O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I	3650	2m 13d	821	350	1.65E-64	0.13	No value	No value	-2.81	
+67129-08-2	Metazachlor	Cc1cccc(C)c1N(CN1C=CC=N1)C(=O)CCl	3650	4m 6d	278	220	0.000026	0.902	No value	No value	2.38	
+69-72-7	salicylic acid	Oc1ccccc1C(O)=O	3650	5.04 days	138	127	0.00329	27.6	No value	No value	2.24	
+70-55-3	toluene-4-sulphonamide	Cc1ccc(S(N)(=O)=O)cc1	3650	6m 6d	171	117	0.00937	70.7	No value	No value	0.92	
+723-46-6	Sulfametoxazol	CC1=CC(NS(=O)(=O)c2ccc(N)cc2)=NO1	3650	2m 1d	253	239	0.00000279	15.6	No value	No value	0.48	
+7287-19-6	Prometryn	CC(C)Nc1nc(NC(C)C)nc(SC)n1	3650	more than 10 years	241	197	0.0012	0.11	No value	No value	3.73	
+73334-07-3	Jopromid	CN(CC(O)CO)C(=O)c1c(I)c(NC(=O)COC)c(I)c(C(=O)NCC(O)CO)c1I	3650	1m 18d	791	350	9.44E-52	0.03	No value	No value	-2.49	
+738-70-5	Trimetoprim	COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC	3650	1m 28d	290	249	7.07E-08	8.04	No value	No value	0.73	
+75847-73-3	Enalapril	CCOC(=O)C{P+}(CCc1ccccc1)NC{P-}(C)C(=O)N1CCCC{P-}1C(O)=O	17.32868	22.67 days	376	277	3.35E-13	0.485	No value	4.59E+04	2.45	
+78-51-3	tris(2-butoxyethyl) phosphate	CCCCOCCOP(=O)(OCCOCCCC)OCCOCCCC	1021.68384	8m 24d	398	107	0.0000171	0.00493	No value	34900	3	
+78649-41-9	Jomeprol	CN(C(=O)CO)c1c(I)c(C(=O)NCC(O)CO)c(I)c(C(=O)NCC(O)CO)c1I	3650	2m 13d	777	350	3.35E-55	0.163	No value	No value	-1.35	
+80-05-7	4,4'-isopropylidenediphenol	CC(C)(c1ccc(O)cc1)c1ccc(O)cc1	3650	2m 2d	228	181	0.0000101	0.757	No value	No value	3.64	
+81-07-2	1,2-benzisothiazol-3(2H)-one 1,1-dioxide	O=C1c2ccccc2S(=O)(=O)N1	3650	11m 7d	183	230	0.00000357	4.31	No value	No value	0.45	
+81103-11-9	Klaritromycin	CCC{P+}1C{P-}(C)(O)C{P+}(O)C{P-}(C)C(=O)C{P+}(C)CC{P-}(C)(OC)C{P+}(OC{P-}2C{P+}(O)C{P-}(N(C)C)CC{P-}(C)O2)C(C)C{P+}(OC{P-}2CC{P-}(C)(OC)C{P-}(O)C{P+}(C)O2)C{P-}(C)C(=O)O1	3650	1m 4d	748	350	1.52E-43	0.000457	No value	No value	3.18	
+81-25-4	cholic acid	CC{P+}(CCC(O)=O)C{P-}1CCC{P-}2C{P+}3C{P+}(O)CC{P+}4CC{P+}(O)CCC{P-}4(C)C{P-}3CC{P+}(O)C{P+}12C	3650	25.67 days	409	277	5.35E-16	0.31	No value	No value	3.52	
+83881-51-0	Cetirizin	OC(=O)COCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1	3650	4m 7d	389	288	1.57E-12	0.00277	No value	No value	-0.61	
+84057-84-1	Lamotrigin	Nc1c(-c2cccc(Cl)c2Cl)nnc(N)n1	3650	more than 10 years	256	249	8.67E-08	0.545	No value	No value	0.99	
+846-49-1	Lorazepam	OC1C(=O)Nc2ccc(Cl)cc2C(c2ccccc2Cl)=N1	3650	11m 18d	321	267	1.63E-12	0.261	No value	No value	2.41	
+886-50-0	Terbutryn	CCNc1nc(NC(C)(C)C)nc(SC)n1	3650	more than 10 years	241	214	0.00148	0.07	No value	No value	3.77	
+90357-06-5	Bikalutamid	CC(O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1	3650	1y 6m 28d	430	283	2.19E-16	0.0273	No value	No value	2.3	
+90-43-7	biphenyl-2-ol	Oc1ccccc1-c1ccccc1	3650	14.02 days	170	94	0.0803	3.15	No value	No value	3.28	
+93-65-2	Mecoprop	CC(C(O)=O)Oc1ccc(Cl)cc1C	3650	5y 10m 27d	215	128	0.0481	0.786	No value	No value	2.94	
+94-13-3	propyl 4-hydroxybenzoate	CCCOC(=O)c1ccc(O)cc1	3650	12.14 days	180	81.3	0.0352	2.94	No value	15700	2.98	
+94-74-6	MCPA	Cc1cc(Cl)ccc1OCC(O)=O	3650	3m 30d	201	128	0.0515	0.902	No value	No value	2.52	
+94-75-7	2,4-D	OC(=O)COc1ccc(Cl)cc1Cl	3650	3m 15d	221	140	0.00221	1.52	No value	No value	2.62	
