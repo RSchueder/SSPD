@@ -1,0 +1,237 @@
+999 80 ';'
+;DELWAQ_VERSION_4.910                        		; Delwaq version number
+;PRINT_OUTPUT_OPTION_4                       		; Debug level
+
+; TEMPLATE FILE FOR WATER QUALITY CALCULATION
+; First input block
+'Water quality calculation'
+' '
+' '
+INCLUDE '..\HN_Rhine\timestamp.inc'
+
+INCLUDE '..\HOC2\Subs.def'            ; substance list
+#1;
+
+;###############################################################################
+; Second input block
+  86400 'DDHHMMSS' 'DDHHMMSS'  ; system clock
+
+
+    15.73                      ; integration option / BALANCES
+   BAL_NOLUMPPROCESSES
+   BAL_NOLUMPLOADS
+   BAL_NOLUMPTRANSPORT
+   BAL_NOSUPPRESSSPACE
+   BAL_NOSUPPRESSTIME
+
+ 2011/01/01-00:00:00    ; start year
+ 2013/12/31-00:00:00    ; end year
+
+  0 ; timestep constant
+; dddhhmmss format for timestep
+  001000000 ; timestep
+
+ 1                                                 	; Monitoring areas in this file
+INCLUDE '..\HN_Rhine\nrofmon.inc'        	        ; definition of output locations
+INCLUDE '..\HN_Rhine\stations.inc'       
+INCLUDE '..\HN_Rhine\monareas.inc'
+
+ 2                                                 	; No monitoring cross areas
+
+ 2012/12/31-00:00:00  2013/12/31-00:00:00  365000000       ; mon/bal year   
+ 2012/12/31-00:00:00  2013/12/31-00:00:00    1000000       ; map     year   
+ 2011/01/01-00:00:00  2013/12/31-00:00:00    1000000       ; his     year   
+
+
+#2;
+;###############################################################################
+; Third input block
+INCLUDE '..\HN_Rhine\nrofseg.inc' 		; nr of segments
+
+MULTIGRID
+  SUBGRID 'compartments'
+   INCLUDE '..\HN_Rhine\compartments.inc'
+END_MULTIGRID
+
+ 2                                           		; Structure matrix not used
+; features
+INCLUDE '..\HN_Rhine\attributes.inc' 		; 
+ 
+; Volumes from binairy files
+-2							; No online Flow-WAQ, interpolate Volume
+'..\HN_Rhine\bulkvolumes.dat'
+#3;
+;###############################################################################
+; Fourth input block
+INCLUDE '..\HN_Rhine\nrofexch.inc' 		; nr of exchanges
+         0                     ; additional dispersions
+         1                     ; additional velocities
+         'WaterFlux'
+INCLUDE '..\HOC2\velsubs.inc' 		
+         
+ 1                                           		; Input format of the pointers
+ 0                                           		; Pointers from Auxilary file
+'..\HN_Rhine\pointerbin.inc'  			; from UI: pointers
+
+; 
+     1                 					; dispersions in this file
+     1.0 1.0 1.0       					; scale factors for 3 directions
+       0 0.0 0.0       					; values (m2/s) for 3 directions
+; 
+
+	  ; Area
+	 1
+	 2
+	 1.0
+	 1.0
+	 0
+
+	  ; Flow
+	 1
+	 2
+	 1.0
+	 0.0
+	 0
+	  ; Velocity from Hydrology (actually m3/s, vecause area = 1)
+          ; from binairy files
+-2	
+'..\HN_Rhine\flows.dat'				; NOQ
+
+     0                     ; constant length
+     1.0                    ; scale factor
+     1.0      1.0     1.0   ; values in 3 directions
+
+
+#4;
+;###############################################################################
+; Fifth input block, water quality calculation
+
+; Boundary list
+INCLUDE '..\HN_Rhine\boundwqid.inc'		; from UI: boundary data laagste negatieve getal = aantal randen = aantal regels	
+
+0                     					; no Tatcher-Harleman time lags
+
+; Boundary data (dummy value)
+INCLUDE '..\HOC2\bounddata.inc'		; from UI: boundary data
+
+
+#5;
+;###############################################################################
+; Sixth input block, Dry Waste Loads block
+; Number of loads (dummy value)
+0							; Number of loads
+
+#6;
+;###############################################################################
+; Seventh input block
+
+CONSTANTS  'Nothreads' DATA  0                 ; Multicore 3 processors
+CONSTANTS 'MaxIter' DATA 100000
+CONSTANTS 'Tolerance' DATA 1E-12
+CONSTANTS 'Dry_THresh' DATA 0.0
+CONSTANTS 'iteration report' DATA 0.0
+
+INCLUDE '..\HN_Rhine\Surfaces.dat'
+
+INCLUDE '..\HN_Rhine\exchangesadmin.inc'
+CONSTANTS NOQresusp  DATA 0.0     ; no longer defined in HN data after modificcation of SW exchange
+CONSTANTS NOQburial  DATA 0.0
+
+; defaults
+CONSTANTS  FResusp           DATA      0.0              
+CONSTANTS  FBurial           DATA      0.0              
+CONSTANTS  DispVal           DATA      0.0              
+CONSTANTS  DispLen           DATA      1.0              
+
+SEG_FUNCTIONS WatVol ALL BINARY_FILE 
+'..\HN_Rhine\volumes.dat'
+
+CONSTANTS Only_Active        DATA 1
+CONSTANTS Active_Sol_M2      DATA 1
+CONSTANTS Active_Sol_M3      DATA 1
+CONSTANTS il_emiw            DATA 7 ; emission to RIV=7, to STR=6
+
+INCLUDE 'parameters.inc'
+
+SEG_FUNCTIONS Tempa ALL BINARY_FILE 
+'..\HN_Rhine\temp.dat'
+
+SEG_FUNCTIONS Temp ALL BINARY_FILE 
+'..\HN_Rhine\temp.dat'
+
+SEG_FUNCTIONS Emis2Water Emis2Soil  SEGMENTS
+INCLUDE '..\HN_Rhine\scalist.inc'
+BINARY_FILE 'espace.bin' 
+
+SEG_FUNCTIONS FErosion FSettling Solids POC DOC ALL
+BINARY_FILE 'pom3dforcing.bin' 
+
+
+#7
+;###############################################################################
+; Eighth input block
+
+INCLUDE '..\HOC2\initialdata.inc'    	; from UI: initials
+
+ 
+#8
+;###############################################################################
+; Ninth input block
+ 1                                           		; Conditions follow in this file
+ 1                                           		; Monitor-file
+ 0                                           		; Grid-file
+ 3                                                  ; His
+ 5
+Cbulk    ' '   ;                  x total contaminant conc in comp                        (mol/m3)
+CFug     ' '   ;                  x in solution non ionized conc                          (mol/m3)            
+CPre     ' '   ;                  x precipitated conc.                                    (mol/m3)            
+CIon     ' '   ;                  x ionised conc.                                         (mol/m3)            
+Cdis     ' '
+
+
+ 3                                                      ; Map
+ 2
+Cdis                                               ; x contaminant conc in water phase    (mol/m3phase)       
+Cbulk                                              ; x contaminant conc (bulk) in comp cell(mol/m3bulk)
+                                             		; Binary/Nefis and History/Map
+ 1                                           		; switch on  binary History file
+ 1                                           		; switch on  binary Map     file
+ 0                                           		; switch off Nefis  History file
+ 0                                           		; switch off Nefis  Map     file
+#9
+;###############################################################################
+; Tenth input block
+
+period 'Ann'                                       ; Calculates Monthly AVE,MAX and MIN and STdev
+   suffix     Ann
+   start-time '2012/12/31-00:00:00' 
+   stop-time  '2013/12/31-00:00:00' 
+end-period
+
+output-operation 'STADSC'
+   substance 'Cdis'
+   suffix    ''
+end-output-operation
+
+output-operation 'STADSC'
+   substance 'CIon'
+   suffix    ''
+end-output-operation
+
+output-operation 'STADSC'
+   substance 'CFug'
+   suffix    ''
+end-output-operation
+
+output-operation 'STADSC'
+   substance 'CPre'
+   suffix    ''
+end-output-operation
+
+output-operation 'STADSC'
+   substance 'Cbulk'
+   suffix    ''
+end-output-operation
+
+
+#10

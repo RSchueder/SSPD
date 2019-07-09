@@ -1,0 +1,301 @@
+219
+; CAS nr to construct file names
+100-41-4
+103-90-2
+106-47-8
+107534-96-3
+108-88-3
+111479-05-1
+114-07-8
+118134-30-8
+120-82-1
+122-34-9
+127-18-4
+133-06-2
+13523-86-9
+138402-11-6
+142459-58-3
+150-68-5
+15687-27-1
+1634-04-4
+1698-60-8
+18691-97-9
+196618-13-0
+22204-53-1
+23593-75-1
+26225-79-6
+2921-88-2
+330-54-1
+3380-34-5
+38083-17-9
+439-14-5
+50-02-2
+51218-45-2
+52888-80-9
+53-86-1
+55589-62-3
+57837-19-1
+58-93-5
+60207-90-1
+637-92-3
+66357-35-5
+67747-09-5
+71751-41-2
+738-70-5
+75-01-4
+76-75-5
+79-00-5
+79902-63-9
+81103-11-9
+83905-01-5
+86-50-0
+886-50-0
+919-86-8
+94-74-6
+95-14-7
+95-49-8
+98-82-8
+100-42-5
+104206-82-8
+106-48-9
+108-20-3
+108-90-7
+111-96-6
+115-86-6
+120068-37-3
+121552-61-2
+122931-48-0
+129-00-0
+13360-45-7
+137-58-6
+139-40-2
+143-24-8
+15307-79-6
+1570-64-5
+163515-14-8
+173159-57-4
+1912-24-9
+19937-59-8
+22224-92-6
+24017-47-8
+2642-71-9
+29232-93-7
+330-55-2
+34123-59-6
+3930-20-9
+443-48-1
+50-18-0
+51-28-5
+52918-63-5
+541-73-1
+56-23-5
+57966-95-7
+5915-41-3
+604-75-1
+657-24-9
+66722-44-9
+68-35-9
+723-46-6
+74070-46-5
+75-09-2
+77-73-6
+79-01-6
+80214-83-1
+81777-89-1
+84057-84-1
+86-73-7
+88-85-7
+93413-69-5
+94-75-7
+95-16-9
+95-63-6
+99105-77-8
+10061-01-5
+10605-21-7
+107-06-2
+108-67-8
+109-87-5
+111991-09-4
+116-06-3
+120-12-7
+121-75-5
+123-91-1
+131341-86-1
+134523-00-5
+137862-53-4
+139481-59-7
+143390-89-0
+15307-86-5
+1582-09-8
+1689-83-4
+1746-81-2
+1918-00-9
+21087-64-9
+23103-98-2
+25057-89-0
+288-13-1
+298-46-4
+333-41-5
+36734-19-7
+41394-05-2
+470-90-6
+50-24-8
+52-51-7
+53112-28-0
+54910-89-3
+56-38-2
+58-08-2
+59729-33-8
+60-51-5
+66108-95-0
+67129-08-2
+71-43-2
+72490-01-8
+74223-64-6
+75-35-4
+78649-41-9
+791-28-6
+80-62-6
+83164-33-4
+85509-19-9
+87-61-6
+90357-06-5
+93-65-2
+94-81-5
+95266-40-3
+96-18-4
+99-88-7
+100-97-0
+106-46-7
+1071-83-6
+108-78-1
+110-82-7
+112-49-2
+117-81-7
+120-18-3
+122-14-5
+126-73-8
+131860-33-8
+13457-18-6
+138261-41-3
+140-66-9
+144-83-2
+15545-48-9
+15972-60-8
+1689-84-5
+175013-18-0
+1918-16-7
+22071-15-4
+23560-59-0
+25812-30-0
+29122-68-7
+3060-89-7
+3347-22-6
+37350-58-6
+41859-67-0
+49562-28-9
+50563-36-5
+525-66-6
+534-52-1
+55-38-9
+57018-04-9
+58-89-9
+60142-96-3
+624-92-0
+66230-04-4
+67-66-3
+71-55-6
+73334-07-3
+74-95-3
+76-03-9
+78-87-5
+79277-27-3
+81-07-2
+83-32-9
+86386-73-4
+87674-68-8
+91-20-3
+94361-06-5
+94-82-6
+95-47-6
+96489-71-3
+78  ; nr of output to be collected
+; file	label	area	subs	term		
+subout\%case%.prn	'E2SNO (kmol/y)'	SNO	Fug	_dEmis	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'E2S1 (kmol/y)'	S1	Fug	_dEmis	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'E2RIV (kmol/y)'	RIV	Fug	_dEmis	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Etot (kmol/y)'	Sum_of_balance_areas	Fug	_dEmis	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S1StorFugP (kmol/y)'	S1	Fug	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S1StorFugN (kmol/y)'	S1	Fug	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S2StorFugP (kmol/y)'	S2	Fug	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S2StorFugN (kmol/y)'	S2	Fug	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S3StorFugP (kmol/y)'	S3	Fug	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S3StorFugN (kmol/y)'	S3	Fug	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'SNOStorFugP (kmol/y)'	SNO	Fug	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'SNOStorFugN (kmol/y)'	SNO	Fug	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S1StorPreP (kmol/y)'	S1	Pre	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S1StorPreN (kmol/y)'	S1	Pre	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S2StorPreP (kmol/y)'	S2	Pre	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S2StorPreN (kmol/y)'	S2	Pre	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S3StorPreP (kmol/y)'	S3	Pre	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S3StorPreN (kmol/y)'	S3	Pre	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'SNOStorPreP (kmol/y)'	SNO	Pre	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'SNOStorPreN (kmol/y)'	SNO	Pre	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S1StorIonP (kmol/y)'	S1	Ion	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S1StorIonN (kmol/y)'	S1	Ion	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S2StorIonP (kmol/y)'	S2	Ion	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S2StorIonN (kmol/y)'	S2	Ion	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S3StorIonP (kmol/y)'	S3	Ion	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'S3StorIonN (kmol/y)'	S3	Ion	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'SNOStorIonP (kmol/y)'	SNO	Ion	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'SNOStorIonN (kmol/y)'	SNO	Ion	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Fug-stora (kmol/y)'	Sum_of_balance_areas	Fug	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Fug-storb (kmol/y)'	Sum_of_balance_areas	Fug	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Pre-stora (kmol/y)'	Sum_of_balance_areas	Pre	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Pre-storb (kmol/y)'	Sum_of_balance_areas	Pre	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Ion-stora (kmol/y)'	Sum_of_balance_areas	Ion	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Ion-storb (kmol/y)'	Sum_of_balance_areas	Ion	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Fug-Abs (kmol/y)'	Sum_of_balance_areas	Fug	_C_ABS	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Fug-Sea (kmol/y)'	Sum_of_balance_areas	Fug	_C_SEA	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Pre-Abs (kmol/y)'	Sum_of_balance_areas	Pre	_C_ABS	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Pre-Sea (kmol/y)'	Sum_of_balance_areas	Pre	_C_SEA	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Ion-Abs (kmol/y)'	Sum_of_balance_areas	Ion	_C_ABS	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Ion-Sea (kmol/y)'	Sum_of_balance_areas	Ion	_C_SEA	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'DecayS1 (kmol/y)'	S1	Fug	_ddecay	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'DecayS2 (kmol/y)'	S2	Fug	_ddecay	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'DecayS3 (kmol/y)'	S3	Fug	_ddecay	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'DecaySNO (kmol/y)'	SNO	Fug	_ddecay	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Decay (kmol/y)'	Sum_of_balance_areas	Fug	_ddecay	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'VolatS1 (kmol/y)'	S1	Fug	_C_AIR	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'VolatS2 (kmol/y)'	S2	Fug	_C_AIR	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'VolatS3 (kmol/y)'	S3	Fug	_C_AIR	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'VolatSNO (kmol/y)'	SNO	Fug	_C_AIR	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Volat (kmol/y)'	Sum_of_balance_areas	Fug	_C_AIR	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Fug-Sed (kmol/y)'	Sum_of_balance_areas	Fug	_C_AQS	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Pre-Sed (kmol/y)'	Sum_of_balance_areas	Pre	_C_AQS	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'Ion-Sed (kmol/y)'	Sum_of_balance_areas	Ion	_C_AQS	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWStorPFug (kmol/y)'	RGW	Fug	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWStorNFug (kmol/y)'	RGW	Fug	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWStorPPre (kmol/y)'	RGW	Pre	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWStorNPre (kmol/y)'	RGW	Pre	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWStorPIon (kmol/y)'	RGW	Ion	_Storage	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWStorNIon (kmol/y)'	RGW	Ion	_Storage	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS1PFug (kmol/y)'	RGW	Fug	_S1	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS1NFug (kmol/y)'	RGW	Fug	_S1	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS2PFug (kmol/y)'	RGW	Fug	_S2	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS2NFug (kmol/y)'	RGW	Fug	_S2	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS3PFug (kmol/y)'	RGW	Fug	_S3	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS3NFug (kmol/y)'	RGW	Fug	_S3	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS1PPre (kmol/y)'	RGW	Pre	_S1	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS1NPre (kmol/y)'	RGW	Pre	_S1	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS2PPre (kmol/y)'	RGW	Pre	_S2	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS2NPre (kmol/y)'	RGW	Pre	_S2	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS3PPre (kmol/y)'	RGW	Pre	_S3	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS3NPre (kmol/y)'	RGW	Pre	_S3	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS1PIon (kmol/y)'	RGW	Ion	_S1	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS1NIon (kmol/y)'	RGW	Ion	_S1	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS2PIon (kmol/y)'	RGW	Ion	_S2	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS2NIon (kmol/y)'	RGW	Ion	_S2	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS3PIon (kmol/y)'	RGW	Ion	_S3	'(30x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWS3NIon (kmol/y)'	RGW	Ion	_S3	'(45x,f15.0)'	3.3333E-04
+subout\%case%.prn	'RGWDecay (kmol/y)'	RGW	Fug	_ddecay	'(45x,f15.0)'	3.3333E-04
